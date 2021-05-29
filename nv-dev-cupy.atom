@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-05-24T13:09:21.586000+00:00</updated>
+  <updated>2021-05-29T14:24:15.273000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/52814/1</id>
-    <title>Error when installing cupy: nvcc fatal : host compiler targets unsupported os [1]</title>
-    <updated>2017-08-22T16:24:54+00:00</updated>
-    <content>hothamwater: I have been trying to solve this for days without success: I am trying to install cupy via pip install --user cupy but the installation fails with this error: tmpxft_000047b8_00000000-1.cpp nvcc fatal : Host compiler targets unsupported...</content>
-    <link href="https://forums.developer.nvidia.com/t/52814/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/54882/1</id>
     <title>Does Nvidia NVS 300 contain GPU? Can it be used for deep learning program? [1]</title>
@@ -353,5 +346,12 @@
     <updated>2021-05-24T13:09:21.586000+00:00</updated>
     <content>Matt Nicely: Have you looked at the CuPy implementation? https://github.com/cupy/cupy/blob/v9.0.0/cupy/_math/trigonometric.py#L115</content>
     <link href="https://forums.developer.nvidia.com/t/178647/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/179311/1</id>
+    <title>Thank You NVIDIA - Everything is working fine on wsl2 and windows 10 [1]</title>
+    <updated>2021-05-29T14:24:15.273000+00:00</updated>
+    <content>K Glimps: ...yerfa, patsy, pandas, opt-einsum, numpy-quaternion, numexpr, numba, mkl-random, mkl-fft, matplotlib, Keras-Preprocessing, imageio, imagecodecs, h5py, cupy-cuda112, Bottleneck, bokeh, blis, bkcharts, astropy everything is installed and working now fine On WSL2 mabd@LAPTOP-T8DQ9UK0:~$ pip3 show numpy Name...</content>
+    <link href="https://forums.developer.nvidia.com/t/179311/1" rel="alternate"/>
   </entry>
 </feed>
