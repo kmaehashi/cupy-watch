@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://forums.developer.nvidia.com</id>
+  <title>NVIDIA Developer Forums (cupy)</title>
+  <updated>2021-05-24T13:09:21.586000+00:00</updated>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/52814/1</id>
+    <title>Error when installing cupy: nvcc fatal : host compiler targets unsupported os [1]</title>
+    <updated>2017-08-22T16:24:54+00:00</updated>
+    <content>hothamwater: I have been trying to solve this for days without success: I am trying to install cupy via pip install --user cupy but the installation fails with this error: tmpxft_000047b8_00000000-1.cpp nvcc fatal : Host compiler targets unsupported...</content>
+    <link href="https://forums.developer.nvidia.com/t/52814/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/54882/1</id>
+    <title>Does Nvidia NVS 300 contain GPU? Can it be used for deep learning program? [1]</title>
+    <updated>2017-11-05T17:36:09+00:00</updated>
+    <content>rajesh.piryani: If you think yes, then let me know the procedure. I have tried, but cupy package was not installed. Please help me. Thanks</content>
+    <link href="https://forums.developer.nvidia.com/t/54882/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/55588/1</id>
+    <title>[CUDA/CUPY] nvrtc error: failed to load builtins [1]</title>
+    <updated>2017-11-27T11:44:08+00:00</updated>
+    <content>tlacombe: Hi everyone, I am very new to cuda and quite new to Linux. For research purpose I need to install cuda and cupy on a Dell Workstation equipped with a Nvidia Quadro K2000 GPU, with Ubuntu 16.04 LTS. I am using: username@Precision-T5600:~$ cat /proc/driver/nvidia...</content>
+    <link href="https://forums.developer.nvidia.com/t/55588/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/58916/1</id>
+    <title>NPP within Python3 segfaults on malloc? [1]</title>
+    <updated>2018-03-08T03:01:09+00:00</updated>
+    <content>sdbrown: ...lob/master/python/nppThresholding.py . I’m running CUDA 9.0 with a Titan V card on Linux Mint (Ubuntu). Other Python-CUDA applications (e.g. homebrew CuPy stuff) work perfectly fine, even impressively so, compared to their speed when I had a 1080Ti installed. The reduced offending code is: from ctypes i...</content>
+    <link href="https://forums.developer.nvidia.com/t/58916/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/69154/2</id>
+    <title>Cannot accelerate simple python code with very large numbers. [2]</title>
+    <updated>2019-01-07T17:05:40+00:00</updated>
+    <content>Robert_Crovella: some possible methods to accelerate python code using CUDA are: pycuda numba cupy</content>
+    <link href="https://forums.developer.nvidia.com/t/69154/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/70477/2</id>
+    <title>How to enhance a basic python multiprocessing code with cuda to use more cores? [2]</title>
+    <updated>2019-02-15T03:59:12+00:00</updated>
+    <content>Robert_Crovella: ...es, without necessarily rewriting everything with numba and other cuda functions There isn’t. You would need to learn how to use numba, or pycuda, or cupy, or another python adaptation for GPUs, in order to run anything on a GPU from python code. There is no native support in pure python for GPU process...</content>
+    <link href="https://forums.developer.nvidia.com/t/70477/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/72041/3</id>
+    <title>Pytorch not able to use cuda Error: cudaErrorUnknown: unknown error [3]</title>
+    <updated>2019-03-27T16:56:39+00:00</updated>
+    <content>ruixuanl: Hi AastaLLL, I tried but it doesn’t work. I also realized the similar unknown error appeared randomly with Cupy. The Cupy worked fine after I rebooted the system. However, once I failed with torch, the Cupy also failed with the same error. $ sudo python3 [sudo]...</content>
+    <link href="https://forums.developer.nvidia.com/t/72041/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/74261/51</id>
+    <title>Is there any demos available for python jetson inference [51]</title>
+    <updated>2019-06-11T01:14:54+00:00</updated>
+    <content>dusty_nv: You could use the NumPy C API to get info about the NumPy Array from C (see the cudaFromNumpy code for example of this). I’m not sure if cupy has a C API for creating/managing the cupy.ndarray objects from C, but if it does, then we could add a similar set of functions for it.</content>
+    <link href="https://forums.developer.nvidia.com/t/74261/51" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76480/3</id>
+    <title>use cusparse library from python [3]</title>
+    <updated>2019-06-16T07:34:48+00:00</updated>
+    <content>anshusaxena1991: Thank you very much for your replay… Yeah i tried pyculib and cupy but i dont find full implementation. please correct me if i am wrong, as i want to use all formats (coo,csr,csc,bsr,ell,dia,bsr), their matrix vector...</content>
+    <link href="https://forums.developer.nvidia.com/t/76480/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/77590/2</id>
+    <title>how to loop over cuda kernel [2]</title>
+    <updated>2019-07-09T07:28:32+00:00</updated>
+    <content>T.D.Qiu: A function in c/c++ that calls the GPU multiple times would probably help. Some pseudocode would also help. I have not used cupy, but I think you’ll need some kind of Python-C++ interface instead of Python-CUDA.</content>
+    <link href="https://forums.developer.nvidia.com/t/77590/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/81592/4</id>
+    <title>Accessing cudaLaunchCooperativeKernel api from python (pycuda, cupy, etc..?) [4]</title>
+    <updated>2019-09-13T03:54:18+00:00</updated>
+    <content>eSkape: Thank you Both!</content>
+    <link href="https://forums.developer.nvidia.com/t/81592/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/81455/9</id>
+    <title>Multiple batches of 1D FFT using cuFFT [9]</title>
+    <updated>2019-10-03T09:40:08+00:00</updated>
+    <content>ankits: @gemas135 , may be code snippet could help understand what exactly you are doing. My problem was resolved with the use of CuPy and the correct memory alignment of the FFT dimension, since my development is in Python. For C, I hope you are using cufftPlanMany() instead of the...</content>
+    <link href="https://forums.developer.nvidia.com/t/81455/9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/83526/2</id>
+    <title>half calculation generates incorrect result [2]</title>
+    <updated>2019-10-19T15:33:19+00:00</updated>
+    <content>Robert_Crovella: ...0 0 0 0 $ I had to make some changes to get it to compile, but nothing that should affect functionality. I’m guessing you are calling this maybe from cupy, just a guess. My guess is the problem lies elsewhere in your code, perhaps in the interface to this function. I also assume you are compiling for Pa...</content>
+    <link href="https://forums.developer.nvidia.com/t/83526/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/83598/2</id>
+    <title>Is PyCuda even worth it? [2]</title>
+    <updated>2019-10-21T12:49:49+00:00</updated>
+    <content>Robert_Crovella: ...in CUDA. There might be a few outliers like CUDA cooperative groups, etc. For people who have a bunch of numpy code, I would suggest taking a look at cupy. For people who only want to look at pythonic code, numba is a good choice. Pycuda is a nice flexibility blend between numba and CUDA C++.</content>
+    <link href="https://forums.developer.nvidia.com/t/83598/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/109780/1</id>
+    <title>Install RAPIDS on Jetson TX2 [1]</title>
+    <updated>2019-12-31T06:01:27+00:00</updated>
+    <content>dpanchal223: ...e I need to install Anaconda first. Does the TX2 support Anaconda? If so, how do I install it? Also, I’m playing around with the speed/performance of cupy and was wondering if NVIDIA has any speed test sample code to verify the speed? Thanks.</content>
+    <link href="https://forums.developer.nvidia.com/t/109780/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/109896/1</id>
+    <title>Error on upload model &amp;ldquo;Either the server is overloaded or there is an error in the application&amp;rdquo; [1]</title>
+    <updated>2020-01-03T07:52:08+00:00</updated>
+    <content>Mbioinfo: ...ng trtis_config: {"ip": "localhost", "port": 8001, "protocol": 1, "verbose": false, "streaming": false, "output_type": [1], "model_timeout": 30, "use_cupy": false} [2020-01-03 07:35:35.005][ INFO](AIAAServer:main) - +++ Usin g ssl: False [2020-01-03 07:35:35.005][ INFO](AIAAServer:main) - +++ Using ssl_...</content>
+    <link href="https://forums.developer.nvidia.com/t/109896/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/112726/3</id>
+    <title>CuPy memcpy_htod [3]</title>
+    <updated>2020-02-27T13:55:17+00:00</updated>
+    <content>rhaney: Okay. Thank you for the information and link.</content>
+    <link href="https://forums.developer.nvidia.com/t/112726/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/115280/2</id>
+    <title>use GPU with Python [2]</title>
+    <updated>2020-03-11T12:58:03+00:00</updated>
+    <content>Matt Nicely: ...n/ We also have a DLI course https://courses.nvidia.com/courses/course-v1:DLI+C-AC-02+V1/about And you’re using a lot of NumPy arrays, you might find CuPy very useful. https://docs-cupy.chainer.org/en/stable/ For examples CuPy - https://github.com/cupy/cupy/tree/master/examples Numba - https://numba.pyd...</content>
+    <link href="https://forums.developer.nvidia.com/t/115280/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/147</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [147]</title>
+    <updated>2020-05-27T14:43:37.526000+00:00</updated>
+    <content>Alain Paillou: ...V routines. With the Jetson Nano, the gain is quite small (about 25% max). Every gain is good to get but it is not big gain. I have also tried to use Cupy with my laptop. Well, it works. I use many numpy arrays with my software and everything seems fine with Cupy instead of Numpy. The software seems to...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/147" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/136511/6</id>
+    <title>GPU time measuring using accel.h routines PGI 20.1 [6]</title>
+    <updated>2020-05-29T14:47:34+00:00</updated>
+    <content>Mat Colgrove: Using PGI_ACC_TIME or profiling tools, such as Nsight-systems, would certain be the quickest and easiest way to get this information. Nsight-compute can get you some very deep level insight about the performance of individual kernels. Sans that, OpenACC does provide a profiling interface you can ...</content>
+    <link href="https://forums.developer.nvidia.com/t/136511/6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/125834/1</id>
+    <title>Clara Deploy AI Lung Segmentation: got blank label output [1]</title>
+    <updated>2020-06-02T08:55:32.946000+00:00</updated>
+    <content>pairash.sai: ...CT dataset using the suggested ./run_docker.sh (step #4 ). My CT data is in mhd format and process can be ran through with error on: Failed to import cupyx.scipy.ndimage. Continue without using cupy. The label output, however, is not correct (just blank label). So what should I do? (base) pai@pai-AI:/mn...</content>
+    <link href="https://forums.developer.nvidia.com/t/125834/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/126273/2</id>
+    <title>Fast Cuda python code or TensorRT python code [2]</title>
+    <updated>2020-06-04T16:21:44.059000+00:00</updated>
+    <content>dusty_nv: ...or vectorize Python code to CUDA. For vectorization, there are other Python libraries like numba. For conversion of numpy codes to use GPU, there is cupy library.</content>
+    <link href="https://forums.developer.nvidia.com/t/126273/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/77828/10</id>
+    <title>CuPy and Jetson Nano [10]</title>
+    <updated>2020-06-05T07:09:09.332000+00:00</updated>
+    <content>Alain Paillou: I made some tests with cupy but only with my laptop. It was more than cupy tests because i also wanted to test opencv cuda improvements. To be honest, i did not see any improvem...</content>
+    <link href="https://forums.developer.nvidia.com/t/77828/10" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/13/2</id>
+    <title>About the CUDA Setup and Installation category [2]</title>
+    <updated>2020-06-12T18:09:16.860000+00:00</updated>
+    <content>Jason Mcmahon: Dear community I need help setting up my GEForce RTX 2060 driver 430.26 with Cuda 10.2.89 cupy 7.5.0 cudnn 7.6.5 I am executing some simple code in Jupyter &amp;gt; cupy as cp ---- &amp;gt; 3 x_gpu = cp.ones((100,100,100)) and get this error &amp;gt; CUDADriverErro...</content>
+    <link href="https://forums.developer.nvidia.com/t/13/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/144431/1</id>
+    <title>Quitting python / cupy GPU processes without quitting python session? [1]</title>
+    <updated>2020-07-28T15:16:58.647000+00:00</updated>
+    <content>Juergen Hench: I would like to quit the GPU process from inside a python session (that uses cupy). I would like to release all memory (some 270 MB always remain in use even when cupy functions have completed). Furthermore, a library seems to lead...</content>
+    <link href="https://forums.developer.nvidia.com/t/144431/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/145522/1</id>
+    <title>Installing Cupy for CUDA 11.0 [1]</title>
+    <updated>2020-08-05T13:30:53.777000+00:00</updated>
+    <content>Shazer 626: Hi I am trying to find the suitable version of cupy to install for CUDA 11.0 Is someone able to assist? Graphics Card Details: Nvidia P2000 Driver version: 450.57 CUDA version 11.0 Installed manually f...</content>
+    <link href="https://forums.developer.nvidia.com/t/145522/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/148734/3</id>
+    <title>Using Nsight Compute to Inspect your Kernels [3]</title>
+    <updated>2020-08-31T21:46:10.398000+00:00</updated>
+    <content>Robert_Crovella: ...sight-compute/114 Generally speaking, there shouldn’t be anything special required to use nsight compute with python scripts. Using the sample python/cupy code here: https://stackoverflow.com/a/61567110/1695960 If I do: ncu python t1.py I get output like this: $ ncu --version NVIDIA (R) Nsight Compute C...</content>
+    <link href="https://forums.developer.nvidia.com/t/148734/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/153471/2</id>
+    <title>Accelerating Single Cell Genomic Analysis using RAPIDS [2]</title>
+    <updated>2020-09-02T20:22:53.570000+00:00</updated>
+    <content>Burlinge: ...nted the widely-used single-cell phenotyping algorithm PhenoGraph ( https://github.com/jacoblevine/PhenoGraph ) using a combination of cuML, cuGraph, cupy, and cupyx.sparse. The GPU-based implementation ( https://gitlab.com/eburling/grapheno ) yields an orders-of-magnitude boost in speed over the CPU-ba...</content>
+    <link href="https://forums.developer.nvidia.com/t/153471/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/146159/2</id>
+    <title>Regarding running software and code on CUDA instead of CPU [2]</title>
+    <updated>2020-09-07T21:37:50.743000+00:00</updated>
+    <content>Dominik: ...PU instead of CPU - and this strongly depends on your actual code. In case you are using a lot of https://numpy.org numpy functions there are https://cupy.dev cupy and https://mxnet.apache.org/versions/1.6/ mxnet which - if your are lucky (because all numpy functions you are using are supported) - work...</content>
+    <link href="https://forums.developer.nvidia.com/t/146159/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/140600/2</id>
+    <title>RAPIDS interop with PyCuda? [2]</title>
+    <updated>2020-09-14T14:39:00.694000+00:00</updated>
+    <content>Matt Nicely: Please checkout CuPy. There’s a good chance what you need it built-in. https://github.com/cupy/cupy https://docs.cupy.dev/en/stable/</content>
+    <link href="https://forums.developer.nvidia.com/t/140600/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/154573/2</id>
+    <title>Can i execute tensorflow gpu on TU117M [GeForce GTX 1650 Mobile / Max-Q]? [2]</title>
+    <updated>2020-09-16T23:34:45.890000+00:00</updated>
+    <content>Brad Deokisingh: ...low gpu. The good news is that once you get all the versions &amp;amp; drivers right then you can set up all the GPu scientific libraries. I have tensorflow, cupy, pyCUDA setup myself. It was painful at first.</content>
+    <link href="https://forums.developer.nvidia.com/t/154573/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/158635/1</id>
+    <title>Crash Course to Cuda Terminology and Theory? [1]</title>
+    <updated>2020-11-03T06:56:03.079000+00:00</updated>
+    <content>: I’ve been looking to getting into deeper CUDA programming. I’ve only had some experience with Cupy, basically Numpy but implemented on the GPU, and it doesn’t require any CUDA terminology, except streams for concurrency, but that feature doesn’t wo...</content>
+    <link href="https://forums.developer.nvidia.com/t/158635/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/159540/2</id>
+    <title>Why cudamalloc and cudaFree so expensive? [2]</title>
+    <updated>2020-11-14T17:09:52.252000+00:00</updated>
+    <content>Robert_Crovella: ...performance-sensitive loops, e.g. reuse allocations. For more complex use cases, people sometimes implement pool allocators. Tensorflow, RAPIDS, and cupy come to mind as examples of well-known libraries that implement pool allocators. I’m sure there are others.</content>
+    <link href="https://forums.developer.nvidia.com/t/159540/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/160626/1</id>
+    <title>Why do two commands show my cuda version not consistent? [1]</title>
+    <updated>2020-11-28T09:21:51.862000+00:00</updated>
+    <content>lingvisa: ...250W | 0MiB / 16280MiB | 0% Default | +-------------------------------+----------------------+----------------------+ Then, I did this: # pip install cupy-cuda100 And test it: In [1]: import cupy ...: a = cupy.zeros((5, 5)) --------------------------------------------------------------------------- Impo...</content>
+    <link href="https://forums.developer.nvidia.com/t/160626/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/161385/2</id>
+    <title>Fast, Flexible Allocation for NVIDIA CUDA with RAPIDS Memory Manager [2]</title>
+    <updated>2020-12-08T23:47:43.769000+00:00</updated>
+    <content>Mark Harris: ...te parts about the project is the ways in which it has been adapted for use with other CUDA-accelerated libraries and applications, such as Numba and CuPy, as well as all of the RAPIDS libraries. We look forward to hearing your questions and comments on this post and on RMM! Thanks, Mark</content>
+    <link href="https://forums.developer.nvidia.com/t/161385/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/109687/3</id>
+    <title>Cupy and TensorRT [3]</title>
+    <updated>2020-12-16T10:04:50.601000+00:00</updated>
+    <content>Xcf1996: same question !!! did you solve it?</content>
+    <link href="https://forums.developer.nvidia.com/t/109687/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/164365/1</id>
+    <title>CuPy error when pushing / popping pycuda context [1]</title>
+    <updated>2020-12-22T23:22:59.846000+00:00</updated>
+    <content>: I am using Python and tensorRT to perform inference with CUDA. I’d like to use CuPy to preprocess some images that I’ll feed to the tensorRT engine. The preprocessing function, called my_function , works fine as long as tensorRT is n...</content>
+    <link href="https://forums.developer.nvidia.com/t/164365/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/166704/1</id>
+    <title>Speeding up frame conversion [1]</title>
+    <updated>2021-01-25T08:09:04.058000+00:00</updated>
+    <content>Armita450: ...cessing of each frame, the instruction which takes the more time, about 50%, is the conversion to float32. To speedup this instruction I tried to use Cupy, a package which use GPU acceleration to do numpy instruction but cupy.float32(frame) is as long as numpy’s. The purpose of this conversion is to con...</content>
+    <link href="https://forums.developer.nvidia.com/t/166704/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/169614/4</id>
+    <title>Gnuradio and cuda with gr-cuda [4]</title>
+    <updated>2021-03-02T10:07:49.569000+00:00</updated>
+    <content>Julianmartinezsou: ...s/cuda/ init .py”, line 34, in from gpu_kernel import gpu_kernel File “/usr/local/lib/python2.7/dist-packages/cuda/gpu_kernel.py”, line 27, in import cupy as cp File “/home/juli/.local/lib/python2.7/site-packages/cupy/ init .py”, line 47, in import cupyx as _cupyx File “/home/juli/.local/lib/python2.7/s...</content>
+    <link href="https://forums.developer.nvidia.com/t/169614/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/170894/1</id>
+    <title>How to access to image array in GPU buffer without copy to CPU buffer? [1]</title>
+    <updated>2021-03-14T07:34:08.715000+00:00</updated>
+    <content>LoveNvidia: ...ustom inference model in that plugin. In that example for copying image array into CPU buffer is used numpy lib, I want to know is it possible to use CuPy lib or other ML framework to access to image array in GPU memory?</content>
+    <link href="https://forums.developer.nvidia.com/t/170894/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/172852/1</id>
+    <title>10 Minutes to Data Science: Transitioning Between RAPIDS cuDF and CuPy Libraries [1]</title>
+    <updated>2021-03-19T21:01:27.526000+00:00</updated>
+    <content>Jen Witsoe: Originally published at: https://developer.nvidia.com/blog/10-minutes-to-data-science-transitioning-between-rapids-cudf-and-cupy-libraries/ This post was originally published on the RAPIDS AI Blog. RAPIDS is about creating bridges, connections, and clean handoffs between GPU Py...</content>
+    <link href="https://forums.developer.nvidia.com/t/172852/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/173024/1</id>
+    <title>Free TensorRT GPU memory using Python API [1]</title>
+    <updated>2021-03-22T19:02:53.759000+00:00</updated>
+    <content>: ...ltiple times, I see that the GPU utilization increases of a few Mb each time, so maybe there is some kind of memory leak. I am getting measures using cupy free_bytes, total_bytes = cp.cuda.Device(0).mem_info . Here’s how I allocate my model: import pycuda.driver as cuda cuda.init() import cupy as cp imp...</content>
+    <link href="https://forums.developer.nvidia.com/t/173024/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/173207/1</id>
+    <title>Error: Some events were lost. How do I fix this? [1]</title>
+    <updated>2021-03-24T10:51:32.574000+00:00</updated>
+    <content>Jonathan Boyle: I’m profiling Python code which uses CUDA (e.g. CuPy) and always get an error about events being lost e.g. Some events (328,938) were lost. Certain charts (including CPU utilization) on the timeline may...</content>
+    <link href="https://forums.developer.nvidia.com/t/173207/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/173658/1</id>
+    <title>Nvidia-smi command not found despite installing CUDA [1]</title>
+    <updated>2021-03-29T21:08:58.797000+00:00</updated>
+    <content>David H Pitt: I installed CUDA on my Win10 machine this morning to use CuPy. Running nvcc --version gives an output, and so does conda list cudatoolkit. However, running nvidia-smi in a conda environment gives the error comma...</content>
+    <link href="https://forums.developer.nvidia.com/t/173658/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/174053/1</id>
+    <title>How can I create my custom containers for Jetson Nano [1]</title>
+    <updated>2021-04-02T11:23:55.754000+00:00</updated>
+    <content>: ...? l4t-tensorflow:r32.5.0-tf2.3-py3 TensorFlow 2.3.1 l4t-ml:r32.5.0-py3 TensorFlow 1.15 PyTorch v1.7.0 torchvision v0.8.0 torchaudio v0.7.0 onnx 1.8.0 CuPy 8.0.0 numpy 1.19.4 numba 0.52.0 OpenCV 4.4.1 pandas 1.1.5 scipy 1.5.4 scikit-learn 0.23.2 JupyterLab 2.2.9 Cheers</content>
+    <link href="https://forums.developer.nvidia.com/t/174053/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/173773/2</id>
+    <title>N Ways to SAXPY: Demonstrating the Breadth of GPU Programming Options [2]</title>
+    <updated>2021-04-06T21:41:48.167000+00:00</updated>
+    <content>dsingalNV: ...mance, allow better use of Unified Memory, etc. Furthermore, there have been more open source projects that allow one to program for NVIDIA GPUs like cuPy, Numba, Tensorflow, Pytorch and more are always showing up thanks to the https://developer.nvidia.com/cuda-llvm-compiler NVIDIA Compiler SDK Thanks f...</content>
+    <link href="https://forums.developer.nvidia.com/t/173773/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/174959/7</id>
+    <title>Unifying the CUDA Python Ecosystem [7]</title>
+    <updated>2021-04-28T19:58:52.237000+00:00</updated>
+    <content>Matt Nicely: ...to use the corresponding Driver/Runtime API. As far as question 2, I’m not sure at the moment. I’m pretty sure that functionality currently exists in CuPy.</content>
+    <link href="https://forums.developer.nvidia.com/t/174959/7" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/169103/15</id>
+    <title>Cupy crashes on Jetson Nano [15]</title>
+    <updated>2021-04-29T13:58:35.876000+00:00</updated>
+    <content>Alain Paillou: Hello Dustin, could this be an illustration of what you are talking about, but this time using cupy : // Copyright 2008-2021 Andreas Kloeckner // Copyright 2021 NVIDIA Corporation import pycuda.autoinit # noqa from pycuda.compiler import SourceModul...</content>
+    <link href="https://forums.developer.nvidia.com/t/169103/15" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/178315/3</id>
+    <title>CUDA in Python C/C++ extensions [3]</title>
+    <updated>2021-05-20T15:48:12.796000+00:00</updated>
+    <content>Matt Nicely: To mix CUDA/C++/Python, check out how CuPy accomplished this with NVRTC https://github.com/cupy/cupy/pull/3319 github.com/cupy/cupy Pull Request https://github.com/cupy/cupy/pull/3319 Support...</content>
+    <link href="https://forums.developer.nvidia.com/t/178315/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/178647/2</id>
+    <title>Unwrap: shift phase angles kernel implementation [2]</title>
+    <updated>2021-05-24T13:09:21.586000+00:00</updated>
+    <content>Matt Nicely: Have you looked at the CuPy implementation? https://github.com/cupy/cupy/blob/v9.0.0/cupy/_math/trigonometric.py#L115</content>
+    <link href="https://forums.developer.nvidia.com/t/178647/2" rel="alternate"/>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://discuss.python.org</id>
+  <title>Python Community Forums (cupy)</title>
+  <updated>2021-04-15T07:05:32.634000+00:00</updated>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <entry>
+    <id>https://discuss.python.org/t/687/16</id>
+    <title>Question for Steering Council candidates [16]</title>
+    <updated>2019-01-27T15:23:08.942000+00:00</updated>
+    <content>David Mertz: ...e should be careful to make sure that the developers of those projects do not foresee any technical obstacles in the design of the PEP. This includes CuPy, cudf, pygdf, PyCUDA, RAPIDS, Numba is probably touched on. I think I would like to see many of those projects converge to interoperate as well, but...</content>
+    <link href="https://discuss.python.org/t/687/16" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/2539/28</id>
+    <title>[REJECTED] RFC: PEP 608: Coordinated Python release [28]</title>
+    <updated>2019-12-14T02:25:09.430000+00:00</updated>
+    <content>Marco Sulla: ...jl/orjson GitHub https://github.com/ijl/orjson ijl/orjson Fast, correct Python JSON library supporting dataclasses and datetimes - ijl/orjson https://cupy.chainer.org/ CuPy https://cupy.chainer.org/ CuPy CuPy is NumPy-compatible matrix library accelerated by CUDA https://pypi.org/project/arrow/ PyPI htt...</content>
+    <link href="https://discuss.python.org/t/2539/28" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/4898/32</id>
+    <title>Adding a default extra_require environment [32]</title>
+    <updated>2020-08-05T20:25:37.259000+00:00</updated>
+    <content>Jonathan Dekhtiar: ...in addition to the GUI by default which needs extra dependencies compared to the CLI (like QT or TKinter). Why not adding some GPU compute (like with cupy #CUDA ). After all Datadog provides data processing tools, could be a realistic scenario. But on the other hand, project managers at datadog may not...</content>
+    <link href="https://discuss.python.org/t/4898/32" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/7125/42</id>
+    <title>What to do about GPUs? (and the built distributions that support them) [42]</title>
+    <updated>2021-04-15T07:05:32.634000+00:00</updated>
+    <content>Kenichi Maehashi: Hello all, I’m a maintainer of the CuPy project. Thank you very much for all your efforts in keeping the PyPI ecosystem healthy! Although this is not a direct solution to the “large files o...</content>
+    <link href="https://discuss.python.org/t/7125/42" rel="alternate"/>
+  </entry>
+</feed>

@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://discuss.pytorch.org</id>
+  <title>PyTorch Forums (cupy)</title>
+  <updated>2021-05-20T17:43:29.542000+00:00</updated>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <entry>
+    <id>https://discuss.pytorch.org/t/1329/3</id>
+    <title>How can I do the operation the same as `np.where`? [3]</title>
+    <updated>2017-03-25T00:43:31.152000+00:00</updated>
+    <content>James Bradbury: ...iner implementation, if anyone’s curious. This could even be directly wrapped in a PyTorch function with a couple casting tricks (PyTorch tensors and cupy arrays have the same memory layout). https://github.com/chainer/chainer/blob/master/chainer/functions/array/where.py github.com https://github.com/ch...</content>
+    <link href="https://discuss.pytorch.org/t/1329/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/2985/2</id>
+    <title>Numbapro or Numba for PyTorch Cuda Extension [2]</title>
+    <updated>2017-05-19T15:58:50.851000+00:00</updated>
+    <content>: not numba/numbapro, but you can use cupy: https://gist.github.com/szagoruyko/dccce13465df1542621b728fcc15df53 gist.github.com https://gist.github.com/szagoruyko/dccce13465df1542621b728fcc15d...</content>
+    <link href="https://discuss.pytorch.org/t/2985/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/6759/2</id>
+    <title>How to implement the im2col like caffe during convolution？ [2]</title>
+    <updated>2017-08-26T23:28:26.383000+00:00</updated>
+    <content>: ...package has an im2col and col2im if you want: https://github.com/szagoruyko/pyinn GitHub https://github.com/szagoruyko/pyinn szagoruyko/pyinn pyinn - CuPy fused PyTorch neural networks ops</content>
+    <link href="https://discuss.pytorch.org/t/6759/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/1012/17</id>
+    <title>How to speed up for loop in customized RNN? [17]</title>
+    <updated>2017-09-09T00:35:52.889000+00:00</updated>
+    <content>ngimel: ...speeding up pointwise operations, fuser to do this in on the roadmap. In the meantime the best solution is probably to have your custom kernels using cupy, like in pyinn project https://github.com/szagoruyko/pyinn/blob/master/pyinn/conv2d_depthwise.py . You’d also need to hand-code your backward pass in...</content>
+    <link href="https://discuss.pytorch.org/t/1012/17" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/7357/2</id>
+    <title>How to write parallel code in pytorch? [2]</title>
+    <updated>2017-09-13T18:51:13.833000+00:00</updated>
+    <content>: you can use your only CUDA kernels in-line if you want, using cupy . See the code in https://github.com/szagoruyko/pyinn pyinn package for example.</content>
+    <link href="https://discuss.pytorch.org/t/7357/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/8173/3</id>
+    <title>Bitwise Operations on Cuda Float Tensor [3]</title>
+    <updated>2017-10-02T14:39:56.735000+00:00</updated>
+    <content>: ...rself. Here’s an example of writing a CUDA extension: https://github.com/longcw/yolo2-pytorch/tree/master/layers/reorg Alternatively, you can use the cupy package, and write your whole CUDA kernel / manipulation in python scripts, for example: https://github.com/szagoruyko/pyinn/blob/master/pyinn/conv2d...</content>
+    <link href="https://discuss.pytorch.org/t/8173/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/8738/4</id>
+    <title>Tensorflow vs. PyTorch ConvNet benchmark [4]</title>
+    <updated>2017-10-17T17:31:00.429000+00:00</updated>
+    <content>Mamy Ratsimbazafy: ...even though computation is not finished. To make sure computation is finished you should call “cudaDeviceSynchronize”, your best bet would be through Cupy. Furthermore there might be a difference due to the Tensor layouts: PyTorch use NCHW and Tensorflow uses NHWC, NCHW was the first layout supported by...</content>
+    <link href="https://discuss.pytorch.org/t/8738/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/10672/1</id>
+    <title>Run &amp;ldquo;pip install cupy==1.0.2 chainer==2.0.2 fuel==0.2.0 tqdm&amp;rdquo; display anaconda3/compiler_compat/ld: cannot find -lm [1]</title>
+    <updated>2017-12-02T00:44:42.894000+00:00</updated>
+    <content>Zhfwyy: root@zhfwyy:~# pip install cupy==1.0.2 chainer==2.0.2 fuel==0.2.0 tqdm Collecting cupy==1.0.2 Using cached cupy-1.0.2.tar.gz Complete output from command python http://setup.py setu...</content>
+    <link href="https://discuss.pytorch.org/t/10672/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/10863/2</id>
+    <title>Fast serialization of Tensors? [2]</title>
+    <updated>2017-12-19T19:55:24.713000+00:00</updated>
+    <content>Scott: I should look more into CuPy and their serializers: https://chainer.readthedocs.io/en/v2-docs-cupy/reference/serializers.html</content>
+    <link href="https://discuss.pytorch.org/t/10863/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/13553/1</id>
+    <title>Solving sparse linear systems on the GPU [1]</title>
+    <updated>2018-02-12T00:42:07.231000+00:00</updated>
+    <content>: ...near solve on the GPU by giving it a sparse matrix and a dense vector, what would be the best way to do it? Should I look into external packages like cupy? Does anybody have experience calling packages like suitesparse from python? I’d still prefer to have my tensors in pytorch since I’m using many pyto...</content>
+    <link href="https://discuss.pytorch.org/t/13553/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/16465/1</id>
+    <title>Sparse × Sparse dot product [1]</title>
+    <updated>2018-04-16T08:45:52.634000+00:00</updated>
+    <content>Space Invader: Hello! Is there a function for a dot product of two sparse matrices? If there is no, is it possible to implement it using CuPy?</content>
+    <link href="https://discuss.pytorch.org/t/16465/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/16479/1</id>
+    <title>CUPY to use with PyTorch (import and use the whole CUDA library) [1]</title>
+    <updated>2018-04-16T11:18:36.925000+00:00</updated>
+    <content>Space Invader: Hello! I’m not a CUDA and PyTorch expert, that’s why my question may sound silly. I know how to use CuPy with PyTorch too write my own kernels as python strings and call them using PyTorch. But I don’t know how to work with the whole CUDA library, e.g. h...</content>
+    <link href="https://discuss.pytorch.org/t/16479/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/17214/3</id>
+    <title>How to make symeig use GPU only given CUDA Tensor? [3]</title>
+    <updated>2018-04-30T21:31:09.170000+00:00</updated>
+    <content>Yubei Chen: ...adients. But another issue is the communication. Every time I need to do a svd or symeig, I have to copy the matrix from GPU to CPU and convert it to Cupy array and send to GPU back. Then after the actual operation, I copy it back to CPU and convert it to pytorch tensor and send back to GPU again. Using...</content>
+    <link href="https://discuss.pytorch.org/t/17214/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/19514/1</id>
+    <title>Sparse tensor support for slice, reduce sum and element wise comparison? [1]</title>
+    <updated>2018-06-11T12:23:59.280000+00:00</updated>
+    <content>Le Niu: ...jobs. Here I have a small project which present a sparseTensor wrapper for slice and reduce sum based on pytorch dense tensor, sparse tensor and some cupy kernels(only for inference, since no graph registration is handled) https://github.com/overshiki/sparseTensorUtils GitHub https://github.com/overshik...</content>
+    <link href="https://discuss.pytorch.org/t/19514/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/31224/1</id>
+    <title>Huge CPU RAM consumed when creating tensor inside GPU [1]</title>
+    <updated>2018-12-04T05:22:09.160000+00:00</updated>
+    <content>Felipefariax: ...t = torch.cuda.FloatTensor(size=(10, 10000000)) # Creates a peak of 4.7GB of my CPU RAM # I also have tried to create the same array inside GPU using cupy and send it to pytorch: t = cupy.ndarray(shape=(10, 10000000), dtype=np.float32) # Here, no significative CPU RAM seems to be used and consumes aprox...</content>
+    <link href="https://discuss.pytorch.org/t/31224/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/31927/3</id>
+    <title>How can I implement a Convolution Layer on 1-bit weight? [3]</title>
+    <updated>2018-12-13T06:25:42.322000+00:00</updated>
+    <content>: ...2, will the performance drops a lot? If I’m going to implement it, according to Bitwise-operations-on-cuda . Two ways are listed by cuda extension or cupy.</content>
+    <link href="https://discuss.pytorch.org/t/31927/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/21394/6</id>
+    <title>How can I get access to the raw GPU data of a tensor for pyCUDA? And how do I convert back? [6]</title>
+    <updated>2019-03-13T10:17:41.006000+00:00</updated>
+    <content>: I briefly experimented with something like this. I can’t really remember what the limitations were here, since I switched to cupy later. I seem to remember that accessing the converted GPUArray or the Tensor was not problematic, but arithemtic on it failed at runtime. import pyc...</content>
+    <link href="https://discuss.pytorch.org/t/21394/6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/42111/1</id>
+    <title>Create/edit PyTorch tensor using OpenGL? [1]</title>
+    <updated>2019-04-09T19:31:40.115000+00:00</updated>
+    <content>Rodrigo Vargas: ...I’m thinking about creating them directly on the GPU using OpenGL, via, say, pyglet or glumpy. I found somewhere else how to pass PyTorch tensors to CuPy using data_ptr() and the current CUDA stream, and I wonder whether something along those lines can be used to “draw” to a PyTorch tensor using OpenGL...</content>
+    <link href="https://discuss.pytorch.org/t/42111/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/44923/1</id>
+    <title>PyTorch - CUDA Interoperability [1]</title>
+    <updated>2019-05-10T15:49:57.438000+00:00</updated>
+    <content>: ...to CUDA is, either for the Python or the C++ side? I want to be able to use my PyTorch tensors in CUDA, and I was trying to figure out whether to use CuPy or the C++ API, and how to correctly deal with this. I was wondering if anyone has any insights into the management of context creations and streams...</content>
+    <link href="https://discuss.pytorch.org/t/44923/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/56147/4</id>
+    <title>Introducing SpeedTorch: 4x speed CPU-&amp;gt;GPU transfer, 110x GPU-&amp;gt;CPU transfer [4]</title>
+    <updated>2019-09-20T00:30:01.062000+00:00</updated>
+    <content>Sam Gross: As far as I can tell, CuPy is only intended to hold CUDA data, but in this case it’s actually holding CPU data (pinned memory). You can check with something like: cupy.cuda.run...</content>
+    <link href="https://discuss.pytorch.org/t/56147/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/58425/4</id>
+    <title>Help installing 1.3 [4]</title>
+    <updated>2019-10-16T20:31:11.012000+00:00</updated>
+    <content>Alban D: Just with respect to cuda, it seems that cudnn and cupy require cuda 9.0 and so you cannot install the newer versions. Maybe you want to remove these.</content>
+    <link href="https://discuss.pytorch.org/t/58425/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/58417/4</id>
+    <title>AttributeError: &amp;lsquo;VoxResNet&amp;rsquo; object has no attribute &amp;lsquo;to_gpu&amp;rsquo; [4]</title>
+    <updated>2019-10-17T09:08:31.054000+00:00</updated>
+    <content>Dejan Batanjac: ...ttps://github.com/chainer/chainer Chainer is PyTorch opponent so you will not get much on this forum ;). Check the Requirements python 3.6 chainer v2 cupy dipy nibabel numpy pandas SimpleITK No PyTorch in there.</content>
+    <link href="https://discuss.pytorch.org/t/58417/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/64079/2</id>
+    <title>Convert jax array to torch tensor [2]</title>
+    <updated>2019-12-16T11:10:48.650000+00:00</updated>
+    <content>Alban D: How is jax handling GPU arrays? If it uses things like cupy, you can check online how to convert it directly yo pytorch.</content>
+    <link href="https://discuss.pytorch.org/t/64079/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/72582/1</id>
+    <title>Gradients for User Function Not Being Calculated [1]</title>
+    <updated>2020-03-09T13:23:38.488000+00:00</updated>
+    <content>Jack Rolph: Hi all, I am trying to write a user function using Cupy to interface with Pytorch using the tutorial shown here https://pytorch.org/tutorials/advanced/numpy_extensions_tutorial.html Numpy Extensions Tutori...</content>
+    <link href="https://discuss.pytorch.org/t/72582/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/72816/1</id>
+    <title>Optimizing Custom Hartley Pooling Layer [1]</title>
+    <updated>2020-03-11T05:32:03.026000+00:00</updated>
+    <content>Jack Rolph: I have implemented an ND Hartley Pooling function (see https://arxiv.org/pdf/1810.04028.pdf this paper for more information) for Pytorch, using cupy and sigpy , as shown below. While this function seems to work fine, is there a way to further optimize this code to make it faster? I am interested i...</content>
+    <link href="https://discuss.pytorch.org/t/72816/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/67749/4</id>
+    <title>Performing Inference with input already in GPU [4]</title>
+    <updated>2020-03-18T18:29:31.425000+00:00</updated>
+    <content>Thomas V: ...or is it somehow connected to the image? The one time I did look at tensors already on the GPU was when I worked on DLPack-based interoperability of CuPy and PyTorch a long time ago. That seemed to work well, so one could look at what DLPack does. Best regards Thomas</content>
+    <link href="https://discuss.pytorch.org/t/67749/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/40659/12</id>
+    <title>Can you use torch.backends.cudnn.benchmark = True after resizing images? [12]</title>
+    <updated>2020-05-13T02:22:16.757000+00:00</updated>
+    <content>: I don’t know, how cupy interacts with PyTorch, but it seems the cupy is failing to initialize the runtime? :confused: Note that using the GPU in your data loading pipeline...</content>
+    <link href="https://discuss.pytorch.org/t/40659/12" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/90385/2</id>
+    <title>From_dlpack + ctypes [2]</title>
+    <updated>2020-07-24T11:08:28.815000+00:00</updated>
+    <content>Vadim Kantorov: Yes, it seems that I would need to create the capsule manually. I found the CuPy support PR: https://github.com/cupy/cupy/pull/1082/files that does something similar on CuPy side</content>
+    <link href="https://discuss.pytorch.org/t/90385/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/93485/1</id>
+    <title>Torch is incompatible with CUDA [1]</title>
+    <updated>2020-08-20T12:16:18.753000+00:00</updated>
+    <content>: ...thon[version=’ &amp;gt; =3.8, &amp;lt; 3.9.0a0’]* brotlipy - &amp;gt; python[version=’ &amp;gt; =2.7, &amp;lt; 2.8.0a0| &amp;gt; =3.5, &amp;lt; 3.6.0a0’]* cryptography - &amp;gt; python[version=’ &amp;lt; =3.3’]* cupy - &amp;gt; python[version=’ &amp;gt; =2.7, &amp;lt; 2.8.0a0| &amp;gt; =3.8, &amp;lt; 3.9.0a0’]* grpcio - &amp;gt; python[version=’ &amp;gt; =2.7, &amp;lt; 2.8.0a0’]* jinja2 - &amp;gt; python[version=’ &amp;gt; =3.8, &amp;lt; 3...</content>
+    <link href="https://discuss.pytorch.org/t/93485/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/95907/1</id>
+    <title>Error when Convert Pytorch model to TorchScript: &amp;rdquo; RuntimeError: undefined value super:&amp;rdquo; [1]</title>
+    <updated>2020-09-11T10:31:38.040000+00:00</updated>
+    <content>Duong Pham Anh: ...forward(self, tensorFirst, tensorSecond): return FunctionCorrelation.apply(tensorFirst, tensorSecond) # end I used torch==1.6.0, torchvision==0.7.0, cupy-cuda102==7.8.0, Pillow==6.1.0 I think may be get problem when i use torch.autograd.Function this cause i have to use @staticmethod in torch==1.6.0 So...</content>
+    <link href="https://discuss.pytorch.org/t/95907/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/96226/2</id>
+    <title>.cubin.cu(16): error: identifier &amp;ldquo;tensor&amp;rdquo; is undefined [2]</title>
+    <updated>2020-09-16T10:15:49.569000+00:00</updated>
+    <content>: I’m not deeply familiar with cupy , but would assume you need to create cupy arrays via Dlpack, while it seems you are trying to use tensors directly?</content>
+    <link href="https://discuss.pytorch.org/t/96226/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/102331/1</id>
+    <title>Solving Ax=B for sparse tensors (preferably with backward) [1]</title>
+    <updated>2020-11-10T22:11:04.510000+00:00</updated>
+    <content>M. Doosti Lakhani: ...y problem by using dense matrices and also, I need backward compatibility too. I do not know it is possible, but can I use a third-party libs such as cupy and still maintain computational graph and backward through it? Rewriting spdiags &amp;amp; spsolve? I’m trying to rewrite some legacy code and switch from s...</content>
+    <link href="https://discuss.pytorch.org/t/102331/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/2752/10</id>
+    <title>Convert torch tensors directly to cupy tensors? [10]</title>
+    <updated>2021-01-03T02:28:02.381000+00:00</updated>
+    <content>Eduardo Davalos Anaya: Sorry @michaelklachko , you are right. I misunderstood your approach. Thank you for the clarification.</content>
+    <link href="https://discuss.pytorch.org/t/2752/10" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/115045/2</id>
+    <title>Very slow torch.median() compared to CuPy [2]</title>
+    <updated>2021-03-17T06:42:25.237000+00:00</updated>
+    <content>Masaki Kozuki: ...rn the middle element among the non-nan values Tensor k = ((size - 1) - sorted.isnan().sum()) / 2; return sorted[k.toType(kLong)]; On the other hand, CuPyv8.5’s median calls partition internally: https://github.com/cupy/cupy/blob/6d91f956ee3c83d07fe0548268345d46fa319ccd/cupy/core/_routines_statistics.py...</content>
+    <link href="https://discuss.pytorch.org/t/115045/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/117502/3</id>
+    <title>Torch is slow compared to numpy [3]</title>
+    <updated>2021-04-09T08:25:55.512000+00:00</updated>
+    <content>: ...he numpy functionality. I also added verification that the endresults are the same for all methods. (test_pytorch_implementation_correctness and test_cupy_implementation_correctness) Copying the “numpy loop” over makes the results much worse (only tested on cpu): TorchScript 15s (N=500)/ 77s(N=10000) py...</content>
+    <link href="https://discuss.pytorch.org/t/117502/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/121700/4</id>
+    <title>How to jit compile with `cupy.cuda.compile_with_cache` [4]</title>
+    <updated>2021-05-20T17:43:29.542000+00:00</updated>
+    <content>: ...ious question was regarding the expectations that this would be supported. Do you have any working example, demos, blog posts etc., which explain how cupy can be used, as I’m unfamiliar with it?</content>
+    <link href="https://discuss.pytorch.org/t/121700/4" rel="alternate"/>
+  </entry>
+</feed>
