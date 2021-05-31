@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-05-29T14:24:15.273000+00:00</updated>
+  <updated>2021-05-31T08:09:29.149000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/54882/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/178647/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/179311/1</id>
-    <title>Thank You NVIDIA - Everything is working fine on wsl2 and windows 10 [1]</title>
-    <updated>2021-05-29T14:24:15.273000+00:00</updated>
-    <content>K Glimps: ...yerfa, patsy, pandas, opt-einsum, numpy-quaternion, numexpr, numba, mkl-random, mkl-fft, matplotlib, Keras-Preprocessing, imageio, imagecodecs, h5py, cupy-cuda112, Bottleneck, bokeh, blis, bkcharts, astropy everything is installed and working now fine On WSL2 mabd@LAPTOP-T8DQ9UK0:~$ pip3 show numpy Name...</content>
-    <link href="https://forums.developer.nvidia.com/t/179311/1" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/179311/4</id>
+    <title>Thank You NVIDIA - Everything is working fine on wsl2 and windows 10 [4]</title>
+    <updated>2021-05-31T08:09:29.149000+00:00</updated>
+    <content>K Glimps: ...yper, murmurhash, blis, numpy, requests, pathy, jinja2, packaging, catalogue Required-by: spacy-transformers mabd@LAPTOP-T8DQ9UK0:~$ i had to install cupy-cuda112 and here cuda 11.2 was important mabd@LAPTOP-T8DQ9UK0:~$ pip show cupy-cuda112 Name: cupy-cuda112 Version: 8.6.0 Summary: CuPy: A NumPy-compa...</content>
+    <link href="https://forums.developer.nvidia.com/t/179311/4" rel="alternate"/>
   </entry>
 </feed>
