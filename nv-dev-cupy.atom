@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-05-31T21:05:54.131000+00:00</updated>
+  <updated>2021-05-31T21:25:41.467000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/55588/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/179311/4" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/179453/4</id>
-    <title>Passing scalar to functions (cupy &amp;amp; pycuda) - scalar multiplication of a vector [4]</title>
-    <updated>2021-05-31T21:05:54.131000+00:00</updated>
-    <content>Robert_Crovella: No, not from a performance perspective (but you can still get the correct answer that way). To understand why requires some coherent exposure to CUDA programming. But there are many questions already asked like this. If you take the first 3 or 4 sessions https://www.olcf.ornl.gov/cuda-training-se...</content>
-    <link href="https://forums.developer.nvidia.com/t/179453/4" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/179453/5</id>
+    <title>Passing scalar to functions (cupy &amp;amp; pycuda) - scalar multiplication of a vector [5]</title>
+    <updated>2021-05-31T21:25:41.467000+00:00</updated>
+    <content>Zsolt Majzik: Thank you very very much! This is exactly what I need to study!</content>
+    <link href="https://forums.developer.nvidia.com/t/179453/5" rel="alternate"/>
   </entry>
 </feed>
