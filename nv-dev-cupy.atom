@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-05-31T08:09:29.149000+00:00</updated>
+  <updated>2021-05-31T17:01:56.205000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/54882/1</id>
-    <title>Does Nvidia NVS 300 contain GPU? Can it be used for deep learning program? [1]</title>
-    <updated>2017-11-05T17:36:09+00:00</updated>
-    <content>rajesh.piryani: If you think yes, then let me know the procedure. I have tried, but cupy package was not installed. Please help me. Thanks</content>
-    <link href="https://forums.developer.nvidia.com/t/54882/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/55588/1</id>
     <title>[CUDA/CUPY] nvrtc error: failed to load builtins [1]</title>
@@ -353,5 +346,12 @@
     <updated>2021-05-31T08:09:29.149000+00:00</updated>
     <content>K Glimps: ...yper, murmurhash, blis, numpy, requests, pathy, jinja2, packaging, catalogue Required-by: spacy-transformers mabd@LAPTOP-T8DQ9UK0:~$ i had to install cupy-cuda112 and here cuda 11.2 was important mabd@LAPTOP-T8DQ9UK0:~$ pip show cupy-cuda112 Name: cupy-cuda112 Version: 8.6.0 Summary: CuPy: A NumPy-compa...</content>
     <link href="https://forums.developer.nvidia.com/t/179311/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/179453/1</id>
+    <title>Passing scalar to functions (cupy &amp;amp; pycuda) - scalar multiplication of a vector [1]</title>
+    <updated>2021-05-31T17:01:56.205000+00:00</updated>
+    <content>Zsolt Majzik: Hi, I just started to learn CUDA and I use cupy/pycuda to interface. I work on a simple example: scalar multiplication of a vector: .cu code: #define _I ( threadIdx.x + blockIdx.x * blockDim.x ) ex...</content>
+    <link href="https://forums.developer.nvidia.com/t/179453/1" rel="alternate"/>
   </entry>
 </feed>
