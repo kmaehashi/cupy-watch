@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-05-31T21:25:41.467000+00:00</updated>
+  <updated>2021-06-11T15:00:19.782000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/55588/1</id>
-    <title>[CUDA/CUPY] nvrtc error: failed to load builtins [1]</title>
-    <updated>2017-11-27T11:44:08+00:00</updated>
-    <content>tlacombe: Hi everyone, I am very new to cuda and quite new to Linux. For research purpose I need to install cuda and cupy on a Dell Workstation equipped with a Nvidia Quadro K2000 GPU, with Ubuntu 16.04 LTS. I am using: username@Precision-T5600:~$ cat /proc/driver/nvidia...</content>
-    <link href="https://forums.developer.nvidia.com/t/55588/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/58916/1</id>
     <title>NPP within Python3 segfaults on malloc? [1]</title>
@@ -353,5 +346,12 @@
     <updated>2021-05-31T21:25:41.467000+00:00</updated>
     <content>Zsolt Majzik: Thank you very very much! This is exactly what I need to study!</content>
     <link href="https://forums.developer.nvidia.com/t/179453/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/180564/1</id>
+    <title>Gauss Rank Transformation Is 100x Faster with RAPIDS and CuPy [1]</title>
+    <updated>2021-06-11T15:00:19.782000+00:00</updated>
+    <content>Jen Witsoe: Originally published at: https://developer.nvidia.com/blog/gauss-rank-transformation-is-100x-faster-with-rapids-and-cupy/ As explained in the Batch Normalization paper, training neural networks becomes way easier if its input is Gaussian. This is clear. And if your mode...</content>
+    <link href="https://forums.developer.nvidia.com/t/180564/1" rel="alternate"/>
   </entry>
 </feed>
