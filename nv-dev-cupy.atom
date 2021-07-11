@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-06-11T15:00:19.782000+00:00</updated>
+  <updated>2021-07-11T17:43:49.622000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/58916/1</id>
-    <title>NPP within Python3 segfaults on malloc? [1]</title>
-    <updated>2018-03-08T03:01:09+00:00</updated>
-    <content>sdbrown: ...lob/master/python/nppThresholding.py . I’m running CUDA 9.0 with a Titan V card on Linux Mint (Ubuntu). Other Python-CUDA applications (e.g. homebrew CuPy stuff) work perfectly fine, even impressively so, compared to their speed when I had a 1080Ti installed. The reduced offending code is: from ctypes i...</content>
-    <link href="https://forums.developer.nvidia.com/t/58916/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/69154/2</id>
     <title>Cannot accelerate simple python code with very large numbers. [2]</title>
@@ -353,5 +346,12 @@
     <updated>2021-06-11T15:00:19.782000+00:00</updated>
     <content>Jen Witsoe: Originally published at: https://developer.nvidia.com/blog/gauss-rank-transformation-is-100x-faster-with-rapids-and-cupy/ As explained in the Batch Normalization paper, training neural networks becomes way easier if its input is Gaussian. This is clear. And if your mode...</content>
     <link href="https://forums.developer.nvidia.com/t/180564/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/183295/2</id>
+    <title>Efficient math functions on Xavier CPU [2]</title>
+    <updated>2021-07-11T17:43:49.622000+00:00</updated>
+    <content>Dominik: ...chapter/libc_19.html glibc . When using Python look at https://numpy.org/doc/stable/reference/routines.math.html Numpy math functions or https://docs.cupy.dev/en/stable/reference/math.html Cupy which speeds up computation by using GPU.</content>
+    <link href="https://forums.developer.nvidia.com/t/183295/2" rel="alternate"/>
   </entry>
 </feed>
