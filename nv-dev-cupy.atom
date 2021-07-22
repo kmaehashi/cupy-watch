@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-07-11T17:43:49.622000+00:00</updated>
+  <updated>2021-07-22T08:16:11.172000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/69154/2</id>
-    <title>Cannot accelerate simple python code with very large numbers. [2]</title>
-    <updated>2019-01-07T17:05:40+00:00</updated>
-    <content>Robert_Crovella: some possible methods to accelerate python code using CUDA are: pycuda numba cupy</content>
-    <link href="https://forums.developer.nvidia.com/t/69154/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/70477/2</id>
     <title>How to enhance a basic python multiprocessing code with cuda to use more cores? [2]</title>
@@ -353,5 +346,12 @@
     <updated>2021-07-11T17:43:49.622000+00:00</updated>
     <content>Dominik: ...chapter/libc_19.html glibc . When using Python look at https://numpy.org/doc/stable/reference/routines.math.html Numpy math functions or https://docs.cupy.dev/en/stable/reference/math.html Cupy which speeds up computation by using GPU.</content>
     <link href="https://forums.developer.nvidia.com/t/183295/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/184412/1</id>
+    <title>Combine pycuda and cupy [1]</title>
+    <updated>2021-07-22T08:16:11.172000+00:00</updated>
+    <content>Pierre Ecarlat: Hi all, I’m trying to do some operations on pyCuda and Cupy. Separately, both are working fine, but when I try to use pyCuda after Cupy, I got the following error: pycuda._driver.LogicError: cuFuncSetBlockShap...</content>
+    <link href="https://forums.developer.nvidia.com/t/184412/1" rel="alternate"/>
   </entry>
 </feed>
