@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-07-22T13:41:32.011000+00:00</updated>
+  <updated>2021-07-22T18:21:50.777000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/70477/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/183295/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/184412/2</id>
-    <title>Combine pycuda and cupy [2]</title>
-    <updated>2021-07-22T13:41:32.011000+00:00</updated>
-    <content>Matt Nicely: I’ve had issues with CuPy and PyCUDA compatibility in the past. Why don’t you try a CuPy Raw Kernel? https://docs.cupy.dev/en/stable/user_guide/kernel.html If I understand you...</content>
-    <link href="https://forums.developer.nvidia.com/t/184412/2" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/184412/5</id>
+    <title>Combine pycuda and cupy [5]</title>
+    <updated>2021-07-22T18:21:50.777000+00:00</updated>
+    <content>Pierre Ecarlat: ...erage over a couple passes (skipping the first ones) and indeed, it gives similar performances. Hmm. I might update all my codes to make them work on Cupy then, thanks! Objectively, is there any drawback in using Cupy over PyCuda?</content>
+    <link href="https://forums.developer.nvidia.com/t/184412/5" rel="alternate"/>
   </entry>
 </feed>
