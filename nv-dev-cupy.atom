@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-07-22T19:26:49.569000+00:00</updated>
+  <updated>2021-07-22T21:58:19.991000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/70477/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/183295/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/184412/7</id>
-    <title>Combine pycuda and cupy [7]</title>
-    <updated>2021-07-22T19:26:49.569000+00:00</updated>
-    <content>Pierre Ecarlat: Thanks! I have some work to do then… :D</content>
-    <link href="https://forums.developer.nvidia.com/t/184412/7" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/184412/8</id>
+    <title>Combine pycuda and cupy [8]</title>
+    <updated>2021-07-22T21:58:19.991000+00:00</updated>
+    <content>Matt Nicely: You can also check out some of the things we did with cuSignal (Example: https://github.com/rapidsai/cusignal/blob/branch-21.08/python/cusignal/spectral_analysis/_spectral_cuda.py )</content>
+    <link href="https://forums.developer.nvidia.com/t/184412/8" rel="alternate"/>
   </entry>
 </feed>
