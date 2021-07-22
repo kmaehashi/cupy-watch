@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-07-22T19:02:37.777000+00:00</updated>
+  <updated>2021-07-22T19:26:49.569000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/70477/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/183295/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/184412/6</id>
-    <title>Combine pycuda and cupy [6]</title>
-    <updated>2021-07-22T19:02:37.777000+00:00</updated>
-    <content>Matt Nicely: I’ve never ran into any drawbacks with CuPy and find their support to be exceptional! Also, if you’re more of a Python developer you can checkout CuPy’s JIT kernels.</content>
-    <link href="https://forums.developer.nvidia.com/t/184412/6" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/184412/7</id>
+    <title>Combine pycuda and cupy [7]</title>
+    <updated>2021-07-22T19:26:49.569000+00:00</updated>
+    <content>Pierre Ecarlat: Thanks! I have some work to do then… :D</content>
+    <link href="https://forums.developer.nvidia.com/t/184412/7" rel="alternate"/>
   </entry>
 </feed>
