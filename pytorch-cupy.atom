@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2021-05-20T17:43:29.542000+00:00</updated>
+  <updated>2021-08-31T10:08:13.174000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -225,7 +225,7 @@
     <id>https://discuss.pytorch.org/t/102331/1</id>
     <title>Solving Ax=B for sparse tensors (preferably with backward) [1]</title>
     <updated>2020-11-10T22:11:04.510000+00:00</updated>
-    <content>M. Doosti Lakhani: ...y problem by using dense matrices and also, I need backward compatibility too. I do not know it is possible, but can I use a third-party libs such as cupy and still maintain computational graph and backward through it? Rewriting spdiags &amp;amp; spsolve? I’m trying to rewrite some legacy code and switch from s...</content>
+    <content>N. Doosti Lakhani: ...y problem by using dense matrices and also, I need backward compatibility too. I do not know it is possible, but can I use a third-party libs such as cupy and still maintain computational graph and backward through it? Rewriting spdiags &amp;amp; spsolve? I’m trying to rewrite some legacy code and switch from s...</content>
     <link href="https://discuss.pytorch.org/t/102331/1" rel="alternate"/>
   </entry>
   <entry>
@@ -255,5 +255,12 @@
     <updated>2021-05-20T17:43:29.542000+00:00</updated>
     <content>: ...ious question was regarding the expectations that this would be supported. Do you have any working example, demos, blog posts etc., which explain how cupy can be used, as I’m unfamiliar with it?</content>
     <link href="https://discuss.pytorch.org/t/121700/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/130732/1</id>
+    <title>Using Pytorch GPU with Numpy and Sklearn [1]</title>
+    <updated>2021-08-31T10:08:13.174000+00:00</updated>
+    <content>Asad Jeewa: ...I made quite a few assumptions and would therefore like clarity: Since Numpy is not designed for GPU, should one always aim to use an alternate like Cupy? The tutorials state that numpy can be used to process the data and then convert to tensor, does this mean that only AFTER the data has been sent to...</content>
+    <link href="https://discuss.pytorch.org/t/130732/1" rel="alternate"/>
   </entry>
 </feed>

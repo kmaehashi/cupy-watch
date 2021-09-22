@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2021-04-15T07:05:32.634000+00:00</updated>
+  <updated>2021-08-11T19:19:04.823000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -31,5 +31,12 @@
     <updated>2021-04-15T07:05:32.634000+00:00</updated>
     <content>Kenichi Maehashi: Hello all, I’m a maintainer of the CuPy project. Thank you very much for all your efforts in keeping the PyPI ecosystem healthy! Although this is not a direct solution to the “large files o...</content>
     <link href="https://discuss.python.org/t/7125/42" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/10105/1</id>
+    <title>Mark in sourcecode how to color stringliterals [1]</title>
+    <updated>2021-08-11T19:19:04.823000+00:00</updated>
+    <content>Olle7: Hi. I would like to share my idea how to improve python. I suggest adding a way to syntax to indicate IDE how to color a stringliteral in sourcecode (I emphasize ,that it is only about sourcecode coloring in IDE ). Like “ https://www.jetbrains.com/help/pycharm/using-todo.html TODO ” it would not ...</content>
+    <link href="https://discuss.python.org/t/10105/1" rel="alternate"/>
   </entry>
 </feed>

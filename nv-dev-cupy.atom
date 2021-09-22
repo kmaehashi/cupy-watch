@@ -2,22 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-07-22T21:58:19.991000+00:00</updated>
+  <updated>2021-09-20T21:58:40.975000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/70477/2</id>
-    <title>How to enhance a basic python multiprocessing code with cuda to use more cores? [2]</title>
-    <updated>2019-02-15T03:59:12+00:00</updated>
-    <content>Robert_Crovella: ...es, without necessarily rewriting everything with numba and other cuda functions There isn’t. You would need to learn how to use numba, or pycuda, or cupy, or another python adaptation for GPUs, in order to run anything on a GPU from python code. There is no native support in pure python for GPU process...</content>
-    <link href="https://forums.developer.nvidia.com/t/70477/2" rel="alternate"/>
-  </entry>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/72041/3</id>
-    <title>Pytorch not able to use cuda Error: cudaErrorUnknown: unknown error [3]</title>
-    <updated>2019-03-27T16:56:39+00:00</updated>
-    <content>ruixuanl: Hi AastaLLL, I tried but it doesn’t work. I also realized the similar unknown error appeared randomly with Cupy. The Cupy worked fine after I rebooted the system. However, once I failed with torch, the Cupy also failed with the same error. $ sudo python3 [sudo]...</content>
-    <link href="https://forums.developer.nvidia.com/t/72041/3" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/74261/51</id>
     <title>Is there any demos available for python jetson inference [51]</title>
@@ -59,13 +45,6 @@
     <updated>2019-10-19T15:33:19+00:00</updated>
     <content>Robert_Crovella: ...0 0 0 0 $ I had to make some changes to get it to compile, but nothing that should affect functionality. I’m guessing you are calling this maybe from cupy, just a guess. My guess is the problem lies elsewhere in your code, perhaps in the interface to this function. I also assume you are compiling for Pa...</content>
     <link href="https://forums.developer.nvidia.com/t/83526/2" rel="alternate"/>
-  </entry>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/83598/2</id>
-    <title>Is PyCuda even worth it? [2]</title>
-    <updated>2019-10-21T12:49:49+00:00</updated>
-    <content>Robert_Crovella: ...in CUDA. There might be a few outliers like CUDA cooperative groups, etc. For people who have a bunch of numpy code, I would suggest taking a look at cupy. For people who only want to look at pythonic code, numba is a good choice. Pycuda is a nice flexibility blend between numba and CUDA C++.</content>
-    <link href="https://forums.developer.nvidia.com/t/83598/2" rel="alternate"/>
   </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/109780/1</id>
@@ -348,10 +327,31 @@
     <link href="https://forums.developer.nvidia.com/t/183295/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/184412/8</id>
-    <title>Combine pycuda and cupy [8]</title>
-    <updated>2021-07-22T21:58:19.991000+00:00</updated>
-    <content>Matt Nicely: You can also check out some of the things we did with cuSignal (Example: https://github.com/rapidsai/cusignal/blob/branch-21.08/python/cusignal/spectral_analysis/_spectral_cuda.py )</content>
-    <link href="https://forums.developer.nvidia.com/t/184412/8" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/186501/2</id>
+    <title>Computer Vision Python packages with Cuda-GPU support for Jetson AGX Xavier? [2]</title>
+    <updated>2021-08-13T14:54:50.670000+00:00</updated>
+    <content>dusty_nv: Hi @Tamas23 , the other popular ones I am familiar with are cupy (numpy for CUDA), pyCUDA (run CUDA kernels from Python), numba (autovectorization for GPU). I would check out the latest https://ngc.nvidia.com/catal...</content>
+    <link href="https://forums.developer.nvidia.com/t/186501/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/158008/8</id>
+    <title>MPI Multi-GPU process list in nvidia-smi [8]</title>
+    <updated>2021-09-10T15:15:32.637000+00:00</updated>
+    <content>Richard Elkins: ...device. Thank you and I will inform people about this issue thread. Sample configuration: OS : Linux-4.15.0-72-generic-x86_64-with-debian-stretch-sid CuPy Version : 8.6.0 NumPy Version : 1.21.1 SciPy Version : 1.7.0 Cython Build Version : 0.29.22 CUDA Root : /opt/conda CUDA Build Version : 11000 CUDA Dr...</content>
+    <link href="https://forums.developer.nvidia.com/t/158008/8" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/189099/3</id>
+    <title>CuPy installation on the Nano [3]</title>
+    <updated>2021-09-14T07:16:59.021000+00:00</updated>
+    <content>Yuvalg1987: Hi, I tried to compile it on a fresh image of the Nano and works!</content>
+    <link href="https://forums.developer.nvidia.com/t/189099/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/184412/9</id>
+    <title>Combine pycuda and cupy [9]</title>
+    <updated>2021-09-20T21:58:40.975000+00:00</updated>
+    <content>system: This topic was automatically closed 60 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/184412/9" rel="alternate"/>
   </entry>
 </feed>
