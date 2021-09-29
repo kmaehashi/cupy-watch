@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-09-20T21:58:40.975000+00:00</updated>
+  <updated>2021-09-29T17:09:28.989000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/74261/51</id>
-    <title>Is there any demos available for python jetson inference [51]</title>
-    <updated>2019-06-11T01:14:54+00:00</updated>
-    <content>dusty_nv: You could use the NumPy C API to get info about the NumPy Array from C (see the cudaFromNumpy code for example of this). I’m not sure if cupy has a C API for creating/managing the cupy.ndarray objects from C, but if it does, then we could add a similar set of functions for it.</content>
-    <link href="https://forums.developer.nvidia.com/t/74261/51" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/76480/3</id>
     <title>use cusparse library from python [3]</title>
@@ -353,5 +346,12 @@
     <updated>2021-09-20T21:58:40.975000+00:00</updated>
     <content>system: This topic was automatically closed 60 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/184412/9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/190439/1</id>
+    <title>Linux kernel 5.10+ CUDA_ERROR_MISALIGNED_ADDRESS [1]</title>
+    <updated>2021-09-29T17:09:28.989000+00:00</updated>
+    <content>Dyckoe: ...on the cpu. Eventually everything freezes anyway. This happens much more quickly than case 1. Case 3: Trying to diagnose what is going on I insalled cupy and wrote a little python script that crunches some numbers on the gpu. import numpy as np import cupy as cp import time print('Running Test...') s =...</content>
+    <link href="https://forums.developer.nvidia.com/t/190439/1" rel="alternate"/>
   </entry>
 </feed>
