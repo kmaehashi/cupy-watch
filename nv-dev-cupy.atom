@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-09-29T17:09:28.989000+00:00</updated>
+  <updated>2021-10-01T08:51:15.070000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/76480/3</id>
-    <title>use cusparse library from python [3]</title>
-    <updated>2019-06-16T07:34:48+00:00</updated>
-    <content>anshusaxena1991: Thank you very much for your replay… Yeah i tried pyculib and cupy but i dont find full implementation. please correct me if i am wrong, as i want to use all formats (coo,csr,csc,bsr,ell,dia,bsr), their matrix vector...</content>
-    <link href="https://forums.developer.nvidia.com/t/76480/3" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/77590/2</id>
     <title>how to loop over cuda kernel [2]</title>
@@ -353,5 +346,12 @@
     <updated>2021-09-29T17:09:28.989000+00:00</updated>
     <content>Dyckoe: ...on the cpu. Eventually everything freezes anyway. This happens much more quickly than case 1. Case 3: Trying to diagnose what is going on I insalled cupy and wrote a little python script that crunches some numbers on the gpu. import numpy as np import cupy as cp import time print('Running Test...') s =...</content>
     <link href="https://forums.developer.nvidia.com/t/190439/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/191013/1</id>
+    <title>CuCIM I/O error [1]</title>
+    <updated>2021-10-01T08:51:15.070000+00:00</updated>
+    <content>Bilalbkr92: ...ptly shuts down while reading any image. I would like to know what needs to be done. Currently, I use CPU libraries to read images then convert it to CuPy arrays.</content>
+    <link href="https://forums.developer.nvidia.com/t/191013/1" rel="alternate"/>
   </entry>
 </feed>
