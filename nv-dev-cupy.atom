@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-10-01T08:51:15.070000+00:00</updated>
+  <updated>2021-10-03T12:55:36.738000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/77590/2</id>
-    <title>how to loop over cuda kernel [2]</title>
-    <updated>2019-07-09T07:28:32+00:00</updated>
-    <content>T.D.Qiu: A function in c/c++ that calls the GPU multiple times would probably help. Some pseudocode would also help. I have not used cupy, but I think you’ll need some kind of Python-C++ interface instead of Python-CUDA.</content>
-    <link href="https://forums.developer.nvidia.com/t/77590/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/81592/4</id>
     <title>Accessing cudaLaunchCooperativeKernel api from python (pycuda, cupy, etc..?) [4]</title>
@@ -353,5 +346,12 @@
     <updated>2021-10-01T08:51:15.070000+00:00</updated>
     <content>Bilalbkr92: ...ptly shuts down while reading any image. I would like to know what needs to be done. Currently, I use CPU libraries to read images then convert it to CuPy arrays.</content>
     <link href="https://forums.developer.nvidia.com/t/191013/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/191108/1</id>
+    <title>Invalid_handel [1]</title>
+    <updated>2021-10-03T12:55:36.738000+00:00</updated>
+    <content>Yuvalg1987: Hi, I’m trying to process images coming from the ZED stereo camera using CuPy (A GPU equivalent to NumPy). I’m currently getting an INVALID_HANDLE error while trying to process the second image (the first runs fine). reading so...</content>
+    <link href="https://forums.developer.nvidia.com/t/191108/1" rel="alternate"/>
   </entry>
 </feed>
