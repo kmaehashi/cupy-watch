@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-10-04T02:51:22.869000+00:00</updated>
+  <updated>2021-10-05T08:50:41.087000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/81592/4</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/191013/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/191108/3</id>
-    <title>Invalid_handel [3]</title>
-    <updated>2021-10-04T02:51:22.869000+00:00</updated>
-    <content>DaneLLL: Hi, We don’t have experience of running CuPy on Jetson platforms. not sure but looks like it supports x86_64 and amd64 per https://github.com/cupy/cupy May not work properly on arm64. Would need...</content>
-    <link href="https://forums.developer.nvidia.com/t/191108/3" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/191108/4</id>
+    <title>Invalid_handel [4]</title>
+    <updated>2021-10-05T08:50:41.087000+00:00</updated>
+    <content>Yuvalg1987: Hi, is seems that this issue is caused by the need to run CuPy and ZED in two different threads as they have different contexts.</content>
+    <link href="https://forums.developer.nvidia.com/t/191108/4" rel="alternate"/>
   </entry>
 </feed>
