@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-10-07T00:18:23.708000+00:00</updated>
+  <updated>2021-10-13T10:29:43.362000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/81455/9</id>
-    <title>Multiple batches of 1D FFT using cuFFT [9]</title>
-    <updated>2019-10-03T09:40:08+00:00</updated>
-    <content>ankits: @gemas135 , may be code snippet could help understand what exactly you are doing. My problem was resolved with the use of CuPy and the correct memory alignment of the FFT dimension, since my development is in Python. For C, I hope you are using cufftPlanMany() instead of the...</content>
-    <link href="https://forums.developer.nvidia.com/t/81455/9" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/83526/2</id>
     <title>half calculation generates incorrect result [2]</title>
@@ -353,5 +346,12 @@
     <updated>2021-10-07T00:18:23.708000+00:00</updated>
     <content>Nick Cammorato: ...ning processes found | +-----------------------------------------------------------------------------+ works fine… at first. Can even dot matrixes in cupy. However after a few minutes (or hits of the driver, I can’t tell), it breaks / drops out and becomes a ‘no devices found’ that doesn’t respond to re...</content>
     <link href="https://forums.developer.nvidia.com/t/191442/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/191833/6</id>
+    <title>Problem to Install TensorFlow&amp;lt;2.0 on jetson xavier [6]</title>
+    <updated>2021-10-13T10:29:43.362000+00:00</updated>
+    <content>Ariel27593: Hi, I show my pip venv list : Package Version absl-py 0.14.1 astor 0.8.1 astunparse 1.6.3 cupy 9.5.0 Cython 0.29.24 dataclasses 0.8 fastrlock 0.6 gast 0.3.3 google-pasta 0.2.0 grpcio 1.41.0 h5py 2.10.0 idna 3.2 importlib-metadata 4.8.1 Keras-Ap...</content>
+    <link href="https://forums.developer.nvidia.com/t/191833/6" rel="alternate"/>
   </entry>
 </feed>
