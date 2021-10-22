@@ -225,7 +225,7 @@
     <id>https://discuss.pytorch.org/t/102331/1</id>
     <title>Solving Ax=B for sparse tensors (preferably with backward) [1]</title>
     <updated>2020-11-10T22:11:04.510000+00:00</updated>
-    <content>N. Doosti Lakhani: ...y problem by using dense matrices and also, I need backward compatibility too. I do not know it is possible, but can I use a third-party libs such as cupy and still maintain computational graph and backward through it? Rewriting spdiags &amp;amp; spsolve? I’m trying to rewrite some legacy code and switch from s...</content>
+    <content>Nikan Doosti: ...y problem by using dense matrices and also, I need backward compatibility too. I do not know it is possible, but can I use a third-party libs such as cupy and still maintain computational graph and backward through it? Rewriting spdiags &amp;amp; spsolve? I’m trying to rewrite some legacy code and switch from s...</content>
     <link href="https://discuss.pytorch.org/t/102331/1" rel="alternate"/>
   </entry>
   <entry>
