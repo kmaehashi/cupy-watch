@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-10-20T03:26:28.261000+00:00</updated>
+  <updated>2021-10-26T07:16:51.305000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/109780/1</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/191442/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/191833/6</id>
-    <title>Problem to Install TensorFlow&amp;lt;2.0 on jetson xavier [6]</title>
-    <updated>2021-10-13T10:29:43.362000+00:00</updated>
-    <content>Ariel27593: Hi, I show my pip venv list : Package Version absl-py 0.14.1 astor 0.8.1 astunparse 1.6.3 cupy 9.5.0 Cython 0.29.24 dataclasses 0.8 fastrlock 0.6 gast 0.3.3 google-pasta 0.2.0 grpcio 1.41.0 h5py 2.10.0 idna 3.2 importlib-metadata 4.8.1 Keras-Ap...</content>
-    <link href="https://forums.developer.nvidia.com/t/191833/6" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/192517/1</id>
     <title>Access gstreamer output on GPU for fast inference [1]</title>
     <updated>2021-10-20T03:26:28.261000+00:00</updated>
     <content>: ...if there is any component that I can use to replace appsink that would allow me to access the frame directly on the GPU using any cuda library (e.g. cupy , pycuda ).</content>
     <link href="https://forums.developer.nvidia.com/t/192517/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/191833/7</id>
+    <title>Problem to Install TensorFlow&amp;lt;2.0 on jetson xavier [7]</title>
+    <updated>2021-10-26T07:16:51.305000+00:00</updated>
+    <content>AastaLLL: ...do -H pip3 install scipy==1.5 # Numba sudo apt-get install -y llvm-8 llvm-8-dev sudo -H LLVM_CONFIG=/usr/bin/llvm-config-8 pip3 install numba==0.48 # CuPy Thanks.</content>
+    <link href="https://forums.developer.nvidia.com/t/191833/7" rel="alternate"/>
   </entry>
 </feed>
