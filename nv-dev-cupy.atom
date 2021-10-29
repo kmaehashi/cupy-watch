@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-10-26T07:16:51.305000+00:00</updated>
+  <updated>2021-10-29T08:03:54.518000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/109780/1</id>
-    <title>Install RAPIDS on Jetson TX2 [1]</title>
-    <updated>2019-12-31T06:01:27+00:00</updated>
-    <content>dpanchal223: ...e I need to install Anaconda first. Does the TX2 support Anaconda? If so, how do I install it? Also, I’m playing around with the speed/performance of cupy and was wondering if NVIDIA has any speed test sample code to verify the speed? Thanks.</content>
-    <link href="https://forums.developer.nvidia.com/t/109780/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/109896/1</id>
     <title>Error on upload model &amp;ldquo;Either the server is overloaded or there is an error in the application&amp;rdquo; [1]</title>
@@ -353,5 +346,12 @@
     <updated>2021-10-26T07:16:51.305000+00:00</updated>
     <content>AastaLLL: ...do -H pip3 install scipy==1.5 # Numba sudo apt-get install -y llvm-8 llvm-8-dev sudo -H LLVM_CONFIG=/usr/bin/llvm-config-8 pip3 install numba==0.48 # CuPy Thanks.</content>
     <link href="https://forums.developer.nvidia.com/t/191833/7" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/193426/1</id>
+    <title>Running ROS2 Galactic and Cupy on a Docker on the Jetson Xavier NX [1]</title>
+    <updated>2021-10-29T08:03:54.518000+00:00</updated>
+    <content>: Hello, I’m trying to run ROS2 Galactic and Cupy on the Jetson Xavier NX. As it is not possible to install ROS2 Galactic natively I am using a docker. Until now I have only used ROS2 Galactic and it...</content>
+    <link href="https://forums.developer.nvidia.com/t/193426/1" rel="alternate"/>
   </entry>
 </feed>
