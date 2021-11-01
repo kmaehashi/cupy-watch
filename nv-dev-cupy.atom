@@ -120,7 +120,7 @@
     <id>https://forums.developer.nvidia.com/t/158635/1</id>
     <title>Crash Course to Cuda Terminology and Theory? [1]</title>
     <updated>2020-11-03T06:56:03.079000+00:00</updated>
-    <content>: I’ve been looking to getting into deeper CUDA programming. I’ve only had some experience with Cupy, basically Numpy but implemented on the GPU, and it doesn’t require any CUDA terminology, except streams for concurrency, but that feature doesn’t wo...</content>
+    <content>anon91213428: I’ve been looking to getting into deeper CUDA programming. I’ve only had some experience with Cupy, basically Numpy but implemented on the GPU, and it doesn’t require any CUDA terminology, except streams for concurrency, but that feature doesn’t wo...</content>
     <link href="https://forums.developer.nvidia.com/t/158635/1" rel="alternate"/>
   </entry>
   <entry>
