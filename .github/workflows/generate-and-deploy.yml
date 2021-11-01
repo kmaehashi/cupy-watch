@@ -14,11 +14,16 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
       - name: Generate 🏭
         run: |
           git clone https://github.com/kmaehashi/discourse-search-atom.git
-          pip3 install -U pip setuptools
-          pip3 install -r discourse-search-atom/requirements.txt
+          pip install -U pip setuptools
+          pip install -r discourse-search-atom/requirements.txt
           export PATH="${PWD}/discourse-search-atom:${PATH}"
           ./.github/workflows/generate.sh
 
