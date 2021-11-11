@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2021-10-26T20:01:24.115000+00:00</updated>
+  <updated>2021-11-11T16:51:20.095000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -269,5 +269,12 @@
     <updated>2021-10-26T20:01:24.115000+00:00</updated>
     <content>: I don’t think xgboost will directly accept tensors, but would expect numpy or cupy arrays, so you could transform your tensor to one of these types.</content>
     <link href="https://discuss.pytorch.org/t/135155/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/136596/1</id>
+    <title>&amp;ldquo;CUDA is not available&amp;rdquo; after installing a different version of CUDA [1]</title>
+    <updated>2021-11-11T16:51:20.095000+00:00</updated>
+    <content>Data Science Learner: ...roblem, though my CUDA version is 11.6 and Pytorch is for CUDA 11.3 After a while, I installed an older version of CUDA (11.5), since I wanted to use CuPy and the latest version of CUDA that CuPY supports is 11.5. I have downloaded CUDA from following link and installed. https://developer.nvidia.com/cud...</content>
+    <link href="https://discuss.pytorch.org/t/136596/1" rel="alternate"/>
   </entry>
 </feed>
