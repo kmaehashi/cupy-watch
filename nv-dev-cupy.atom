@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-11-17T06:38:46.590000+00:00</updated>
+  <updated>2021-11-24T06:10:59.633000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/115280/2</id>
-    <title>use GPU with Python [2]</title>
-    <updated>2020-03-11T12:58:03+00:00</updated>
-    <content>Matt Nicely: ...n/ We also have a DLI course https://courses.nvidia.com/courses/course-v1:DLI+C-AC-02+V1/about And you’re using a lot of NumPy arrays, you might find CuPy very useful. https://docs-cupy.chainer.org/en/stable/ For examples CuPy - https://github.com/cupy/cupy/tree/master/examples Numba - https://numba.pyd...</content>
-    <link href="https://forums.developer.nvidia.com/t/115280/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/76861/147</id>
     <title>Electronically Assisted Astronomy with a Jetson Nano [147]</title>
@@ -353,5 +346,12 @@
     <updated>2021-11-17T06:38:46.590000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/193426/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/196073/1</id>
+    <title>How could I accelerate FFT on Nano? [1]</title>
+    <updated>2021-11-24T06:10:59.633000+00:00</updated>
+    <content>: ...on Nano, and I currently use the scipy.fftpack.fft()。 But the speed is so slow and I want to utilize the GPU to accelerate this process. I have tried cupy, but it takes more time than before. Does there exist any other way to do FFT on GPU in Nano? I know that pycuda could, but implement a FFT in C seem...</content>
+    <link href="https://forums.developer.nvidia.com/t/196073/1" rel="alternate"/>
   </entry>
 </feed>
