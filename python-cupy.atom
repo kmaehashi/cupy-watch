@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2021-08-11T19:19:04.823000+00:00</updated>
+  <updated>2021-12-17T17:01:36.895000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -38,5 +38,12 @@
     <updated>2021-08-11T19:19:04.823000+00:00</updated>
     <content>Olle7: Hi. I would like to share my idea how to improve python. I suggest adding a way to syntax to indicate IDE how to color a stringliteral in sourcecode (I emphasize ,that it is only about sourcecode coloring in IDE ). Like “ https://www.jetbrains.com/help/pycharm/using-todo.html TODO ” it would not ...</content>
     <link href="https://discuss.python.org/t/10105/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/12587/5</id>
+    <title>Some silly type annotations [5]</title>
+    <updated>2021-12-17T17:01:36.895000+00:00</updated>
+    <content>David McDougall: ...a python program that could run very fast, and utilize both a CPU and a GPU. The basic technology to do this has been in place for some time: CUDA &amp;amp; CuPy manage the GPU, while the Numba Just-In-Time (JIT) compiler has backends for both CPUs &amp;amp; GPUs. However, writing programs for GPU’s was still not a fu...</content>
+    <link href="https://discuss.python.org/t/12587/5" rel="alternate"/>
   </entry>
 </feed>
