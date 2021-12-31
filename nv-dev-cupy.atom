@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-12-10T09:53:44.384000+00:00</updated>
+  <updated>2021-12-31T22:12:20.946000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/125834/1</id>
-    <title>Clara Deploy AI Lung Segmentation: got blank label output [1]</title>
-    <updated>2020-06-02T08:55:32.946000+00:00</updated>
-    <content>pairash.sai: ...CT dataset using the suggested ./run_docker.sh (step #4 ). My CT data is in mhd format and process can be ran through with error on: Failed to import cupyx.scipy.ndimage. Continue without using cupy. The label output, however, is not correct (just blank label). So what should I do? (base) pai@pai-AI:/mn...</content>
-    <link href="https://forums.developer.nvidia.com/t/125834/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/126273/2</id>
     <title>Fast Cuda python code or TensorRT python code [2]</title>
@@ -353,5 +346,12 @@
     <updated>2021-12-10T09:53:44.384000+00:00</updated>
     <content>Viddi Mardiansyah: Thank you very much for your quick response. I will be trying hard to figure this out. Will try with pycuda or numba or cupy.</content>
     <link href="https://forums.developer.nvidia.com/t/56757/15" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/199347/1</id>
+    <title>Nearly all cuQuantum-python tests fail (installed using conda on Fedora 35) [1]</title>
+    <updated>2021-12-31T22:12:20.946000+00:00</updated>
+    <content>Steve Jeffrey: ...onda-forge attrs 21.2.0 pyhd3eb1b0_0 ca-certificates 2021.10.26 h06a4308_2 certifi 2021.10.8 py37h06a4308_0 cudatoolkit 11.5.0 h36ae40a_9 conda-forge cupy 10.0.0 py37hd2d9f0c_0 conda-forge cuquantum 0.1.0.30 h5c60f85_1 conda-forge cuquantum-python 0.1.0.0 py37hac9ef86_2 conda-forge cutensor 1.4.0.6 h753...</content>
+    <link href="https://forums.developer.nvidia.com/t/199347/1" rel="alternate"/>
   </entry>
 </feed>
