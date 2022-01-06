@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-01-06T21:15:14.703000+00:00</updated>
+  <updated>2022-01-06T23:08:10.100000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/77828/10</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/199347/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/199790/17</id>
-    <title>Cupy and loops [17]</title>
-    <updated>2022-01-06T21:15:14.703000+00:00</updated>
-    <content>: Oh wow, thanks a lot Robert! I will try to reproduce this, nvprof gives me cat profout.txt ==15967== NVPROF is profiling process 15967, command: python3 cudaCDI_profExp.py ==15967== Warning: ERR_NVGPUCTRPERM - The user does not have permission to profile on the target device. See the following li...</content>
-    <link href="https://forums.developer.nvidia.com/t/199790/17" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/199790/19</id>
+    <title>Cupy and loops [19]</title>
+    <updated>2022-01-06T23:08:10.100000+00:00</updated>
+    <content>: ...: This info, already included in the error output, could be your starting point to get more information: Thanks, I saw that, and now after installing cupy also in in the root environment using sudo works.</content>
+    <link href="https://forums.developer.nvidia.com/t/199790/19" rel="alternate"/>
   </entry>
 </feed>
