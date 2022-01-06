@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-01-06T17:57:21.044000+00:00</updated>
+  <updated>2022-01-06T18:52:28.288000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/77828/10</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/199347/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/199790/4</id>
-    <title>Cupy and loops [4]</title>
-    <updated>2022-01-06T17:57:21.044000+00:00</updated>
-    <content>Robert_Crovella: user120905: What would the right approach be to handle theses “loop-carried dependencies”? Robert_Crovella: In that case, I have no suggestions. I don’t know of a single approach or heuristic to handle a loop carried dependency. As I mentioned, it makes parallelization more difficult, and if any ...</content>
-    <link href="https://forums.developer.nvidia.com/t/199790/4" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/199790/6</id>
+    <title>Cupy and loops [6]</title>
+    <updated>2022-01-06T18:52:28.288000+00:00</updated>
+    <content>njuffa: I do not know cuPy, and I can merely guess what the non-FFT parts of this code are doing. To avoid copying data between host and device each time through the loop, you...</content>
+    <link href="https://forums.developer.nvidia.com/t/199790/6" rel="alternate"/>
   </entry>
 </feed>
