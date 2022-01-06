@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2021-12-31T22:12:20.946000+00:00</updated>
+  <updated>2022-01-06T15:56:03.411000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/126273/2</id>
-    <title>Fast Cuda python code or TensorRT python code [2]</title>
-    <updated>2020-06-04T16:21:44.059000+00:00</updated>
-    <content>dusty_nv: ...or vectorize Python code to CUDA. For vectorization, there are other Python libraries like numba. For conversion of numpy codes to use GPU, there is cupy library.</content>
-    <link href="https://forums.developer.nvidia.com/t/126273/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/77828/10</id>
     <title>CuPy and Jetson Nano [10]</title>
@@ -353,5 +346,12 @@
     <updated>2021-12-31T22:12:20.946000+00:00</updated>
     <content>Steve Jeffrey: ...onda-forge attrs 21.2.0 pyhd3eb1b0_0 ca-certificates 2021.10.26 h06a4308_2 certifi 2021.10.8 py37h06a4308_0 cudatoolkit 11.5.0 h36ae40a_9 conda-forge cupy 10.0.0 py37hd2d9f0c_0 conda-forge cuquantum 0.1.0.30 h5c60f85_1 conda-forge cuquantum-python 0.1.0.0 py37hac9ef86_2 conda-forge cutensor 1.4.0.6 h753...</content>
     <link href="https://forums.developer.nvidia.com/t/199347/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/199790/1</id>
+    <title>Cupy and loops [1]</title>
+    <updated>2022-01-06T15:56:03.411000+00:00</updated>
+    <content>: I am wondering if I can stick to cupy or if there is a better way (which is suspect): I wrote an iterative algorithm that involves in every step a couple of FFTs: def singleReconstruction...</content>
+    <link href="https://forums.developer.nvidia.com/t/199790/1" rel="alternate"/>
   </entry>
 </feed>
