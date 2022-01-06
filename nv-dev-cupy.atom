@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-01-06T20:09:21.650000+00:00</updated>
+  <updated>2022-01-06T21:15:14.703000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/77828/10</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/199347/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/199790/10</id>
-    <title>Cupy and loops [10]</title>
-    <updated>2022-01-06T20:09:21.650000+00:00</updated>
-    <content>Robert_Crovella: user120905: Everything is cupy arrays. I wonder if “Everything” actually means everything . Then the only thing I would be concerned about is this: diffMag*cp.exp(1j*fPhases) I don...</content>
-    <link href="https://forums.developer.nvidia.com/t/199790/10" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/199790/17</id>
+    <title>Cupy and loops [17]</title>
+    <updated>2022-01-06T21:15:14.703000+00:00</updated>
+    <content>: Oh wow, thanks a lot Robert! I will try to reproduce this, nvprof gives me cat profout.txt ==15967== NVPROF is profiling process 15967, command: python3 cudaCDI_profExp.py ==15967== Warning: ERR_NVGPUCTRPERM - The user does not have permission to profile on the target device. See the following li...</content>
+    <link href="https://forums.developer.nvidia.com/t/199790/17" rel="alternate"/>
   </entry>
 </feed>
