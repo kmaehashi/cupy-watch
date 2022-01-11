@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2022-01-10T23:21:28.072000+00:00</updated>
+  <updated>2022-01-11T13:48:30.694000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -278,10 +278,10 @@
     <link href="https://discuss.pytorch.org/t/136596/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://discuss.pytorch.org/t/141309/1</id>
-    <title>Differentiable sparse linear solver with cupy backend - &amp;ldquo;unsupported tensor layout: Sparse&amp;rdquo; in gradcheck [1]</title>
-    <updated>2022-01-10T23:21:28.072000+00:00</updated>
-    <content>Tom Vercauteren: I am trying to create a differentiable sparse linear solver for pytorch using cupy as a backend. I am mimicking the approach discussed https://blog.flaport.net/solving-sparse-linear-systems-in-pytorch.html here but relying on cupy r...</content>
-    <link href="https://discuss.pytorch.org/t/141309/1" rel="alternate"/>
+    <id>https://discuss.pytorch.org/t/141309/2</id>
+    <title>Differentiable sparse linear solver with cupy backend - &amp;ldquo;unsupported tensor layout: Sparse&amp;rdquo; in gradcheck [2]</title>
+    <updated>2022-01-11T13:48:30.694000+00:00</updated>
+    <content>Tom Vercauteren: Not sure why this is needed but adding check_undefined_grad=False when calling gradcheck solves the issue. This was similarly noted here: https://github.com/flaport/torch_sparse_solve/issues/7</content>
+    <link href="https://discuss.pytorch.org/t/141309/2" rel="alternate"/>
   </entry>
 </feed>
