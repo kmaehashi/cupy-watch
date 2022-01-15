@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-01-06T23:08:10.100000+00:00</updated>
+  <updated>2022-01-15T03:07:01.962000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/77828/10</id>
-    <title>CuPy and Jetson Nano [10]</title>
-    <updated>2020-06-05T07:09:09.332000+00:00</updated>
-    <content>Alain Paillou: I made some tests with cupy but only with my laptop. It was more than cupy tests because i also wanted to test opencv cuda improvements. To be honest, i did not see any improvem...</content>
-    <link href="https://forums.developer.nvidia.com/t/77828/10" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/13/2</id>
     <title>About the CUDA Setup and Installation category [2]</title>
@@ -353,5 +346,12 @@
     <updated>2022-01-06T23:08:10.100000+00:00</updated>
     <content>: ...: This info, already included in the error output, could be your starting point to get more information: Thanks, I saw that, and now after installing cupy also in in the root environment using sudo works.</content>
     <link href="https://forums.developer.nvidia.com/t/199790/19" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/161486/7</id>
+    <title>I compiled opencv 4.5 but did not update Python-Opencv [7]</title>
+    <updated>2022-01-15T03:07:01.962000+00:00</updated>
+    <content>: ...sic platform you want. JetPack 4.6 (L4T R32.6.1) l4t-ml:r32.6.1-py3 TensorFlow 1.15.5 PyTorch v1.9.0 torchvision v0.10.0 torchaudio v0.9.0 onnx 1.8.0 CuPy 9.2.0 numpy 1.19.5 numba 0.53.1 OpenCV 4.5.0 (with CUDA) pandas 1.1.5 scipy 1.5.4 scikit-learn 0.23.2 JupyterLab 2.2.9 save your time on docker, firs...</content>
+    <link href="https://forums.developer.nvidia.com/t/161486/7" rel="alternate"/>
   </entry>
 </feed>
