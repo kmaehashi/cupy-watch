@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-01-15T03:07:01.962000+00:00</updated>
+  <updated>2022-02-16T23:19:37.351000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/13/2</id>
-    <title>About the CUDA Setup and Installation category [2]</title>
-    <updated>2020-06-12T18:09:16.860000+00:00</updated>
-    <content>Jason Mcmahon: Dear community I need help setting up my GEForce RTX 2060 driver 430.26 with Cuda 10.2.89 cupy 7.5.0 cudnn 7.6.5 I am executing some simple code in Jupyter &amp;gt; cupy as cp ---- &amp;gt; 3 x_gpu = cp.ones((100,100,100)) and get this error &amp;gt; CUDADriverErro...</content>
-    <link href="https://forums.developer.nvidia.com/t/13/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/144431/1</id>
     <title>Quitting python / cupy GPU processes without quitting python session? [1]</title>
@@ -353,5 +346,12 @@
     <updated>2022-01-15T03:07:01.962000+00:00</updated>
     <content>: ...sic platform you want. JetPack 4.6 (L4T R32.6.1) l4t-ml:r32.6.1-py3 TensorFlow 1.15.5 PyTorch v1.9.0 torchvision v0.10.0 torchaudio v0.9.0 onnx 1.8.0 CuPy 9.2.0 numpy 1.19.5 numba 0.53.1 OpenCV 4.5.0 (with CUDA) pandas 1.1.5 scipy 1.5.4 scikit-learn 0.23.2 JupyterLab 2.2.9 save your time on docker, firs...</content>
     <link href="https://forums.developer.nvidia.com/t/161486/7" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/203654/1</id>
+    <title>Cupy or pycuda on Jetson Xavier NX [1]</title>
+    <updated>2022-02-16T23:19:37.351000+00:00</updated>
+    <content>: I am unable to install cupy or pycuda on Jetson Xavier NX. I would like to be able to do cuda based fft in python and numpy convolve. Any suggestions would be much appreciated.</content>
+    <link href="https://forums.developer.nvidia.com/t/203654/1" rel="alternate"/>
   </entry>
 </feed>
