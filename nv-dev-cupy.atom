@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-02-17T04:02:30.502000+00:00</updated>
+  <updated>2022-02-17T05:20:21.383000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/144431/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/161486/7" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/203654/4</id>
-    <title>Cupy or pycuda on Jetson Xavier NX [4]</title>
-    <updated>2022-02-17T04:02:30.502000+00:00</updated>
-    <content>AastaLLL: Hi, Thanks for reporting this. Confirmed that we can reproduce the same issue in our environment. We will share more information with you after more investigation. Thanks.</content>
-    <link href="https://forums.developer.nvidia.com/t/203654/4" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/203654/6</id>
+    <title>Cupy or pycuda on Jetson Xavier NX [6]</title>
+    <updated>2022-02-17T05:20:21.383000+00:00</updated>
+    <content>: I think there is something in cupy that is not optimized for transferring data to GPU on the Jetson NX. In a script I finally got it to go thru but it was painfully slow.</content>
+    <link href="https://forums.developer.nvidia.com/t/203654/6" rel="alternate"/>
   </entry>
 </feed>
