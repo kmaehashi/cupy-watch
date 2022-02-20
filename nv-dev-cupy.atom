@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-02-18T06:03:58.530000+00:00</updated>
+  <updated>2022-02-20T14:17:15.340000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/144431/1</id>
-    <title>Quitting python / cupy GPU processes without quitting python session? [1]</title>
-    <updated>2020-07-28T15:16:58.647000+00:00</updated>
-    <content>Juergen Hench: I would like to quit the GPU process from inside a python session (that uses cupy). I would like to release all memory (some 270 MB always remain in use even when cupy functions have completed). Furthermore, a library seems to lead...</content>
-    <link href="https://forums.developer.nvidia.com/t/144431/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/145522/1</id>
     <title>Installing Cupy for CUDA 11.0 [1]</title>
@@ -353,5 +346,12 @@
     <updated>2022-02-18T06:03:58.530000+00:00</updated>
     <content>: Awesome. Thank you. I will give this a try.</content>
     <link href="https://forums.developer.nvidia.com/t/203654/8" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/203936/1</id>
+    <title>Installing cupy on jetson nano [1]</title>
+    <updated>2022-02-20T14:17:15.340000+00:00</updated>
+    <content>Doktormagnus: I have previously managed to install cupy on older versions of jetson nano images. Unfortunately, the last time was in spring 2020. When repeating this now with the latest version of the imag...</content>
+    <link href="https://forums.developer.nvidia.com/t/203936/1" rel="alternate"/>
   </entry>
 </feed>
