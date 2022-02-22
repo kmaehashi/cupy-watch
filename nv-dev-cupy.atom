@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-02-20T14:17:15.340000+00:00</updated>
+  <updated>2022-02-22T14:13:51.469000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/145522/1</id>
-    <title>Installing Cupy for CUDA 11.0 [1]</title>
-    <updated>2020-08-05T13:30:53.777000+00:00</updated>
-    <content>Shazer 626: Hi I am trying to find the suitable version of cupy to install for CUDA 11.0 Is someone able to assist? Graphics Card Details: Nvidia P2000 Driver version: 450.57 CUDA version 11.0 Installed manually f...</content>
-    <link href="https://forums.developer.nvidia.com/t/145522/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/148734/3</id>
     <title>Using Nsight Compute to Inspect your Kernels [3]</title>
@@ -353,5 +346,12 @@
     <updated>2022-02-20T14:17:15.340000+00:00</updated>
     <content>Doktormagnus: I have previously managed to install cupy on older versions of jetson nano images. Unfortunately, the last time was in spring 2020. When repeating this now with the latest version of the imag...</content>
     <link href="https://forums.developer.nvidia.com/t/203936/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/204142/1</id>
+    <title>CUDA memory error calculating shap values although enough memory [1]</title>
+    <updated>2022-02-22T14:13:51.469000+00:00</updated>
+    <content>Sevomenia: ...vs/rapids-21.12/include/rmm/mr/device/cuda_memory_resource.hpp The Code I am using is import pickle from cuml.explainer import KernelExplainer import cupy as cp filename = 'cuml_random_forest_model.sav' cuml_model = pickle.load(open(filename, 'rb')) arr_cupy_X_test = cp.load("arr_cupy_X_test.npy") cu_ex...</content>
+    <link href="https://forums.developer.nvidia.com/t/204142/1" rel="alternate"/>
   </entry>
 </feed>
