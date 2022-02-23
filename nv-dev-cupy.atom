@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-02-22T19:55:23.028000+00:00</updated>
+  <updated>2022-02-23T17:46:35.807000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/148734/3</id>
@@ -334,13 +334,6 @@
     <link href="https://forums.developer.nvidia.com/t/161486/7" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/203936/1</id>
-    <title>Installing cupy on jetson nano [1]</title>
-    <updated>2022-02-20T14:17:15.340000+00:00</updated>
-    <content>Doktormagnus: I have previously managed to install cupy on older versions of jetson nano images. Unfortunately, the last time was in spring 2020. When repeating this now with the latest version of the imag...</content>
-    <link href="https://forums.developer.nvidia.com/t/203936/1" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/204142/1</id>
     <title>CUDA memory error calculating shap values although enough memory [1]</title>
     <updated>2022-02-22T14:13:51.469000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2022-02-22T19:55:23.028000+00:00</updated>
     <content>: Do I need to uninstall the previous version? I installed with pip3 install cupy. Can I uninstall with pip3 uninstall cupy?</content>
     <link href="https://forums.developer.nvidia.com/t/203654/9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/203936/2</id>
+    <title>Installing cupy on jetson nano [2]</title>
+    <updated>2022-02-23T17:46:35.807000+00:00</updated>
+    <content>Doktormagnus: ...y version 1.19.5 in one of my first configurations so I changed to version 1.19.4 The beginners misstake was that cython needed to be installed prior cupy The installation of cupy takes a long time, hours… but it is worth the time. sudo apt-get update sudo apt-get install nano sudo apt-get install -y py...</content>
+    <link href="https://forums.developer.nvidia.com/t/203936/2" rel="alternate"/>
   </entry>
 </feed>
