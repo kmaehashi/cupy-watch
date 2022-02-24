@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-02-23T17:46:35.807000+00:00</updated>
+  <updated>2022-02-24T04:09:24.895000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/148734/3</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/204142/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/203654/9</id>
-    <title>Cupy or pycuda on Jetson Xavier NX [9]</title>
-    <updated>2022-02-22T19:55:23.028000+00:00</updated>
-    <content>: Do I need to uninstall the previous version? I installed with pip3 install cupy. Can I uninstall with pip3 uninstall cupy?</content>
-    <link href="https://forums.developer.nvidia.com/t/203654/9" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/203936/2</id>
     <title>Installing cupy on jetson nano [2]</title>
     <updated>2022-02-23T17:46:35.807000+00:00</updated>
     <content>Doktormagnus: ...y version 1.19.5 in one of my first configurations so I changed to version 1.19.4 The beginners misstake was that cython needed to be installed prior cupy The installation of cupy takes a long time, hours… but it is worth the time. sudo apt-get update sudo apt-get install nano sudo apt-get install -y py...</content>
     <link href="https://forums.developer.nvidia.com/t/203936/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/203654/10</id>
+    <title>Cupy or pycuda on Jetson Xavier NX [10]</title>
+    <updated>2022-02-24T04:09:24.895000+00:00</updated>
+    <content>AastaLLL: Hi, Yes. please uninstall it with pip3 first. Thanks.</content>
+    <link href="https://forums.developer.nvidia.com/t/203654/10" rel="alternate"/>
   </entry>
 </feed>
