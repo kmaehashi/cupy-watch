@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-02-24T04:09:24.895000+00:00</updated>
+  <updated>2022-02-28T19:00:17.445000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/148734/3</id>
-    <title>Using Nsight Compute to Inspect your Kernels [3]</title>
-    <updated>2020-08-31T21:46:10.398000+00:00</updated>
-    <content>Robert_Crovella: ...sight-compute/114 Generally speaking, there shouldn’t be anything special required to use nsight compute with python scripts. Using the sample python/cupy code here: https://stackoverflow.com/a/61567110/1695960 If I do: ncu python t1.py I get output like this: $ ncu --version NVIDIA (R) Nsight Compute C...</content>
-    <link href="https://forums.developer.nvidia.com/t/148734/3" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/153471/2</id>
     <title>Accelerating Single Cell Genomic Analysis using RAPIDS [2]</title>
@@ -353,5 +346,12 @@
     <updated>2022-02-24T04:09:24.895000+00:00</updated>
     <content>AastaLLL: Hi, Yes. please uninstall it with pip3 first. Thanks.</content>
     <link href="https://forums.developer.nvidia.com/t/203654/10" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/204695/1</id>
+    <title>CuPy or other parallel methods for GPU usage on TX2? [1]</title>
+    <updated>2022-02-28T19:00:17.445000+00:00</updated>
+    <content>Bewlar: ...make a project using the CUDA cores and show parallel speedup however it seems I can’t install any of the tools I’ve seen in other projects including CuPy(Don’t know if unsupported), Anaconda(not supported by Jetson platform?) and other tools. I’m wondering if there’s a way to install Cupy or any good t...</content>
+    <link href="https://forums.developer.nvidia.com/t/204695/1" rel="alternate"/>
   </entry>
 </feed>
