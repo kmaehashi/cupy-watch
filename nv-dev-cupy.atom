@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-02-28T19:24:05.843000+00:00</updated>
+  <updated>2022-03-02T04:37:33.612000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/153471/2</id>
-    <title>Accelerating Single Cell Genomic Analysis using RAPIDS [2]</title>
-    <updated>2020-09-02T20:22:53.570000+00:00</updated>
-    <content>Burlinge: ...nted the widely-used single-cell phenotyping algorithm PhenoGraph ( https://github.com/jacoblevine/PhenoGraph ) using a combination of cuML, cuGraph, cupy, and cupyx.sparse. The GPU-based implementation ( https://gitlab.com/eburling/grapheno ) yields an orders-of-magnitude boost in speed over the CPU-ba...</content>
-    <link href="https://forums.developer.nvidia.com/t/153471/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/146159/2</id>
     <title>Regarding running software and code on CUDA instead of CPU [2]</title>
@@ -353,5 +346,12 @@
     <updated>2022-02-28T19:24:05.843000+00:00</updated>
     <content>dusty_nv: Hi @Bewlar , if you use the https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-ml l4t-ml container, it already comes with CuPy installed in the container. The latest versions of this l4t-ml container also include OpenCV that was built with CUDA support. If you don’t want to u...</content>
     <link href="https://forums.developer.nvidia.com/t/204695/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/204836/1</id>
+    <title>Cupy and DNN_BACKENDCUDA -&amp;gt; All Fail on TX2 [1]</title>
+    <updated>2022-03-02T04:37:33.612000+00:00</updated>
+    <content>Bewlar: ...eps verbatim except for Jetson 2 specific ARCH. https://pyimagesearch.com/2020/02/03/how-to-use-opencvs-dnn-module-with-nvidia-gpus-cuda-and-cudnn/ ’ Cupy Stalls and fails completely. Can’t upgrade Python 3.6.9 to anything else. Always states 3.6.9 is the default package install from Jetson and I can’t...</content>
+    <link href="https://forums.developer.nvidia.com/t/204836/1" rel="alternate"/>
   </entry>
 </feed>
