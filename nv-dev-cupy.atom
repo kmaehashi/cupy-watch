@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-03-02T04:37:33.612000+00:00</updated>
+  <updated>2022-03-02T07:36:54.087000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/146159/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/204695/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/204836/1</id>
-    <title>Cupy and DNN_BACKENDCUDA -&amp;gt; All Fail on TX2 [1]</title>
-    <updated>2022-03-02T04:37:33.612000+00:00</updated>
-    <content>Bewlar: ...eps verbatim except for Jetson 2 specific ARCH. https://pyimagesearch.com/2020/02/03/how-to-use-opencvs-dnn-module-with-nvidia-gpus-cuda-and-cudnn/ ’ Cupy Stalls and fails completely. Can’t upgrade Python 3.6.9 to anything else. Always states 3.6.9 is the default package install from Jetson and I can’t...</content>
-    <link href="https://forums.developer.nvidia.com/t/204836/1" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/204836/3</id>
+    <title>Cupy and DNN_BACKENDCUDA -&amp;gt; All Fail on TX2 [3]</title>
+    <updated>2022-03-02T07:36:54.087000+00:00</updated>
+    <content>AastaLLL: ...penCV on Nvidia Jetson Nano Build OpenCV on Nvidia Jetson Nano. Contribute to mdegans/nano_build_opencv development by creating an account on GitHub. cuPy https://forums.developer.nvidia.com/t/cupy-or-pycuda-on-jetson-xavier-nx/203654/7 Please use compute_62 and sm_62 for TX2. Thanks.</content>
+    <link href="https://forums.developer.nvidia.com/t/204836/3" rel="alternate"/>
   </entry>
 </feed>
