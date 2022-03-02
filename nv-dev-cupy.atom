@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-02-28T19:24:05.843000+00:00</updated>
+  <updated>2022-03-02T02:29:23.492000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/153471/2</id>
-    <title>Accelerating Single Cell Genomic Analysis using RAPIDS [2]</title>
-    <updated>2020-09-02T20:22:53.570000+00:00</updated>
-    <content>Burlinge: ...nted the widely-used single-cell phenotyping algorithm PhenoGraph ( https://github.com/jacoblevine/PhenoGraph ) using a combination of cuML, cuGraph, cupy, and cupyx.sparse. The GPU-based implementation ( https://gitlab.com/eburling/grapheno ) yields an orders-of-magnitude boost in speed over the CPU-ba...</content>
-    <link href="https://forums.developer.nvidia.com/t/153471/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/146159/2</id>
     <title>Regarding running software and code on CUDA instead of CPU [2]</title>
@@ -353,5 +346,12 @@
     <updated>2022-02-28T19:24:05.843000+00:00</updated>
     <content>dusty_nv: Hi @Bewlar , if you use the https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-ml l4t-ml container, it already comes with CuPy installed in the container. The latest versions of this l4t-ml container also include OpenCV that was built with CUDA support. If you don’t want to u...</content>
     <link href="https://forums.developer.nvidia.com/t/204695/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/204823/1</id>
+    <title>Does any parallelization python code still work on Jetsont Tx2? Haven&amp;rsquo;t found a single working parallel function [1]</title>
+    <updated>2022-03-02T02:29:23.492000+00:00</updated>
+    <content>Bewlar: ...torials. It seems to constantly crash and fail. I’ve only unboxed it in the past month. Never used before. I can’t get any packages to work for this. Cupy doesn’t build. Pycuda doesn’t build. OpenCV 4.2+ isn’t preinstalled and cmake cannot build properly on the device. Anaconda doesn’t work which has a...</content>
+    <link href="https://forums.developer.nvidia.com/t/204823/1" rel="alternate"/>
   </entry>
 </feed>
