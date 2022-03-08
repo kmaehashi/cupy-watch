@@ -92,7 +92,7 @@
     <id>https://forums.developer.nvidia.com/t/172852/1</id>
     <title>10 Minutes to Data Science: Transitioning Between RAPIDS cuDF and CuPy Libraries [1]</title>
     <updated>2021-03-19T21:01:27.526000+00:00</updated>
-    <content>Jen Witsoe: Originally published at: https://developer.nvidia.com/blog/10-minutes-to-data-science-transitioning-between-rapids-cudf-and-cupy-libraries/ This post was originally published on the RAPIDS AI Blog. RAPIDS is about creating bridges, connections, and clean handoffs between GPU Py...</content>
+    <content>Jen Witsoe: Originally published at: https://developer.nvidia.com/blog/10-minutes-to-data-science-transitioning-between-rapids-cudf-and-cupy-libraries/ 10 Minutes to Data Science: Transitioning Between RAPIDS cuDF and CuPy Libraries | NVIDIA Developer Blog This post was originally publishe...</content>
     <link href="https://forums.developer.nvidia.com/t/172852/1" rel="alternate"/>
   </entry>
   <entry>
@@ -176,7 +176,7 @@
     <id>https://forums.developer.nvidia.com/t/180564/1</id>
     <title>Gauss Rank Transformation Is 100x Faster with RAPIDS and CuPy [1]</title>
     <updated>2021-06-11T15:00:19.782000+00:00</updated>
-    <content>Jen Witsoe: Originally published at: https://developer.nvidia.com/blog/gauss-rank-transformation-is-100x-faster-with-rapids-and-cupy/ As explained in the Batch Normalization paper, training neural networks becomes way easier if its input is Gaussian. This is clear. And if your mode...</content>
+    <content>Jen Witsoe: Originally published at: https://developer.nvidia.com/blog/gauss-rank-transformation-is-100x-faster-with-rapids-and-cupy/ Gauss Rank Transformation Is 100x Faster with RAPIDS and CuPy | NVIDIA Developer Blog As explained in the Batch Normalization paper, training neural...</content>
     <link href="https://forums.developer.nvidia.com/t/180564/1" rel="alternate"/>
   </entry>
   <entry>
