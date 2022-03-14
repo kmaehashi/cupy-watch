@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-03-09T17:47:34.387000+00:00</updated>
+  <updated>2022-03-14T19:25:06.067000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/146159/2</id>
@@ -327,13 +327,6 @@
     <link href="https://forums.developer.nvidia.com/t/203654/10" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/204695/2</id>
-    <title>CuPy or other parallel methods for GPU usage on TX2? [2]</title>
-    <updated>2022-02-28T19:24:05.843000+00:00</updated>
-    <content>dusty_nv: Hi @Bewlar , if you use the https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-ml l4t-ml container, it already comes with CuPy installed in the container. The latest versions of this l4t-ml container also include OpenCV that was built with CUDA support. If you don’t want to u...</content>
-    <link href="https://forums.developer.nvidia.com/t/204695/2" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/204836/3</id>
     <title>Cupy and DNN_BACKENDCUDA -&amp;gt; All Fail on TX2 [3]</title>
     <updated>2022-03-02T07:36:54.087000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2022-03-09T17:47:34.387000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/203936/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/204695/3</id>
+    <title>CuPy or other parallel methods for GPU usage on TX2? [3]</title>
+    <updated>2022-03-14T19:25:06.067000+00:00</updated>
+    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/204695/3" rel="alternate"/>
   </entry>
 </feed>
