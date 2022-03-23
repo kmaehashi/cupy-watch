@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-03-23T05:21:43.480000+00:00</updated>
+  <updated>2022-03-23T06:32:36.460000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/146159/2</id>
@@ -320,13 +320,6 @@
     <link href="https://forums.developer.nvidia.com/t/161486/7" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/204836/3</id>
-    <title>Cupy and DNN_BACKENDCUDA -&amp;gt; All Fail on TX2 [3]</title>
-    <updated>2022-03-02T07:36:54.087000+00:00</updated>
-    <content>AastaLLL: ...penCV on Nvidia Jetson Nano Build OpenCV on Nvidia Jetson Nano. Contribute to mdegans/nano_build_opencv development by creating an account on GitHub. cuPy https://forums.developer.nvidia.com/t/cupy-or-pycuda-on-jetson-xavier-nx/203654/7 Please use compute_62 and sm_62 for TX2. Thanks.</content>
-    <link href="https://forums.developer.nvidia.com/t/204836/3" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/204142/2</id>
     <title>CUDA memory error calculating shap values although enough memory [2]</title>
     <updated>2022-03-02T11:05:24.994000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2022-03-23T05:21:43.480000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/203654/12" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/204836/6</id>
+    <title>Cupy and DNN_BACKENDCUDA -&amp;gt; All Fail on TX2 [6]</title>
+    <updated>2022-03-23T06:32:36.460000+00:00</updated>
+    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/204836/6" rel="alternate"/>
   </entry>
 </feed>
