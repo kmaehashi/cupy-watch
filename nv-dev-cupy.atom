@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-03-23T06:32:36.460000+00:00</updated>
+  <updated>2022-04-11T19:39:02.062000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/146159/2</id>
-    <title>Regarding running software and code on CUDA instead of CPU [2]</title>
-    <updated>2020-09-07T21:37:50.743000+00:00</updated>
-    <content>Dominik: ...PU instead of CPU - and this strongly depends on your actual code. In case you are using a lot of https://numpy.org numpy functions there are https://cupy.dev cupy and https://mxnet.apache.org/versions/1.6/ mxnet which - if your are lucky (because all numpy functions you are using are supported) - work...</content>
-    <link href="https://forums.developer.nvidia.com/t/146159/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/140600/2</id>
     <title>RAPIDS interop with PyCuda? [2]</title>
@@ -353,5 +346,12 @@
     <updated>2022-03-23T06:32:36.460000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/204836/6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/210913/1</id>
+    <title>Cupy Install for Jetson Xavier NX [1]</title>
+    <updated>2022-04-11T19:39:02.062000+00:00</updated>
+    <content>: I am following the instructions here for installing cupy on a jetson xavier nx: https://forums.developer.nvidia.com/t/cupy-or-pycuda-on-jetson-xavier-nx/203654 What files do I edit in the changes section? (...</content>
+    <link href="https://forums.developer.nvidia.com/t/210913/1" rel="alternate"/>
   </entry>
 </feed>
