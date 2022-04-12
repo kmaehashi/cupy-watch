@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-04-12T05:03:40.517000+00:00</updated>
+  <updated>2022-04-12T05:39:41.188000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/140600/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/204142/3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/210913/3</id>
-    <title>Cupy Install for Jetson Xavier NX [3]</title>
-    <updated>2022-04-12T05:03:40.517000+00:00</updated>
-    <content>AastaLLL: ...up.patch (655 Bytes) /uploads/short-url/xP0Tx0cyN6BK8x2BTL0bv9iPJTt.patch core.patch (845 Bytes) $ git clone -b v9.6.0 --recursive https://github.com/cupy/cupy.git $ cd cupy/ $ git apply [setup.patch] $ cd cupy/_core/include/cupy/cub $ git apply [core.patch] $ cd ../../../../../ $ pip3 install . Thanks.</content>
-    <link href="https://forums.developer.nvidia.com/t/210913/3" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/210913/4</id>
+    <title>Cupy Install for Jetson Xavier NX [4]</title>
+    <updated>2022-04-12T05:39:41.188000+00:00</updated>
+    <content>Kenichi Maehashi: Hi, CuPy maintainer here. You can use the environment variable CUPY_NVCC_GENERATE_CODE=current to build CuPy (without a patch) optimized for your GPU. export...</content>
+    <link href="https://forums.developer.nvidia.com/t/210913/4" rel="alternate"/>
   </entry>
 </feed>
