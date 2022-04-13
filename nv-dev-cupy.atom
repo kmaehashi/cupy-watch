@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-04-12T05:39:41.188000+00:00</updated>
+  <updated>2022-04-13T09:48:06.225000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/140600/2</id>
-    <title>RAPIDS interop with PyCuda? [2]</title>
-    <updated>2020-09-14T14:39:00.694000+00:00</updated>
-    <content>Matt Nicely: Please checkout CuPy. There’s a good chance what you need it built-in. https://github.com/cupy/cupy https://docs.cupy.dev/en/stable/</content>
-    <link href="https://forums.developer.nvidia.com/t/140600/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/154573/2</id>
     <title>Can i execute tensorflow gpu on TU117M [GeForce GTX 1650 Mobile / Max-Q]? [2]</title>
@@ -353,5 +346,12 @@
     <updated>2022-04-12T05:39:41.188000+00:00</updated>
     <content>Kenichi Maehashi: Hi, CuPy maintainer here. You can use the environment variable CUPY_NVCC_GENERATE_CODE=current to build CuPy (without a patch) optimized for your GPU. export...</content>
     <link href="https://forums.developer.nvidia.com/t/210913/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/211069/1</id>
+    <title>CUDA in l4t-base:r34.1 [1]</title>
+    <updated>2022-04-13T09:48:06.225000+00:00</updated>
+    <content>ambrose.maker: Hello, I would like to build docker image with l4t-base:r34.1. But seems my installation process (build CuPy) cannot find CUDA, with error like this: fatal error: cuda.h: No such file or directory And the nvcc command not found nvcc --version bash: nvcc: com...</content>
+    <link href="https://forums.developer.nvidia.com/t/211069/1" rel="alternate"/>
   </entry>
 </feed>
