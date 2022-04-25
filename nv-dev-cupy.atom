@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-04-18T02:33:02.415000+00:00</updated>
+  <updated>2022-04-25T19:05:17.965000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/154573/2</id>
-    <title>Can i execute tensorflow gpu on TU117M [GeForce GTX 1650 Mobile / Max-Q]? [2]</title>
-    <updated>2020-09-16T23:34:45.890000+00:00</updated>
-    <content>Brad Deokisingh: ...low gpu. The good news is that once you get all the versions &amp;amp; drivers right then you can set up all the GPu scientific libraries. I have tensorflow, cupy, pyCUDA setup myself. It was painful at first.</content>
-    <link href="https://forums.developer.nvidia.com/t/154573/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/158635/1</id>
     <title>Crash Course to Cuda Terminology and Theory? [1]</title>
@@ -353,5 +346,12 @@
     <updated>2022-04-18T02:33:02.415000+00:00</updated>
     <content>AastaLLL: Hi, kmaehashi Thanks for this information. I will share this information with other users that are interested in cupy. Thanks.</content>
     <link href="https://forums.developer.nvidia.com/t/210913/6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/211040/9</id>
+    <title>PyTorch 1.11 for JetPack 5.0 DP? [9]</title>
+    <updated>2022-04-25T19:05:17.965000+00:00</updated>
+    <content>znmeb: ...ages on L4T-base and I want the latest stable binaries that are built by someone else whenever possible. My current Docker build only uses cusignal / cupy and torchaudio built from source, and that takes about 2.3 hours on a Xavier NX. The last time I built a PyTorch wheel I think it was 3.5 hours on th...</content>
+    <link href="https://forums.developer.nvidia.com/t/211040/9" rel="alternate"/>
   </entry>
 </feed>
