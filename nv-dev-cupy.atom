@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-04-25T19:05:17.965000+00:00</updated>
+  <updated>2022-04-25T23:20:29.127000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/158635/1</id>
@@ -327,13 +327,6 @@
     <link href="https://forums.developer.nvidia.com/t/204836/6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/204142/3</id>
-    <title>CUDA memory error calculating shap values although enough memory [3]</title>
-    <updated>2022-04-11T23:19:31.302000+00:00</updated>
-    <content>nadeemm: Can we consider this issue close? I shall mark your last reply as the solution. You are welcome to comment if this is not closed thanks.</content>
-    <link href="https://forums.developer.nvidia.com/t/204142/3" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/211069/1</id>
     <title>CUDA in l4t-base:r34.1 [1]</title>
     <updated>2022-04-13T09:48:06.225000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2022-04-25T19:05:17.965000+00:00</updated>
     <content>znmeb: ...ages on L4T-base and I want the latest stable binaries that are built by someone else whenever possible. My current Docker build only uses cusignal / cupy and torchaudio built from source, and that takes about 2.3 hours on a Xavier NX. The last time I built a PyTorch wheel I think it was 3.5 hours on th...</content>
     <link href="https://forums.developer.nvidia.com/t/211040/9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/204142/4</id>
+    <title>CUDA memory error calculating shap values although enough memory [4]</title>
+    <updated>2022-04-25T23:20:29.127000+00:00</updated>
+    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/204142/4" rel="alternate"/>
   </entry>
 </feed>
