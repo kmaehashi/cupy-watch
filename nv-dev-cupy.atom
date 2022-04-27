@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-04-25T23:20:29.127000+00:00</updated>
+  <updated>2022-04-27T17:14:12.149000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/158635/1</id>
-    <title>Crash Course to Cuda Terminology and Theory? [1]</title>
-    <updated>2020-11-03T06:56:03.079000+00:00</updated>
-    <content>anon91213428: I’ve been looking to getting into deeper CUDA programming. I’ve only had some experience with Cupy, basically Numpy but implemented on the GPU, and it doesn’t require any CUDA terminology, except streams for concurrency, but that feature doesn’t wo...</content>
-    <link href="https://forums.developer.nvidia.com/t/158635/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/159540/2</id>
     <title>Why cudamalloc and cudaFree so expensive? [2]</title>
@@ -353,5 +346,12 @@
     <updated>2022-04-25T23:20:29.127000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/204142/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/212739/2</id>
+    <title>Nvc++ OpenACC runtime segfaults if Intel MKL (numpy) is already loaded [2]</title>
+    <updated>2022-04-27T17:14:12.149000+00:00</updated>
+    <content>Mat Colgrove: ...dding the flag “-nomp” when creating the shared object so NVOMP isn’t linked in. Alternately, if you can install numpy without MKL, or better yet use cupy so the Python code can be offloaded to the GPU as well. https://www.nvidia.com/en-us/glossary/data-science/numpy/ NVIDIA Data Science Glossary https:...</content>
+    <link href="https://forums.developer.nvidia.com/t/212739/2" rel="alternate"/>
   </entry>
 </feed>
