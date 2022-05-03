@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-05-03T09:57:48.428000+00:00</updated>
+  <updated>2022-05-03T10:25:07.377000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/160626/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/212739/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/212436/20</id>
-    <title>Nvidia Cuda Compiler not showing up in Linux 22.04 [20]</title>
-    <updated>2022-05-03T09:57:48.428000+00:00</updated>
-    <content>Ksimady: ...ame warning stating that the installation was incomplete and the driver version not high enough appeared. But I have still done some tests (installed cupy in a virtual environment) and it seems that the matrix operations in fact run on the GPU. So even with this message cuda can still be installed and u...</content>
-    <link href="https://forums.developer.nvidia.com/t/212436/20" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/212436/21</id>
+    <title>Nvidia Cuda Compiler not showing up in Linux 22.04 [21]</title>
+    <updated>2022-05-03T10:25:07.377000+00:00</updated>
+    <content>Johnnynuca14: ...nk the next update of cuda and drivers will be quite big. I am on kernel 5.17.5 and it is completely stable with these drivers using cudnn, tensorrt, cupy and cudf for deep learning.</content>
+    <link href="https://forums.developer.nvidia.com/t/212436/21" rel="alternate"/>
   </entry>
 </feed>
