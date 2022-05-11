@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-05-03T10:25:07.377000+00:00</updated>
+  <updated>2022-05-11T03:46:52.479000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/160626/1</id>
@@ -320,13 +320,6 @@
     <link href="https://forums.developer.nvidia.com/t/211069/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/210913/6</id>
-    <title>Cupy Install for Jetson Xavier NX [6]</title>
-    <updated>2022-04-18T02:33:02.415000+00:00</updated>
-    <content>AastaLLL: Hi, kmaehashi Thanks for this information. I will share this information with other users that are interested in cupy. Thanks.</content>
-    <link href="https://forums.developer.nvidia.com/t/210913/6" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/211040/9</id>
     <title>PyTorch 1.11 for JetPack 5.0 DP? [9]</title>
     <updated>2022-04-25T19:05:17.965000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2022-05-03T10:25:07.377000+00:00</updated>
     <content>Johnnynuca14: ...nk the next update of cuda and drivers will be quite big. I am on kernel 5.17.5 and it is completely stable with these drivers using cudnn, tensorrt, cupy and cudf for deep learning.</content>
     <link href="https://forums.developer.nvidia.com/t/212436/21" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/210913/8</id>
+    <title>Cupy Install for Jetson Xavier NX [8]</title>
+    <updated>2022-05-11T03:46:52.479000+00:00</updated>
+    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/210913/8" rel="alternate"/>
   </entry>
 </feed>
