@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-05-11T03:46:52.479000+00:00</updated>
+  <updated>2022-05-24T14:24:41.578000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/160626/1</id>
-    <title>Why do two commands show my cuda version not consistent? [1]</title>
-    <updated>2020-11-28T09:21:51.862000+00:00</updated>
-    <content>lingvisa: ...250W | 0MiB / 16280MiB | 0% Default | +-------------------------------+----------------------+----------------------+ Then, I did this: # pip install cupy-cuda100 And test it: In [1]: import cupy ...: a = cupy.zeros((5, 5)) --------------------------------------------------------------------------- Impo...</content>
-    <link href="https://forums.developer.nvidia.com/t/160626/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/161385/2</id>
     <title>Fast, Flexible Allocation for NVIDIA CUDA with RAPIDS Memory Manager [2]</title>
@@ -353,5 +346,12 @@
     <updated>2022-05-11T03:46:52.479000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/210913/8" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/215440/1</id>
+    <title>Low performance on Drive AGX Driver [1]</title>
+    <updated>2022-05-24T14:24:41.578000+00:00</updated>
+    <content>Muhammed Al Kadi: ...us DevKit (E3550) other SDK Manager Version 1.8.0.10363 other Host Machine Version native Ubuntu 18.04 other I managed recently to install our Python/CuPy based Radar signal processing framework on Drive AGX Xavier dev kit. After doing some comparisons to other GPUs, I’m surprised that Drive AGX is sign...</content>
+    <link href="https://forums.developer.nvidia.com/t/215440/1" rel="alternate"/>
   </entry>
 </feed>
