@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2022-01-12T17:43:22.727000+00:00</updated>
+  <updated>2022-05-24T11:12:22.139000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -283,5 +283,12 @@
     <updated>2022-01-12T17:43:22.727000+00:00</updated>
     <content>Tom Vercauteren: As a follow-up, there is ongoing effort to integrate a sparse solver natively in torch so this workaround shouldn’t be necessary anymore in the future: https://github.com/pytorch/pytorch/issues/69538 github.com/pytorch/pytorch Issue https://github.com/pytorch/pytorch/issues/69538 cuSOLVER backend...</content>
     <link href="https://discuss.pytorch.org/t/141309/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/152486/1</id>
+    <title>How do I debug a CUDA error from PyTorch? [1]</title>
+    <updated>2022-05-24T11:12:22.139000+00:00</updated>
+    <content>Ravishankar Reddy: ...tu 20.04 Device 0: “NVIDIA RTX A3000 Laptop GPU” CUDA Driver Version / Runtime Version 11.6 / 11.6 I use conda environment python 3.7. Have installed CuPy for CUDA 11.6 and then installed the torch and torchvision as given here: https://discuss.pytorch.org/t/pytorch-cuda-11-6/149647 After this I install...</content>
+    <link href="https://discuss.pytorch.org/t/152486/1" rel="alternate"/>
   </entry>
 </feed>
