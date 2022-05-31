@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-05-31T14:46:51.522000+00:00</updated>
+  <updated>2022-05-31T15:11:34.152000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/166704/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/215554/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/216041/5</id>
-    <title>[TensorRT] ERROR: 1: [resize.cu::performLinearKernelLaunch::457] Error Code 1: Cuda Runtime (invalid argument) [5]</title>
-    <updated>2022-05-31T14:46:51.522000+00:00</updated>
-    <content>Spolisetty: Hi, Could you please let us know the reason for using stream.use() . I believe stream.synchronize() is enough. For your reference, https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html#perform_inference_python docs.nvidia.com https://docs.nvidia.com/deeplearning/tensorrt/develo...</content>
-    <link href="https://forums.developer.nvidia.com/t/216041/5" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/216041/6</id>
+    <title>[TensorRT] ERROR: 1: [resize.cu::performLinearKernelLaunch::457] Error Code 1: Cuda Runtime (invalid argument) [6]</title>
+    <updated>2022-05-31T15:11:34.152000+00:00</updated>
+    <content>nnx156925: ...I find an error size and fix it. I finally solve the problem by deleting the cuda.init() and cuda.make_context() functions. I don’t know whether the cupy has any conflict with pycuda. Does cupy have default context? If you have any thinking about this, please let me know. Thanks very much! And my solve...</content>
+    <link href="https://forums.developer.nvidia.com/t/216041/6" rel="alternate"/>
   </entry>
 </feed>
