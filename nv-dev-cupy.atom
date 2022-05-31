@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-05-25T10:37:29.415000+00:00</updated>
+  <updated>2022-05-31T03:16:44.974000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/164365/1</id>
-    <title>CuPy error when pushing / popping pycuda context [1]</title>
-    <updated>2020-12-22T23:22:59.846000+00:00</updated>
-    <content>: I am using Python and tensorRT to perform inference with CUDA. I’d like to use CuPy to preprocess some images that I’ll feed to the tensorRT engine. The preprocessing function, called my_function , works fine as long as tensorRT is n...</content>
-    <link href="https://forums.developer.nvidia.com/t/164365/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/166704/1</id>
     <title>Speeding up frame conversion [1]</title>
@@ -353,5 +346,12 @@
     <updated>2022-05-25T10:37:29.415000+00:00</updated>
     <content>guilhermehartmannk8bwe: I currently provide a CUDA library for a client in a similar model as cupy. I was wondering if it is possible to launch this code over nvshmem and how would be the best method do it. Ideally I would like to wrap the nvshmem...</content>
     <link href="https://forums.developer.nvidia.com/t/215554/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/216041/1</id>
+    <title>[TensorRT] ERROR: 1: [resize.cu::performLinearKernelLaunch::457] Error Code 1: Cuda Runtime (invalid argument) [1]</title>
+    <updated>2022-05-31T03:16:44.974000+00:00</updated>
+    <content>nnx156925: Description I try to use cupy to process data and set bindings equal to the cupy data ptr. But when I use tensorrt to infer, I got an error [TensorRT] ERROR: 1: [resize.cu::perfor...</content>
+    <link href="https://forums.developer.nvidia.com/t/216041/1" rel="alternate"/>
   </entry>
 </feed>
