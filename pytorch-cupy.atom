@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2022-05-24T11:12:22.139000+00:00</updated>
+  <updated>2022-06-02T06:37:06.452000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -290,5 +290,12 @@
     <updated>2022-05-24T11:12:22.139000+00:00</updated>
     <content>Ravishankar Reddy: ...tu 20.04 Device 0: “NVIDIA RTX A3000 Laptop GPU” CUDA Driver Version / Runtime Version 11.6 / 11.6 I use conda environment python 3.7. Have installed CuPy for CUDA 11.6 and then installed the torch and torchvision as given here: https://discuss.pytorch.org/t/pytorch-cuda-11-6/149647 After this I install...</content>
     <link href="https://discuss.pytorch.org/t/152486/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/153135/5</id>
+    <title>Why does nanmedian run 10 times slower when 75% of the input is nan [5]</title>
+    <updated>2022-06-02T06:37:06.452000+00:00</updated>
+    <content>anyfin22: I see. Thank you so much for the reply! I have heard that cupy.nanmedian() uses partition and is faster than torch.nanmedian()'s sort. but I installed python 3.10 which cupy doesn’t support yet… so I’m trying eve...</content>
+    <link href="https://discuss.pytorch.org/t/153135/5" rel="alternate"/>
   </entry>
 </feed>
