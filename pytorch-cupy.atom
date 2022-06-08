@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2022-06-02T06:37:06.452000+00:00</updated>
+  <updated>2022-06-08T07:47:18.650000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -297,5 +297,12 @@
     <updated>2022-06-02T06:37:06.452000+00:00</updated>
     <content>anyfin22: I see. Thank you so much for the reply! I have heard that cupy.nanmedian() uses partition and is faster than torch.nanmedian()'s sort. but I installed python 3.10 which cupy doesn’t support yet… so I’m trying eve...</content>
     <link href="https://discuss.pytorch.org/t/153135/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/153639/1</id>
+    <title>RuntimeError: Legacy autograd function with non-stat [1]</title>
+    <updated>2022-06-08T07:47:18.650000+00:00</updated>
+    <content>joe: ...torch1.2 cuda10.2 to torch1.11 cuda11.3. I encountered the following problems. from collections import namedtuple from string import Template import cupy, torch import cupy as cp import torch from torch import nn #from torch.autograd import Function from nets.Function import Function from utils.roi_cup...</content>
+    <link href="https://discuss.pytorch.org/t/153639/1" rel="alternate"/>
   </entry>
 </feed>
