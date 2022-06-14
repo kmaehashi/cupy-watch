@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-06-07T15:40:39.532000+00:00</updated>
+  <updated>2022-06-14T18:04:36.114000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/169614/4</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/215554/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/216041/7</id>
-    <title>[TensorRT] ERROR: 1: [resize.cu::performLinearKernelLaunch::457] Error Code 1: Cuda Runtime (invalid argument) [7]</title>
-    <updated>2022-05-31T18:04:35.175000+00:00</updated>
-    <content>nadeemm: Thanks for updating the post with the root cause of the problem. It really helps the community - thanks. Good luck with your project.</content>
-    <link href="https://forums.developer.nvidia.com/t/216041/7" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/216751/2</id>
     <title>CUDA Python vs PyCUDA [2]</title>
     <updated>2022-06-07T15:40:39.532000+00:00</updated>
     <content>Robert_Crovella: .../unifying-the-cuda-python-ecosystem/ blog and the questions that follow it may be of interest. FWIW there are other python/CUDA methodologies. numba, cupy, CUDA python, and pycuda are some of the available approaches to tap into CUDA acceleration from Python. CUDA Python can interoperate with most or al...</content>
     <link href="https://forums.developer.nvidia.com/t/216751/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/216041/8</id>
+    <title>[TensorRT] ERROR: 1: [resize.cu::performLinearKernelLaunch::457] Error Code 1: Cuda Runtime (invalid argument) [8]</title>
+    <updated>2022-06-14T18:04:36.114000+00:00</updated>
+    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/216041/8" rel="alternate"/>
   </entry>
 </feed>
