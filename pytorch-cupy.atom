@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2022-06-08T07:47:18.650000+00:00</updated>
+  <updated>2022-06-27T09:53:26.723000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -304,5 +304,12 @@
     <updated>2022-06-08T07:47:18.650000+00:00</updated>
     <content>joe: ...torch1.2 cuda10.2 to torch1.11 cuda11.3. I encountered the following problems. from collections import namedtuple from string import Template import cupy, torch import cupy as cp import torch from torch import nn #from torch.autograd import Function from nets.Function import Function from utils.roi_cup...</content>
     <link href="https://discuss.pytorch.org/t/153639/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/155147/1</id>
+    <title>How to share a gpu tensor between mulit-process [1]</title>
+    <updated>2022-06-27T09:53:26.723000+00:00</updated>
+    <content>Scirocc: ...multiprocessing. And I need to use multiproceesing,cuz I have to do calculation in both cpu/gpu. is there any way to do that?should I use libtorch or cupy or something else? Here is my code: import torch import time def task(o): print(o.data_ptr()) print(o, '034') stream = torch.cuda.Stream() with torch...</content>
+    <link href="https://discuss.pytorch.org/t/155147/1" rel="alternate"/>
   </entry>
 </feed>
