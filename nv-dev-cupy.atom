@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-06-14T18:04:36.114000+00:00</updated>
+  <updated>2022-07-04T14:13:59.257000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/169614/4</id>
-    <title>Gnuradio and cuda with gr-cuda [4]</title>
-    <updated>2021-03-02T10:07:49.569000+00:00</updated>
-    <content>Julianmartinezsou: ...s/cuda/ init .py”, line 34, in from gpu_kernel import gpu_kernel File “/usr/local/lib/python2.7/dist-packages/cuda/gpu_kernel.py”, line 27, in import cupy as cp File “/home/juli/.local/lib/python2.7/site-packages/cupy/ init .py”, line 47, in import cupyx as _cupyx File “/home/juli/.local/lib/python2.7/s...</content>
-    <link href="https://forums.developer.nvidia.com/t/169614/4" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/170894/1</id>
     <title>How to access to image array in GPU buffer without copy to CPU buffer? [1]</title>
@@ -353,5 +346,12 @@
     <updated>2022-06-14T18:04:36.114000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/216041/8" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/219698/1</id>
+    <title>Gpu-cpu memory copying is slower in WSL?! [1]</title>
+    <updated>2022-07-04T14:13:59.257000+00:00</updated>
+    <content>K Glimps: ...le bit slower roughly in the range some milliseconds slower. Also Python stuff caching and memory copying less than Windows. I tested Pycuda-PyopenCL-Cupy-Numba. for big arrays. these python stuff i don’t know they double cache or what. Now, I write my kernels and run them from Pycuda. Writing them in C...</content>
+    <link href="https://forums.developer.nvidia.com/t/219698/1" rel="alternate"/>
   </entry>
 </feed>
