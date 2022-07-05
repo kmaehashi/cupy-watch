@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-07-04T14:13:59.257000+00:00</updated>
+  <updated>2022-07-05T08:48:31.840000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/170894/1</id>
-    <title>How to access to image array in GPU buffer without copy to CPU buffer? [1]</title>
-    <updated>2021-03-14T07:34:08.715000+00:00</updated>
-    <content>LoveNvidia: ...ustom inference model in that plugin. In that example for copying image array into CPU buffer is used numpy lib, I want to know is it possible to use CuPy lib or other ML framework to access to image array in GPU memory?</content>
-    <link href="https://forums.developer.nvidia.com/t/170894/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/172852/1</id>
     <title>10 Minutes to Data Science: Transitioning Between RAPIDS cuDF and CuPy Libraries [1]</title>
@@ -353,5 +346,12 @@
     <updated>2022-07-04T14:13:59.257000+00:00</updated>
     <content>K Glimps: ...le bit slower roughly in the range some milliseconds slower. Also Python stuff caching and memory copying less than Windows. I tested Pycuda-PyopenCL-Cupy-Numba. for big arrays. these python stuff i don’t know they double cache or what. Now, I write my kernels and run them from Pycuda. Writing them in C...</content>
     <link href="https://forums.developer.nvidia.com/t/219698/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/217721/4</id>
+    <title>Windows 11 WSL2 CUDA (Windows 11 Home 22000.708, Nvidia Studio Driver 512.96) [4]</title>
+    <updated>2022-07-05T08:48:31.840000+00:00</updated>
+    <content>K Glimps: ...6_64/21.3/cuda/11.2/bin:$PATH For any CUDA stuff fist you have to define path to your CUDA installation That is normal. For, Numba, Pycuda, Pyopencl, cupy and I think the same for tensorflow</content>
+    <link href="https://forums.developer.nvidia.com/t/217721/4" rel="alternate"/>
   </entry>
 </feed>
