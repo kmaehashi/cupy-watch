@@ -349,7 +349,7 @@
   </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/219869/1</id>
-    <title>How many kernel you can launch in wsl wiith respect to windows [1]</title>
+    <title>How many kernels you can launch in WSL wiith respect to Windows [1]</title>
     <updated>2022-07-06T06:12:16.873000+00:00</updated>
     <content>K Glimps: ...uch since then. BIG mistake of WRI. So, I played with python stuff in order “to couple” with sage and cython. Numba has a limited CUDA functionality. CUPY is more oriented. They are nice within their field of application = makes life easier. Pycuda and Pyopencl were different for me, having a Ryzen 7, I...</content>
     <link href="https://forums.developer.nvidia.com/t/219869/1" rel="alternate"/>
