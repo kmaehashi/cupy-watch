@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2021-12-17T17:01:36.895000+00:00</updated>
+  <updated>2022-07-09T08:03:32.744000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -45,5 +45,12 @@
     <updated>2021-12-17T17:01:36.895000+00:00</updated>
     <content>David McDougall: ...a python program that could run very fast, and utilize both a CPU and a GPU. The basic technology to do this has been in place for some time: CUDA &amp;amp; CuPy manage the GPU, while the Numba Just-In-Time (JIT) compiler has backends for both CPUs &amp;amp; GPUs. However, writing programs for GPU’s was still not a fu...</content>
     <link href="https://discuss.python.org/t/12587/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/17155/9</id>
+    <title>Numeric Generics - Where do we go from PEP 3141 and present day Mypy? [9]</title>
+    <updated>2022-07-09T08:03:32.744000+00:00</updated>
+    <content>Mehdi Drissi: ...interchange numbers is useful, but is very closely related to interchanging arrays of numbers like tensorflow tensors, numpy array, pytorch tensors, cupy tensors, etc. https://data-apis.org/array-api/latest/ documents array api standard which roughly is trying to define common collection of methods pre...</content>
+    <link href="https://discuss.python.org/t/17155/9" rel="alternate"/>
   </entry>
 </feed>
