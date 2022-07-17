@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-07-06T06:12:16.873000+00:00</updated>
+  <updated>2022-07-17T08:26:23.857000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/173024/1</id>
-    <title>Free TensorRT GPU memory using Python API [1]</title>
-    <updated>2021-03-22T19:02:53.759000+00:00</updated>
-    <content>: ...ltiple times, I see that the GPU utilization increases of a few Mb each time, so maybe there is some kind of memory leak. I am getting measures using cupy free_bytes, total_bytes = cp.cuda.Device(0).mem_info . Here’s how I allocate my model: import pycuda.driver as cuda cuda.init() import cupy as cp imp...</content>
-    <link href="https://forums.developer.nvidia.com/t/173024/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/173207/1</id>
     <title>Error: Some events were lost. How do I fix this? [1]</title>
@@ -353,5 +346,12 @@
     <updated>2022-07-06T06:12:16.873000+00:00</updated>
     <content>K Glimps: ...uch since then. BIG mistake of WRI. So, I played with python stuff in order “to couple” with sage and cython. Numba has a limited CUDA functionality. CUPY is more oriented. They are nice within their field of application = makes life easier. Pycuda and Pyopencl were different for me, having a Ryzen 7, I...</content>
     <link href="https://forums.developer.nvidia.com/t/219869/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/220998/1</id>
+    <title>When WSL is faster than Windows?! [1]</title>
+    <updated>2022-07-17T08:26:23.857000+00:00</updated>
+    <content>K Glimps: ...h gcc. In windows, MS c compiler has limited support. 5- For GPU, it dependeds what you are doing. But, I found it great to have PyCUDA/ PyopenCl and CUPY / Numba in two different worlds at the same time in one single system. Memory copying is some milliseconds slower but it is global i.e some fixed slo...</content>
+    <link href="https://forums.developer.nvidia.com/t/220998/1" rel="alternate"/>
   </entry>
 </feed>
