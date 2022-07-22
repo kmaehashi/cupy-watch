@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-07-21T20:08:13.954000+00:00</updated>
+  <updated>2022-07-22T02:59:40.405000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/173658/1</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/219869/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/220998/2</id>
-    <title>When WSL is faster than Windows?! [2]</title>
-    <updated>2022-07-19T13:09:22.651000+00:00</updated>
-    <content>K Glimps: ...We can see some numbers. In general, I have noticed that Python-stuff works faster in WSL than under W11. Strange but True. Pycuda, Pyopencl, Numba, Cupy and even Reikna. cuda-python from nvidia hasnt so far worked under WSL. Neither pip install cuda-python or compiling from the source. It works under...</content>
-    <link href="https://forums.developer.nvidia.com/t/220998/2" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/221501/1</id>
     <title>cuQuantum on Jetson Xavier AGX development kit [1]</title>
     <updated>2022-07-21T20:08:13.954000+00:00</updated>
     <content>Arthur Lobo: ..., line 52, in A_d = cp.random.random((np.prod(extentA),), dtype=np.float32) File “/home/arthurlobo/.conda/envs/qml_py310/lib/python3.10/site-packages/cupy/random/_sample.py”, line 156, in random_sample return rs.random_sample(size=size, dtype=dtype) File “/home/arthurlobo/.conda/envs/qml_py310/lib/pytho...</content>
     <link href="https://forums.developer.nvidia.com/t/221501/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/220998/17</id>
+    <title>When WSL is faster than Windows?! [17]</title>
+    <updated>2022-07-22T02:59:40.405000+00:00</updated>
+    <content>K Glimps: ...e the main result wsl-gpu-f32 vs w11-gpu-f32 this is the main point and they are done under the same conditions. ok. what next gpu array pycuda+numba+cupy or julia. Julia is great. People knows sage but very few knows that julia has oscar. sage(python) was terribly slow even slower than pure python unde...</content>
+    <link href="https://forums.developer.nvidia.com/t/220998/17" rel="alternate"/>
   </entry>
 </feed>
