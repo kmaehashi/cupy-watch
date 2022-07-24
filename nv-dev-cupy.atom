@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-07-24T09:11:36.867000+00:00</updated>
+  <updated>2022-07-24T14:54:03.055000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/173658/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/221501/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/220998/20</id>
-    <title>When WSL is faster than Windows?! [20]</title>
-    <updated>2022-07-24T09:11:36.867000+00:00</updated>
-    <content>K Glimps: ...dthedocs.io/en/latest/ Welcome to Compyle’s documentation! — Compyle 0.9.dev documentation Now, Let 's continue. Numba, Cython/openmp, Pycuda, Numpy, Cupy. Here is the big picture first, then we shall see the details and the code. There is a nice package compyle, it generates parallel output of python c...</content>
-    <link href="https://forums.developer.nvidia.com/t/220998/20" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/220998/21</id>
+    <title>When WSL is faster than Windows?! [21]</title>
+    <updated>2022-07-24T14:54:03.055000+00:00</updated>
+    <content>K Glimps: ...ially, I have chosen Ubuntu 18.04 because it is widely used but now, python 3.6 is old and I can not update to new/future releases of numpy &amp;gt; 1.20 or cupy &amp;gt; 9.6. That is bad. I shall install another WSL more recent and see the difference anyway one side of the equation w11 is always constant. W11 numpy:...</content>
+    <link href="https://forums.developer.nvidia.com/t/220998/21" rel="alternate"/>
   </entry>
 </feed>
