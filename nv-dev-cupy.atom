@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-07-24T14:54:03.055000+00:00</updated>
+  <updated>2022-07-26T15:03:13.522000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/173658/1</id>
-    <title>Nvidia-smi command not found despite installing CUDA [1]</title>
-    <updated>2021-03-29T21:08:58.797000+00:00</updated>
-    <content>David H Pitt: I installed CUDA on my Win10 machine this morning to use CuPy. Running nvcc --version gives an output, and so does conda list cudatoolkit. However, running nvidia-smi in a conda environment gives the error comma...</content>
-    <link href="https://forums.developer.nvidia.com/t/173658/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/174053/1</id>
     <title>How can I create my custom containers for Jetson Nano [1]</title>
@@ -353,5 +346,12 @@
     <updated>2022-07-24T14:54:03.055000+00:00</updated>
     <content>K Glimps: ...ially, I have chosen Ubuntu 18.04 because it is widely used but now, python 3.6 is old and I can not update to new/future releases of numpy &amp;gt; 1.20 or cupy &amp;gt; 9.6. That is bad. I shall install another WSL more recent and see the difference anyway one side of the equation w11 is always constant. W11 numpy:...</content>
     <link href="https://forums.developer.nvidia.com/t/220998/21" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/221843/5</id>
+    <title>Shared memory parallel processing for jetson inference [5]</title>
+    <updated>2022-07-26T15:03:13.522000+00:00</updated>
+    <content>dusty_nv: ...CUDA stream or with cudaDeviceSynchronize() that synchronization occurs. If you are using numpy for your operations today, you may want to look into cupy, which is like the CUDA version of numpy.</content>
+    <link href="https://forums.developer.nvidia.com/t/221843/5" rel="alternate"/>
   </entry>
 </feed>
