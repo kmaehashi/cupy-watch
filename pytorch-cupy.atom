@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2022-06-27T09:53:26.723000+00:00</updated>
+  <updated>2022-08-02T13:23:19.294000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -311,5 +311,12 @@
     <updated>2022-06-27T09:53:26.723000+00:00</updated>
     <content>Scirocc: ...multiprocessing. And I need to use multiproceesing,cuz I have to do calculation in both cpu/gpu. is there any way to do that?should I use libtorch or cupy or something else? Here is my code: import torch import time def task(o): print(o.data_ptr()) print(o, '034') stream = torch.cuda.Stream() with torch...</content>
     <link href="https://discuss.pytorch.org/t/155147/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/158133/1</id>
+    <title>PyTorch crashes when running with OpenACC [1]</title>
+    <updated>2022-08-02T13:23:19.294000+00:00</updated>
+    <content>Marcelo O Silva: ...ch, same thing happened… it just crashed and output ‘libgomp: TODO’. What I’m trying behind all this is to allocate a tensor via torch, share it with Cupy via Cuda_Array_Interface, and them use it in OpenACC (I’m already doing this last part without errors, if I allocated memory via Cupy). But the error...</content>
+    <link href="https://discuss.pytorch.org/t/158133/1" rel="alternate"/>
   </entry>
 </feed>
