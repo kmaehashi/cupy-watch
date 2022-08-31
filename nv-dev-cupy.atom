@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-07-26T15:03:13.522000+00:00</updated>
+  <updated>2022-08-31T17:53:46.264000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/174053/1</id>
-    <title>How can I create my custom containers for Jetson Nano [1]</title>
-    <updated>2021-04-02T11:23:55.754000+00:00</updated>
-    <content>: ...? l4t-tensorflow:r32.5.0-tf2.3-py3 TensorFlow 2.3.1 l4t-ml:r32.5.0-py3 TensorFlow 1.15 PyTorch v1.7.0 torchvision v0.8.0 torchaudio v0.7.0 onnx 1.8.0 CuPy 8.0.0 numpy 1.19.4 numba 0.52.0 OpenCV 4.4.1 pandas 1.1.5 scipy 1.5.4 scikit-learn 0.23.2 JupyterLab 2.2.9 Cheers</content>
-    <link href="https://forums.developer.nvidia.com/t/174053/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/173773/2</id>
     <title>N Ways to SAXPY: Demonstrating the Breadth of GPU Programming Options [2]</title>
@@ -353,5 +346,12 @@
     <updated>2022-07-26T15:03:13.522000+00:00</updated>
     <content>dusty_nv: ...CUDA stream or with cudaDeviceSynchronize() that synchronization occurs. If you are using numpy for your operations today, you may want to look into cupy, which is like the CUDA version of numpy.</content>
     <link href="https://forums.developer.nvidia.com/t/221843/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/226656/3</id>
+    <title>SingleAsianOption Performance vs Tensorflow/Cupy [3]</title>
+    <updated>2022-08-31T17:53:46.264000+00:00</updated>
+    <content>Jan Kaiser1711: I’m trying to get a general understanding. I also ran the CUDA sample on Colab and it ran around 700 ms on Tesla T4. This is the cupy code. It gives the same result as the parameters in the C++ sample code. import cupy as cp def asian_arithmetic_call_price_cp(S0, K, r, sigma, T, n_p...</content>
+    <link href="https://forums.developer.nvidia.com/t/226656/3" rel="alternate"/>
   </entry>
 </feed>
