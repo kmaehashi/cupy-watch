@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-10-07T12:53:06.618000+00:00</updated>
+  <updated>2022-10-07T16:15:59.128000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/174959/7</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/226656/8" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/230153/1</id>
-    <title>Nsight Systems causes CuPy to crash in Windows 10 if nvcc is invoked for kernel compilation [1]</title>
-    <updated>2022-10-07T12:53:06.618000+00:00</updated>
-    <content>Berry Wang: To reproduce: Install CuPy through wheel pip install cupy-cuda11x Create nsys_dbg.py with the following content: import cupy as cp print(cp.nansum(cp.linspace(0,10))) import ti...</content>
-    <link href="https://forums.developer.nvidia.com/t/230153/1" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/230153/2</id>
+    <title>Nsight Systems causes CuPy to crash in Windows 10 if nvcc is invoked for kernel compilation [2]</title>
+    <updated>2022-10-07T16:15:59.128000+00:00</updated>
+    <content>Kenichi Maehashi: nvcc exit status 2 (without any stdout/stderr) on Windows often indicates a permission issue of temporary files. Make sure that TEMP environment variable is set to a writable directory. You can check that by adding a code like: import os print(os.environ["TEMP"])</content>
+    <link href="https://forums.developer.nvidia.com/t/230153/2" rel="alternate"/>
   </entry>
 </feed>
