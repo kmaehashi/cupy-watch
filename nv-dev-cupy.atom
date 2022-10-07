@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-08-31T18:26:18.272000+00:00</updated>
+  <updated>2022-10-07T12:53:06.618000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/173773/2</id>
-    <title>N Ways to SAXPY: Demonstrating the Breadth of GPU Programming Options [2]</title>
-    <updated>2021-04-06T21:41:48.167000+00:00</updated>
-    <content>dsingalNV: ...mance, allow better use of Unified Memory, etc. Furthermore, there have been more open source projects that allow one to program for NVIDIA GPUs like cuPy, Numba, Tensorflow, Pytorch and more are always showing up thanks to the https://developer.nvidia.com/cuda-llvm-compiler NVIDIA Compiler SDK Thanks f...</content>
-    <link href="https://forums.developer.nvidia.com/t/173773/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/174959/7</id>
     <title>Unifying the CUDA Python Ecosystem [7]</title>
@@ -353,5 +346,12 @@
     <updated>2022-08-31T18:26:18.272000+00:00</updated>
     <content>Robert_Crovella: ...careful benchmarking exercise (IMO) should do a warm-up run before computing measured values. Yes, I guess you are probably not doing this with your cupy code. But I can definitely spot some problems in the comparison. So I’m fairly convinced what you’re doing is not an apples-to-apples comparison. Her...</content>
     <link href="https://forums.developer.nvidia.com/t/226656/8" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/230153/1</id>
+    <title>Nsight Systems causes CuPy to crash in Windows 10 if nvcc is invoked for kernel compilation [1]</title>
+    <updated>2022-10-07T12:53:06.618000+00:00</updated>
+    <content>Berrywang1997: To reproduce: Install CuPy through wheel pip install cupy-cuda11x Create nsys_dbg.py with the following content: import cupy as cp print(cp.nansum(cp.linspace(0,10))) import ti...</content>
+    <link href="https://forums.developer.nvidia.com/t/230153/1" rel="alternate"/>
   </entry>
 </feed>
