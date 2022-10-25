@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-10-19T18:33:54.653000+00:00</updated>
+  <updated>2022-10-25T19:17:29.143000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/174959/7</id>
-    <title>Unifying the CUDA Python Ecosystem [7]</title>
-    <updated>2021-04-28T19:58:52.237000+00:00</updated>
-    <content>Matt Nicely: ...to use the corresponding Driver/Runtime API. As far as question 2, I’m not sure at the moment. I’m pretty sure that functionality currently exists in CuPy.</content>
-    <link href="https://forums.developer.nvidia.com/t/174959/7" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/169103/15</id>
     <title>Cupy crashes on Jetson Nano [15]</title>
@@ -353,5 +346,12 @@
     <updated>2022-10-19T18:33:54.653000+00:00</updated>
     <content>hwilper: @dofek for Windows target.</content>
     <link href="https://forums.developer.nvidia.com/t/230153/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/72048/1205</id>
+    <title>PyTorch for Jetson [1205]</title>
+    <updated>2022-10-25T19:17:29.143000+00:00</updated>
+    <content>Gaversano: ...# According to the catalog, this includes: # * # * TensorFlow 1.15 # * PyTorch v1.6.0 # * torchvision v0.7.0 # * torchaudio v0.6.0 # * onnx 1.7.0 # * CuPy 8.0.0 # * numpy 1.19.2 # * numba 0.51.2 # * pandas 1.1.3 # * scipy 1.5.3 # * scikit-learn 0.23.2 # * JupyterLab 2.2.8 # # It targets NVIDIA's JetPack...</content>
+    <link href="https://forums.developer.nvidia.com/t/72048/1205" rel="alternate"/>
   </entry>
 </feed>
