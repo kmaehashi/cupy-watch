@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-10-25T19:17:29.143000+00:00</updated>
+  <updated>2022-11-08T13:54:57.030000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/169103/15</id>
-    <title>Cupy crashes on Jetson Nano [15]</title>
-    <updated>2021-04-29T13:58:35.876000+00:00</updated>
-    <content>Alain Paillou: Hello Dustin, could this be an illustration of what you are talking about, but this time using cupy : // Copyright 2008-2021 Andreas Kloeckner // Copyright 2021 NVIDIA Corporation import pycuda.autoinit # noqa from pycuda.compiler import SourceModul...</content>
-    <link href="https://forums.developer.nvidia.com/t/169103/15" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/178315/3</id>
     <title>CUDA in Python C/C++ extensions [3]</title>
@@ -353,5 +346,12 @@
     <updated>2022-10-25T19:17:29.143000+00:00</updated>
     <content>Gaversano: ...# According to the catalog, this includes: # * # * TensorFlow 1.15 # * PyTorch v1.6.0 # * torchvision v0.7.0 # * torchaudio v0.6.0 # * onnx 1.7.0 # * CuPy 8.0.0 # * numpy 1.19.2 # * numba 0.51.2 # * pandas 1.1.3 # * scipy 1.5.3 # * scikit-learn 0.23.2 # * JupyterLab 2.2.8 # # It targets NVIDIA's JetPack...</content>
     <link href="https://forums.developer.nvidia.com/t/72048/1205" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/233167/1</id>
+    <title>CuDNN is not enabled [1]</title>
+    <updated>2022-11-08T13:54:57.030000+00:00</updated>
+    <content>Fujimoto: ...to Jetson Nano. I am going to try Edge AI. So, I have installed the following software packages to my Jetson Nano: Python 3.6.9 Cuda 10.2 CuDNN 8201 cupy 7.8.0 PyTorch 1.8.0 chainer 7.8.1 Then, I ran my deep learning program on the Jetson Nano. The program had run normally on another PC with a NVIDIA G...</content>
+    <link href="https://forums.developer.nvidia.com/t/233167/1" rel="alternate"/>
   </entry>
 </feed>
