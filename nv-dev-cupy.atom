@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-11-08T16:10:43.969000+00:00</updated>
+  <updated>2022-11-08T18:08:43.983000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/178315/3</id>
-    <title>CUDA in Python C/C++ extensions [3]</title>
-    <updated>2021-05-20T15:48:12.796000+00:00</updated>
-    <content>Matt Nicely: To mix CUDA/C++/Python, check out how CuPy accomplished this with NVRTC https://github.com/cupy/cupy/pull/3319 github.com/cupy/cupy Pull Request https://github.com/cupy/cupy/pull/3319 Support...</content>
-    <link href="https://forums.developer.nvidia.com/t/178315/3" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/178647/2</id>
     <title>Unwrap: shift phase angles kernel implementation [2]</title>
@@ -353,5 +346,12 @@
     <updated>2022-11-08T16:10:43.969000+00:00</updated>
     <content>Kenichi Maehashi: fujimoto7: CuDNN 8201 cupy 7.8.0 PyTorch 1.8.0 chainer 7.8.1 I’d suggest avoid using Chainer as it is no longer actively maintained to support recent platforms including Arm. H...</content>
     <link href="https://forums.developer.nvidia.com/t/233167/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/573</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [573]</title>
+    <updated>2022-11-08T18:08:43.983000+00:00</updated>
+    <content>Alain Paillou: ...optimized version of JetsonSky, i have just finish a quite stable development platform with JetsonSky to add some new libraries like Pytorch, VPI and Cupy (thanks Dusty). I will released this modified version of JetsonSky (but still based on PyCuda OpenCV Numpy) a bit later. For this development version...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/573" rel="alternate"/>
   </entry>
 </feed>
