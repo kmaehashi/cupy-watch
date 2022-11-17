@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-11-14T16:18:58.186000+00:00</updated>
+  <updated>2022-11-17T03:46:16.669000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/178647/2</id>
-    <title>Unwrap: shift phase angles kernel implementation [2]</title>
-    <updated>2021-05-24T13:09:21.586000+00:00</updated>
-    <content>Matt Nicely: Have you looked at the CuPy implementation? https://github.com/cupy/cupy/blob/v9.0.0/cupy/_math/trigonometric.py#L115</content>
-    <link href="https://forums.developer.nvidia.com/t/178647/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/179311/4</id>
     <title>Thank You NVIDIA - Everything is working fine on wsl2 and windows 10 [4]</title>
@@ -353,5 +346,12 @@
     <updated>2022-11-14T16:18:58.186000+00:00</updated>
     <content>Alain Paillou: ...u/JETSONSKY GitHub - AlainPaillou/JETSONSKY Contribute to AlainPaillou/JETSONSKY development by creating an account on GitHub. I made some tests with Cupy which is a GPU version of Numpy. It looks promising but unfortunately, there is a problem with Pycuda when using Cupy (Cuda context for Pycuda gets i...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/584" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/234580/2</id>
+    <title>NVIDIA CUDA cannot work properly [2]</title>
+    <updated>2022-11-17T03:46:16.669000+00:00</updated>
+    <content>Tjk9501: The error prompted when using cupy looks like follows: Traceback (most recent call last): File "C:\Users\hp\.conda\envs\CUPY\lib\site-packages\spyder_kernels\py3compat.py", line 356, i...</content>
+    <link href="https://forums.developer.nvidia.com/t/234580/2" rel="alternate"/>
   </entry>
 </feed>
