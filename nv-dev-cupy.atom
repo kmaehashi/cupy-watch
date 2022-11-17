@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-11-17T03:46:16.669000+00:00</updated>
+  <updated>2022-11-17T03:53:30.190000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/179311/4</id>
-    <title>Thank You NVIDIA - Everything is working fine on wsl2 and windows 10 [4]</title>
-    <updated>2021-05-31T08:09:29.149000+00:00</updated>
-    <content>K Glimps: ...yper, murmurhash, blis, numpy, requests, pathy, jinja2, packaging, catalogue Required-by: spacy-transformers mabd@LAPTOP-T8DQ9UK0:~$ i had to install cupy-cuda112 and here cuda 11.2 was important mabd@LAPTOP-T8DQ9UK0:~$ pip show cupy-cuda112 Name: cupy-cuda112 Version: 8.6.0 Summary: CuPy: A NumPy-compa...</content>
-    <link href="https://forums.developer.nvidia.com/t/179311/4" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/179453/5</id>
     <title>Passing scalar to functions (cupy &amp;amp; pycuda) - scalar multiplication of a vector [5]</title>
@@ -353,5 +346,12 @@
     <updated>2022-11-17T03:46:16.669000+00:00</updated>
     <content>Tjk9501: The error prompted when using cupy looks like follows: Traceback (most recent call last): File "C:\Users\hp\.conda\envs\CUPY\lib\site-packages\spyder_kernels\py3compat.py", line 356, i...</content>
     <link href="https://forums.developer.nvidia.com/t/234580/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/234582/1</id>
+    <title>NVIDIA CUDA cannot work properly [1]</title>
+    <updated>2022-11-17T03:53:30.190000+00:00</updated>
+    <content>Tjk9501: ...ew, torch.isfinite(tensor_view) &amp;amp; tensor_view.ne(0)) RuntimeError: CUDA error: an illegal memory access was encountered After some times, I installed cupy packages and run some linear algebra calculations on the same server, it seems that python can smoothly run some caluclations, but the same error wil...</content>
+    <link href="https://forums.developer.nvidia.com/t/234582/1" rel="alternate"/>
   </entry>
 </feed>
