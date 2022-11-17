@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-11-17T03:53:30.190000+00:00</updated>
+  <updated>2022-11-17T15:53:16.532000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/179453/5</id>
-    <title>Passing scalar to functions (cupy &amp;amp; pycuda) - scalar multiplication of a vector [5]</title>
-    <updated>2021-05-31T21:25:41.467000+00:00</updated>
-    <content>Zsolt Majzik: Thank you very very much! This is exactly what I need to study!</content>
-    <link href="https://forums.developer.nvidia.com/t/179453/5" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/180564/1</id>
     <title>Gauss Rank Transformation Is 100x Faster with RAPIDS and CuPy [1]</title>
@@ -353,5 +346,12 @@
     <updated>2022-11-17T03:53:30.190000+00:00</updated>
     <content>Tjk9501: ...ew, torch.isfinite(tensor_view) &amp;amp; tensor_view.ne(0)) RuntimeError: CUDA error: an illegal memory access was encountered After some times, I installed cupy packages and run some linear algebra calculations on the same server, it seems that python can smoothly run some caluclations, but the same error wil...</content>
     <link href="https://forums.developer.nvidia.com/t/234582/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/234491/4</id>
+    <title>VPI library with Jetsons? [4]</title>
+    <updated>2022-11-17T15:53:16.532000+00:00</updated>
+    <content>Alain Paillou: ...u() RuntimeError: VPI_ERROR_INTERNAL: Can’t perform shared mapping I must say that i use PyCuda in my program and maybe this is a problem. When i use Cupy for eaxample, there is a problem with PyCuda. Cupy alone is OK but Cupy with PyCuda do not work. Any suggestion ? Alain</content>
+    <link href="https://forums.developer.nvidia.com/t/234491/4" rel="alternate"/>
   </entry>
 </feed>
