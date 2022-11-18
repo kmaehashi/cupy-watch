@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-11-17T16:10:41.449000+00:00</updated>
+  <updated>2022-11-18T14:25:03.420000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/180564/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/234582/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/234491/5</id>
-    <title>VPI library with Jetsons? [5]</title>
-    <updated>2022-11-17T16:10:41.449000+00:00</updated>
-    <content>Alain Paillou: In my software (JetsonSky), i use PyCuda, OpenCV and Numpy (mainly). I would like to use Cupy (instead of numpy) and VPI (instead of some OpenCV functions). I made some tests with Cupy. as i said previously, Cupy alone is OK. Cupy with Pycuda...</content>
-    <link href="https://forums.developer.nvidia.com/t/234491/5" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/234491/7</id>
+    <title>VPI library with Jetsons? [7]</title>
+    <updated>2022-11-18T14:25:03.420000+00:00</updated>
+    <content>Alain Paillou: ...: Can’t perform shared mapping It seems VPI doesn’t like Pycuda very much. It would be really useful if we could use VPI with Pycuda (same thing with Cupy and Pycuda). Alain</content>
+    <link href="https://forums.developer.nvidia.com/t/234491/7" rel="alternate"/>
   </entry>
 </feed>
