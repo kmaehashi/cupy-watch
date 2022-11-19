@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-11-18T14:25:03.420000+00:00</updated>
+  <updated>2022-11-19T16:37:31.236000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/180564/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/234582/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/234491/7</id>
-    <title>VPI library with Jetsons? [7]</title>
-    <updated>2022-11-18T14:25:03.420000+00:00</updated>
-    <content>Alain Paillou: ...: Can’t perform shared mapping It seems VPI doesn’t like Pycuda very much. It would be really useful if we could use VPI with Pycuda (same thing with Cupy and Pycuda). Alain</content>
-    <link href="https://forums.developer.nvidia.com/t/234491/7" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/234491/9</id>
+    <title>VPI library with Jetsons? [9]</title>
+    <updated>2022-11-19T16:37:31.236000+00:00</updated>
+    <content>Alain Paillou: Hello Honey_Patouceul, well, i tried import pycuda.autoprimaryctx and … it seems it works ! No error message any more when i use Pycuda and Cupy toghether ! Tada ! I will test this with Pycuda and VPI to see if this solve the issue. If it is true that Pycuda can work with Cupy and VPI, this wi...</content>
+    <link href="https://forums.developer.nvidia.com/t/234491/9" rel="alternate"/>
   </entry>
 </feed>
