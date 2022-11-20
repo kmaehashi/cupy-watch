@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-11-19T16:37:31.236000+00:00</updated>
+  <updated>2022-11-20T14:27:39.590000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/180564/1</id>
@@ -327,13 +327,6 @@
     <link href="https://forums.developer.nvidia.com/t/233167/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/584</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [584]</title>
-    <updated>2022-11-14T16:18:58.186000+00:00</updated>
-    <content>Alain Paillou: ...u/JETSONSKY GitHub - AlainPaillou/JETSONSKY Contribute to AlainPaillou/JETSONSKY development by creating an account on GitHub. I made some tests with Cupy which is a GPU version of Numpy. It looks promising but unfortunately, there is a problem with Pycuda when using Cupy (Cuda context for Pycuda gets i...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/584" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/234580/2</id>
     <title>NVIDIA CUDA cannot work properly [2]</title>
     <updated>2022-11-17T03:46:16.669000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2022-11-19T16:37:31.236000+00:00</updated>
     <content>Alain Paillou: Hello Honey_Patouceul, well, i tried import pycuda.autoprimaryctx and … it seems it works ! No error message any more when i use Pycuda and Cupy toghether ! Tada ! I will test this with Pycuda and VPI to see if this solve the issue. If it is true that Pycuda can work with Cupy and VPI, this wi...</content>
     <link href="https://forums.developer.nvidia.com/t/234491/9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/590</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [590]</title>
+    <updated>2022-11-20T14:27:39.590000+00:00</updated>
+    <content>Alain Paillou: Hello, i made some tests those days and with the help of Honey_Patouceul, it is now possible to get Pycuda working with cupy and VPI libraries. cupy is a kind of numpy for GPU and VPI is a NVidia library for image treatment which uses GPU capabilities. Those libraries could...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/590" rel="alternate"/>
   </entry>
 </feed>
