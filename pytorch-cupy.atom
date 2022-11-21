@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2022-08-02T13:23:19.294000+00:00</updated>
+  <updated>2022-11-21T11:54:40.769000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -318,5 +318,12 @@
     <updated>2022-08-02T13:23:19.294000+00:00</updated>
     <content>Marcelo O Silva: ...ch, same thing happened… it just crashed and output ‘libgomp: TODO’. What I’m trying behind all this is to allocate a tensor via torch, share it with Cupy via Cuda_Array_Interface, and them use it in OpenACC (I’m already doing this last part without errors, if I allocated memory via Cupy). But the error...</content>
     <link href="https://discuss.pytorch.org/t/158133/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/166521/1</id>
+    <title>Error with Older GT710 with cuda capability 3.5 and pytorch [1]</title>
+    <updated>2022-11-21T11:54:40.769000+00:00</updated>
+    <content>kmn works: ...initializing nlp object Traceback (most recent call last): File “C:\Users\Kharanshu.Naghera\AppData\Local\Programs\Python\Python37\lib\site-packages\cupy\cuda\compiler.py”, line 66, in _run_cc universal_newlines=True) File “C:\Users\Kharanshu.Naghera\AppData\Local\Programs\Python\Python37\lib\subproces...</content>
+    <link href="https://discuss.pytorch.org/t/166521/1" rel="alternate"/>
   </entry>
 </feed>
