@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2022-11-23T23:17:32.666000+00:00</updated>
+  <updated>2022-11-24T20:45:03.468000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -54,10 +54,10 @@
     <link href="https://discuss.python.org/t/17155/11" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://discuss.python.org/t/21359/1</id>
-    <title>Dynamic project names and PEP 621 [1]</title>
-    <updated>2022-11-23T23:17:32.666000+00:00</updated>
-    <content>Vyas Ramasubramani: ...ps.python.org/pep-0425/ PEP 425 . A good example of this is for packages targeting accelerators that require certain drivers to be installed, such as Cupy versions targeting a specific CUDA version. The feature described by option 3 would be very powerful but seems like a much more complex task that wou...</content>
-    <link href="https://discuss.python.org/t/21359/1" rel="alternate"/>
+    <id>https://discuss.python.org/t/21359/18</id>
+    <title>Dynamic project names and PEP 621 [18]</title>
+    <updated>2022-11-24T20:45:03.468000+00:00</updated>
+    <content>Vyas Ramasubramani: ...eer to pull the version out of source control, right? I might have missed it, but what’s the use case? Given OP’s work with Nvidia and the mention of Cupy/CUDA versions, I’m going to guess this is to ship projects that encode the CUDA version in the project name, like https://pypi.org/project/cupy-cuda9...</content>
+    <link href="https://discuss.python.org/t/21359/18" rel="alternate"/>
   </entry>
 </feed>
