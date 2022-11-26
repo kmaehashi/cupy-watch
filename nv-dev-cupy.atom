@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2022-11-20T16:48:28.528000+00:00</updated>
+  <updated>2022-11-26T14:57:49.801000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/180564/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/234491/9" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/592</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [592]</title>
-    <updated>2022-11-20T16:48:28.528000+00:00</updated>
-    <content>Alain Paillou: Hello Kenichi, many thanks for this information. In fact, i used this link to install cupy on my windows laptop but i did not noticed there was an aarch64 precompiled libreary !!! You make great job with cupy. Really great. Many thanks. Con...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/592" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/76861/600</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [600]</title>
+    <updated>2022-11-26T14:57:49.801000+00:00</updated>
+    <content>Alain Paillou: Hello, I have released a new version of JetsonSky on Github. It’s V17_01d Beta version. I added support for CUPY and VPI libraries. VPI library only works with Linux systems and mainly with Jetson SBC. Alain</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/600" rel="alternate"/>
   </entry>
 </feed>
