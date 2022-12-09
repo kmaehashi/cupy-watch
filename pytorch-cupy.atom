@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2022-11-21T11:54:40.769000+00:00</updated>
+  <updated>2022-12-09T00:53:20.272000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -325,5 +325,12 @@
     <updated>2022-11-21T11:54:40.769000+00:00</updated>
     <content>kmn works: ...initializing nlp object Traceback (most recent call last): File “C:\Users\Kharanshu.Naghera\AppData\Local\Programs\Python\Python37\lib\site-packages\cupy\cuda\compiler.py”, line 66, in _run_cc universal_newlines=True) File “C:\Users\Kharanshu.Naghera\AppData\Local\Programs\Python\Python37\lib\subproces...</content>
     <link href="https://discuss.pytorch.org/t/166521/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/167897/5</id>
+    <title>How requires_grad_(True) effect the training result [5]</title>
+    <updated>2022-12-09T00:53:20.272000+00:00</updated>
+    <content>: Thanks ptrblck, Could you please explain a bit about why PyTorch calculate spmv so slow? I guess both torch and cupy call some function in cuSPARSE to calculate spmv, why is there such a big difference between their performance?</content>
+    <link href="https://discuss.pytorch.org/t/167897/5" rel="alternate"/>
   </entry>
 </feed>
