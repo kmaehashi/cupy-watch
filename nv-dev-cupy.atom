@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-01-17T10:03:20.883000+00:00</updated>
+  <updated>2023-01-26T05:30:59.061000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/183295/2</id>
-    <title>Efficient math functions on Xavier CPU [2]</title>
-    <updated>2021-07-11T17:43:49.622000+00:00</updated>
-    <content>Dominik: ...chapter/libc_19.html glibc . When using Python look at https://numpy.org/doc/stable/reference/routines.math.html Numpy math functions or https://docs.cupy.dev/en/stable/reference/math.html Cupy which speeds up computation by using GPU.</content>
-    <link href="https://forums.developer.nvidia.com/t/183295/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/186501/2</id>
     <title>Computer Vision Python packages with Cuda-GPU support for Jetson AGX Xavier? [2]</title>
@@ -353,5 +346,12 @@
     <updated>2023-01-17T10:03:20.883000+00:00</updated>
     <content>Bingmadelaire: ...: Basically, we have a matrix A that is 70,000,000 x 15,000 (~10 TB) and want to calculate transpose(A)*A. I did some simple tests in Python with the cupy library and a 10,000,000x15,000 FP32 matrix and found the GPU to be multiple times faster. I know it will depend on the CPU and GPU, but let’s just w...</content>
     <link href="https://forums.developer.nvidia.com/t/239826/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/240655/1</id>
+    <title>Cupy installation on Nvidia Drive AGX Xavier [1]</title>
+    <updated>2023-01-26T05:30:59.061000+00:00</updated>
+    <content>gibin.zachariah: Hi, I am using cupy in a ROS package. It is working on desktop and am trying to implement that on a NVIDIA Drive AGX Xavier. I am currently trying to install Cupy from s...</content>
+    <link href="https://forums.developer.nvidia.com/t/240655/1" rel="alternate"/>
   </entry>
 </feed>
