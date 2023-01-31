@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-01-31T18:57:52.319000+00:00</updated>
+  <updated>2023-01-31T19:07:30.818000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/186501/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/239826/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/240655/4</id>
-    <title>Cupy installation on Nvidia Drive AGX Xavier [4]</title>
-    <updated>2023-01-31T18:57:52.319000+00:00</updated>
-    <content>VickNV: It is recommended to use cross-compilation as the development process for DRIVE OS. There is no documentation available on cross-compiling using pip.</content>
-    <link href="https://forums.developer.nvidia.com/t/240655/4" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/240655/5</id>
+    <title>Cupy installation on Nvidia Drive AGX Xavier [5]</title>
+    <updated>2023-01-31T19:07:30.818000+00:00</updated>
+    <content>gibin.zachariah: Since I cannot cross compile using pip, I will have to build on the target. Currently, there are no cufft.h etc header files on the target. How can I install these on the target machine?</content>
+    <link href="https://forums.developer.nvidia.com/t/240655/5" rel="alternate"/>
   </entry>
 </feed>

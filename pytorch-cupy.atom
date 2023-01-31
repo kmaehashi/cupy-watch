@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2022-12-09T00:53:20.272000+00:00</updated>
+  <updated>2023-01-31T19:18:43.482000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -332,5 +332,12 @@
     <updated>2022-12-09T00:53:20.272000+00:00</updated>
     <content>: Thanks ptrblck, Could you please explain a bit about why PyTorch calculate spmv so slow? I guess both torch and cupy call some function in cuSPARSE to calculate spmv, why is there such a big difference between their performance?</content>
     <link href="https://discuss.pytorch.org/t/167897/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/171502/2</id>
+    <title>Convert PyTorch tensor to CuPy array without detaching graph? [2]</title>
+    <updated>2023-01-31T19:18:43.482000+00:00</updated>
+    <content>Ramansh Sharma: Hello @ptrblck . If possible, could you please help me with this? I would really appreciate the help. Thank you.</content>
+    <link href="https://discuss.pytorch.org/t/171502/2" rel="alternate"/>
   </entry>
 </feed>
