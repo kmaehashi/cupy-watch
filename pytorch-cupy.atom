@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2023-02-01T00:50:12.528000+00:00</updated>
+  <updated>2023-02-01T03:55:06.919000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -334,10 +334,10 @@
     <link href="https://discuss.pytorch.org/t/167897/5" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://discuss.pytorch.org/t/171502/3</id>
-    <title>Convert PyTorch tensor to CuPy array without detaching graph? [3]</title>
-    <updated>2023-02-01T00:50:12.528000+00:00</updated>
-    <content>: ...ethod as described https://pytorch.org/tutorials/beginner/examples_autograd/two_layer_net_custom_function.html here as Autograd would not be aware of CuPy operations.</content>
-    <link href="https://discuss.pytorch.org/t/171502/3" rel="alternate"/>
+    <id>https://discuss.pytorch.org/t/171502/4</id>
+    <title>Convert PyTorch tensor to CuPy array without detaching graph? [4]</title>
+    <updated>2023-02-01T03:55:06.919000+00:00</updated>
+    <content>Ramansh Sharma: Thank you for the reply. I agree with the custom autograd function idea, we are indeed using something like that in our code. But since CuPy does not retain the graph of the PyTorch tensor, once we perform some operations in CuPy and convert back to PyTorch, we are unable to differentiate...</content>
+    <link href="https://discuss.pytorch.org/t/171502/4" rel="alternate"/>
   </entry>
 </feed>
