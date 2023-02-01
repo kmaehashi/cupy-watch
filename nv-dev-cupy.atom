@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-01-31T19:07:30.818000+00:00</updated>
+  <updated>2023-02-01T05:27:54.443000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/186501/2</id>
-    <title>Computer Vision Python packages with Cuda-GPU support for Jetson AGX Xavier? [2]</title>
-    <updated>2021-08-13T14:54:50.670000+00:00</updated>
-    <content>dusty_nv: Hi @Tamas23 , the other popular ones I am familiar with are cupy (numpy for CUDA), pyCUDA (run CUDA kernels from Python), numba (autovectorization for GPU). I would check out the latest https://ngc.nvidia.com/catal...</content>
-    <link href="https://forums.developer.nvidia.com/t/186501/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/158008/8</id>
     <title>MPI Multi-GPU process list in nvidia-smi [8]</title>
@@ -348,10 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/239826/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/240655/5</id>
-    <title>Cupy installation on Nvidia Drive AGX Xavier [5]</title>
-    <updated>2023-01-31T19:07:30.818000+00:00</updated>
-    <content>gibin.zachariah: Since I cannot cross compile using pip, I will have to build on the target. Currently, there are no cufft.h etc header files on the target. How can I install these on the target machine?</content>
-    <link href="https://forums.developer.nvidia.com/t/240655/5" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/240655/7</id>
+    <title>Cupy installation on Nvidia Drive AGX Xavier [7]</title>
+    <updated>2023-02-01T05:21:17.874000+00:00</updated>
+    <content>VickNV: I will consult with our team and provide you with an update.</content>
+    <link href="https://forums.developer.nvidia.com/t/240655/7" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/241232/1</id>
+    <title>MONAI framework is very slow while computing stain normalisation [1]</title>
+    <updated>2023-02-01T05:27:54.443000+00:00</updated>
+    <content>Vinay: ...I framework. I have checked the blog for the implementation of Stain normalization and I found out that the implementation is using numpy rather than cupy or something similar. Here is the implementation, I found from MONAI blog : Copyright (c) MONAI Consortium Licensed under the Apache License, Version...</content>
+    <link href="https://forums.developer.nvidia.com/t/241232/1" rel="alternate"/>
   </entry>
 </feed>

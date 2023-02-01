@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2023-02-01T05:01:49.646000+00:00</updated>
+  <updated>2023-02-01T05:42:00.804000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -334,10 +334,10 @@
     <link href="https://discuss.pytorch.org/t/167897/5" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://discuss.pytorch.org/t/171502/5</id>
-    <title>Convert PyTorch tensor to CuPy array without detaching graph? [5]</title>
-    <updated>2023-02-01T05:01:49.646000+00:00</updated>
-    <content>: No, I don’t think you need to implement C++ Autograd kernels, but should be able to write a custom autograd.Function in Python defining the forward and backward methods as described in the link in my previous post.</content>
-    <link href="https://discuss.pytorch.org/t/171502/5" rel="alternate"/>
+    <id>https://discuss.pytorch.org/t/171502/6</id>
+    <title>Convert PyTorch tensor to CuPy array without detaching graph? [6]</title>
+    <updated>2023-02-01T05:42:00.804000+00:00</updated>
+    <content>Kenichi Maehashi: CuPy interoperability docs has a full working example of torch.autograd.Function implemented in CuPy :smiley: https://docs.cupy.dev/en/latest/user_guide/i...</content>
+    <link href="https://discuss.pytorch.org/t/171502/6" rel="alternate"/>
   </entry>
 </feed>
