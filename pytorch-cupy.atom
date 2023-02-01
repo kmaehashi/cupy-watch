@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2023-02-01T05:42:00.804000+00:00</updated>
+  <updated>2023-02-01T07:14:43.441000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -334,10 +334,10 @@
     <link href="https://discuss.pytorch.org/t/167897/5" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://discuss.pytorch.org/t/171502/6</id>
-    <title>Convert PyTorch tensor to CuPy array without detaching graph? [6]</title>
-    <updated>2023-02-01T05:42:00.804000+00:00</updated>
-    <content>Kenichi Maehashi: CuPy interoperability docs has a full working example of torch.autograd.Function implemented in CuPy :smiley: https://docs.cupy.dev/en/latest/user_guide/i...</content>
-    <link href="https://discuss.pytorch.org/t/171502/6" rel="alternate"/>
+    <id>https://discuss.pytorch.org/t/171502/7</id>
+    <title>Convert PyTorch tensor to CuPy array without detaching graph? [7]</title>
+    <updated>2023-02-01T07:14:43.441000+00:00</updated>
+    <content>Ramansh Sharma: ...ought, I have an idea to retry this by using the custom autograd.Function autograd kernel. Right now, I was unable to return the derivative w.r.t the CuPy matrix input to the forward method, but I can do it if I take as input a PyTorch tensor and use CuPy in my forward method regardless.</content>
+    <link href="https://discuss.pytorch.org/t/171502/7" rel="alternate"/>
   </entry>
 </feed>
