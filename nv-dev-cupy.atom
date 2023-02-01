@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-02-01T05:27:54.443000+00:00</updated>
+  <updated>2023-02-01T19:43:23.813000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/158008/8</id>
-    <title>MPI Multi-GPU process list in nvidia-smi [8]</title>
-    <updated>2021-09-10T15:15:32.637000+00:00</updated>
-    <content>Richard Elkins: ...device. Thank you and I will inform people about this issue thread. Sample configuration: OS : Linux-4.15.0-72-generic-x86_64-with-debian-stretch-sid CuPy Version : 8.6.0 NumPy Version : 1.21.1 SciPy Version : 1.7.0 Cython Build Version : 0.29.22 CUDA Root : /opt/conda CUDA Build Version : 11000 CUDA Dr...</content>
-    <link href="https://forums.developer.nvidia.com/t/158008/8" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/189099/3</id>
     <title>CuPy installation on the Nano [3]</title>
@@ -353,5 +346,12 @@
     <updated>2023-02-01T05:27:54.443000+00:00</updated>
     <content>Vinay: ...I framework. I have checked the blog for the implementation of Stain normalization and I found out that the implementation is using numpy rather than cupy or something similar. Here is the implementation, I found from MONAI blog : Copyright (c) MONAI Consortium Licensed under the Apache License, Version...</content>
     <link href="https://forums.developer.nvidia.com/t/241232/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/175800/3</id>
+    <title>cuCIM: Rapid n-Dimensional Image Processing and I/O on GPUs [3]</title>
+    <updated>2023-02-01T19:43:23.813000+00:00</updated>
+    <content>gigony: ...://anaconda.org/rapidsai/cucim/files Files :: Anaconda.org (arm64 SBSA includes Jetson boards such as Jetson Xavior/Orin). If you are able to install CuPy package ( https://github.com/cupy/cupy/issues/3196#issuecomment-975623298 and https://pip.cupy.dev/aarch64/ ) in your Jetson Nano, you can install an...</content>
+    <link href="https://forums.developer.nvidia.com/t/175800/3" rel="alternate"/>
   </entry>
 </feed>
