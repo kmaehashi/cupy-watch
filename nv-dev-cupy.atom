@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-02-01T19:43:23.813000+00:00</updated>
+  <updated>2023-02-02T05:42:16.634000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/189099/3</id>
@@ -334,13 +334,6 @@
     <link href="https://forums.developer.nvidia.com/t/239826/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/240655/7</id>
-    <title>Cupy installation on Nvidia Drive AGX Xavier [7]</title>
-    <updated>2023-02-01T05:21:17.874000+00:00</updated>
-    <content>VickNV: I will consult with our team and provide you with an update.</content>
-    <link href="https://forums.developer.nvidia.com/t/240655/7" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/241232/1</id>
     <title>MONAI framework is very slow while computing stain normalisation [1]</title>
     <updated>2023-02-01T05:27:54.443000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2023-02-01T19:43:23.813000+00:00</updated>
     <content>gigony: ...://anaconda.org/rapidsai/cucim/files Files :: Anaconda.org (arm64 SBSA includes Jetson boards such as Jetson Xavior/Orin). If you are able to install CuPy package ( https://github.com/cupy/cupy/issues/3196#issuecomment-975623298 and https://pip.cupy.dev/aarch64/ ) in your Jetson Nano, you can install an...</content>
     <link href="https://forums.developer.nvidia.com/t/175800/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/240655/8</id>
+    <title>Cupy installation on Nvidia Drive AGX Xavier [8]</title>
+    <updated>2023-02-02T05:42:16.634000+00:00</updated>
+    <content>gibin.zachariah: Upon checking, we are using DRIVE OS 5.1.6. Please provide an update for this OS version Please provide the following info (check/uncheck the boxes after creating this topic): Software Version DRIVE OS Linux 5.2.6 DRIVE OS Linux 5.2.6 and DriveWorks 4.0 DRIVE OS Linux 5.2.0 DRIVE OS Linux 5.2.0 a...</content>
+    <link href="https://forums.developer.nvidia.com/t/240655/8" rel="alternate"/>
   </entry>
 </feed>
