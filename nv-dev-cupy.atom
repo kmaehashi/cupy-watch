@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-02-04T02:19:19.152000+00:00</updated>
+  <updated>2023-02-06T13:15:16.528000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/189099/3</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/175800/3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/240655/14</id>
-    <title>Cupy installation on Nvidia Drive AGX Xavier [14]</title>
-    <updated>2023-02-04T02:19:19.152000+00:00</updated>
-    <content>VickNV: It appears you gave us incorrect information about being on DRIVE OS 5.2.6. We do not have experience with installing CuPy on DRIVE OS, and are unsure if manually copying files would be sufficient. Perhaps you could try using DRIVE OS 5.2.6. In the meantime, you may want...</content>
-    <link href="https://forums.developer.nvidia.com/t/240655/14" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/240655/15</id>
+    <title>Cupy installation on Nvidia Drive AGX Xavier [15]</title>
+    <updated>2023-02-06T13:15:16.528000+00:00</updated>
+    <content>gibin.zachariah: Hi, I raised this issue at the cupy github repository ( https://github.com/cupy/cupy/issues/7372 Installation of CuPy on NVIDIA Drive AGX Xavier · Issue #7372 · cupy/cupy (github.com) )...</content>
+    <link href="https://forums.developer.nvidia.com/t/240655/15" rel="alternate"/>
   </entry>
 </feed>
