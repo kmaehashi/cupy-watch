@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-02-09T15:37:55.551000+00:00</updated>
+  <updated>2023-02-09T17:05:28.047000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/184412/9</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/175800/3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/240655/15</id>
-    <title>Cupy installation on Nvidia Drive AGX Xavier [15]</title>
-    <updated>2023-02-06T13:15:16.528000+00:00</updated>
-    <content>gibin.zachariah: Hi, I raised this issue at the cupy github repository ( https://github.com/cupy/cupy/issues/7372 Installation of CuPy on NVIDIA Drive AGX Xavier · Issue #7372 · cupy/cupy (github.com) )...</content>
-    <link href="https://forums.developer.nvidia.com/t/240655/15" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/242195/2</id>
     <title>Getting DFP to generate monthly based models [2]</title>
     <updated>2023-02-09T15:37:55.551000+00:00</updated>
     <content>Pmackinnon: ...dia/label/cuda-11.5.2 cuda-python 11.7.0 py38h3fd9d12_0 nvidia cudatoolkit 11.5.1 hcf5317a_9 nvidia cudf 22.10.00 cuda_11_py38_g8ffe375d85_0 rapidsai cupy 9.5.0 py38h7818112_1 conda-forge curl 7.87.0 h6312ad2_0 conda-forge cycler 0.11.0 pypi_0 pypi cyrus-sasl 2.1.27 h957375c_6 conda-forge cython 0.29.24...</content>
     <link href="https://forums.developer.nvidia.com/t/242195/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/240655/16</id>
+    <title>Cupy installation on Nvidia Drive AGX Xavier [16]</title>
+    <updated>2023-02-09T17:05:28.047000+00:00</updated>
+    <content>SivaRamaKrishnaNV: ...any Driveworks NV DNNs/Mapping modules in your application development which are not part of driveworks release? If not, I can give a try installing cupy from source in DRIVE OS 5.2.6</content>
+    <link href="https://forums.developer.nvidia.com/t/240655/16" rel="alternate"/>
   </entry>
 </feed>
