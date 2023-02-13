@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-02-09T17:05:28.047000+00:00</updated>
+  <updated>2023-02-13T14:00:25.335000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/184412/9</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/242195/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/240655/16</id>
-    <title>Cupy installation on Nvidia Drive AGX Xavier [16]</title>
-    <updated>2023-02-09T17:05:28.047000+00:00</updated>
-    <content>SivaRamaKrishnaNV: ...any Driveworks NV DNNs/Mapping modules in your application development which are not part of driveworks release? If not, I can give a try installing cupy from source in DRIVE OS 5.2.6</content>
-    <link href="https://forums.developer.nvidia.com/t/240655/16" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/240655/18</id>
+    <title>Cupy installation on Nvidia Drive AGX Xavier [18]</title>
+    <updated>2023-02-13T14:00:25.335000+00:00</updated>
+    <content>gibin.zachariah: Thank you for the confirmation. Can you please check if you are able to import cupy in python? Previously when I installed a wheel, it was throwing an error when importing. &amp;gt; &amp;gt; python3 &amp;gt; &amp;gt; import cupy</content>
+    <link href="https://forums.developer.nvidia.com/t/240655/18" rel="alternate"/>
   </entry>
 </feed>
