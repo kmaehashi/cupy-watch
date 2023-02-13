@@ -351,7 +351,7 @@
     <id>https://forums.developer.nvidia.com/t/240655/18</id>
     <title>Cupy installation on Nvidia Drive AGX Xavier [18]</title>
     <updated>2023-02-13T14:00:25.335000+00:00</updated>
-    <content>gibin.zachariah: Thank you for the confirmation. Can you please check if you are able to import cupy in python? Previously when I installed a wheel, it was throwing an error when importing. &amp;gt; &amp;gt; python3 &amp;gt; &amp;gt; import cupy</content>
+    <content>gibin.zachariah: Thank you for the confirmation. Can you please check if you are able to import cupy in python? Previously when I installed a wheel, it was throwing an error when importing. Can you also please confirm the python version used? &amp;gt; &amp;gt; pyt...</content>
     <link href="https://forums.developer.nvidia.com/t/240655/18" rel="alternate"/>
   </entry>
 </feed>
