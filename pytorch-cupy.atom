@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2023-02-01T07:14:43.441000+00:00</updated>
+  <updated>2023-02-22T20:23:10.980000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -339,5 +339,12 @@
     <updated>2023-02-01T07:14:43.441000+00:00</updated>
     <content>Ramansh Sharma: ...ought, I have an idea to retry this by using the custom autograd.Function autograd kernel. Right now, I was unable to return the derivative w.r.t the CuPy matrix input to the forward method, but I can do it if I take as input a PyTorch tensor and use CuPy in my forward method regardless.</content>
     <link href="https://discuss.pytorch.org/t/171502/7" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/173172/5</id>
+    <title>Distribution of pytorch extension [5]</title>
+    <updated>2023-02-22T20:23:10.980000+00:00</updated>
+    <content>Guillaume Leclerc : ...s to have to downgrade their compiler to install a python package. Do you think it would be simpler to ditch the interface with pytorch and maybe use cupy or pycuda ?</content>
+    <link href="https://discuss.pytorch.org/t/173172/5" rel="alternate"/>
   </entry>
 </feed>
