@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2023-02-22T20:23:10.980000+00:00</updated>
+  <updated>2023-02-22T22:34:05.035000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -341,10 +341,10 @@
     <link href="https://discuss.pytorch.org/t/171502/7" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://discuss.pytorch.org/t/173172/5</id>
-    <title>Distribution of pytorch extension [5]</title>
-    <updated>2023-02-22T20:23:10.980000+00:00</updated>
-    <content>Guillaume Leclerc : ...s to have to downgrade their compiler to install a python package. Do you think it would be simpler to ditch the interface with pytorch and maybe use cupy or pycuda ?</content>
-    <link href="https://discuss.pytorch.org/t/173172/5" rel="alternate"/>
+    <id>https://discuss.pytorch.org/t/173172/6</id>
+    <title>Distribution of pytorch extension [6]</title>
+    <updated>2023-02-22T22:34:05.035000+00:00</updated>
+    <content>: ...r package if you are planning to release wheels. GuillaumeLeclerc: Do you think it would be simpler to ditch the interface with pytorch and maybe use cupy or pycuda ? I think it depends on your use case and what your package is supposed to do. If you don’t have any dependency on PyTorch and are not usin...</content>
+    <link href="https://discuss.pytorch.org/t/173172/6" rel="alternate"/>
   </entry>
 </feed>
