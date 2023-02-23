@@ -337,7 +337,7 @@
     <id>https://forums.developer.nvidia.com/t/175800/3</id>
     <title>cuCIM: Rapid n-Dimensional Image Processing and I/O on GPUs [3]</title>
     <updated>2023-02-01T19:43:23.813000+00:00</updated>
-    <content>gigony: ...://anaconda.org/rapidsai/cucim/files Files :: Anaconda.org (arm64 SBSA includes Jetson boards such as Jetson Xavior/Orin). If you are able to install CuPy package ( https://github.com/cupy/cupy/issues/3196#issuecomment-975623298 and https://pip.cupy.dev/aarch64/ ) in your Jetson Nano, you can install an...</content>
+    <content>gigony: ...://anaconda.org/rapidsai/cucim/files Files :: Anaconda.org (arm64 SBSA includes Jetson boards such as Jetson Xavior/Orin). If you are able to install CuPy package ( https://github.com/cupy/cupy/issues/3196#issuecomment-975623298 Add arm64 binary for Jetson Nano · Issue #3196 · cupy/cupy · GitHub and htt...</content>
     <link href="https://forums.developer.nvidia.com/t/175800/3" rel="alternate"/>
   </entry>
   <entry>
