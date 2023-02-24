@@ -5,13 +5,6 @@
   <updated>2023-02-15T15:55:03.282000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/184412/9</id>
-    <title>Combine pycuda and cupy [9]</title>
-    <updated>2021-09-20T21:58:40.975000+00:00</updated>
-    <content>system: This topic was automatically closed 60 days after the last reply. New replies are no longer allowed.</content>
-    <link href="https://forums.developer.nvidia.com/t/184412/9" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/190439/1</id>
     <title>Linux kernel 5.10+ CUDA_ERROR_MISALIGNED_ADDRESS [1]</title>
     <updated>2021-09-29T17:09:28.989000+00:00</updated>
@@ -94,6 +87,13 @@
     <updated>2021-12-10T09:53:44.384000+00:00</updated>
     <content>Viddi Mardiansyah: Thank you very much for your quick response. I will be trying hard to figure this out. Will try with pycuda or numba or cupy.</content>
     <link href="https://forums.developer.nvidia.com/t/56757/15" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/198279/1</id>
+    <title>CUDA hangs during cuInit [1]</title>
+    <updated>2021-12-16T23:39:24.117000+00:00</updated>
+    <content>: The first time a process interacts with cuda, it seems to cause a 10s-of-seconds hang. For instance, cupy.cuda.runtime.getDeviceCount() takes over 60 seconds the first time it is called, but subsequent calls within the same process are fast. A basic hello...</content>
+    <link href="https://forums.developer.nvidia.com/t/198279/1" rel="alternate"/>
   </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/199347/1</id>
