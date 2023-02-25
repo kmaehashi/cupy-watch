@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-02-15T15:55:03.282000+00:00</updated>
+  <updated>2023-02-25T17:32:00.034000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/190439/1</id>
@@ -313,13 +313,6 @@
     <link href="https://forums.developer.nvidia.com/t/234491/9" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/624</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [624]</title>
-    <updated>2022-12-18T14:10:15.117000+00:00</updated>
-    <content>Alain Paillou: Hello, i have successfully installed CUPY on the Jetson Xavier NX. Very easy to install (many thanks kmaehashi for your help) : https://docs.cupy.dev/en/latest/install.html#installing-cupy If...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/624" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/239826/1</id>
     <title>FP64 computation on budget [1]</title>
     <updated>2023-01-17T10:03:20.883000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2023-02-15T15:55:03.282000+00:00</updated>
     <content>gibin.zachariah: thank you for the confirmation. We will upgrade to 5.2.6 and try .</content>
     <link href="https://forums.developer.nvidia.com/t/240655/23" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/652</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [652]</title>
+    <updated>2023-02-25T17:32:00.034000+00:00</updated>
+    <content>Alain Paillou: Hello, i made a fresh install on the AGX Orin (Jetpack 5.1) and i installed cupy but i have an issue when i import cupy : Traceback (most recent call last): File “”, line 1, in File “/home/orin/.local/lib/python3.8/site-packages/c...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/652" rel="alternate"/>
   </entry>
 </feed>
