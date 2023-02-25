@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2023-02-22T22:34:05.035000+00:00</updated>
+  <updated>2023-02-25T07:16:24.471000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1329/3</id>
@@ -346,5 +346,12 @@
     <updated>2023-02-22T22:34:05.035000+00:00</updated>
     <content>: ...r package if you are planning to release wheels. GuillaumeLeclerc: Do you think it would be simpler to ditch the interface with pytorch and maybe use cupy or pycuda ? I think it depends on your use case and what your package is supposed to do. If you don’t have any dependency on PyTorch and are not usin...</content>
     <link href="https://discuss.pytorch.org/t/173172/6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/173467/1</id>
+    <title>Bytearray decode in GPU [1]</title>
+    <updated>2023-02-25T07:16:24.471000+00:00</updated>
+    <content>Pedro Valois: ...g_axis(lambda x: x.tobytes().decode(), 1, input.cpu()) where input: torch.Tensor in a matrix shape with dtype uint8. I tried adapting this snippet to CuPy, but it raises an error saying string cupy arrays are not yet implemented.</content>
+    <link href="https://discuss.pytorch.org/t/173467/1" rel="alternate"/>
   </entry>
 </feed>
