@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-02-25T17:32:00.034000+00:00</updated>
+  <updated>2023-02-28T20:12:32.684000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/190439/1</id>
-    <title>Linux kernel 5.10+ CUDA_ERROR_MISALIGNED_ADDRESS [1]</title>
-    <updated>2021-09-29T17:09:28.989000+00:00</updated>
-    <content>Dyckoe: ...on the cpu. Eventually everything freezes anyway. This happens much more quickly than case 1. Case 3: Trying to diagnose what is going on I insalled cupy and wrote a little python script that crunches some numbers on the gpu. import numpy as np import cupy as cp import time print('Running Test...') s =...</content>
-    <link href="https://forums.developer.nvidia.com/t/190439/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/191013/1</id>
     <title>CuCIM I/O error [1]</title>
@@ -353,5 +346,12 @@
     <updated>2023-02-25T17:32:00.034000+00:00</updated>
     <content>Alain Paillou: Hello, i made a fresh install on the AGX Orin (Jetpack 5.1) and i installed cupy but i have an issue when i import cupy : Traceback (most recent call last): File “”, line 1, in File “/home/orin/.local/lib/python3.8/site-packages/c...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/652" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/244423/1</id>
+    <title>Known Issue in CuPy affecting Tensor Interop [1]</title>
+    <updated>2023-02-28T20:12:32.684000+00:00</updated>
+    <content>Jin: If you are passing CuPy coordinates from a native Python operator to Holoviz, if you run into the error [2023-02-28 00:34:25.313] [holoscan] [error] [gxf_wrapper.cpp:68] Exc...</content>
+    <link href="https://forums.developer.nvidia.com/t/244423/1" rel="alternate"/>
   </entry>
 </feed>
