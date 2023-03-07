@@ -288,7 +288,7 @@
     <id>https://discuss.pytorch.org/t/152486/1</id>
     <title>How do I debug a CUDA error from PyTorch? [1]</title>
     <updated>2022-05-24T11:12:22.139000+00:00</updated>
-    <content>Ravishankar Reddy: ...tu 20.04 Device 0: “NVIDIA RTX A3000 Laptop GPU” CUDA Driver Version / Runtime Version 11.6 / 11.6 I use conda environment python 3.7. Have installed CuPy for CUDA 11.6 and then installed the torch and torchvision as given here: https://discuss.pytorch.org/t/pytorch-cuda-11-6/149647 After this I install...</content>
+    <content>Ravishankar Reddy: ...tu 20.04 Device 0: “NVIDIA RTX A3000 Laptop GPU” CUDA Driver Version / Runtime Version 11.6 / 11.6 I use conda environment python 3.7. Have installed CuPy for CUDA 11.6 and then installed the torch and torchvision as given here: PyTorch + CUDA 11.6 After this I installed the requirements.txt and followi...</content>
     <link href="https://discuss.pytorch.org/t/152486/1" rel="alternate"/>
   </entry>
   <entry>
