@@ -5,13 +5,6 @@
   <updated>2023-02-25T07:16:24.471000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
-    <id>https://discuss.pytorch.org/t/1329/3</id>
-    <title>How can I do the operation the same as `np.where`? [3]</title>
-    <updated>2017-03-25T00:43:31.152000+00:00</updated>
-    <content>James Bradbury: ...iner implementation, if anyone’s curious. This could even be directly wrapped in a PyTorch function with a couple casting tricks (PyTorch tensors and cupy arrays have the same memory layout). https://github.com/chainer/chainer/blob/master/chainer/functions/array/where.py github.com https://github.com/ch...</content>
-    <link href="https://discuss.pytorch.org/t/1329/3" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://discuss.pytorch.org/t/2985/2</id>
     <title>Numbapro or Numba for PyTorch Cuda Extension [2]</title>
     <updated>2017-05-19T15:58:50.851000+00:00</updated>
@@ -185,6 +178,13 @@
     <updated>2020-03-18T18:29:31.425000+00:00</updated>
     <content>Thomas V: ...or is it somehow connected to the image? The one time I did look at tensors already on the GPU was when I worked on DLPack-based interoperability of CuPy and PyTorch a long time ago. That seemed to work well, so one could look at what DLPack does. Best regards Thomas</content>
     <link href="https://discuss.pytorch.org/t/67749/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/73877/9</id>
+    <title>Apex | CUDA_ERROR_ILLEGAL_ADDRESS: an illegal memory access was encountered [9]</title>
+    <updated>2020-03-31T19:33:43.710000+00:00</updated>
+    <content>: ...ata_ptr(), grad_x.data_ptr(), grad_h_init.data_ptr(), seq_size, batch_size, hidden_size], stream=self.stream) 149 ### 150 if hidden_init is not None: cupy/cuda/function.pyx in cupy.cuda.function.Function.__call__() cupy/cuda/function.pyx in cupy.cuda.function._launch() cupy/cuda/driver.pyx in cupy.cuda....</content>
+    <link href="https://discuss.pytorch.org/t/73877/9" rel="alternate"/>
   </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/40659/12</id>
