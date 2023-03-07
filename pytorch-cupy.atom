@@ -327,11 +327,11 @@
     <link href="https://discuss.pytorch.org/t/166521/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://discuss.pytorch.org/t/167897/5</id>
-    <title>How requires_grad_(True) effect the training result [5]</title>
-    <updated>2022-12-09T00:53:20.272000+00:00</updated>
-    <content>: Thanks ptrblck, Could you please explain a bit about why PyTorch calculate spmv so slow? I guess both torch and cupy call some function in cuSPARSE to calculate spmv, why is there such a big difference between their performance?</content>
-    <link href="https://discuss.pytorch.org/t/167897/5" rel="alternate"/>
+    <id>https://discuss.pytorch.org/t/167897/6</id>
+    <title>How requires_grad_(True) effect the training result [6]</title>
+    <updated>2022-12-09T03:09:53.105000+00:00</updated>
+    <content>emcastillo: We have an exmaple of how to interface CuPy/PyTorch in the documentation https://docs.cupy.dev/en/stable/user_guide/interoperability.html#using-custom-kernels-in-pytorch Speed of routines may b...</content>
+    <link href="https://discuss.pytorch.org/t/167897/6" rel="alternate"/>
   </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/171502/7</id>
