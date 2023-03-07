@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-02-28T20:12:32.684000+00:00</updated>
+  <updated>2023-03-07T09:34:19.813000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/191013/1</id>
-    <title>CuCIM I/O error [1]</title>
-    <updated>2021-10-01T08:51:15.070000+00:00</updated>
-    <content>Bilalbkr92: ...ptly shuts down while reading any image. I would like to know what needs to be done. Currently, I use CPU libraries to read images then convert it to CuPy arrays.</content>
-    <link href="https://forums.developer.nvidia.com/t/191013/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/191108/4</id>
     <title>Invalid_handel [4]</title>
@@ -353,5 +346,12 @@
     <updated>2023-02-28T20:12:32.684000+00:00</updated>
     <content>Jin: If you are passing CuPy coordinates from a native Python operator to Holoviz, if you run into the error [2023-02-28 00:34:25.313] [holoscan] [error] [gxf_wrapper.cpp:68] Exc...</content>
     <link href="https://forums.developer.nvidia.com/t/244423/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/245196/1</id>
+    <title>Cuspatial demo running error [1]</title>
+    <updated>2023-03-07T09:34:19.813000+00:00</updated>
+    <content>Nithin M1: ...ata[k] = column.as_column( File “/opt/conda/envs/rapids/lib/python3.10/site-packages/cudf/core/column/column.py”, line 1887, in as_column arbitrary = cupy.ascontiguousarray(arbitrary) File “/opt/conda/envs/rapids/lib/python3.10/site-packages/cupy/_creation/from_data.py”, line 107, in ascontiguousarray r...</content>
+    <link href="https://forums.developer.nvidia.com/t/245196/1" rel="alternate"/>
   </entry>
 </feed>
