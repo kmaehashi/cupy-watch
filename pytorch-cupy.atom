@@ -131,11 +131,11 @@
     <link href="https://discuss.pytorch.org/t/44923/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://discuss.pytorch.org/t/56147/4</id>
-    <title>Introducing SpeedTorch: 4x speed CPU-&amp;gt;GPU transfer, 110x GPU-&amp;gt;CPU transfer [4]</title>
-    <updated>2019-09-20T00:30:01.062000+00:00</updated>
-    <content>Sam Gross: As far as I can tell, CuPy is only intended to hold CUDA data, but in this case it’s actually holding CPU data (pinned memory). You can check with something like: cupy.cuda.run...</content>
-    <link href="https://discuss.pytorch.org/t/56147/4" rel="alternate"/>
+    <id>https://discuss.pytorch.org/t/56147/5</id>
+    <title>Introducing SpeedTorch: 4x speed CPU-&amp;gt;GPU transfer, 110x GPU-&amp;gt;CPU transfer [5]</title>
+    <updated>2019-09-21T01:00:35.800000+00:00</updated>
+    <content>Santosh Gupta: ...to use SpeedTorch. you need to synchronize before accessing the CPU data; otherwise it may not be consistent. So adding torch.cuda.synchronize() and cupy.cuda.Device().synchronize() before the transfer? By consistency, do you mean in terms transfer times?</content>
+    <link href="https://discuss.pytorch.org/t/56147/5" rel="alternate"/>
   </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/58425/4</id>
