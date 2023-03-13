@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2023-02-25T07:16:24.471000+00:00</updated>
+  <updated>2023-03-13T09:01:19.744000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/2985/2</id>
-    <title>Numbapro or Numba for PyTorch Cuda Extension [2]</title>
-    <updated>2017-05-19T15:58:50.851000+00:00</updated>
-    <content>: not numba/numbapro, but you can use cupy: https://gist.github.com/szagoruyko/dccce13465df1542621b728fcc15df53 gist.github.com https://gist.github.com/szagoruyko/dccce13465df1542621b728fcc15d...</content>
-    <link href="https://discuss.pytorch.org/t/2985/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/6759/2</id>
     <title>How to implement the im2col like caffe during convolution？ [2]</title>
@@ -353,5 +346,12 @@
     <updated>2023-02-25T07:16:24.471000+00:00</updated>
     <content>Pedro Valois: ...g_axis(lambda x: x.tobytes().decode(), 1, input.cpu()) where input: torch.Tensor in a matrix shape with dtype uint8. I tried adapting this snippet to CuPy, but it raises an error saying string cupy arrays are not yet implemented.</content>
     <link href="https://discuss.pytorch.org/t/173467/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/174679/1</id>
+    <title>Error: ‘struct DLTensor’ has no member named ‘ctx’ [1]</title>
+    <updated>2023-03-13T09:01:19.744000+00:00</updated>
+    <content>Animesh Gupta: ...ce_id = device_id; auto capsule = py::capsule(dlMTensor, "dltensor", DLPack_Capsule_Destructor); return capsule; }, "Specify device_id in dlpack, for cupy to copy to right GPU"); } I want to build this cpp extension for latest cudatoolkit version latest pytorch version. Can anyone guide me on how I can...</content>
+    <link href="https://discuss.pytorch.org/t/174679/1" rel="alternate"/>
   </entry>
 </feed>
