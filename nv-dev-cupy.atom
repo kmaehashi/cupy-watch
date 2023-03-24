@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-03-07T09:34:19.813000+00:00</updated>
+  <updated>2023-03-24T19:00:45.290000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/191108/4</id>
@@ -334,13 +334,6 @@
     <link href="https://forums.developer.nvidia.com/t/240655/23" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/652</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [652]</title>
-    <updated>2023-02-25T17:32:00.034000+00:00</updated>
-    <content>Alain Paillou: Hello, i made a fresh install on the AGX Orin (Jetpack 5.1) and i installed cupy but i have an issue when i import cupy : Traceback (most recent call last): File “”, line 1, in File “/home/orin/.local/lib/python3.8/site-packages/c...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/652" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/244423/1</id>
     <title>Known Issue in CuPy affecting Tensor Interop [1]</title>
     <updated>2023-02-28T20:12:32.684000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2023-03-07T09:34:19.813000+00:00</updated>
     <content>Nithin M1: ...ata[k] = column.as_column( File “/opt/conda/envs/rapids/lib/python3.10/site-packages/cudf/core/column/column.py”, line 1887, in as_column arbitrary = cupy.ascontiguousarray(arbitrary) File “/opt/conda/envs/rapids/lib/python3.10/site-packages/cupy/_creation/from_data.py”, line 107, in ascontiguousarray r...</content>
     <link href="https://forums.developer.nvidia.com/t/245196/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/664</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [664]</title>
+    <updated>2023-03-24T19:00:45.290000+00:00</updated>
+    <content>Alain Paillou: ...ncv with CUDA can show some speed improvements but in real life, the story is not the same. For now, the most interesting libraries which use GPU are cupy and array fire (for windows). Pytorch is also interesting but I need to make more tests. Opencv with CUDA is useless for me. Opencv is enough good fo...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/664" rel="alternate"/>
   </entry>
 </feed>
