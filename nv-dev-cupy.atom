@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-03-24T19:00:45.290000+00:00</updated>
+  <updated>2023-03-28T00:54:27.821000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/191108/4</id>
-    <title>Invalid_handel [4]</title>
-    <updated>2021-10-05T08:50:41.087000+00:00</updated>
-    <content>Yuvalg1987: Hi, is seems that this issue is caused by the need to run CuPy and ZED in two different threads as they have different contexts.</content>
-    <link href="https://forums.developer.nvidia.com/t/191108/4" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/191442/1</id>
     <title>Ubuntu20.04 + nvidia-driver-470 - card drops out after minimal use /delay after first cuda command but works w/nvidia-driver-460 [1]</title>
@@ -353,5 +346,12 @@
     <updated>2023-03-24T19:00:45.290000+00:00</updated>
     <content>Alain Paillou: ...ncv with CUDA can show some speed improvements but in real life, the story is not the same. For now, the most interesting libraries which use GPU are cupy and array fire (for windows). Pytorch is also interesting but I need to make more tests. Opencv with CUDA is useless for me. Opencv is enough good fo...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/664" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/247703/1</id>
+    <title>Alternative solutions for dataframe.rolling().apply(function) because its axis=1 is not supported yet! [1]</title>
+    <updated>2023-03-28T00:54:27.821000+00:00</updated>
+    <content>Jcgtanaka: ...all in GPU. Could you help me, please? This is the whole code: The following code block impor the necessary libraries: import cudf import cuml import cupy import yfinance as yf import numpy as np import pandas as pd import numpy as np import matplotlib.pyplot as plt import shap %matplotlib inline plt.st...</content>
+    <link href="https://forums.developer.nvidia.com/t/247703/1" rel="alternate"/>
   </entry>
 </feed>
