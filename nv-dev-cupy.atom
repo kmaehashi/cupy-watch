@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-03-28T00:54:27.821000+00:00</updated>
+  <updated>2023-04-01T16:41:06.905000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/191442/1</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/245196/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/664</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [664]</title>
-    <updated>2023-03-24T19:00:45.290000+00:00</updated>
-    <content>Alain Paillou: ...ncv with CUDA can show some speed improvements but in real life, the story is not the same. For now, the most interesting libraries which use GPU are cupy and array fire (for windows). Pytorch is also interesting but I need to make more tests. Opencv with CUDA is useless for me. Opencv is enough good fo...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/664" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/247703/1</id>
     <title>Alternative solutions for dataframe.rolling().apply(function) because its axis=1 is not supported yet! [1]</title>
     <updated>2023-03-28T00:54:27.821000+00:00</updated>
     <content>Jcgtanaka: ...all in GPU. Could you help me, please? This is the whole code: The following code block impor the necessary libraries: import cudf import cuml import cupy import yfinance as yf import numpy as np import pandas as pd import numpy as np import matplotlib.pyplot as plt import shap %matplotlib inline plt.st...</content>
     <link href="https://forums.developer.nvidia.com/t/247703/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/679</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [679]</title>
+    <updated>2023-04-01T16:41:06.905000+00:00</updated>
+    <content>Alain Paillou: ...ow. I use some of them but we can get some issues when trying to use several libraries (GPU context problem). For example, if you want to use pycuda, cupy and encode a video with GStreamer and a Nvidia codec, you may have GPU context problem. To solve this GPU context issue, you can try this (example) :...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/679" rel="alternate"/>
   </entry>
 </feed>
