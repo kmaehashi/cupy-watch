@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-04-01T16:41:06.905000+00:00</updated>
+  <updated>2023-04-05T14:35:08.888000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/191442/1</id>
-    <title>Ubuntu20.04 + nvidia-driver-470 - card drops out after minimal use /delay after first cuda command but works w/nvidia-driver-460 [1]</title>
-    <updated>2021-10-07T00:18:23.708000+00:00</updated>
-    <content>Nick Cammorato: ...ning processes found | +-----------------------------------------------------------------------------+ works fine… at first. Can even dot matrixes in cupy. However after a few minutes (or hits of the driver, I can’t tell), it breaks / drops out and becomes a ‘no devices found’ that doesn’t respond to re...</content>
-    <link href="https://forums.developer.nvidia.com/t/191442/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/191833/6</id>
     <title>Problem to Install TensorFlow&amp;lt;2.0 on jetson xavier [6]</title>
@@ -353,5 +346,12 @@
     <updated>2023-04-01T16:41:06.905000+00:00</updated>
     <content>Alain Paillou: ...ow. I use some of them but we can get some issues when trying to use several libraries (GPU context problem). For example, if you want to use pycuda, cupy and encode a video with GStreamer and a Nvidia codec, you may have GPU context problem. To solve this GPU context issue, you can try this (example) :...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/679" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/248888/1</id>
+    <title>Accessing real and imaginary part in cupy complex ndarray under a rawkernel function [1]</title>
+    <updated>2023-04-05T14:35:08.888000+00:00</updated>
+    <content>Simbecker: ...ersity laboratory. I’ve already developped a soft for analysing hologram in C++/CUDA. For researcher and student I’m developping a new code in Python/CUPY I’ve already quite translating all the functions needed but I have some problem when I want to access imaginary and real part of some complex cupy ar...</content>
+    <link href="https://forums.developer.nvidia.com/t/248888/1" rel="alternate"/>
   </entry>
 </feed>
