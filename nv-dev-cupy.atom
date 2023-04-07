@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-04-05T14:35:08.888000+00:00</updated>
+  <updated>2023-04-07T08:21:34.988000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/191833/6</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/76861/679" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/248888/1</id>
-    <title>Accessing real and imaginary part in cupy complex ndarray under a rawkernel function [1]</title>
-    <updated>2023-04-05T14:35:08.888000+00:00</updated>
-    <content>Simbecker: ...ersity laboratory. I’ve already developped a soft for analysing hologram in C++/CUDA. For researcher and student I’m developping a new code in Python/CUPY I’ve already quite translating all the functions needed but I have some problem when I want to access imaginary and real part of some complex cupy ar...</content>
-    <link href="https://forums.developer.nvidia.com/t/248888/1" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/248888/2</id>
+    <title>Accessing real and imaginary part in cupy complex ndarray under a rawkernel function [2]</title>
+    <updated>2023-04-07T08:21:34.988000+00:00</updated>
+    <content>Simbecker: Has anyone ever tryed to access iamg and real part of complex in rawkernel?</content>
+    <link href="https://forums.developer.nvidia.com/t/248888/2" rel="alternate"/>
   </entry>
 </feed>
