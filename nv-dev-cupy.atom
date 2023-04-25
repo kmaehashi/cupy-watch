@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-04-14T20:23:01.054000+00:00</updated>
+  <updated>2023-04-25T13:40:45.256000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/193826/2</id>
@@ -327,13 +327,6 @@
     <link href="https://forums.developer.nvidia.com/t/247703/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/679</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [679]</title>
-    <updated>2023-04-01T16:41:06.905000+00:00</updated>
-    <content>Alain Paillou: ...ow. I use some of them but we can get some issues when trying to use several libraries (GPU context problem). For example, if you want to use pycuda, cupy and encode a video with GStreamer and a Nvidia codec, you may have GPU context problem. To solve this GPU context issue, you can try this (example) :...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/679" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/248888/2</id>
     <title>Accessing real and imaginary part in cupy complex ndarray under a rawkernel function [2]</title>
     <updated>2023-04-07T08:21:34.988000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2023-04-14T20:23:01.054000+00:00</updated>
     <content>Mathewsdg: ...ot contain GPU memory data. Generated: &amp;lt; path &amp;gt; /report9.nsys-rep &amp;lt; path &amp;gt; /report9.sqlite The code I am testing is just a simple Python script using Cupy version 12.0.0 shown below. import cupy as cp import cupyx as cpx add_kernel = cp.RawKernel(r''' extern "C" __global__ void my_add(const float* x1, c...</content>
     <link href="https://forums.developer.nvidia.com/t/244647/9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/692</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [692]</title>
+    <updated>2023-04-25T13:40:45.256000+00:00</updated>
+    <content>Alain Paillou: ...write new things for JetsonSky. Until now, PyCuda is the fastest library for live treatment but we have to write the algorithm (a bit more complex). Cupy is faster than numpy (about 2x faster) but it is useful when you have many cupy instructions in a function. OpenCV without Cuda is very fast (PyCuda...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/692" rel="alternate"/>
   </entry>
 </feed>
