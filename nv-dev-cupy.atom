@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-04-25T13:40:45.256000+00:00</updated>
+  <updated>2023-04-27T13:06:48.307000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/193826/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/244647/9" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/692</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [692]</title>
-    <updated>2023-04-25T13:40:45.256000+00:00</updated>
-    <content>Alain Paillou: ...write new things for JetsonSky. Until now, PyCuda is the fastest library for live treatment but we have to write the algorithm (a bit more complex). Cupy is faster than numpy (about 2x faster) but it is useful when you have many cupy instructions in a function. OpenCV without Cuda is very fast (PyCuda...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/692" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/76861/694</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [694]</title>
+    <updated>2023-04-27T13:06:48.307000+00:00</updated>
+    <content>Alain Paillou: Hi, JetsonSky needs many libraries to work : PyCuda Cupy OpenCV Numpy Pillow TorchVision VPI To be more precise, JetsonSky absolutely needs : PyCuda OpenCV Numpy Pillow Cupy, VPI and TorchVision can be used...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/694" rel="alternate"/>
   </entry>
 </feed>
