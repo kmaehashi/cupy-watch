@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-04-27T13:06:48.307000+00:00</updated>
+  <updated>2023-04-27T21:10:59.406000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/193826/2</id>
-    <title>Using CURAND inside NVRTC (JIT-compiled) kernels [2]</title>
-    <updated>2021-11-02T17:46:00.198000+00:00</updated>
-    <content>Robert_Crovella: ...sume you are referring to the device API. For that, if it were me, I would use https://github.com/NVIDIA/jitify/issues/43 jitify . For example, AFAIK cupy uses this method (jitify) to enable support for curand device API in cupy user-defined kernels.</content>
-    <link href="https://forums.developer.nvidia.com/t/193826/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/193860/1</id>
     <title>How to access cuda array on gpu in Python [1]</title>
@@ -353,5 +346,12 @@
     <updated>2023-04-27T13:06:48.307000+00:00</updated>
     <content>Alain Paillou: Hi, JetsonSky needs many libraries to work : PyCuda Cupy OpenCV Numpy Pillow TorchVision VPI To be more precise, JetsonSky absolutely needs : PyCuda OpenCV Numpy Pillow Cupy, VPI and TorchVision can be used...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/694" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/251421/3</id>
+    <title>Kernel time discrepancy between nsys profile and cudaEventElapsedTime [3]</title>
+    <updated>2023-04-27T21:10:59.406000+00:00</updated>
+    <content>Nish511: Thanks. Would you mind providing a reference example API of using CUPI in cuda code?</content>
+    <link href="https://forums.developer.nvidia.com/t/251421/3" rel="alternate"/>
   </entry>
 </feed>
