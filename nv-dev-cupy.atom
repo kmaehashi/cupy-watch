@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-04-27T21:10:59.406000+00:00</updated>
+  <updated>2023-04-28T02:10:13.830000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/193860/1</id>
-    <title>How to access cuda array on gpu in Python [1]</title>
-    <updated>2021-11-02T23:45:30.835000+00:00</updated>
-    <content>: ...hon 3.6 and DeepStream 5.1. I would like to decode an Rtsp video stream and to access the decoded frames on the gpu using libraries such as pycuda or cupy (other libraries might work too). I don’t want to access numpy array because I don’t want to copy the data to the cpu. It is my understanding that nv...</content>
-    <link href="https://forums.developer.nvidia.com/t/193860/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/193426/5</id>
     <title>Running ROS2 Galactic and Cupy on a Docker on the Jetson Xavier NX [5]</title>
@@ -353,5 +346,12 @@
     <updated>2023-04-27T21:10:59.406000+00:00</updated>
     <content>Nish511: Thanks. Would you mind providing a reference example API of using CUPI in cuda code?</content>
     <link href="https://forums.developer.nvidia.com/t/251421/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/251625/1</id>
+    <title>Deepstream6.2 python frame extraction for custom deeplearning model (TensorRT) [1]</title>
+    <updated>2023-04-28T02:10:13.830000+00:00</updated>
+    <content>Youngbo Song: Description Hello, i’m developing deeplearning rtsp python server, modifing deepstream_python_apps/ deepstream-imagedata-multistream-cupy. My scheme is to extract frames from pipeline through probe on deepstream-imagedata-multistream-cupy.py and apply my custom deeplearning module for c...</content>
+    <link href="https://forums.developer.nvidia.com/t/251625/1" rel="alternate"/>
   </entry>
 </feed>
