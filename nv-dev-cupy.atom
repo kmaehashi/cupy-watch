@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-04-28T02:10:13.830000+00:00</updated>
+  <updated>2023-04-29T16:46:37.522000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/193426/5</id>
@@ -334,13 +334,6 @@
     <link href="https://forums.developer.nvidia.com/t/244647/9" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/694</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [694]</title>
-    <updated>2023-04-27T13:06:48.307000+00:00</updated>
-    <content>Alain Paillou: Hi, JetsonSky needs many libraries to work : PyCuda Cupy OpenCV Numpy Pillow TorchVision VPI To be more precise, JetsonSky absolutely needs : PyCuda OpenCV Numpy Pillow Cupy, VPI and TorchVision can be used...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/694" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/251421/3</id>
     <title>Kernel time discrepancy between nsys profile and cudaEventElapsedTime [3]</title>
     <updated>2023-04-27T21:10:59.406000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2023-04-28T02:10:13.830000+00:00</updated>
     <content>Youngbo Song: Description Hello, i’m developing deeplearning rtsp python server, modifing deepstream_python_apps/ deepstream-imagedata-multistream-cupy. My scheme is to extract frames from pipeline through probe on deepstream-imagedata-multistream-cupy.py and apply my custom deeplearning module for c...</content>
     <link href="https://forums.developer.nvidia.com/t/251625/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/695</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [695]</title>
+    <updated>2023-04-29T16:46:37.522000+00:00</updated>
+    <content>Alain Paillou: Hello, i made a test with Cupy raw kernel and it works fine (i used AADF filter test). Very easy to go from PyCuda to Cupy. On this test, Cupy performance is about the same as PyCu...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/695" rel="alternate"/>
   </entry>
 </feed>
