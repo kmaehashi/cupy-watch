@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-04-29T16:46:37.522000+00:00</updated>
+  <updated>2023-04-30T16:51:37.179000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/193426/5</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/251625/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/695</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [695]</title>
-    <updated>2023-04-29T16:46:37.522000+00:00</updated>
-    <content>Alain Paillou: Hello, i made a test with Cupy raw kernel and it works fine (i used AADF filter test). Very easy to go from PyCuda to Cupy. On this test, Cupy performance is about the same as PyCu...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/695" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/76861/696</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [696]</title>
+    <updated>2023-04-30T16:51:37.179000+00:00</updated>
+    <content>Alain Paillou: Hi, 80% of JetsonSky works fine with only Cupy for treatments. Going from PyCuda to Cupy is really simple and treatment seems really speed up. Still have to convert the 20% left now. This will be...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/696" rel="alternate"/>
   </entry>
 </feed>
