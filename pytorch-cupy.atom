@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2023-03-13T09:01:19.744000+00:00</updated>
+  <updated>2023-05-04T12:41:02.202000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/6759/2</id>
-    <title>How to implement the im2col like caffe during convolution？ [2]</title>
-    <updated>2017-08-26T23:28:26.383000+00:00</updated>
-    <content>: ...package has an im2col and col2im if you want: https://github.com/szagoruyko/pyinn GitHub https://github.com/szagoruyko/pyinn szagoruyko/pyinn pyinn - CuPy fused PyTorch neural networks ops</content>
-    <link href="https://discuss.pytorch.org/t/6759/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/1012/17</id>
     <title>How to speed up for loop in customized RNN? [17]</title>
@@ -353,5 +346,12 @@
     <updated>2023-03-13T09:01:19.744000+00:00</updated>
     <content>Animesh Gupta: ...ce_id = device_id; auto capsule = py::capsule(dlMTensor, "dltensor", DLPack_Capsule_Destructor); return capsule; }, "Specify device_id in dlpack, for cupy to copy to right GPU"); } I want to build this cpp extension for latest cudatoolkit version latest pytorch version. Can anyone guide me on how I can...</content>
     <link href="https://discuss.pytorch.org/t/174679/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/179073/3</id>
+    <title>Optimizer slow for one step after manually changing weights [3]</title>
+    <updated>2023-05-04T12:41:02.202000+00:00</updated>
+    <content>Christopher Brissette: I am currently working on this. It appears that some cupy operations I am doing may be causing the issue further downstream. I will post it here when I get it working, or rather, broken I guess?</content>
+    <link href="https://discuss.pytorch.org/t/179073/3" rel="alternate"/>
   </entry>
 </feed>
