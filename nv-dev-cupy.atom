@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-01T19:38:43.467000+00:00</updated>
+  <updated>2023-05-04T10:51:44.833000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/193426/5</id>
-    <title>Running ROS2 Galactic and Cupy on a Docker on the Jetson Xavier NX [5]</title>
-    <updated>2021-11-17T06:38:46.590000+00:00</updated>
-    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
-    <link href="https://forums.developer.nvidia.com/t/193426/5" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/196073/1</id>
     <title>How could I accelerate FFT on Nano? [1]</title>
@@ -353,5 +346,12 @@
     <updated>2023-05-01T19:38:43.467000+00:00</updated>
     <content>Alain Paillou: Hello, JetsonSky do not need PyCuda any more. Treatment time is much faster and the code is more simple with Cupy (it replaces PyCuda and most numpy functions). This time with intense use of Cupy, Jetson AGX Orin is really ahead my laptop. I still use very few op...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/697" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/252156/2</id>
+    <title>What the difference using L2 by cudaMemcpy() and from kernel? [2]</title>
+    <updated>2023-05-04T10:51:44.833000+00:00</updated>
+    <content>Markus Holtmanns: Hi there @qlyu and welcome to the NVIDIA developer forums! The way cudaMemcpy() behaves in terms of cache usage might be proprietary to our driver and not something to disclose. But you might want to ask the same in the forum category where you found the original post, CUDA programming, there you...</content>
+    <link href="https://forums.developer.nvidia.com/t/252156/2" rel="alternate"/>
   </entry>
 </feed>
