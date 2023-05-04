@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2023-05-04T12:41:02.202000+00:00</updated>
+  <updated>2023-05-04T15:28:40.542000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/1012/17</id>
@@ -348,10 +348,10 @@
     <link href="https://discuss.pytorch.org/t/174679/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://discuss.pytorch.org/t/179073/3</id>
-    <title>Optimizer slow for one step after manually changing weights [3]</title>
-    <updated>2023-05-04T12:41:02.202000+00:00</updated>
-    <content>Christopher Brissette: I am currently working on this. It appears that some cupy operations I am doing may be causing the issue further downstream. I will post it here when I get it working, or rather, broken I guess?</content>
-    <link href="https://discuss.pytorch.org/t/179073/3" rel="alternate"/>
+    <id>https://discuss.pytorch.org/t/179073/4</id>
+    <title>Optimizer slow for one step after manually changing weights [4]</title>
+    <updated>2023-05-04T15:28:40.542000+00:00</updated>
+    <content>Christopher Brissette: import cupy as cp import numpy as np import time import torch from torch.nn.utils import parameters_to_vector,vector_to_parameters from torch import optim from t...</content>
+    <link href="https://discuss.pytorch.org/t/179073/4" rel="alternate"/>
   </entry>
 </feed>
