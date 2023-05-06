@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-06T16:39:36.054000+00:00</updated>
+  <updated>2023-05-06T17:12:12.886000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/196073/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/252156/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/707</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [707]</title>
-    <updated>2023-05-06T16:39:36.054000+00:00</updated>
-    <content>Alain Paillou: ...nd JetsonSky (V30_01RC and V40_03RC). Both work fine. The frame rate is a bit low but it is quite good (from 4 to 10 fps, depending of the settings). Cupy, Pytorch and opencv with Cuda are ok. If someone could test JetsonSky with a Orin Nano or a Orin NX, i would be interested with the results. Alain</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/707" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/76861/708</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [708]</title>
+    <updated>2023-05-06T17:12:12.886000+00:00</updated>
+    <content>Th Groh: hm, I’m totally afraid of getting into compiling opencv with gestreamer. That is why I asked. I’m hardly trying to install cupy. That is the first challenge for me (ohh Linux and me we will not getting the best friends for ever, grrrrr). Do not get it running. I tried “pip ins...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/708" rel="alternate"/>
   </entry>
 </feed>
