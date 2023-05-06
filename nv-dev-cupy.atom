@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-05T19:02:42.023000+00:00</updated>
+  <updated>2023-05-06T16:39:36.054000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/196073/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/252156/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/703</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [703]</title>
-    <updated>2023-05-05T19:02:42.023000+00:00</updated>
-    <content>Alain Paillou: ...Github. Frame rate is better for both versions and i have removed some bugs. V30_01RC is the last version with PyCuda. V40_03RC does not use PyCuda. Cupy replaces it. Further versions will only use Cupy. It’s there : https://github.com/AlainPaillou/JETSONSKY GitHub https://github.com/AlainPaillou/JETSO...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/703" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/76861/707</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [707]</title>
+    <updated>2023-05-06T16:39:36.054000+00:00</updated>
+    <content>Alain Paillou: ...nd JetsonSky (V30_01RC and V40_03RC). Both work fine. The frame rate is a bit low but it is quite good (from 4 to 10 fps, depending of the settings). Cupy, Pytorch and opencv with Cuda are ok. If someone could test JetsonSky with a Orin Nano or a Orin NX, i would be interested with the results. Alain</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/707" rel="alternate"/>
   </entry>
 </feed>
