@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-08T14:59:50.127000+00:00</updated>
+  <updated>2023-05-08T15:54:50.508000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/196073/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/252156/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/712</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [712]</title>
-    <updated>2023-05-08T14:59:50.127000+00:00</updated>
-    <content>Alain Paillou: ...04RC seem to be more stable. V30_02RC is the last version of JetsonSky with PyCuda. I will remove bugs but this version won’t have further evolution. Cupy version (V40 and more) will be my new development platform. Alain</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/712" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/76861/713</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [713]</title>
+    <updated>2023-05-08T15:54:50.508000+00:00</updated>
+    <content>Th Groh: ...have allready found. I have Jetpack 5 with my AGX. I have found three folders cuda 11.4 and 11.7, the other one I do not remember. I had deinstalled cupy 12 and tried to install 114 and 117. I get an error message, that this is not the right version. Maybe I try to upgrade cuda first to 12, do not know...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/713" rel="alternate"/>
   </entry>
 </feed>
