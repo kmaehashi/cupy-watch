@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-09T18:39:52.088000+00:00</updated>
+  <updated>2023-05-10T18:14:31.274000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/196073/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/252156/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/719</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [719]</title>
-    <updated>2023-05-09T18:39:52.088000+00:00</updated>
-    <content>Alain Paillou: ...t real 2D arrays and you will get problems when you will use those arrays in a function which needs 2D arrays. To avoid cv2.split() use with numpy or cupy, you can use numpy.ascontiguousarray() or cupy.ascontiguousarray(). As i want to use cupy instead of numpy, here are some useful functions that will...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/719" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/76861/720</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [720]</title>
+    <updated>2023-05-10T18:14:31.274000+00:00</updated>
+    <content>Alain Paillou: Hello, i have uploaded 2 new versions of JetsonSky V30_03RC (Pycuda version) and V40_05RC (Cupy version). Some bugs are solved. FPS information is more stable (many thanks to @Honey_Patouceul ). Speed optimization. Python priority is now set to...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/720" rel="alternate"/>
   </entry>
 </feed>
