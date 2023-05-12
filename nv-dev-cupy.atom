@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-10T18:14:31.274000+00:00</updated>
+  <updated>2023-05-12T20:50:15.857000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/196073/1</id>
-    <title>How could I accelerate FFT on Nano? [1]</title>
-    <updated>2021-11-24T06:10:59.633000+00:00</updated>
-    <content>: ...on Nano, and I currently use the scipy.fftpack.fft()。 But the speed is so slow and I want to utilize the GPU to accelerate this process. I have tried cupy, but it takes more time than before. Does there exist any other way to do FFT on GPU in Nano? I know that pycuda could, but implement a FFT in C seem...</content>
-    <link href="https://forums.developer.nvidia.com/t/196073/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/196698/1</id>
     <title>Deserialize engine failed because file path: &amp;hellip;/resnet10.caffemodel_b1_gpu0_int8.engine open error [1]</title>
@@ -353,5 +346,12 @@
     <updated>2023-05-10T18:14:31.274000+00:00</updated>
     <content>Alain Paillou: Hello, i have uploaded 2 new versions of JetsonSky V30_03RC (Pycuda version) and V40_05RC (Cupy version). Some bugs are solved. FPS information is more stable (many thanks to @Honey_Patouceul ). Speed optimization. Python priority is now set to...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/720" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/253164/2</id>
+    <title>Rendering wrong color format when using CuPy User-defined kernel, jetson-utils, VPI, CuPy [2]</title>
+    <updated>2023-05-12T20:50:15.857000+00:00</updated>
+    <content>dusty_nv: Hi @surajgampa95 , this is kinda complicated to debug just by looking at the code - it would seem that the CuPy kernel indexes the colors channels out-of-order, or inverts them. Do you have an example of what the output should look like? Does the result look an...</content>
+    <link href="https://forums.developer.nvidia.com/t/253164/2" rel="alternate"/>
   </entry>
 </feed>
