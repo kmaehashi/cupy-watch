@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-12T20:50:15.857000+00:00</updated>
+  <updated>2023-05-14T15:31:24.153000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/196698/1</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/252156/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/720</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [720]</title>
-    <updated>2023-05-10T18:14:31.274000+00:00</updated>
-    <content>Alain Paillou: Hello, i have uploaded 2 new versions of JetsonSky V30_03RC (Pycuda version) and V40_05RC (Cupy version). Some bugs are solved. FPS information is more stable (many thanks to @Honey_Patouceul ). Speed optimization. Python priority is now set to...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/720" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/253164/2</id>
     <title>Rendering wrong color format when using CuPy User-defined kernel, jetson-utils, VPI, CuPy [2]</title>
     <updated>2023-05-12T20:50:15.857000+00:00</updated>
     <content>dusty_nv: Hi @surajgampa95 , this is kinda complicated to debug just by looking at the code - it would seem that the CuPy kernel indexes the colors channels out-of-order, or inverts them. Do you have an example of what the output should look like? Does the result look an...</content>
     <link href="https://forums.developer.nvidia.com/t/253164/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/725</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [725]</title>
+    <updated>2023-05-14T15:31:24.153000+00:00</updated>
+    <content>Alain Paillou: ...s a post treatment i made with Windows platform. RAW capture was made with Jetson AGX Orin. Post treatment with Windows platform revealed a problem : Cupy do not like GStreamer with Windows environment. Cupy context is destroyed when using GStreamer. For now, i did not find the solution for this issue....</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/725" rel="alternate"/>
   </entry>
 </feed>
