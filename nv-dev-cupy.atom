@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-15T06:07:37.362000+00:00</updated>
+  <updated>2023-05-15T07:29:08.762000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/56757/15</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/76861/725" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/253270/1</id>
-    <title>No libcudart.so.12 with cuda-toolkit [1]</title>
-    <updated>2023-05-15T06:07:37.362000+00:00</updated>
-    <content>Paul Jurczak: ...NVIDIA CUDA development toolkit (GCC compatibility) CUDA 12010 is available: | NVIDIA-SMI 525.105.17 Driver Version: 525.105.17 CUDA Version: 12.0 | CuPy is looking for libcudart.so.12 , which is not present. How should I get it? Wasn’t cuda-toolkit supposed to install it?</content>
-    <link href="https://forums.developer.nvidia.com/t/253270/1" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/253270/2</id>
+    <title>No libcudart.so.12 with cuda-toolkit [2]</title>
+    <updated>2023-05-15T07:29:08.762000+00:00</updated>
+    <content>rs277: pauljurczak: CuPy is looking for libcudart.so.12 , which is not present. How should I get it? You have Cuda 11.5 installed, which installs libcudart.so.11.5. You will...</content>
+    <link href="https://forums.developer.nvidia.com/t/253270/2" rel="alternate"/>
   </entry>
 </feed>
