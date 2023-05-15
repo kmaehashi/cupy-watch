@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-14T15:31:24.153000+00:00</updated>
+  <updated>2023-05-15T06:07:37.362000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/196698/1</id>
-    <title>Deserialize engine failed because file path: &amp;hellip;/resnet10.caffemodel_b1_gpu0_int8.engine open error [1]</title>
-    <updated>2021-11-30T23:43:57.450000+00:00</updated>
-    <content>: ...orama==0.3.7 command-not-found==0.3 configobj==5.0.6 constantly==15.1.0 contextlib2==0.6.0.post1 contextvars==2.4 cronex==0.1.3.1 cryptography==2.1.4 cupy-cuda113==9.6.0 cycler==0.11.0 Cython==0.29.24 dataclasses==0.8 decorator==5.1.0 dill==0.3.4 distro-info===0.18ubuntu0.18.04.1 docutils==0.14 ec2-hibi...</content>
-    <link href="https://forums.developer.nvidia.com/t/196698/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/56757/15</id>
     <title>Cuda sha256 calculations improvements [15]</title>
@@ -353,5 +346,12 @@
     <updated>2023-05-14T15:31:24.153000+00:00</updated>
     <content>Alain Paillou: ...s a post treatment i made with Windows platform. RAW capture was made with Jetson AGX Orin. Post treatment with Windows platform revealed a problem : Cupy do not like GStreamer with Windows environment. Cupy context is destroyed when using GStreamer. For now, i did not find the solution for this issue....</content>
     <link href="https://forums.developer.nvidia.com/t/76861/725" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/253270/1</id>
+    <title>No libcudart.so.12 with cuda-toolkit [1]</title>
+    <updated>2023-05-15T06:07:37.362000+00:00</updated>
+    <content>Paul Jurczak: ...NVIDIA CUDA development toolkit (GCC compatibility) CUDA 12010 is available: | NVIDIA-SMI 525.105.17 Driver Version: 525.105.17 CUDA Version: 12.0 | CuPy is looking for libcudart.so.12 , which is not present. How should I get it? Wasn’t cuda-toolkit supposed to install it?</content>
+    <link href="https://forums.developer.nvidia.com/t/253270/1" rel="alternate"/>
   </entry>
 </feed>
