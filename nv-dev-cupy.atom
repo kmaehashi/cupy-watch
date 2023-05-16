@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-15T07:29:08.762000+00:00</updated>
+  <updated>2023-05-16T11:26:43.168000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/56757/15</id>
-    <title>Cuda sha256 calculations improvements [15]</title>
-    <updated>2021-12-10T09:53:44.384000+00:00</updated>
-    <content>Viddi Mardiansyah: Thank you very much for your quick response. I will be trying hard to figure this out. Will try with pycuda or numba or cupy.</content>
-    <link href="https://forums.developer.nvidia.com/t/56757/15" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/198279/1</id>
     <title>CUDA hangs during cuInit [1]</title>
@@ -353,5 +346,12 @@
     <updated>2023-05-15T07:29:08.762000+00:00</updated>
     <content>rs277: pauljurczak: CuPy is looking for libcudart.so.12 , which is not present. How should I get it? You have Cuda 11.5 installed, which installs libcudart.so.11.5. You will...</content>
     <link href="https://forums.developer.nvidia.com/t/253270/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/253389/6</id>
+    <title>Problems with pycuda installing (tried everything) AGX Orin [6]</title>
+    <updated>2023-05-16T11:26:43.168000+00:00</updated>
+    <content>Alain Paillou: .../locale.h /usr/include/xlocale.h pip install pycuda --user It was ok with my Jetson AGX Orin. Pycuda is sometime hard to install. Maybe you could try Cupy wich is at least as fast as Pycuda with numpy capabilities. Installing Cupy is not really complicated but it is better to try to find some informatio...</content>
+    <link href="https://forums.developer.nvidia.com/t/253389/6" rel="alternate"/>
   </entry>
 </feed>
