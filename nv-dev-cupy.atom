@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-16T11:26:43.168000+00:00</updated>
+  <updated>2023-05-17T15:01:47.203000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/198279/1</id>
@@ -257,13 +257,6 @@
     <link href="https://forums.developer.nvidia.com/t/242195/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/240655/23</id>
-    <title>Cupy installation on Nvidia Drive AGX Xavier [23]</title>
-    <updated>2023-02-15T15:55:03.282000+00:00</updated>
-    <content>gibin.zachariah: thank you for the confirmation. We will upgrade to 5.2.6 and try .</content>
-    <link href="https://forums.developer.nvidia.com/t/240655/23" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/244423/1</id>
     <title>Known Issue in CuPy affecting Tensor Interop [1]</title>
     <updated>2023-02-28T20:12:32.684000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2023-05-16T11:26:43.168000+00:00</updated>
     <content>Alain Paillou: .../locale.h /usr/include/xlocale.h pip install pycuda --user It was ok with my Jetson AGX Orin. Pycuda is sometime hard to install. Maybe you could try Cupy wich is at least as fast as Pycuda with numpy capabilities. Installing Cupy is not really complicated but it is better to try to find some informatio...</content>
     <link href="https://forums.developer.nvidia.com/t/253389/6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/240655/24</id>
+    <title>Cupy installation on Nvidia Drive AGX Xavier [24]</title>
+    <updated>2023-05-17T15:01:47.203000+00:00</updated>
+    <content>Hunterxgonxsimon: I got a similar error when importing. Traceback (most recent call last): File "/home/simon/miniconda3/lib/python3.7/site-packages/cupy/__init__.py", line 18, in &amp;lt; module &amp;gt; from cupy import _core # NOQA File "/home/simon/miniconda3/lib/python3.7/site-packages/cupy/_core/__init__.py",...</content>
+    <link href="https://forums.developer.nvidia.com/t/240655/24" rel="alternate"/>
   </entry>
 </feed>
