@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-17T15:01:47.203000+00:00</updated>
+  <updated>2023-05-17T15:29:22.691000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/198279/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/253389/6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/240655/24</id>
-    <title>Cupy installation on Nvidia Drive AGX Xavier [24]</title>
-    <updated>2023-05-17T15:01:47.203000+00:00</updated>
-    <content>Hunterxgonxsimon: I got a similar error when importing. Traceback (most recent call last): File "/home/simon/miniconda3/lib/python3.7/site-packages/cupy/__init__.py", line 18, in &amp;lt; module &amp;gt; from cupy import _core # NOQA File "/home/simon/miniconda3/lib/python3.7/site-packages/cupy/_core/__init__.py",...</content>
-    <link href="https://forums.developer.nvidia.com/t/240655/24" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/240655/25</id>
+    <title>Cupy installation on Nvidia Drive AGX Xavier [25]</title>
+    <updated>2023-05-17T15:29:22.691000+00:00</updated>
+    <content>VickNV: @hunterxgonxsimon This forum is intended for developers who are part of https://developer.nvidia.com/drive-agx-program the NVIDIA DRIVE™ AGX SDK Developer Program . Please use an account associated with your corporate or university email address to create your own topic.</content>
+    <link href="https://forums.developer.nvidia.com/t/240655/25" rel="alternate"/>
   </entry>
 </feed>
