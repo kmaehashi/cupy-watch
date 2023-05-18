@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-17T15:29:22.691000+00:00</updated>
+  <updated>2023-05-18T19:43:26.961000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/198279/1</id>
@@ -327,13 +327,6 @@
     <link href="https://forums.developer.nvidia.com/t/253164/2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/725</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [725]</title>
-    <updated>2023-05-14T15:31:24.153000+00:00</updated>
-    <content>Alain Paillou: ...s a post treatment i made with Windows platform. RAW capture was made with Jetson AGX Orin. Post treatment with Windows platform revealed a problem : Cupy do not like GStreamer with Windows environment. Cupy context is destroyed when using GStreamer. For now, i did not find the solution for this issue....</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/725" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/253270/2</id>
     <title>No libcudart.so.12 with cuda-toolkit [2]</title>
     <updated>2023-05-15T07:29:08.762000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2023-05-17T15:29:22.691000+00:00</updated>
     <content>VickNV: @hunterxgonxsimon This forum is intended for developers who are part of https://developer.nvidia.com/drive-agx-program the NVIDIA DRIVE™ AGX SDK Developer Program . Please use an account associated with your corporate or university email address to create your own topic.</content>
     <link href="https://forums.developer.nvidia.com/t/240655/25" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/726</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [726]</title>
+    <updated>2023-05-18T19:43:26.961000+00:00</updated>
+    <content>Alain Paillou: ...V40_09RC Some improvements, bugs fixed and it seems mp4 encoding is now working with GPU acceleration (GStreamer) for Windows platform. I had to save cupy context with cupy.cuda.stream() function. It’s always here : https://github.com/AlainPaillou/JETSONSKY GitHub https://github.com/AlainPaillou/JETSONS...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/726" rel="alternate"/>
   </entry>
 </feed>
