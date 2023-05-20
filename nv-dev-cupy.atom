@@ -344,7 +344,7 @@
     <id>https://forums.developer.nvidia.com/t/253888/1</id>
     <title>Profiling using Nsight compute CLI python script with Cupy [1]</title>
     <updated>2023-05-20T00:05:04.203000+00:00</updated>
-    <content>Makeit3dagain: Background: I am facing a problem with profiling specific parts of the code. Profiler ncu runs fine without any specific paramter , it profiles the complete code. But, iwia050h@a0705:~/numpy-transformer-master/transformer$ ncu python3.9 transformer.py The profiling is expectedly to take 651 hours...</content>
+    <content>Makeit3dagain: I am trying to profile a deep learning script, which uses cupy to compute on Nvidia GPU. Using Nsight compute ( ncu cli) iwia050h@a0705:~/numpy-transformer-master/transformer$ ncu python3.9 transformer.py Backgro...</content>
     <link href="https://forums.developer.nvidia.com/t/253888/1" rel="alternate"/>
   </entry>
   <entry>
