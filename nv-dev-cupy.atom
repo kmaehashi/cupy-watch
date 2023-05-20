@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-20T00:05:04.203000+00:00</updated>
+  <updated>2023-05-20T03:52:56.063000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/199347/1</id>
@@ -334,13 +334,6 @@
     <link href="https://forums.developer.nvidia.com/t/253389/6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/240655/25</id>
-    <title>Cupy installation on Nvidia Drive AGX Xavier [25]</title>
-    <updated>2023-05-17T15:29:22.691000+00:00</updated>
-    <content>VickNV: @hunterxgonxsimon This forum is intended for developers who are part of https://developer.nvidia.com/drive-agx-program the NVIDIA DRIVE™ AGX SDK Developer Program . Please use an account associated with your corporate or university email address to create your own topic.</content>
-    <link href="https://forums.developer.nvidia.com/t/240655/25" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/76861/726</id>
     <title>Electronically Assisted Astronomy with a Jetson Nano [726]</title>
     <updated>2023-05-18T19:43:26.961000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2023-05-20T00:05:04.203000+00:00</updated>
     <content>Makeit3dagain: Background: I am facing a problem with profiling specific parts of the code. Profiler ncu runs fine without any specific paramter , it profiles the complete code. But, iwia050h@a0705:~/numpy-transformer-master/transformer$ ncu python3.9 transformer.py The profiling is expectedly to take 651 hours...</content>
     <link href="https://forums.developer.nvidia.com/t/253888/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/240655/26</id>
+    <title>Cupy installation on Nvidia Drive AGX Xavier [26]</title>
+    <updated>2023-05-20T03:52:56.063000+00:00</updated>
+    <content>gibin.zachariah: Hi, Just a final update. I upgraded to 5.2.6 and am able to use CuPy. Thank you for your help.</content>
+    <link href="https://forums.developer.nvidia.com/t/240655/26" rel="alternate"/>
   </entry>
 </feed>
