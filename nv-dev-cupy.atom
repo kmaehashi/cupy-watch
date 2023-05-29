@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-05-23T21:39:48.711000+00:00</updated>
+  <updated>2023-05-29T18:42:34.414000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/199790/19</id>
-    <title>Cupy and loops [19]</title>
-    <updated>2022-01-06T23:08:10.100000+00:00</updated>
-    <content>: ...: This info, already included in the error output, could be your starting point to get more information: Thanks, I saw that, and now after installing cupy also in in the root environment using sudo works.</content>
-    <link href="https://forums.developer.nvidia.com/t/199790/19" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/161486/7</id>
     <title>I compiled opencv 4.5 but did not update Python-Opencv [7]</title>
@@ -353,5 +346,12 @@
     <updated>2023-05-23T21:39:48.711000+00:00</updated>
     <content>Jmarusarz: Thanks for reaching out. For reference, what GPU is this running on and what version of CUDA is installed? Do you have access to GUI for an interactive profile? One thing to try would be stepping through the APIs until you reach the kernel of interest. Then you could profile it. You could also ve...</content>
     <link href="https://forums.developer.nvidia.com/t/253888/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/254823/1</id>
+    <title>Saving/performing SVD over multiple GPU nodes [1]</title>
+    <updated>2023-05-29T18:42:34.414000+00:00</updated>
+    <content>Nheinsdorf: Hey, I want to use Python CUDA (e.g. CuPy) to perform linear algebra operations on large matrices for some physics simulations. The problem is that these matrices get very large, so I need to...</content>
+    <link href="https://forums.developer.nvidia.com/t/254823/1" rel="alternate"/>
   </entry>
 </feed>
