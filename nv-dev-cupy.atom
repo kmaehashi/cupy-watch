@@ -2,29 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-06-07T02:24:13.383000+00:00</updated>
+  <updated>2023-06-09T00:01:02.212000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/203936/3</id>
-    <title>Installing cupy on jetson nano [3]</title>
-    <updated>2022-03-09T17:47:34.387000+00:00</updated>
-    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
-    <link href="https://forums.developer.nvidia.com/t/203936/3" rel="alternate"/>
-  </entry>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/204695/3</id>
-    <title>CuPy or other parallel methods for GPU usage on TX2? [3]</title>
-    <updated>2022-03-14T19:25:06.067000+00:00</updated>
-    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
-    <link href="https://forums.developer.nvidia.com/t/204695/3" rel="alternate"/>
-  </entry>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/203654/12</id>
-    <title>Cupy or pycuda on Jetson Xavier NX [12]</title>
-    <updated>2022-03-23T05:21:43.480000+00:00</updated>
-    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
-    <link href="https://forums.developer.nvidia.com/t/203654/12" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/204836/6</id>
     <title>Cupy and DNN_BACKENDCUDA -&amp;gt; All Fail on TX2 [6]</title>
@@ -353,5 +332,26 @@
     <updated>2023-06-07T02:24:13.383000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/253164/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/256032/1</id>
+    <title>HELLO AI WORLD | Deploying Edge AI Web Apps on Jetson Orin Nano [1]</title>
+    <updated>2023-06-08T23:43:04.239000+00:00</updated>
+    <content>dusty_nv: ...e https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-image.md#image-capsules-in-python zero-copy interoperability with PyTorch, numba, CuPy, PyCUDA, VPI, and https://numba.readthedocs.io/en/stable/cuda/cuda_array_interface.html#interoperability other libraries https://github.com/dusty-nv/...</content>
+    <link href="https://forums.developer.nvidia.com/t/256032/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/256033/1</id>
+    <title>HELLO AI WORLD | Deploying Edge AI Web Apps on Jetson Orin Nano [1]</title>
+    <updated>2023-06-08T23:59:44.832000+00:00</updated>
+    <content>dusty_nv: ...e https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-image.md#image-capsules-in-python zero-copy interoperability with PyTorch, numba, CuPy, PyCUDA, VPI, and https://numba.readthedocs.io/en/stable/cuda/cuda_array_interface.html#interoperability other libraries https://github.com/dusty-nv/...</content>
+    <link href="https://forums.developer.nvidia.com/t/256033/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/256034/1</id>
+    <title>HELLO AI WORLD | Deploying Edge AI Web Apps on Jetson Orin Nano [1]</title>
+    <updated>2023-06-09T00:01:02.212000+00:00</updated>
+    <content>dusty_nv: ...e https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-image.md#image-capsules-in-python zero-copy interoperability with PyTorch, numba, CuPy, PyCUDA, VPI, and https://numba.readthedocs.io/en/stable/cuda/cuda_array_interface.html#interoperability other libraries https://github.com/dusty-nv/...</content>
+    <link href="https://forums.developer.nvidia.com/t/256034/1" rel="alternate"/>
   </entry>
 </feed>
