@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2023-05-04T15:28:40.542000+00:00</updated>
+  <updated>2023-06-11T17:59:00.971000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/1012/17</id>
-    <title>How to speed up for loop in customized RNN? [17]</title>
-    <updated>2017-09-09T00:35:52.889000+00:00</updated>
-    <content>ngimel: ...speeding up pointwise operations, fuser to do this in on the roadmap. In the meantime the best solution is probably to have your custom kernels using cupy, like in pyinn project https://github.com/szagoruyko/pyinn/blob/master/pyinn/conv2d_depthwise.py . You’d also need to hand-code your backward pass in...</content>
-    <link href="https://discuss.pytorch.org/t/1012/17" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/7357/2</id>
     <title>How to write parallel code in pytorch? [2]</title>
@@ -353,5 +346,12 @@
     <updated>2023-05-04T15:28:40.542000+00:00</updated>
     <content>Christopher Brissette: import cupy as cp import numpy as np import time import torch from torch.nn.utils import parameters_to_vector,vector_to_parameters from torch import optim from t...</content>
     <link href="https://discuss.pytorch.org/t/179073/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/169447/34</id>
+    <title>PyTorch for Cuda 12 [34]</title>
+    <updated>2023-06-11T17:59:00.971000+00:00</updated>
+    <content>Stefan: ...es import Decorator File "C:\Users\S\anaconda3\envs\machine_learning\lib\site-packages\thinc\types.py", line 8, in &amp;lt; module &amp;gt; from .compat import has_cupy, cupy File "C:\Users\S\anaconda3\envs\machine_learning\lib\site-packages\thinc\compat.py", line 30, in &amp;lt; module &amp;gt; import torch.utils.dlpack File "C:\...</content>
+    <link href="https://discuss.pytorch.org/t/169447/34" rel="alternate"/>
   </entry>
 </feed>
