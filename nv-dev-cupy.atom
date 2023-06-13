@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-06-12T14:50:26.059000+00:00</updated>
+  <updated>2023-06-13T04:10:50.530000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/211069/1</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/256034/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/256100/4</id>
-    <title>Facing a issue working with numba and cupy [4]</title>
-    <updated>2023-06-10T14:09:07.305000+00:00</updated>
-    <content>Robert_Crovella: ...matrix eigenvalue calculation in low level CUDA code, whether in numba or not. Use a library implementation. If you want to use python, https://docs.cupy.dev/en/stable/reference/generated/cupy.linalg.eigh.html cupy might be worth a look. But no, you cannot call cupy routines from a numba cuda.jit regio...</content>
-    <link href="https://forums.developer.nvidia.com/t/256100/4" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/240655/28</id>
     <title>Cupy installation on Nvidia Drive AGX Xavier [28]</title>
     <updated>2023-06-12T14:50:26.059000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/240655/28" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/256100/5</id>
+    <title>Facing a issue working with numba and cupy [5]</title>
+    <updated>2023-06-13T04:10:50.530000+00:00</updated>
+    <content>Solankipayal290696: ...u would then combine such lower level operations to perform a higher level operation like eigenvalue calculation I have tried implementing this using CuPy, and it has provided a huge acceleration. Thank you so much for your assistance. To improve my understanding, I will also thoroughly read the documen...</content>
+    <link href="https://forums.developer.nvidia.com/t/256100/5" rel="alternate"/>
   </entry>
 </feed>
