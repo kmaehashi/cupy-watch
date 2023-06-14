@@ -2,22 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-06-13T04:10:50.530000+00:00</updated>
+  <updated>2023-06-14T08:56:42.158000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/211069/1</id>
-    <title>CUDA in l4t-base:r34.1 [1]</title>
-    <updated>2022-04-13T09:48:06.225000+00:00</updated>
-    <content>ambrose.maker: Hello, I would like to build docker image with l4t-base:r34.1. But seems my installation process (build CuPy) cannot find CUDA, with error like this: fatal error: cuda.h: No such file or directory And the nvcc command not found nvcc --version bash: nvcc: com...</content>
-    <link href="https://forums.developer.nvidia.com/t/211069/1" rel="alternate"/>
-  </entry>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/211040/9</id>
-    <title>PyTorch 1.11 for JetPack 5.0 DP? [9]</title>
-    <updated>2022-04-25T19:05:17.965000+00:00</updated>
-    <content>znmeb: ...ages on L4T-base and I want the latest stable binaries that are built by someone else whenever possible. My current Docker build only uses cusignal / cupy and torchaudio built from source, and that takes about 2.3 hours on a Xavier NX. The last time I built a PyTorch wheel I think it was 3.5 hours on th...</content>
-    <link href="https://forums.developer.nvidia.com/t/211040/9" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/204142/4</id>
     <title>CUDA memory error calculating shap values although enough memory [4]</title>
@@ -353,5 +339,19 @@
     <updated>2023-06-13T04:10:50.530000+00:00</updated>
     <content>Solankipayal290696: ...u would then combine such lower level operations to perform a higher level operation like eigenvalue calculation I have tried implementing this using CuPy, and it has provided a huge acceleration. Thank you so much for your assistance. To improve my understanding, I will also thoroughly read the documen...</content>
     <link href="https://forums.developer.nvidia.com/t/256100/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/256495/5</id>
+    <title>Sdkmanager fails installing Drive SW 10.0(rev.2) with error in Drive Software platform [5]</title>
+    <updated>2023-06-14T08:55:53.890000+00:00</updated>
+    <content>Balakrishnan Ayyanar: First we moved to the version 5.2.6 to avoid this issue mentioned here https://forums.developer.nvidia.com/t/cupy-installation-on-nvidia-drive-agx-xavier/240655 We developed the ROS driver for sensors again for 5.2.6( Since drive work SDK is different from 5.1.6)...</content>
+    <link href="https://forums.developer.nvidia.com/t/256495/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/254110/13</id>
+    <title>HDMI port on NVIDIA DRIVE AGX with 5.2.6 drive OS not working properly [13]</title>
+    <updated>2023-06-14T08:56:42.158000+00:00</updated>
+    <content>Balakrishnan Ayyanar: First we moved to the version 5.2.6 to avoid this issue mentioned here https://forums.developer.nvidia.com/t/cupy-installation-on-nvidia-drive-agx-xavier/240655 We developed the ROS driver for sensors again for 5.2.6( Since drive work SDK is different from 5.1.6)...</content>
+    <link href="https://forums.developer.nvidia.com/t/254110/13" rel="alternate"/>
   </entry>
 </feed>
