@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-06-14T08:56:42.158000+00:00</updated>
+  <updated>2023-06-14T23:30:26.386000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/204142/4</id>
-    <title>CUDA memory error calculating shap values although enough memory [4]</title>
-    <updated>2022-04-25T23:20:29.127000+00:00</updated>
-    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
-    <link href="https://forums.developer.nvidia.com/t/204142/4" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/212739/2</id>
     <title>Nvc++ OpenACC runtime segfaults if Intel MKL (numpy) is already loaded [2]</title>
@@ -353,5 +346,12 @@
     <updated>2023-06-14T08:56:42.158000+00:00</updated>
     <content>Balakrishnan Ayyanar: First we moved to the version 5.2.6 to avoid this issue mentioned here https://forums.developer.nvidia.com/t/cupy-installation-on-nvidia-drive-agx-xavier/240655 We developed the ROS driver for sensors again for 5.2.6( Since drive work SDK is different from 5.1.6)...</content>
     <link href="https://forums.developer.nvidia.com/t/254110/13" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/256707/3</id>
+    <title>Usage Limit on DLI Data Science course [3]</title>
+    <updated>2023-06-14T23:30:26.386000+00:00</updated>
+    <content>Adamparness726: ...p Imgur imgur.com RuntimeError Traceback (most recent call last) in /opt/conda/envs/rapids/lib/python3.7/site-packages/cuml/common/memory_utils.py in cupy_rmm_wrapper(*args, **kwargs) 54 def cupy_rmm_wrapper(*args, **kwargs): 55 with cupy_using_allocator(rmm.rmm_cupy_allocator): — &amp;gt; 56 return func(*args...</content>
+    <link href="https://forums.developer.nvidia.com/t/256707/3" rel="alternate"/>
   </entry>
 </feed>
