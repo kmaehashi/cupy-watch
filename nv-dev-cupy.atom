@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-06-14T23:30:26.386000+00:00</updated>
+  <updated>2023-06-22T06:39:41.249000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/212739/2</id>
-    <title>Nvc++ OpenACC runtime segfaults if Intel MKL (numpy) is already loaded [2]</title>
-    <updated>2022-04-27T17:14:12.149000+00:00</updated>
-    <content>Mat Colgrove: ...dding the flag “-nomp” when creating the shared object so NVOMP isn’t linked in. Alternately, if you can install numpy without MKL, or better yet use cupy so the Python code can be offloaded to the GPU as well. https://www.nvidia.com/en-us/glossary/data-science/numpy/ NVIDIA Data Science Glossary https:...</content>
-    <link href="https://forums.developer.nvidia.com/t/212739/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/212436/21</id>
     <title>Nvidia Cuda Compiler not showing up in Linux 22.04 [21]</title>
@@ -353,5 +346,12 @@
     <updated>2023-06-14T23:30:26.386000+00:00</updated>
     <content>Adamparness726: ...p Imgur imgur.com RuntimeError Traceback (most recent call last) in /opt/conda/envs/rapids/lib/python3.7/site-packages/cuml/common/memory_utils.py in cupy_rmm_wrapper(*args, **kwargs) 54 def cupy_rmm_wrapper(*args, **kwargs): 55 with cupy_using_allocator(rmm.rmm_cupy_allocator): — &amp;gt; 56 return func(*args...</content>
     <link href="https://forums.developer.nvidia.com/t/256707/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/257480/1</id>
+    <title>Import Cupy throws AttributeError on &amp;lsquo;numpy&amp;rsquo; [1]</title>
+    <updated>2023-06-22T06:39:41.249000+00:00</updated>
+    <content>Min Huang: ...ent. Apologize in advance if I'm posting in the wrong area and just LMK where the correct area to post. I thought to write a simple python code using Cupy. I installed cupy-cuda11x (v12.1.0) and numpy (v1.24.3) on my Nvidia Jetson AGX Xavier. When I run "import cupy as cp" on python command line, the fo...</content>
+    <link href="https://forums.developer.nvidia.com/t/257480/1" rel="alternate"/>
   </entry>
 </feed>
