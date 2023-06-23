@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-06-22T06:39:41.249000+00:00</updated>
+  <updated>2023-06-23T00:25:53.879000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/212436/21</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/256707/3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/257480/1</id>
-    <title>Import Cupy throws AttributeError on &amp;lsquo;numpy&amp;rsquo; [1]</title>
-    <updated>2023-06-22T06:39:41.249000+00:00</updated>
-    <content>Min Huang: ...ent. Apologize in advance if I'm posting in the wrong area and just LMK where the correct area to post. I thought to write a simple python code using Cupy. I installed cupy-cuda11x (v12.1.0) and numpy (v1.24.3) on my Nvidia Jetson AGX Xavier. When I run "import cupy as cp" on python command line, the fo...</content>
-    <link href="https://forums.developer.nvidia.com/t/257480/1" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/257480/2</id>
+    <title>Import Cupy throws AttributeError on &amp;lsquo;numpy&amp;rsquo; [2]</title>
+    <updated>2023-06-23T00:25:53.879000+00:00</updated>
+    <content>Robert_Crovella: min.huang1: module 'numpy' has no attribute 'typeDict' https://stackoverflow.com/questions/74852225/attributeerror-module-numpy-has-no-attribute-typedict stackoverflow.com https://stackoverflow.com/users/11861874/add Add https://stackoverflow.com/questions/74852225/attributeerror-module-numpy-has...</content>
+    <link href="https://forums.developer.nvidia.com/t/257480/2" rel="alternate"/>
   </entry>
 </feed>
