@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-06-23T00:25:53.879000+00:00</updated>
+  <updated>2023-06-27T04:11:07.078000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/212436/21</id>
@@ -320,13 +320,6 @@
     <link href="https://forums.developer.nvidia.com/t/240655/28" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/256100/5</id>
-    <title>Facing a issue working with numba and cupy [5]</title>
-    <updated>2023-06-13T04:10:50.530000+00:00</updated>
-    <content>Solankipayal290696: ...u would then combine such lower level operations to perform a higher level operation like eigenvalue calculation I have tried implementing this using CuPy, and it has provided a huge acceleration. Thank you so much for your assistance. To improve my understanding, I will also thoroughly read the documen...</content>
-    <link href="https://forums.developer.nvidia.com/t/256100/5" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/256495/5</id>
     <title>Sdkmanager fails installing Drive SW 10.0(rev.2) with error in Drive Software platform [5]</title>
     <updated>2023-06-14T08:55:53.890000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2023-06-23T00:25:53.879000+00:00</updated>
     <content>Robert_Crovella: min.huang1: module 'numpy' has no attribute 'typeDict' https://stackoverflow.com/questions/74852225/attributeerror-module-numpy-has-no-attribute-typedict stackoverflow.com https://stackoverflow.com/users/11861874/add Add https://stackoverflow.com/questions/74852225/attributeerror-module-numpy-has...</content>
     <link href="https://forums.developer.nvidia.com/t/257480/2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/256100/6</id>
+    <title>Facing a issue working with numba and cupy [6]</title>
+    <updated>2023-06-27T04:11:07.078000+00:00</updated>
+    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/256100/6" rel="alternate"/>
   </entry>
 </feed>
