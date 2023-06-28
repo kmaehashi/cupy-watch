@@ -323,7 +323,7 @@
     <id>https://forums.developer.nvidia.com/t/256495/5</id>
     <title>Sdkmanager fails installing Drive SW 10.0(rev.2) with error in Drive Software platform [5]</title>
     <updated>2023-06-14T08:55:53.890000+00:00</updated>
-    <content>Balakrishnan Ayyanar: First we moved to the version 5.2.6 to avoid this issue mentioned here https://forums.developer.nvidia.com/t/cupy-installation-on-nvidia-drive-agx-xavier/240655 We developed the ROS driver for sensors again for 5.2.6( Since drive work SDK is different from 5.1.6)...</content>
+    <content>Balakrishnan Ayyanar: First we moved to the version 5.2.6 to avoid this issue mentioned here https://forums.developer.nvidia.com/t/cupy-installation-on-nvidia-drive-agx-xavier/240655 Cupy installation on Nvidia Drive AGX Xavier /c/autonomous-vehicles/drive-agx/drive-agx-xavier-general...</content>
     <link href="https://forums.developer.nvidia.com/t/256495/5" rel="alternate"/>
   </entry>
   <entry>
