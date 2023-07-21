@@ -351,7 +351,7 @@
     <id>https://forums.developer.nvidia.com/t/230153/5</id>
     <title>Nsight Systems causes CuPy to crash in Windows 10 if nvcc is invoked for kernel compilation [5]</title>
     <updated>2023-07-21T03:56:28.683000+00:00</updated>
-    <content>icyveins: I'd like to report here that on Windows 10 as well with 2023.2.1 nsys, I got a return code 1 with cupy but it was seemingly solved (?) by running cmd as administrator instead (even though my user already has admin rights).</content>
+    <content>icyveins: I'd like to report here that on Windows 10 as well with 2023.2.1 nsys, I got a return code 1 with cupy but it was still not solved (?) by running cmd as administrator (even though my user already has admin rights).</content>
     <link href="https://forums.developer.nvidia.com/t/230153/5" rel="alternate"/>
   </entry>
 </feed>
