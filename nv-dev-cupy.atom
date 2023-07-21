@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-07-13T21:03:26.103000+00:00</updated>
+  <updated>2023-07-21T03:56:28.683000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/212436/21</id>
@@ -101,13 +101,6 @@
     <updated>2022-08-31T18:26:18.272000+00:00</updated>
     <content>Robert_Crovella: ...careful benchmarking exercise (IMO) should do a warm-up run before computing measured values. Yes, I guess you are probably not doing this with your cupy code. But I can definitely spot some problems in the comparison. So I’m fairly convinced what you’re doing is not an apples-to-apples comparison. Her...</content>
     <link href="https://forums.developer.nvidia.com/t/226656/8" rel="alternate"/>
-  </entry>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/230153/4</id>
-    <title>Nsight Systems causes CuPy to crash in Windows 10 if nvcc is invoked for kernel compilation [4]</title>
-    <updated>2022-10-19T18:33:54.653000+00:00</updated>
-    <content>hwilper: @dofek for Windows target.</content>
-    <link href="https://forums.developer.nvidia.com/t/230153/4" rel="alternate"/>
   </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/72048/1205</id>
@@ -353,5 +346,12 @@
     <updated>2023-07-13T21:03:26.103000+00:00</updated>
     <content>Jmarusarz: ...plication is failing. to sanity check, can you share the output of running "python3.9 transformer.py" and then running "ncu --target-processes all -k cupy_sum -o cupy_sum_1 python3.9 transformer.py" immediately after?</content>
     <link href="https://forums.developer.nvidia.com/t/253888/4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/230153/5</id>
+    <title>Nsight Systems causes CuPy to crash in Windows 10 if nvcc is invoked for kernel compilation [5]</title>
+    <updated>2023-07-21T03:56:28.683000+00:00</updated>
+    <content>icyveins: I'd like to report here that on Windows 10 as well with 2023.2.1 nsys, I got a return code 1 with cupy but it was seemingly solved (?) by running cmd as administrator instead (even though my user already has admin rights).</content>
+    <link href="https://forums.developer.nvidia.com/t/230153/5" rel="alternate"/>
   </entry>
 </feed>
