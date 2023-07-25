@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-07-21T03:56:28.683000+00:00</updated>
+  <updated>2023-07-25T08:06:45.075000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/212436/21</id>
-    <title>Nvidia Cuda Compiler not showing up in Linux 22.04 [21]</title>
-    <updated>2022-05-03T10:25:07.377000+00:00</updated>
-    <content>Johnnynuca14: ...nk the next update of cuda and drivers will be quite big. I am on kernel 5.17.5 and it is completely stable with these drivers using cudnn, tensorrt, cupy and cudf for deep learning.</content>
-    <link href="https://forums.developer.nvidia.com/t/212436/21" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/210913/8</id>
     <title>Cupy Install for Jetson Xavier NX [8]</title>
@@ -353,5 +346,12 @@
     <updated>2023-07-21T03:56:28.683000+00:00</updated>
     <content>icyveins: I'd like to report here that on Windows 10 as well with 2023.2.1 nsys, I got a return code 1 with cupy but it was still not solved (?) by running cmd as administrator (even though my user already has admin rights).</content>
     <link href="https://forums.developer.nvidia.com/t/230153/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/260917/1</id>
+    <title>Not able to set CPU clock frequency on Emulated Orin Nano [1]</title>
+    <updated>2023-07-25T08:06:45.075000+00:00</updated>
+    <content>Naitik Nakrani: We have emulated AGX Orin 32 GB module as Jetson Orin Nano 8 GB module, which has 6 cores and 2 power modes 15W and 7W. Right now we are working on 15W MaxN mode which has all the 6 cores on and the max clk frequency for the same is 1510 MHz, but by default clk freq (cpuinfo_cur_freq) of core num...</content>
+    <link href="https://forums.developer.nvidia.com/t/260917/1" rel="alternate"/>
   </entry>
 </feed>
