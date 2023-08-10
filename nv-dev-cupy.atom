@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-07-25T08:06:45.075000+00:00</updated>
+  <updated>2023-08-10T05:17:24.860000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/210913/8</id>
-    <title>Cupy Install for Jetson Xavier NX [8]</title>
-    <updated>2022-05-11T03:46:52.479000+00:00</updated>
-    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
-    <link href="https://forums.developer.nvidia.com/t/210913/8" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/215440/1</id>
     <title>Low performance on Drive AGX Driver [1]</title>
@@ -353,5 +346,12 @@
     <updated>2023-07-25T08:06:45.075000+00:00</updated>
     <content>Naitik Nakrani: We have emulated AGX Orin 32 GB module as Jetson Orin Nano 8 GB module, which has 6 cores and 2 power modes 15W and 7W. Right now we are working on 15W MaxN mode which has all the 6 cores on and the max clk frequency for the same is 1510 MHz, but by default clk freq (cpuinfo_cur_freq) of core num...</content>
     <link href="https://forums.developer.nvidia.com/t/260917/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/262419/3</id>
+    <title>Holoviz/OpenGL Interoperability [3]</title>
+    <updated>2023-08-10T05:17:24.860000+00:00</updated>
+    <content>: ...nit__(*args, **kwargs) def setup(self, spec: OperatorSpec): spec.input("render_buffer_input") def compute(self, op_input, op_output, context): import cupy as cp message_input = op_input.receive("render_buffer_input") #buffer_input = message_input.get("") #cp_array = cp.asarray(buffer_input) #print(cp_ar...</content>
+    <link href="https://forums.developer.nvidia.com/t/262419/3" rel="alternate"/>
   </entry>
 </feed>
