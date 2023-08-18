@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-08-18T15:14:58.498000+00:00</updated>
+  <updated>2023-08-18T16:50:56.705000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/213644/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/262419/3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/263644/2</id>
-    <title>Profilometry, performance, and number of threads on the Jetson [2]</title>
-    <updated>2023-08-18T15:14:58.498000+00:00</updated>
-    <content>Robert_Crovella: stefano.oliveira: 1. I am unable to define more than 32 threads per block for the GPU, but the command cuda.get_current_device().MAX_THREADS_PER_BLOCK returns 1024 threads per block. Why is this? How can I access all 1024 threads to improve the performance of the code? You are defining 1024 threa...</content>
-    <link href="https://forums.developer.nvidia.com/t/263644/2" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/263644/3</id>
+    <title>Profilometry, performance, and number of threads on the Jetson [3]</title>
+    <updated>2023-08-18T16:50:56.705000+00:00</updated>
+    <content>Robert_Crovella: I guess I should also mention that if this is the only work you intend to do on the GPU: check each of 2 matrices against a threshold value and then set a value in a 3rd matrix - this may not be a good choice for GPU solution. Your time measurement doesn't include the cost to transfer data to and...</content>
+    <link href="https://forums.developer.nvidia.com/t/263644/3" rel="alternate"/>
   </entry>
 </feed>
