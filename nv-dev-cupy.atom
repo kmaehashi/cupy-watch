@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-08-22T13:52:16.151000+00:00</updated>
+  <updated>2023-08-22T22:50:06.324000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/213644/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/76861/757" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/263644/7</id>
-    <title>Profilometry, performance, and number of threads on the Jetson [7]</title>
-    <updated>2023-08-22T13:52:16.151000+00:00</updated>
-    <content>Robert_Crovella: stefano.oliveira: the direct GPU memory access feature I'm not sure what that is. If you mean something like GPUDirect, I would suggest asking those questions on https://forums.developer.nvidia.com/c/agx-autonomous-machines/jetson-embedded-systems/70 a relevant Jetson forum</content>
-    <link href="https://forums.developer.nvidia.com/t/263644/7" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/263644/9</id>
+    <title>Profilometry, performance, and number of threads on the Jetson [9]</title>
+    <updated>2023-08-22T22:50:06.324000+00:00</updated>
+    <content>Robert_Crovella: Double buffering is probably sensible in the context of having an incoming buffer that is "filling" and a filled buffer for compute tasks. Streams may or may not matter here; there does need to be a ping-pong mechanism of some sort. Jetson enjoys a unified physical memory, so the usual mechanisms...</content>
+    <link href="https://forums.developer.nvidia.com/t/263644/9" rel="alternate"/>
   </entry>
 </feed>
