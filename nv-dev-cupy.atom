@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-08-19T12:13:21.751000+00:00</updated>
+  <updated>2023-08-22T13:52:16.151000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/213644/2</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/262419/3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/263644/3</id>
-    <title>Profilometry, performance, and number of threads on the Jetson [3]</title>
-    <updated>2023-08-18T16:50:56.705000+00:00</updated>
-    <content>Robert_Crovella: I guess I should also mention that if this is the only work you intend to do on the GPU: check each of 2 matrices against a threshold value and then set a value in a 3rd matrix - this may not be a good choice for GPU solution. Your time measurement doesn't include the cost to transfer data to and...</content>
-    <link href="https://forums.developer.nvidia.com/t/263644/3" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/76861/757</id>
     <title>Electronically Assisted Astronomy with a Jetson Nano [757]</title>
     <updated>2023-08-19T12:13:21.751000+00:00</updated>
     <content>Alain Paillou: ...night since July. I made some software updates for Jetson Xavier NX and i tried last version of JetsonSky with Xavier NX. It seems it's ok, even with Cupy and TorchVision. If the weather conditions gets better on day, maybe i will be able to make some sky captures and bring some JetsonSky improvements,...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/757" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/263644/7</id>
+    <title>Profilometry, performance, and number of threads on the Jetson [7]</title>
+    <updated>2023-08-22T13:52:16.151000+00:00</updated>
+    <content>Robert_Crovella: stefano.oliveira: the direct GPU memory access feature I'm not sure what that is. If you mean something like GPUDirect, I would suggest asking those questions on https://forums.developer.nvidia.com/c/agx-autonomous-machines/jetson-embedded-systems/70 a relevant Jetson forum</content>
+    <link href="https://forums.developer.nvidia.com/t/263644/7" rel="alternate"/>
   </entry>
 </feed>
