@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2022-11-24T20:45:03.468000+00:00</updated>
+  <updated>2023-08-30T10:25:24.659000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -59,5 +59,12 @@
     <updated>2022-11-24T20:45:03.468000+00:00</updated>
     <content>Vyas Ramasubramani: ...eer to pull the version out of source control, right? I might have missed it, but what’s the use case? Given OP’s work with Nvidia and the mention of Cupy/CUDA versions, I’m going to guess this is to ship projects that encode the CUDA version in the project name, like https://pypi.org/project/cupy-cuda9...</content>
     <link href="https://discuss.python.org/t/21359/18" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/32566/18</id>
+    <title>PEP 727: Documentation Metadata in Typing [18]</title>
+    <updated>2023-08-30T10:25:24.659000+00:00</updated>
+    <content>Timothée Mazzucotelli: Paul Moore: Add docstrings to that, if you dare :slightly_frowning_face: Dared! def send( self, request: Annotated[ PreparedRequest, doc( """Lorem ipsum dolor sit amet... ...consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu...</content>
+    <link href="https://discuss.python.org/t/32566/18" rel="alternate"/>
   </entry>
 </feed>
