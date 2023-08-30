@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-08-22T22:50:06.324000+00:00</updated>
+  <updated>2023-08-30T08:23:17.494000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/213644/2</id>
-    <title>Processing camera samples from RTSP to Redis with ffmpeg [2]</title>
-    <updated>2022-05-25T10:23:46.847000+00:00</updated>
-    <content>dsingalNV: ...idth copying frames to the GPU, decoding, and then sending them out to be read via numpy. Numpy: Since numpy uses system memory, using something like cupy that can access the data on GPU memory itself would reduce the memory copy from GPU memory to system memory. For future reference, our technical blog...</content>
-    <link href="https://forums.developer.nvidia.com/t/213644/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/215554/1</id>
     <title>Using NVSHMEM on a Python Library [1]</title>
@@ -353,5 +346,12 @@
     <updated>2023-08-22T22:50:06.324000+00:00</updated>
     <content>Robert_Crovella: Double buffering is probably sensible in the context of having an incoming buffer that is "filling" and a filled buffer for compute tasks. Streams may or may not matter here; there does need to be a ping-pong mechanism of some sort. Jetson enjoys a unified physical memory, so the usual mechanisms...</content>
     <link href="https://forums.developer.nvidia.com/t/263644/9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/264411/4</id>
+    <title>Transfer tensor device without copying it in Jetson device [4]</title>
+    <updated>2023-08-30T08:23:17.494000+00:00</updated>
+    <content>Michele Tessari: Thank you for the response, Now I better understood the memory management in cuda. It seems CuPy https://docs.cupy.dev/en/stable/reference/generated/cupy.cuda.MemoryPool.html support the unified memory allocation and also the conversion to pytorc...</content>
+    <link href="https://forums.developer.nvidia.com/t/264411/4" rel="alternate"/>
   </entry>
 </feed>
