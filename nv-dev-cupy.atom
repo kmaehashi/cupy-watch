@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-09-20T05:19:03.296000+00:00</updated>
+  <updated>2023-09-20T11:47:33.104000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/219698/1</id>
@@ -320,13 +320,6 @@
     <link href="https://forums.developer.nvidia.com/t/264411/4" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/238537/8</id>
-    <title>&amp;ndash;useCudaGraph using Python API? [8]</title>
-    <updated>2023-09-04T02:50:11.868000+00:00</updated>
-    <content>whitelok: ...are working on it: https://nvidia.github.io/cuda-python/module/cuda.html#cuda.cuda.cuGraphCreate cuda - CUDA Python 12.0.0 documentation https://docs.cupy.dev/en/stable/reference/generated/cupy.cuda.Graph.html seems cupy support cuda graph too.</content>
-    <link href="https://forums.developer.nvidia.com/t/238537/8" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/263644/12</id>
     <title>Profilometry, performance, and number of threads on the Jetson [12]</title>
     <updated>2023-09-05T12:26:46.243000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2023-09-20T05:19:03.296000+00:00</updated>
     <content>Yuweiw: ...y using cuda. You can refer to the demo app https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/master/apps/deepstream-imagedata-multistream-cupy deepstream-imagedata-multistream-cupy .</content>
     <link href="https://forums.developer.nvidia.com/t/266441/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/238537/9</id>
+    <title>&amp;ndash;useCudaGraph using Python API? [9]</title>
+    <updated>2023-09-20T11:47:33.104000+00:00</updated>
+    <content>frederiki3k63: Is CuPy a direct alternative to pycuda? Would it be possible to implement a TensorRT execution in Python using CuPy? It seems from the documentation it's a n...</content>
+    <link href="https://forums.developer.nvidia.com/t/238537/9" rel="alternate"/>
   </entry>
 </feed>
