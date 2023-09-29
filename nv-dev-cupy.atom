@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-09-20T11:47:33.104000+00:00</updated>
+  <updated>2023-09-29T22:27:05.981000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/219698/1</id>
-    <title>Gpu-cpu memory copying is slower in WSL?! [1]</title>
-    <updated>2022-07-04T14:13:59.257000+00:00</updated>
-    <content>K Glimps: ...le bit slower roughly in the range some milliseconds slower. Also Python stuff caching and memory copying less than Windows. I tested Pycuda-PyopenCL-Cupy-Numba. for big arrays. these python stuff i don’t know they double cache or what. Now, I write my kernels and run them from Pycuda. Writing them in C...</content>
-    <link href="https://forums.developer.nvidia.com/t/219698/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/217721/4</id>
     <title>Windows 11 WSL2 CUDA (Windows 11 Home 22000.708, Nvidia Studio Driver 512.96) [4]</title>
@@ -353,5 +346,12 @@
     <updated>2023-09-20T11:47:33.104000+00:00</updated>
     <content>frederiki3k63: Is CuPy a direct alternative to pycuda? Would it be possible to implement a TensorRT execution in Python using CuPy? It seems from the documentation it's a n...</content>
     <link href="https://forums.developer.nvidia.com/t/238537/9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/267671/5</id>
+    <title>Sparse matrix manipulation [5]</title>
+    <updated>2023-09-29T22:27:05.981000+00:00</updated>
+    <content>Robert_Crovella: That was the closest I could find for numba cuda. I ran a few small simple tests on that code, it seemed to work correctly. FWIW https://docs.cupy.dev/en/stable/reference/generated/cupy.cumsum.html cupy should be interoperable with numba cuda. The following code should remove the hazards I menti...</content>
+    <link href="https://forums.developer.nvidia.com/t/267671/5" rel="alternate"/>
   </entry>
 </feed>
