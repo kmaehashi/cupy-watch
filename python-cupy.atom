@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2023-08-30T10:25:24.659000+00:00</updated>
+  <updated>2023-10-02T22:51:12.539000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -66,5 +66,12 @@
     <updated>2023-08-30T10:25:24.659000+00:00</updated>
     <content>Timothée Mazzucotelli: Paul Moore: Add docstrings to that, if you dare :slightly_frowning_face: Dared! def send( self, request: Annotated[ PreparedRequest, doc( """Lorem ipsum dolor sit amet... ...consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu...</content>
     <link href="https://discuss.python.org/t/32566/18" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/35138/14</id>
+    <title>Standard library support for SIMD [14]</title>
+    <updated>2023-10-02T22:51:12.539000+00:00</updated>
+    <content>Michael H: ...ibraries. I believe the current best options are Numba (llvm based compilation of a subset of valid python via decorators which transform your code), CuPy (if you want to specifically do parallel work by writing small bits to run in parallel on the GPU), Cython, or a native extension. Given the example...</content>
+    <link href="https://discuss.python.org/t/35138/14" rel="alternate"/>
   </entry>
 </feed>
