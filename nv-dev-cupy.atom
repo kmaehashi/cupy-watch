@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-09-29T22:27:05.981000+00:00</updated>
+  <updated>2023-10-04T08:33:22.511000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/217721/4</id>
-    <title>Windows 11 WSL2 CUDA (Windows 11 Home 22000.708, Nvidia Studio Driver 512.96) [4]</title>
-    <updated>2022-07-05T08:48:31.840000+00:00</updated>
-    <content>K Glimps: ...6_64/21.3/cuda/11.2/bin:$PATH For any CUDA stuff fist you have to define path to your CUDA installation That is normal. For, Numba, Pycuda, Pyopencl, cupy and I think the same for tensorflow</content>
-    <link href="https://forums.developer.nvidia.com/t/217721/4" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/219869/1</id>
     <title>How many kernels you can launch in WSL wiith respect to Windows [1]</title>
@@ -353,5 +346,12 @@
     <updated>2023-09-29T22:27:05.981000+00:00</updated>
     <content>Robert_Crovella: That was the closest I could find for numba cuda. I ran a few small simple tests on that code, it seemed to work correctly. FWIW https://docs.cupy.dev/en/stable/reference/generated/cupy.cumsum.html cupy should be interoperable with numba cuda. The following code should remove the hazards I menti...</content>
     <link href="https://forums.developer.nvidia.com/t/267671/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/268398/1</id>
+    <title>Cant install G [1]</title>
+    <updated>2023-10-04T08:33:22.511000+00:00</updated>
+    <content>Thanosrom95: Hi guys , so im trying to install vision_to_mavros lib in order to connect it with intel D455 Depth Camera . (Im using jetson Orin NX ). The problem is that again i cant find some packages , it cant locate them. One of them is this sudo apt -y install python3-gst-1.0 gir1.2-gst-rtsp-server-1.0 gs...</content>
+    <link href="https://forums.developer.nvidia.com/t/268398/1" rel="alternate"/>
   </entry>
 </feed>
