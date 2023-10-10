@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-10-04T08:33:22.511000+00:00</updated>
+  <updated>2023-10-10T06:35:41.276000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/219869/1</id>
-    <title>How many kernels you can launch in WSL wiith respect to Windows [1]</title>
-    <updated>2022-07-06T06:12:16.873000+00:00</updated>
-    <content>K Glimps: ...uch since then. BIG mistake of WRI. So, I played with python stuff in order “to couple” with sage and cython. Numba has a limited CUDA functionality. CUPY is more oriented. They are nice within their field of application = makes life easier. Pycuda and Pyopencl were different for me, having a Ryzen 7, I...</content>
-    <link href="https://forums.developer.nvidia.com/t/219869/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/221501/1</id>
     <title>cuQuantum on Jetson Xavier AGX development kit [1]</title>
@@ -353,5 +346,12 @@
     <updated>2023-10-04T08:33:22.511000+00:00</updated>
     <content>Thanosrom95: Hi guys , so im trying to install vision_to_mavros lib in order to connect it with intel D455 Depth Camera . (Im using jetson Orin NX ). The problem is that again i cant find some packages , it cant locate them. One of them is this sudo apt -y install python3-gst-1.0 gir1.2-gst-rtsp-server-1.0 gs...</content>
     <link href="https://forums.developer.nvidia.com/t/268398/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/268953/1</id>
+    <title>Encode Video Stream get black frames or small size h265 frames When using VideoProcessingFramework [1]</title>
+    <updated>2023-10-10T06:35:41.276000+00:00</updated>
+    <content>Zxl6646761: ...kering, which does not Not the result I want. I followed the sample code https://github.com/NVIDIA/VideoProcessingFramework/blob/master/samples/SampleCupy.py , and modified it like this # # Copyright 2023 @royinx # # Licensed under the Apache License, Version 2.0 (the "License"); # you may not use this...</content>
+    <link href="https://forums.developer.nvidia.com/t/268953/1" rel="alternate"/>
   </entry>
 </feed>
