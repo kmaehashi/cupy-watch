@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-10-10T06:35:41.276000+00:00</updated>
+  <updated>2023-11-04T02:56:46.984000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/221501/1</id>
-    <title>cuQuantum on Jetson Xavier AGX development kit [1]</title>
-    <updated>2022-07-21T20:08:13.954000+00:00</updated>
-    <content>Arthur Lobo: ..., line 52, in A_d = cp.random.random((np.prod(extentA),), dtype=np.float32) File “/home/arthurlobo/.conda/envs/qml_py310/lib/python3.10/site-packages/cupy/random/_sample.py”, line 156, in random_sample return rs.random_sample(size=size, dtype=dtype) File “/home/arthurlobo/.conda/envs/qml_py310/lib/pytho...</content>
-    <link href="https://forums.developer.nvidia.com/t/221501/1" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/220998/21</id>
     <title>When WSL is faster than Windows?! [21]</title>
@@ -353,5 +346,12 @@
     <updated>2023-10-10T06:35:41.276000+00:00</updated>
     <content>Zxl6646761: ...kering, which does not Not the result I want. I followed the sample code https://github.com/NVIDIA/VideoProcessingFramework/blob/master/samples/SampleCupy.py , and modified it like this # # Copyright 2023 @royinx # # Licensed under the Apache License, Version 2.0 (the "License"); # you may not use this...</content>
     <link href="https://forums.developer.nvidia.com/t/268953/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/271743/1</id>
+    <title>How to install cupy on Jetson Nano [1]</title>
+    <updated>2023-11-04T02:56:46.984000+00:00</updated>
+    <content>Chuhuili: There are some post mention that need disable nvcc but still cant install successfully, any suggestions? Thanks in advance.</content>
+    <link href="https://forums.developer.nvidia.com/t/271743/1" rel="alternate"/>
   </entry>
 </feed>
