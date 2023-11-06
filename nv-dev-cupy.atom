@@ -2,22 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-11-06T02:48:56.291000+00:00</updated>
+  <updated>2023-11-06T19:17:10.802000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/220998/21</id>
-    <title>When WSL is faster than Windows?! [21]</title>
-    <updated>2022-07-24T14:54:03.055000+00:00</updated>
-    <content>K Glimps: ...ially, I have chosen Ubuntu 18.04 because it is widely used but now, python 3.6 is old and I can not update to new/future releases of numpy &amp;gt; 1.20 or cupy &amp;gt; 9.6. That is bad. I shall install another WSL more recent and see the difference anyway one side of the equation w11 is always constant. W11 numpy:...</content>
-    <link href="https://forums.developer.nvidia.com/t/220998/21" rel="alternate"/>
-  </entry>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/221843/5</id>
-    <title>Shared memory parallel processing for jetson inference [5]</title>
-    <updated>2022-07-26T15:03:13.522000+00:00</updated>
-    <content>dusty_nv: ...CUDA stream or with cudaDeviceSynchronize() that synchronization occurs. If you are using numpy for your operations today, you may want to look into cupy, which is like the CUDA version of numpy.</content>
-    <link href="https://forums.developer.nvidia.com/t/221843/5" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/226656/8</id>
     <title>SingleAsianOption Performance vs Tensorflow/Cupy [8]</title>
@@ -353,5 +339,19 @@
     <updated>2023-11-06T02:48:56.291000+00:00</updated>
     <content>AastaLLL: Hi, Please try $ pip3 install cupy to install it on Jetson. If it doesn't work, please also try if you can install it from the source as below: https://docs.cupy.dev/en/stable/install....</content>
     <link href="https://forums.developer.nvidia.com/t/271743/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/271978/1</id>
+    <title>ICYMI: Leveraging the Power of GPUs with CuPy in Python [1]</title>
+    <updated>2023-11-06T19:17:07.483000+00:00</updated>
+    <content>Jen Witsoe: Originally published at: https://nvda.ws/3u5L3Es See how KDNuggets achieved 500x speedup using CuPy and NVIDIA CUDA on 3D arrays.</content>
+    <link href="https://forums.developer.nvidia.com/t/271978/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/271979/1</id>
+    <title>ICYMI: Leveraging the Power of GPUs with CuPy in Python [1]</title>
+    <updated>2023-11-06T19:17:10.802000+00:00</updated>
+    <content>Jen Witsoe: Originally published at: https://developer.nvidia.com/blog/icymi-leveraging-the-power-of-gpus-with-cupy-in-python/ See how KDNuggets achieved 500x speedup using CuPy and NVIDIA CUDA on 3D arrays.</content>
+    <link href="https://forums.developer.nvidia.com/t/271979/1" rel="alternate"/>
   </entry>
 </feed>
