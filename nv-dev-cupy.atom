@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-11-06T19:17:10.802000+00:00</updated>
+  <updated>2023-11-14T03:43:42.288000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/226656/8</id>
-    <title>SingleAsianOption Performance vs Tensorflow/Cupy [8]</title>
-    <updated>2022-08-31T18:26:18.272000+00:00</updated>
-    <content>Robert_Crovella: ...careful benchmarking exercise (IMO) should do a warm-up run before computing measured values. Yes, I guess you are probably not doing this with your cupy code. But I can definitely spot some problems in the comparison. So I’m fairly convinced what you’re doing is not an apples-to-apples comparison. Her...</content>
-    <link href="https://forums.developer.nvidia.com/t/226656/8" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/72048/1205</id>
     <title>PyTorch for Jetson [1205]</title>
@@ -353,5 +346,12 @@
     <updated>2023-11-06T19:17:10.802000+00:00</updated>
     <content>Jen Witsoe: Originally published at: https://developer.nvidia.com/blog/icymi-leveraging-the-power-of-gpus-with-cupy-in-python/ See how KDNuggets achieved 500x speedup using CuPy and NVIDIA CUDA on 3D arrays.</content>
     <link href="https://forums.developer.nvidia.com/t/271979/1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/272658/3</id>
+    <title>[deepstream-python] how to blur object using nvbufsurface [3]</title>
+    <updated>2023-11-14T03:43:42.288000+00:00</updated>
+    <content>Junshengy: ....Refer the following python apps.They are to process nvbufsurface with opencv/cuda. deepstream-imagedata-multistream deepstream-imagedata-multistream-cupy 3.In addition, I have written a sample according to your idea.This approach should have the worst performance /uploads/short-url/wd8a23KrVF8welWDVrOL...</content>
+    <link href="https://forums.developer.nvidia.com/t/272658/3" rel="alternate"/>
   </entry>
 </feed>
