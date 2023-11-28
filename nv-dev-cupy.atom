@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-11-27T18:15:59.847000+00:00</updated>
+  <updated>2023-11-28T06:59:14.172000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/233167/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/272658/3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/274084/2</id>
-    <title>Custom convolution applied to 2D array in Cupy/ parallelize double for loop [2]</title>
-    <updated>2023-11-27T18:15:59.847000+00:00</updated>
-    <content>Matt Nicely: You should be able to get started by putting each series of operations in CuPy [Streams], ( https://docs.cupy.dev/en/stable/user_guide/basic.html#current-stream ). Remember that operations in a stream run serially and multiple s...</content>
-    <link href="https://forums.developer.nvidia.com/t/274084/2" rel="alternate"/>
+    <id>https://forums.developer.nvidia.com/t/274084/3</id>
+    <title>Custom convolution applied to 2D array in Cupy/ parallelize double for loop [3]</title>
+    <updated>2023-11-28T06:59:14.172000+00:00</updated>
+    <content>Arash: Thanks for your response and for pointing out the stream. But regarding CuPy's https://docs.cupy.dev/en/stable/reference/generated/cupy.ElementwiseKernel.html#cupy.ElementwiseKernel Elementwise , the input to compute function...</content>
+    <link href="https://forums.developer.nvidia.com/t/274084/3" rel="alternate"/>
   </entry>
 </feed>
