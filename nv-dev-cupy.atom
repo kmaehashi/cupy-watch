@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-11-28T06:59:14.172000+00:00</updated>
+  <updated>2023-12-05T08:01:14.494000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/233167/2</id>
@@ -320,13 +320,6 @@
     <link href="https://forums.developer.nvidia.com/t/268953/1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/271743/3</id>
-    <title>How to install cupy on Jetson Nano [3]</title>
-    <updated>2023-11-06T02:48:56.291000+00:00</updated>
-    <content>AastaLLL: Hi, Please try $ pip3 install cupy to install it on Jetson. If it doesn't work, please also try if you can install it from the source as below: https://docs.cupy.dev/en/stable/install....</content>
-    <link href="https://forums.developer.nvidia.com/t/271743/3" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/271978/1</id>
     <title>ICYMI: Leveraging the Power of GPUs with CuPy in Python [1]</title>
     <updated>2023-11-06T19:17:07.483000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2023-11-28T06:59:14.172000+00:00</updated>
     <content>Arash: Thanks for your response and for pointing out the stream. But regarding CuPy's https://docs.cupy.dev/en/stable/reference/generated/cupy.ElementwiseKernel.html#cupy.ElementwiseKernel Elementwise , the input to compute function...</content>
     <link href="https://forums.developer.nvidia.com/t/274084/3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/271743/5</id>
+    <title>How to install cupy on Jetson Nano [5]</title>
+    <updated>2023-12-05T08:01:14.494000+00:00</updated>
+    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/271743/5" rel="alternate"/>
   </entry>
 </feed>
