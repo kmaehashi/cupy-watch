@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-12-05T08:01:14.494000+00:00</updated>
+  <updated>2023-12-07T10:53:59.002000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/233167/2</id>
-    <title>CuDNN is not enabled [2]</title>
-    <updated>2022-11-08T16:10:43.969000+00:00</updated>
-    <content>Kenichi Maehashi: fujimoto7: CuDNN 8201 cupy 7.8.0 PyTorch 1.8.0 chainer 7.8.1 I’d suggest avoid using Chainer as it is no longer actively maintained to support recent platforms including Arm. H...</content>
-    <link href="https://forums.developer.nvidia.com/t/233167/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/234580/2</id>
     <title>NVIDIA CUDA cannot work properly [2]</title>
@@ -353,5 +346,12 @@
     <updated>2023-12-05T08:01:14.494000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/271743/5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/219486/8</id>
+    <title>VPI questions [8]</title>
+    <updated>2023-12-07T10:53:59.002000+00:00</updated>
+    <content>Alain Paillou: Hello, i am coming back concerning VPI and Windows. I hope things are goring the good way. It would be also interesting if VPI could easily CUPY arrays instead of PIL arrays. PIL is not really fast and CUPY could be a better choice. Alain</content>
+    <link href="https://forums.developer.nvidia.com/t/219486/8" rel="alternate"/>
   </entry>
 </feed>
