@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-12-07T10:53:59.002000+00:00</updated>
+  <updated>2023-12-11T16:52:30.835000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/234580/2</id>
@@ -264,13 +264,6 @@
     <link href="https://forums.developer.nvidia.com/t/263644/12" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/764</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [764]</title>
-    <updated>2023-09-14T12:44:39.959000+00:00</updated>
-    <content>Alain Paillou: ...df (short manual of JetsonSky functions) JetsonSky_V30_03RC.py (old version using PyCuda; no ore support) JetsonSky_V40_XXRC (supported version using Cupy) Lib directory : Libraries from ZWO SDK (Windows and Linux) zwoasi directory : Python binding to ZWO libraries (camera) zwoefw directory : Python bin...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/764" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/266434/2</id>
     <title>The Origin of the m &amp;lt;= 32 and n &amp;lt;= 32 Limitations in gesvdjBatched? [2]</title>
     <updated>2023-09-14T15:37:42.492000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2023-12-07T10:53:59.002000+00:00</updated>
     <content>Alain Paillou: Hello, i am coming back concerning VPI and Windows. I hope things are goring the good way. It would be also interesting if VPI could easily CUPY arrays instead of PIL arrays. PIL is not really fast and CUPY could be a better choice. Alain</content>
     <link href="https://forums.developer.nvidia.com/t/219486/8" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/773</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [773]</title>
+    <updated>2023-12-11T16:52:30.835000+00:00</updated>
+    <content>Alain Paillou: ...some heavy work to install JetPack 6.0 DP with the Jetson AGX Orin ! So : Jetpack 6 is OK and it works fine software environment for JetsonSky is OK (Cupy, etc.) Pytorch 2.2 is installed and is OK i have downloaded and compiled TorchVision 0.17.0 : it's OK AGX Orin compiling TorchVision : That's great....</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/773" rel="alternate"/>
   </entry>
 </feed>
