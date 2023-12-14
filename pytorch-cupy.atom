@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2023-06-11T17:59:00.971000+00:00</updated>
+  <updated>2023-12-14T02:16:18.541000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/7357/2</id>
-    <title>How to write parallel code in pytorch? [2]</title>
-    <updated>2017-09-13T18:51:13.833000+00:00</updated>
-    <content>: you can use your only CUDA kernels in-line if you want, using cupy . See the code in https://github.com/szagoruyko/pyinn pyinn package for example.</content>
-    <link href="https://discuss.pytorch.org/t/7357/2" rel="alternate"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/8173/3</id>
     <title>Bitwise Operations on Cuda Float Tensor [3]</title>
@@ -353,5 +346,12 @@
     <updated>2023-06-11T17:59:00.971000+00:00</updated>
     <content>Stefan: ...es import Decorator File "C:\Users\S\anaconda3\envs\machine_learning\lib\site-packages\thinc\types.py", line 8, in &amp;lt; module &amp;gt; from .compat import has_cupy, cupy File "C:\Users\S\anaconda3\envs\machine_learning\lib\site-packages\thinc\compat.py", line 30, in &amp;lt; module &amp;gt; import torch.utils.dlpack File "C:\...</content>
     <link href="https://discuss.pytorch.org/t/169447/34" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/193684/1</id>
+    <title>PyTorch with CUDA10.2 on 2080Ti - no CUDA-capable device is detected [1]</title>
+    <updated>2023-12-14T02:16:18.541000+00:00</updated>
+    <content>Roman Lutz: ...ll torch==1.10.0+cu102 torchvision==0.11.0+cu102 -f https://download.pytorch.org/whl/torch_stable.html (TT) C:\Users\Roman &amp;gt; pip list Package Version cupy-cuda102 12.3.0 fastrlock 0.8.2 numpy 1.26.2 Pillow 10.1.0 pip 23.3.1 setuptools 69.0.2 torch 1.10.0+cu102 torchvision 0.11.0+cu102 typing_extensions...</content>
+    <link href="https://discuss.pytorch.org/t/193684/1" rel="alternate"/>
   </entry>
 </feed>
