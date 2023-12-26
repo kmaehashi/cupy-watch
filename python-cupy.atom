@@ -3,75 +3,75 @@
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
   <updated>2023-10-02T22:51:12.539000+00:00</updated>
-  <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
     <title>Question for Steering Council candidates [16]</title>
     <updated>2019-01-27T15:23:08.942000+00:00</updated>
     <content>David Mertz: ...e should be careful to make sure that the developers of those projects do not foresee any technical obstacles in the design of the PEP. This includes CuPy, cudf, pygdf, PyCUDA, RAPIDS, Numba is probably touched on. I think I would like to see many of those projects converge to interoperate as well, but...</content>
-    <link href="https://discuss.python.org/t/687/16" rel="alternate"/>
+    <link href="https://discuss.python.org/t/687/16"/>
   </entry>
   <entry>
     <id>https://discuss.python.org/t/2539/28</id>
     <title>[REJECTED] RFC: PEP 608: Coordinated Python release [28]</title>
     <updated>2019-12-14T02:25:09.430000+00:00</updated>
     <content>Marco Sulla: ...jl/orjson GitHub https://github.com/ijl/orjson ijl/orjson Fast, correct Python JSON library supporting dataclasses and datetimes - ijl/orjson https://cupy.chainer.org/ CuPy https://cupy.chainer.org/ CuPy CuPy is NumPy-compatible matrix library accelerated by CUDA https://pypi.org/project/arrow/ PyPI htt...</content>
-    <link href="https://discuss.python.org/t/2539/28" rel="alternate"/>
+    <link href="https://discuss.python.org/t/2539/28"/>
   </entry>
   <entry>
     <id>https://discuss.python.org/t/4898/32</id>
     <title>Adding a default extra_require environment [32]</title>
     <updated>2020-08-05T20:25:37.259000+00:00</updated>
     <content>Jonathan Dekhtiar: ...in addition to the GUI by default which needs extra dependencies compared to the CLI (like QT or TKinter). Why not adding some GPU compute (like with cupy #CUDA ). After all Datadog provides data processing tools, could be a realistic scenario. But on the other hand, project managers at datadog may not...</content>
-    <link href="https://discuss.python.org/t/4898/32" rel="alternate"/>
+    <link href="https://discuss.python.org/t/4898/32"/>
   </entry>
   <entry>
     <id>https://discuss.python.org/t/7125/42</id>
     <title>What to do about GPUs? (and the built distributions that support them) [42]</title>
     <updated>2021-04-15T07:05:32.634000+00:00</updated>
     <content>Kenichi Maehashi: Hello all, I’m a maintainer of the CuPy project. Thank you very much for all your efforts in keeping the PyPI ecosystem healthy! Although this is not a direct solution to the “large files o...</content>
-    <link href="https://discuss.python.org/t/7125/42" rel="alternate"/>
+    <link href="https://discuss.python.org/t/7125/42"/>
   </entry>
   <entry>
     <id>https://discuss.python.org/t/10105/1</id>
     <title>Mark in sourcecode how to color stringliterals [1]</title>
     <updated>2021-08-11T19:19:04.823000+00:00</updated>
     <content>Olle7: Hi. I would like to share my idea how to improve python. I suggest adding a way to syntax to indicate IDE how to color a stringliteral in sourcecode (I emphasize ,that it is only about sourcecode coloring in IDE ). Like “ https://www.jetbrains.com/help/pycharm/using-todo.html TODO ” it would not ...</content>
-    <link href="https://discuss.python.org/t/10105/1" rel="alternate"/>
+    <link href="https://discuss.python.org/t/10105/1"/>
   </entry>
   <entry>
     <id>https://discuss.python.org/t/12587/5</id>
     <title>Some silly type annotations [5]</title>
     <updated>2021-12-17T17:01:36.895000+00:00</updated>
     <content>David McDougall: ...a python program that could run very fast, and utilize both a CPU and a GPU. The basic technology to do this has been in place for some time: CUDA &amp;amp; CuPy manage the GPU, while the Numba Just-In-Time (JIT) compiler has backends for both CPUs &amp;amp; GPUs. However, writing programs for GPU’s was still not a fu...</content>
-    <link href="https://discuss.python.org/t/12587/5" rel="alternate"/>
+    <link href="https://discuss.python.org/t/12587/5"/>
   </entry>
   <entry>
     <id>https://discuss.python.org/t/17155/11</id>
     <title>Numeric Generics - Where do we go from PEP 3141 and present day Mypy? [11]</title>
     <updated>2022-07-23T20:42:31.074000+00:00</updated>
     <content>Ralf Gommers: ...interchange numbers is useful, but is very closely related to interchanging arrays of numbers like tensorflow tensors, numpy array, pytorch tensors, cupy tensors, etc. https://data-apis.org/array-api/latest/ Python array API standard — Python array API standard 2021.12 documentation documents array api...</content>
-    <link href="https://discuss.python.org/t/17155/11" rel="alternate"/>
+    <link href="https://discuss.python.org/t/17155/11"/>
   </entry>
   <entry>
     <id>https://discuss.python.org/t/21359/18</id>
     <title>Dynamic project names and PEP 621 [18]</title>
     <updated>2022-11-24T20:45:03.468000+00:00</updated>
     <content>Vyas Ramasubramani: ...eer to pull the version out of source control, right? I might have missed it, but what’s the use case? Given OP’s work with Nvidia and the mention of Cupy/CUDA versions, I’m going to guess this is to ship projects that encode the CUDA version in the project name, like https://pypi.org/project/cupy-cuda9...</content>
-    <link href="https://discuss.python.org/t/21359/18" rel="alternate"/>
+    <link href="https://discuss.python.org/t/21359/18"/>
   </entry>
   <entry>
     <id>https://discuss.python.org/t/32566/18</id>
     <title>PEP 727: Documentation Metadata in Typing [18]</title>
     <updated>2023-08-30T10:25:24.659000+00:00</updated>
     <content>Timothée Mazzucotelli: Paul Moore: Add docstrings to that, if you dare :slightly_frowning_face: Dared! def send( self, request: Annotated[ PreparedRequest, doc( """Lorem ipsum dolor sit amet... ...consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu...</content>
-    <link href="https://discuss.python.org/t/32566/18" rel="alternate"/>
+    <link href="https://discuss.python.org/t/32566/18"/>
   </entry>
   <entry>
     <id>https://discuss.python.org/t/35138/14</id>
     <title>Standard library support for SIMD [14]</title>
     <updated>2023-10-02T22:51:12.539000+00:00</updated>
     <content>Michael H: ...ibraries. I believe the current best options are Numba (llvm based compilation of a subset of valid python via decorators which transform your code), CuPy (if you want to specifically do parallel work by writing small bits to run in parallel on the GPU), Cython, or a native extension. Given the example...</content>
-    <link href="https://discuss.python.org/t/35138/14" rel="alternate"/>
+    <link href="https://discuss.python.org/t/35138/14"/>
   </entry>
 </feed>
