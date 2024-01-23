@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2023-12-11T16:52:30.835000+00:00</updated>
+  <updated>2024-01-23T11:11:43.343000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/234580/2</id>
-    <title>NVIDIA CUDA cannot work properly [2]</title>
-    <updated>2022-11-17T03:46:16.669000+00:00</updated>
-    <content>Tjk9501: The error prompted when using cupy looks like follows: Traceback (most recent call last): File "C:\Users\hp\.conda\envs\CUPY\lib\site-packages\spyder_kernels\py3compat.py", line 356, i...</content>
-    <link href="https://forums.developer.nvidia.com/t/234580/2"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/234582/1</id>
     <title>NVIDIA CUDA cannot work properly [1]</title>
@@ -353,5 +346,12 @@
     <updated>2023-12-11T16:52:30.835000+00:00</updated>
     <content>Alain Paillou: ...some heavy work to install JetPack 6.0 DP with the Jetson AGX Orin ! So : Jetpack 6 is OK and it works fine software environment for JetsonSky is OK (Cupy, etc.) Pytorch 2.2 is installed and is OK i have downloaded and compiled TorchVision 0.17.0 : it's OK AGX Orin compiling TorchVision : That's great....</content>
     <link href="https://forums.developer.nvidia.com/t/76861/773"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/279834/1</id>
+    <title>Facing error while importing RAPIDS library in H100 GPU environment [1]</title>
+    <updated>2024-01-23T11:11:43.343000+00:00</updated>
+    <content>Anubhav6864: ...&amp;gt; ---- &amp;gt; 1 import cudf ~/.local/lib/python3.10/site-packages/cudf/__init__.py in &amp;lt; module &amp;gt; 8 9 _setup_numba() --- &amp;gt; 10 validate_setup() 11 12 import cupy ~/.local/lib/python3.10/site-packages/cudf/utils/gpu_utils.py in validate_setup() 53 except CUDARuntimeError as e: 54 if e.status in notify_caller_er...</content>
+    <link href="https://forums.developer.nvidia.com/t/279834/1"/>
   </entry>
 </feed>
