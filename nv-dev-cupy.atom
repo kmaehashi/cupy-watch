@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-01-23T11:11:43.343000+00:00</updated>
+  <updated>2024-01-24T16:27:45.292000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/234582/1</id>
-    <title>NVIDIA CUDA cannot work properly [1]</title>
-    <updated>2022-11-17T03:53:30.190000+00:00</updated>
-    <content>Tjk9501: ...ew, torch.isfinite(tensor_view) &amp;amp; tensor_view.ne(0)) RuntimeError: CUDA error: an illegal memory access was encountered After some times, I installed cupy packages and run some linear algebra calculations on the same server, it seems that python can smoothly run some caluclations, but the same error wil...</content>
-    <link href="https://forums.developer.nvidia.com/t/234582/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/234491/9</id>
     <title>VPI library with Jetsons? [9]</title>
@@ -353,5 +346,12 @@
     <updated>2024-01-23T11:11:43.343000+00:00</updated>
     <content>Anubhav6864: ...&amp;gt; ---- &amp;gt; 1 import cudf ~/.local/lib/python3.10/site-packages/cudf/__init__.py in &amp;lt; module &amp;gt; 8 9 _setup_numba() --- &amp;gt; 10 validate_setup() 11 12 import cupy ~/.local/lib/python3.10/site-packages/cudf/utils/gpu_utils.py in validate_setup() 53 except CUDARuntimeError as e: 54 if e.status in notify_caller_er...</content>
     <link href="https://forums.developer.nvidia.com/t/279834/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/280025/1</id>
+    <title>[cuBLASDx] no instance of overloaded function &amp;ldquo;__half::__half&amp;rdquo; matches the specified type [1]</title>
+    <updated>2024-01-24T16:27:45.292000+00:00</updated>
+    <content>mrakgr: ...lude for it is enough to get a compilation error. kernel = r""" #include &amp;lt; cublasdx.hpp &amp;gt; extern "C" __global__ void entry0() { return ; } """ import cupy as cp raw_module = cp.RawModule(code=kernel, backend='nvcc', options=("-std=c++20", "-I /home/mrakgr/nvidia-mathdx-24.01.0/nvidia/mathdx/24.01/includ...</content>
+    <link href="https://forums.developer.nvidia.com/t/280025/1"/>
   </entry>
 </feed>
