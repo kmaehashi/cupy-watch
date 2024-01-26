@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-01-24T16:27:45.292000+00:00</updated>
+  <updated>2024-01-26T04:47:12.179000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/234491/9</id>
-    <title>VPI library with Jetsons? [9]</title>
-    <updated>2022-11-19T16:37:31.236000+00:00</updated>
-    <content>Alain Paillou: Hello Honey_Patouceul, well, i tried import pycuda.autoprimaryctx and … it seems it works ! No error message any more when i use Pycuda and Cupy toghether ! Tada ! I will test this with Pycuda and VPI to see if this solve the issue. If it is true that Pycuda can work with Cupy and VPI, this wi...</content>
-    <link href="https://forums.developer.nvidia.com/t/234491/9"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/239826/1</id>
     <title>FP64 computation on budget [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-01-24T16:27:45.292000+00:00</updated>
     <content>mrakgr: ...lude for it is enough to get a compilation error. kernel = r""" #include &amp;lt; cublasdx.hpp &amp;gt; extern "C" __global__ void entry0() { return ; } """ import cupy as cp raw_module = cp.RawModule(code=kernel, backend='nvcc', options=("-std=c++20", "-I /home/mrakgr/nvidia-mathdx-24.01.0/nvidia/mathdx/24.01/includ...</content>
     <link href="https://forums.developer.nvidia.com/t/280025/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/280244/1</id>
+    <title>File not found problem [1]</title>
+    <updated>2024-01-26T04:47:12.179000+00:00</updated>
+    <content>Artem Alekshaev: ...st version ] error has not changed The error: [ (base) C:\WaveSimulator2D-main\source &amp;gt; python main.py C:\Users\Mirawara\miniforge3\lib\site-packages\cupyx\jit_interface.py:173: FutureWarning: cupyx.jit.rawkernel is experimental. The interface can change in the future. cupy._util.experimental('cupyx.jit...</content>
+    <link href="https://forums.developer.nvidia.com/t/280244/1"/>
   </entry>
 </feed>
