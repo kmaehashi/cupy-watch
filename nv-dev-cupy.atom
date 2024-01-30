@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-01-30T12:05:55.289000+00:00</updated>
+  <updated>2024-01-30T14:15:03.053000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/241232/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/280353/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/280025/2</id>
-    <title>[cuBLASDx] no instance of overloaded function &amp;ldquo;__half::__half&amp;rdquo; matches the specified type [2]</title>
-    <updated>2024-01-30T12:05:55.289000+00:00</updated>
-    <content>mrakgr: ...ent. It seems like it's possible to trigger the error by just pasting in #include &amp;lt; mma.h &amp;gt; . I am trying to figure out why this is happening. import cupy as cp # Compile a sample kernel and get the number of registers per thread kernel_code = ''' #include &amp;lt; mma.h &amp;gt; extern "C" __global__ void mykernel()...</content>
-    <link href="https://forums.developer.nvidia.com/t/280025/2"/>
+    <id>https://forums.developer.nvidia.com/t/280025/3</id>
+    <title>[cuBLASDx] no instance of overloaded function &amp;ldquo;__half::__half&amp;rdquo; matches the specified type [3]</title>
+    <updated>2024-01-30T14:15:03.053000+00:00</updated>
+    <content>mrakgr: This is a CuPy error. See: https://github.com/cupy/cupy/issues/8146 Error when including mma.h : instance of overloaded function "__half::__half" matches the specif...</content>
+    <link href="https://forums.developer.nvidia.com/t/280025/3"/>
   </entry>
 </feed>
