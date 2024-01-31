@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-01-30T14:15:03.053000+00:00</updated>
+  <updated>2024-01-31T21:55:11.868000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/241232/1</id>
-    <title>MONAI framework is very slow while computing stain normalisation [1]</title>
-    <updated>2023-02-01T05:27:54.443000+00:00</updated>
-    <content>Vinay: ...I framework. I have checked the blog for the implementation of Stain normalization and I found out that the implementation is using numpy rather than cupy or something similar. Here is the implementation, I found from MONAI blog : Copyright (c) MONAI Consortium Licensed under the Apache License, Version...</content>
-    <link href="https://forums.developer.nvidia.com/t/241232/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/175800/3</id>
     <title>cuCIM: Rapid n-Dimensional Image Processing and I/O on GPUs [3]</title>
@@ -353,5 +346,12 @@
     <updated>2024-01-30T14:15:03.053000+00:00</updated>
     <content>mrakgr: This is a CuPy error. See: https://github.com/cupy/cupy/issues/8146 Error when including mma.h : instance of overloaded function "__half::__half" matches the specif...</content>
     <link href="https://forums.developer.nvidia.com/t/280025/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/280858/1</id>
+    <title>VPI __cuda_array_interface__ Interoperability [1]</title>
+    <updated>2024-01-31T21:55:11.868000+00:00</updated>
+    <content>Gene VanMeter: Trying to convert between VPI, cupy, jetson_utils cudaImage, which all support cuda_array_interface , except it is easy to go into VPI but not out because VPI's is slightly different. V...</content>
+    <link href="https://forums.developer.nvidia.com/t/280858/1"/>
   </entry>
 </feed>
