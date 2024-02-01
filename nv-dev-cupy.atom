@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-01-31T21:55:11.868000+00:00</updated>
+  <updated>2024-02-01T04:42:52.746000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/175800/3</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/280025/3"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/280858/1</id>
-    <title>VPI __cuda_array_interface__ Interoperability [1]</title>
-    <updated>2024-01-31T21:55:11.868000+00:00</updated>
-    <content>Gene VanMeter: Trying to convert between VPI, cupy, jetson_utils cudaImage, which all support cuda_array_interface , except it is easy to go into VPI but not out because VPI's is slightly different. V...</content>
-    <link href="https://forums.developer.nvidia.com/t/280858/1"/>
+    <id>https://forums.developer.nvidia.com/t/280858/3</id>
+    <title>VPI __cuda_array_interface__ Interoperability [3]</title>
+    <updated>2024-02-01T04:42:52.746000+00:00</updated>
+    <content>AastaLLL: Hi, Thanks for reporting this. Would you mind testing if the same issue can also be reproduced on JetPack 5.1.2/VPI2.3? Thanks.</content>
+    <link href="https://forums.developer.nvidia.com/t/280858/3"/>
   </entry>
 </feed>
