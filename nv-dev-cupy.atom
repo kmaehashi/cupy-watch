@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-02-02T10:01:51.383000+00:00</updated>
+  <updated>2024-02-02T18:12:29.599000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/175800/3</id>
-    <title>cuCIM: Rapid n-Dimensional Image Processing and I/O on GPUs [3]</title>
-    <updated>2023-02-01T19:43:23.813000+00:00</updated>
-    <content>gigony: ...://anaconda.org/rapidsai/cucim/files Files :: Anaconda.org (arm64 SBSA includes Jetson boards such as Jetson Xavior/Orin). If you are able to install CuPy package ( https://github.com/cupy/cupy/issues/3196#issuecomment-975623298 Add arm64 binary for Jetson Nano · Issue #3196 · cupy/cupy · GitHub and htt...</content>
-    <link href="https://forums.developer.nvidia.com/t/175800/3"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/242195/2</id>
     <title>Getting DFP to generate monthly based models [2]</title>
@@ -353,5 +346,12 @@
     <updated>2024-02-02T10:01:51.383000+00:00</updated>
     <content>Alain Paillou: ...target. This subject is very difficult and at least too difficult for me. I focus on easier things like writing a colour saturation enhancement with cupy raw kernel instead of using torchvision function. It works now ! Alain</content>
     <link href="https://forums.developer.nvidia.com/t/76861/811"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/281670/1</id>
+    <title>Problem with running the program from cupy [1]</title>
+    <updated>2024-02-02T18:12:29.599000+00:00</updated>
+    <content>Michalmaleczek: I installed cupy and cuda toolkit, I also created a simple program using cupy, unfortunately after running I get the following error: Traceback (most recent call last...</content>
+    <link href="https://forums.developer.nvidia.com/t/281670/1"/>
   </entry>
 </feed>
