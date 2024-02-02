@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-02-01T17:54:32.250000+00:00</updated>
+  <updated>2024-02-02T09:02:58.226000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/175800/3</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/280025/3"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/280858/4</id>
-    <title>VPI __cuda_array_interface__ Interoperability [4]</title>
-    <updated>2024-02-01T17:54:32.250000+00:00</updated>
-    <content>Gene VanMeter: I might be able to try that soon but it is also this way with VPI 3.0.10 on x86 &amp;gt; &amp;gt; &amp;gt; c = cupy.zeros((8,8), dtype=numpy.uint8) &amp;gt; &amp;gt; &amp;gt; v = vpi.asimage(c, vpi.Format.U8).convert(vpi.Format.U8, backend=vpi.Backend.CUDA) &amp;gt; &amp;gt; &amp;gt; v.cuda().__cuda_array_...</content>
-    <link href="https://forums.developer.nvidia.com/t/280858/4"/>
+    <id>https://forums.developer.nvidia.com/t/280858/5</id>
+    <title>VPI __cuda_array_interface__ Interoperability [5]</title>
+    <updated>2024-02-02T09:02:58.226000+00:00</updated>
+    <content>AastaLLL: Hi, Thanks for the confirm and suggestion. We will pass this feature request to our internal team. Will let you know if we get any response. Thanks.</content>
+    <link href="https://forums.developer.nvidia.com/t/280858/5"/>
   </entry>
 </feed>
