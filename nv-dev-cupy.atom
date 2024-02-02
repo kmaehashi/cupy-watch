@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-02-02T09:02:58.226000+00:00</updated>
+  <updated>2024-02-02T10:01:51.383000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/175800/3</id>
@@ -313,13 +313,6 @@
     <link href="https://forums.developer.nvidia.com/t/219486/8"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/773</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [773]</title>
-    <updated>2023-12-11T16:52:30.835000+00:00</updated>
-    <content>Alain Paillou: ...some heavy work to install JetPack 6.0 DP with the Jetson AGX Orin ! So : Jetpack 6 is OK and it works fine software environment for JetsonSky is OK (Cupy, etc.) Pytorch 2.2 is installed and is OK i have downloaded and compiled TorchVision 0.17.0 : it's OK AGX Orin compiling TorchVision : That's great....</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/773"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/279834/1</id>
     <title>Facing error while importing RAPIDS library in H100 GPU environment [1]</title>
     <updated>2024-01-23T11:11:43.343000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2024-02-02T09:02:58.226000+00:00</updated>
     <content>AastaLLL: Hi, Thanks for the confirm and suggestion. We will pass this feature request to our internal team. Will let you know if we get any response. Thanks.</content>
     <link href="https://forums.developer.nvidia.com/t/280858/5"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/811</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [811]</title>
+    <updated>2024-02-02T10:01:51.383000+00:00</updated>
+    <content>Alain Paillou: ...target. This subject is very difficult and at least too difficult for me. I focus on easier things like writing a colour saturation enhancement with cupy raw kernel instead of using torchvision function. It works now ! Alain</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/811"/>
   </entry>
 </feed>
