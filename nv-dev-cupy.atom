@@ -5,6 +5,13 @@
   <updated>2024-02-02T18:12:29.599000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
+    <id>https://forums.developer.nvidia.com/t/175800/3</id>
+    <title>cuCIM: Rapid n-Dimensional Image Processing and I/O on GPUs [3]</title>
+    <updated>2023-02-01T19:43:23.813000+00:00</updated>
+    <content>gigony: ...://anaconda.org/rapidsai/cucim/files Files :: Anaconda.org (arm64 SBSA includes Jetson boards such as Jetson Xavior/Orin). If you are able to install CuPy package ( https://github.com/cupy/cupy/issues/3196#issuecomment-975623298 Add arm64 binary for Jetson Nano · Issue #3196 · cupy/cupy · GitHub and htt...</content>
+    <link href="https://forums.developer.nvidia.com/t/175800/3"/>
+  </entry>
+  <entry>
     <id>https://forums.developer.nvidia.com/t/242195/2</id>
     <title>Getting DFP to generate monthly based models [2]</title>
     <updated>2023-02-09T15:37:55.551000+00:00</updated>
@@ -311,13 +318,6 @@
     <updated>2024-01-23T11:11:43.343000+00:00</updated>
     <content>Anubhav6864: ...&amp;gt; ---- &amp;gt; 1 import cudf ~/.local/lib/python3.10/site-packages/cudf/__init__.py in &amp;lt; module &amp;gt; 8 9 _setup_numba() --- &amp;gt; 10 validate_setup() 11 12 import cupy ~/.local/lib/python3.10/site-packages/cudf/utils/gpu_utils.py in validate_setup() 53 except CUDARuntimeError as e: 54 if e.status in notify_caller_er...</content>
     <link href="https://forums.developer.nvidia.com/t/279834/1"/>
-  </entry>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/280244/1</id>
-    <title>File not found problem [1]</title>
-    <updated>2024-01-26T04:47:12.179000+00:00</updated>
-    <content>Artem Alekshaev: ...st version ] error has not changed The error: [ (base) C:\WaveSimulator2D-main\source &amp;gt; python main.py C:\Users\Mirawara\miniforge3\lib\site-packages\cupyx\jit_interface.py:173: FutureWarning: cupyx.jit.rawkernel is experimental. The interface can change in the future. cupy._util.experimental('cupyx.jit...</content>
-    <link href="https://forums.developer.nvidia.com/t/280244/1"/>
   </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/280353/1</id>
