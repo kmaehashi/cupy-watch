@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-02-02T18:12:29.599000+00:00</updated>
+  <updated>2024-02-06T14:11:36.671000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/175800/3</id>
@@ -334,13 +334,6 @@
     <link href="https://forums.developer.nvidia.com/t/280025/3"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/280858/5</id>
-    <title>VPI __cuda_array_interface__ Interoperability [5]</title>
-    <updated>2024-02-02T09:02:58.226000+00:00</updated>
-    <content>AastaLLL: Hi, Thanks for the confirm and suggestion. We will pass this feature request to our internal team. Will let you know if we get any response. Thanks.</content>
-    <link href="https://forums.developer.nvidia.com/t/280858/5"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/76861/811</id>
     <title>Electronically Assisted Astronomy with a Jetson Nano [811]</title>
     <updated>2024-02-02T10:01:51.383000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2024-02-02T18:12:29.599000+00:00</updated>
     <content>Michalmaleczek: I installed cupy and cuda toolkit, I also created a simple program using cupy, unfortunately after running I get the following error: Traceback (most recent call last...</content>
     <link href="https://forums.developer.nvidia.com/t/281670/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/280858/7</id>
+    <title>VPI __cuda_array_interface__ Interoperability [7]</title>
+    <updated>2024-02-06T14:11:36.671000+00:00</updated>
+    <content>Gene VanMeter: ...d be tuple. Since VPI 3 Python sources are available, I was able to quickly patch a proof of concept that allowed: with vpi_img.rlock_cuda() as data: cupy_out = cupy.asarray(data) I only confirmed that I could go cupy → vpi → cupy and compared the cupy arrays with cupy.equal_array</content>
+    <link href="https://forums.developer.nvidia.com/t/280858/7"/>
   </entry>
 </feed>

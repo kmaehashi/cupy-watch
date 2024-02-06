@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2023-12-14T02:16:18.541000+00:00</updated>
+  <updated>2024-02-06T15:04:48.333000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/8173/3</id>
-    <title>Bitwise Operations on Cuda Float Tensor [3]</title>
-    <updated>2017-10-02T14:39:56.735000+00:00</updated>
-    <content>: ...rself. Here’s an example of writing a CUDA extension: https://github.com/longcw/yolo2-pytorch/tree/master/layers/reorg Alternatively, you can use the cupy package, and write your whole CUDA kernel / manipulation in python scripts, for example: https://github.com/szagoruyko/pyinn/blob/master/pyinn/conv2d...</content>
-    <link href="https://discuss.pytorch.org/t/8173/3"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/8738/4</id>
     <title>Tensorflow vs. PyTorch ConvNet benchmark [4]</title>
@@ -353,5 +346,12 @@
     <updated>2023-12-14T02:16:18.541000+00:00</updated>
     <content>Roman Lutz: ...ll torch==1.10.0+cu102 torchvision==0.11.0+cu102 -f https://download.pytorch.org/whl/torch_stable.html (TT) C:\Users\Roman &amp;gt; pip list Package Version cupy-cuda102 12.3.0 fastrlock 0.8.2 numpy 1.26.2 Pillow 10.1.0 pip 23.3.1 setuptools 69.0.2 torch 1.10.0+cu102 torchvision 0.11.0+cu102 typing_extensions...</content>
     <link href="https://discuss.pytorch.org/t/193684/1"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/196711/2</id>
+    <title>PyTorch&amp;rsquo;s CUDA SVD function takes 3x the time of CuPy&amp;rsquo;s [2]</title>
+    <updated>2024-02-06T15:04:48.333000+00:00</updated>
+    <content>: It's expected to see a slower performance using float64 on the GPU and while I'm not deeply familiar with cupy it seems the CPU is used (based on the dtype ). Using float32 gives an expected speedup: svd-torch: 42.5/sec svd-cupy: 9.54/sec</content>
+    <link href="https://discuss.pytorch.org/t/196711/2"/>
   </entry>
 </feed>
