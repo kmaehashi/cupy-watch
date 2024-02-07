@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2024-02-06T15:04:48.333000+00:00</updated>
+  <updated>2024-02-07T04:51:58.122000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.pytorch.org/t/8738/4</id>
@@ -348,10 +348,10 @@
     <link href="https://discuss.pytorch.org/t/193684/1"/>
   </entry>
   <entry>
-    <id>https://discuss.pytorch.org/t/196711/2</id>
-    <title>PyTorch&amp;rsquo;s CUDA SVD function takes 3x the time of CuPy&amp;rsquo;s [2]</title>
-    <updated>2024-02-06T15:04:48.333000+00:00</updated>
-    <content>: It's expected to see a slower performance using float64 on the GPU and while I'm not deeply familiar with cupy it seems the CPU is used (based on the dtype ). Using float32 gives an expected speedup: svd-torch: 42.5/sec svd-cupy: 9.54/sec</content>
-    <link href="https://discuss.pytorch.org/t/196711/2"/>
+    <id>https://discuss.pytorch.org/t/196711/3</id>
+    <title>PyTorch&amp;rsquo;s CUDA SVD function takes 3x the time of CuPy&amp;rsquo;s [3]</title>
+    <updated>2024-02-07T04:51:58.122000+00:00</updated>
+    <content>: Generally CuPy is on the GPU, and in fact in the docs for this method, it mentions that it calls cuSOLVER ( https://docs.cupy.dev/en/stable/reference/generated/cupy...</content>
+    <link href="https://discuss.pytorch.org/t/196711/3"/>
   </entry>
 </feed>
