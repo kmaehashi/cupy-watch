@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-02-06T14:11:36.671000+00:00</updated>
+  <updated>2024-02-21T23:39:10.067000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/175800/3</id>
-    <title>cuCIM: Rapid n-Dimensional Image Processing and I/O on GPUs [3]</title>
-    <updated>2023-02-01T19:43:23.813000+00:00</updated>
-    <content>gigony: ...://anaconda.org/rapidsai/cucim/files Files :: Anaconda.org (arm64 SBSA includes Jetson boards such as Jetson Xavior/Orin). If you are able to install CuPy package ( https://github.com/cupy/cupy/issues/3196#issuecomment-975623298 Add arm64 binary for Jetson Nano · Issue #3196 · cupy/cupy · GitHub and htt...</content>
-    <link href="https://forums.developer.nvidia.com/t/175800/3"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/242195/2</id>
     <title>Getting DFP to generate monthly based models [2]</title>
@@ -353,5 +346,12 @@
     <updated>2024-02-06T14:11:36.671000+00:00</updated>
     <content>Gene VanMeter: ...d be tuple. Since VPI 3 Python sources are available, I was able to quickly patch a proof of concept that allowed: with vpi_img.rlock_cuda() as data: cupy_out = cupy.asarray(data) I only confirmed that I could go cupy → vpi → cupy and compared the cupy arrays with cupy.equal_array</content>
     <link href="https://forums.developer.nvidia.com/t/280858/7"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/283619/1</id>
+    <title>Unable to determine the device handle for GPU0000:C1:00.0: Unknown Error [1]</title>
+    <updated>2024-02-21T23:39:10.067000+00:00</updated>
+    <content>Ikhwanperwira: .../A N/A 1514 G /usr/lib/xorg/Xorg 4MiB | +---------------------------------------------------------------------------------------+ After I run: import cupy as cp x_gpu = cp.array([1,2,3]) print(x_gpu) It returned expected output: array([1,2,3]) But after that moment, It returned cuda runtime error: Now I...</content>
+    <link href="https://forums.developer.nvidia.com/t/283619/1"/>
   </entry>
 </feed>
