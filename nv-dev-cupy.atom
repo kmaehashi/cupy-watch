@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-02-21T23:39:10.067000+00:00</updated>
+  <updated>2024-02-25T14:55:09.248000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/242195/2</id>
@@ -327,13 +327,6 @@
     <link href="https://forums.developer.nvidia.com/t/280025/3"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/811</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [811]</title>
-    <updated>2024-02-02T10:01:51.383000+00:00</updated>
-    <content>Alain Paillou: ...target. This subject is very difficult and at least too difficult for me. I focus on easier things like writing a colour saturation enhancement with cupy raw kernel instead of using torchvision function. It works now ! Alain</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/811"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/281670/1</id>
     <title>Problem with running the program from cupy [1]</title>
     <updated>2024-02-02T18:12:29.599000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2024-02-21T23:39:10.067000+00:00</updated>
     <content>Ikhwanperwira: .../A N/A 1514 G /usr/lib/xorg/Xorg 4MiB | +---------------------------------------------------------------------------------------+ After I run: import cupy as cp x_gpu = cp.array([1,2,3]) print(x_gpu) It returned expected output: array([1,2,3]) But after that moment, It returned cuda runtime error: Now I...</content>
     <link href="https://forums.developer.nvidia.com/t/283619/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/819</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [819]</title>
+    <updated>2024-02-25T14:55:09.248000+00:00</updated>
+    <content>Alain Paillou: ...Jetson Linux version of JetsonSky : i have uploaded a new version : V42_02RC. I get better result if i use OpenCV split or merge function instead of cupy equivalent function. Alain</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/819"/>
   </entry>
 </feed>
