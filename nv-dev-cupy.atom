@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-02-25T14:55:09.248000+00:00</updated>
+  <updated>2024-02-27T06:25:54.540000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/242195/2</id>
@@ -334,13 +334,6 @@
     <link href="https://forums.developer.nvidia.com/t/281670/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/280858/7</id>
-    <title>VPI __cuda_array_interface__ Interoperability [7]</title>
-    <updated>2024-02-06T14:11:36.671000+00:00</updated>
-    <content>Gene VanMeter: ...d be tuple. Since VPI 3 Python sources are available, I was able to quickly patch a proof of concept that allowed: with vpi_img.rlock_cuda() as data: cupy_out = cupy.asarray(data) I only confirmed that I could go cupy → vpi → cupy and compared the cupy arrays with cupy.equal_array</content>
-    <link href="https://forums.developer.nvidia.com/t/280858/7"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/283619/1</id>
     <title>Unable to determine the device handle for GPU0000:C1:00.0: Unknown Error [1]</title>
     <updated>2024-02-21T23:39:10.067000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2024-02-25T14:55:09.248000+00:00</updated>
     <content>Alain Paillou: ...Jetson Linux version of JetsonSky : i have uploaded a new version : V42_02RC. I get better result if i use OpenCV split or merge function instead of cupy equivalent function. Alain</content>
     <link href="https://forums.developer.nvidia.com/t/76861/819"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/280858/8</id>
+    <title>VPI __cuda_array_interface__ Interoperability [8]</title>
+    <updated>2024-02-27T06:25:54.540000+00:00</updated>
+    <content>AastaLLL: Hi, Thanks for the update. Would you mind sharing the change you made with us? So we can check with our internal team to see if this can be integrated into our further release. Thanks.</content>
+    <link href="https://forums.developer.nvidia.com/t/280858/8"/>
   </entry>
 </feed>
