@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-02-27T06:25:54.540000+00:00</updated>
+  <updated>2024-03-02T17:23:50.372000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/242195/2</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/283619/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/819</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [819]</title>
-    <updated>2024-02-25T14:55:09.248000+00:00</updated>
-    <content>Alain Paillou: ...Jetson Linux version of JetsonSky : i have uploaded a new version : V42_02RC. I get better result if i use OpenCV split or merge function instead of cupy equivalent function. Alain</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/819"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/280858/8</id>
     <title>VPI __cuda_array_interface__ Interoperability [8]</title>
     <updated>2024-02-27T06:25:54.540000+00:00</updated>
     <content>AastaLLL: Hi, Thanks for the update. Would you mind sharing the change you made with us? So we can check with our internal team to see if this can be integrated into our further release. Thanks.</content>
     <link href="https://forums.developer.nvidia.com/t/280858/8"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/820</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [820]</title>
+    <updated>2024-03-02T17:23:50.372000+00:00</updated>
+    <content>Alain Paillou: ...n only. Why ? Because my laptop gets many CUDA cores and performs better with CUDA than with OpenCV sometimes. I wrote a debayer image function using CUPY RAW kernel for 2 reasons : it is faster then classical OpenCV cvt.color function (which is already quite fast) i can manage the debayer algorithm to...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/820"/>
   </entry>
 </feed>
