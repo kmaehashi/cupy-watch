@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2023-10-02T22:51:12.539000+00:00</updated>
+  <updated>2024-03-15T07:04:20.488000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -73,5 +73,12 @@
     <updated>2023-10-02T22:51:12.539000+00:00</updated>
     <content>Michael H: ...ibraries. I believe the current best options are Numba (llvm based compilation of a subset of valid python via decorators which transform your code), CuPy (if you want to specifically do parallel work by writing small bits to run in parallel on the GPU), Cython, or a native extension. Given the example...</content>
     <link href="https://discuss.python.org/t/35138/14"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/48504/3</id>
+    <title>Rationale for changing a capsule&amp;rsquo;s name or destructor [3]</title>
+    <updated>2024-03-15T07:04:20.488000+00:00</updated>
+    <content>Ralf Gommers: ...ling that the data was used once, and hence it was guarding against such memory leaks. Here is what user code tends to look like: # Using PyTorch and CuPy as an example here, could also be NumPy/JAX/TensorFlow/etc. import torch import cupy as cp x = cp.arange(10_000) # creates a large array on GPU # New...</content>
+    <link href="https://discuss.python.org/t/48504/3"/>
   </entry>
 </feed>
