@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-03-02T17:23:50.372000+00:00</updated>
+  <updated>2024-03-18T10:27:37.639000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/242195/2</id>
-    <title>Getting DFP to generate monthly based models [2]</title>
-    <updated>2023-02-09T15:37:55.551000+00:00</updated>
-    <content>Pmackinnon: ...dia/label/cuda-11.5.2 cuda-python 11.7.0 py38h3fd9d12_0 nvidia cudatoolkit 11.5.1 hcf5317a_9 nvidia cudf 22.10.00 cuda_11_py38_g8ffe375d85_0 rapidsai cupy 9.5.0 py38h7818112_1 conda-forge curl 7.87.0 h6312ad2_0 conda-forge cycler 0.11.0 pypi_0 pypi cyrus-sasl 2.1.27 h957375c_6 conda-forge cython 0.29.24...</content>
-    <link href="https://forums.developer.nvidia.com/t/242195/2"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/244423/1</id>
     <title>Known Issue in CuPy affecting Tensor Interop [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-03-02T17:23:50.372000+00:00</updated>
     <content>Alain Paillou: ...n only. Why ? Because my laptop gets many CUDA cores and performs better with CUDA than with OpenCV sometimes. I wrote a debayer image function using CUPY RAW kernel for 2 reasons : it is faster then classical OpenCV cvt.color function (which is already quite fast) i can manage the debayer algorithm to...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/820"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/286063/5</id>
+    <title>CPU utilization using deepstream on Jetson AGX [5]</title>
+    <updated>2024-03-18T10:27:37.639000+00:00</updated>
+    <content>Yuweiw: You may refer to our demo to use cupy https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/blob/master/apps/deepstream-imagedata-multistream-cupy/deepstream_imagedata-multistream_cupy....</content>
+    <link href="https://forums.developer.nvidia.com/t/286063/5"/>
   </entry>
 </feed>
