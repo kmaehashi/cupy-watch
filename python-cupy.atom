@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2024-03-15T07:04:20.488000+00:00</updated>
+  <updated>2024-03-18T23:58:38.174000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -80,5 +80,12 @@
     <updated>2024-03-15T07:04:20.488000+00:00</updated>
     <content>Ralf Gommers: ...ling that the data was used once, and hence it was guarding against such memory leaks. Here is what user code tends to look like: # Using PyTorch and CuPy as an example here, could also be NumPy/JAX/TensorFlow/etc. import torch import cupy as cp x = cp.arange(10_000) # creates a large array on GPU # New...</content>
     <link href="https://discuss.python.org/t/48504/3"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/48894/1</id>
+    <title>How to use Python multiprocessing in a function script (module)? [1]</title>
+    <updated>2024-03-18T23:58:38.174000+00:00</updated>
+    <content>Shervin Ataeian: ...r of my GPU inside a function script then? I would be grateful if someone could help me. import scipy.stats as stats from fitter import Fitter import cupy as cp import dask.dataframe as dd from dask import compute, delayed from dask.distributed import Client import multiprocessing client = Client() # Co...</content>
+    <link href="https://discuss.python.org/t/48894/1"/>
   </entry>
 </feed>
