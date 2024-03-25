@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-03-20T17:04:37.849000+00:00</updated>
+  <updated>2024-03-25T12:34:43.996000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/245196/1</id>
-    <title>Cuspatial demo running error [1]</title>
-    <updated>2023-03-07T09:34:19.813000+00:00</updated>
-    <content>Nithin M1: ...ata[k] = column.as_column( File “/opt/conda/envs/rapids/lib/python3.10/site-packages/cudf/core/column/column.py”, line 1887, in as_column arbitrary = cupy.ascontiguousarray(arbitrary) File “/opt/conda/envs/rapids/lib/python3.10/site-packages/cupy/_creation/from_data.py”, line 107, in ascontiguousarray r...</content>
-    <link href="https://forums.developer.nvidia.com/t/245196/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/247703/1</id>
     <title>Alternative solutions for dataframe.rolling().apply(function) because its axis=1 is not supported yet! [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-03-20T17:04:37.849000+00:00</updated>
     <content>Alstom259: ...() File "triangle.py", line 448, in main pix = launch( pipeline, sbt, gas_handle ) File "triangle.py", line 424, in launch stream.synchronize() File "cupy/cuda/stream.pyx", line 252, in cupy.cuda.stream._BaseStream.synchronize File "cupy_backends/cuda/api/runtime.pyx", line 851, in cupy_backends.cuda.ap...</content>
     <link href="https://forums.developer.nvidia.com/t/286806/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/287272/1</id>
+    <title>Order within triton inference server python backend [1]</title>
+    <updated>2024-03-25T12:34:43.996000+00:00</updated>
+    <content>Ajithkumar Ak95: ...ERWISE) ARISING IN ANY WAY OUT OF THE USE # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. import numpy as np import cv2 import cupy as cp import time # triton_python_backend_utils is available in every Triton Python model. You # need to use this module to create inference requests...</content>
+    <link href="https://forums.developer.nvidia.com/t/287272/1"/>
   </entry>
 </feed>
