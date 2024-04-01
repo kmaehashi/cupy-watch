@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2024-02-07T04:51:58.122000+00:00</updated>
+  <updated>2024-04-01T18:13:31.613000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/8738/4</id>
-    <title>Tensorflow vs. PyTorch ConvNet benchmark [4]</title>
-    <updated>2017-10-17T17:31:00.429000+00:00</updated>
-    <content>Mamy Ratsimbazafy: ...even though computation is not finished. To make sure computation is finished you should call “cudaDeviceSynchronize”, your best bet would be through Cupy. Furthermore there might be a difference due to the Tensor layouts: PyTorch use NCHW and Tensorflow uses NHWC, NCHW was the first layout supported by...</content>
-    <link href="https://discuss.pytorch.org/t/8738/4"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/10672/1</id>
     <title>Run &amp;ldquo;pip install cupy==1.0.2 chainer==2.0.2 fuel==0.2.0 tqdm&amp;rdquo; display anaconda3/compiler_compat/ld: cannot find -lm [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-02-07T04:51:58.122000+00:00</updated>
     <content>: Generally CuPy is on the GPU, and in fact in the docs for this method, it mentions that it calls cuSOLVER ( https://docs.cupy.dev/en/stable/reference/generated/cupy...</content>
     <link href="https://discuss.pytorch.org/t/196711/3"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/200002/1</id>
+    <title>GPU implementation for sample entropy, and Fourier transformation [1]</title>
+    <updated>2024-04-01T18:13:31.613000+00:00</updated>
+    <content>Ayush Aditya: ...nel) which will take an entire day and little more for just to find out sample entropy. So I thought if can use GPU it will be faster. I tried using "cupy" where I stored the data in GPU but failed to compute on it as I was utilizing a pre-existing module, specifically "nolds.samen". Can anyone help or...</content>
+    <link href="https://discuss.pytorch.org/t/200002/1"/>
   </entry>
 </feed>
