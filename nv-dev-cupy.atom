@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-03-25T12:34:43.996000+00:00</updated>
+  <updated>2024-04-09T06:03:03.259000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/247703/1</id>
-    <title>Alternative solutions for dataframe.rolling().apply(function) because its axis=1 is not supported yet! [1]</title>
-    <updated>2023-03-28T00:54:27.821000+00:00</updated>
-    <content>Jcgtanaka: ...all in GPU. Could you help me, please? This is the whole code: The following code block impor the necessary libraries: import cudf import cuml import cupy import yfinance as yf import numpy as np import pandas as pd import numpy as np import matplotlib.pyplot as plt import shap %matplotlib inline plt.st...</content>
-    <link href="https://forums.developer.nvidia.com/t/247703/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/248888/2</id>
     <title>Accessing real and imaginary part in cupy complex ndarray under a rawkernel function [2]</title>
@@ -353,5 +346,12 @@
     <updated>2024-03-25T12:34:43.996000+00:00</updated>
     <content>Ajithkumar Ak95: ...ERWISE) ARISING IN ANY WAY OUT OF THE USE # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. import numpy as np import cv2 import cupy as cp import time # triton_python_backend_utils is available in every Triton Python model. You # need to use this module to create inference requests...</content>
     <link href="https://forums.developer.nvidia.com/t/287272/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/288869/3</id>
+    <title>Need Assistance in Optimizing CUDA Execution for Siamrpn tracker code [3]</title>
+    <updated>2024-04-09T06:03:03.259000+00:00</updated>
+    <content>AastaLLL: Hi, Could you share more about how you modify the code to GPU implementation? Do you use CuPy or other GPU-based libraries? Thanks.</content>
+    <link href="https://forums.developer.nvidia.com/t/288869/3"/>
   </entry>
 </feed>
