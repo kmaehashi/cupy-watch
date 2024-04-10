@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-04-09T06:03:03.259000+00:00</updated>
+  <updated>2024-04-10T16:41:20.466000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/248888/2</id>
@@ -320,13 +320,6 @@
     <link href="https://forums.developer.nvidia.com/t/280858/8"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/820</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [820]</title>
-    <updated>2024-03-02T17:23:50.372000+00:00</updated>
-    <content>Alain Paillou: ...n only. Why ? Because my laptop gets many CUDA cores and performs better with CUDA than with OpenCV sometimes. I wrote a debayer image function using CUPY RAW kernel for 2 reasons : it is faster then classical OpenCV cvt.color function (which is already quite fast) i can manage the debayer algorithm to...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/820"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/286063/5</id>
     <title>CPU utilization using deepstream on Jetson AGX [5]</title>
     <updated>2024-03-18T10:27:37.639000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2024-04-09T06:03:03.259000+00:00</updated>
     <content>AastaLLL: Hi, Could you share more about how you modify the code to GPU implementation? Do you use CuPy or other GPU-based libraries? Thanks.</content>
     <link href="https://forums.developer.nvidia.com/t/288869/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/830</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [830]</title>
+    <updated>2024-04-10T16:41:20.466000+00:00</updated>
+    <content>Alain Paillou: ...rbulence management with planetary &amp;amp; Moon video captures. I get significant improvements : Moon video capture enhancement - JetsonSky &amp;amp; NVidia GPU - (Cupy, CUDA) - Apollo 15 landing site https://www.youtube.com/watch Moon video capture enhancement - JetsonSky &amp;amp; NVidia GPU - (Cupy, CUDA) - Apollo 15 land...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/830"/>
   </entry>
 </feed>
