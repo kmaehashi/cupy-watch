@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-04-10T16:41:20.466000+00:00</updated>
+  <updated>2024-04-18T07:29:00.636000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/248888/2</id>
-    <title>Accessing real and imaginary part in cupy complex ndarray under a rawkernel function [2]</title>
-    <updated>2023-04-07T08:21:34.988000+00:00</updated>
-    <content>Simbecker: Has anyone ever tryed to access iamg and real part of complex in rawkernel?</content>
-    <link href="https://forums.developer.nvidia.com/t/248888/2"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/249858/1</id>
     <title>CUDA Multi GPU memory management [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-04-10T16:41:20.466000+00:00</updated>
     <content>Alain Paillou: ...rbulence management with planetary &amp;amp; Moon video captures. I get significant improvements : Moon video capture enhancement - JetsonSky &amp;amp; NVidia GPU - (Cupy, CUDA) - Apollo 15 landing site https://www.youtube.com/watch Moon video capture enhancement - JetsonSky &amp;amp; NVidia GPU - (Cupy, CUDA) - Apollo 15 land...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/830"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/290076/1</id>
+    <title>Is CuPy Available? [1]</title>
+    <updated>2024-04-18T07:29:00.636000+00:00</updated>
+    <content>Atsushi Sakurai: ...rol the movement of objects through the Python API, currently using Numpy for vector operations. I wanted to speed up the calculations by introducing CuPy, but I received an error message saying CuPy could not be found. Is it not possible to perform calculations on the GPU when controlling forces? I am...</content>
+    <link href="https://forums.developer.nvidia.com/t/290076/1"/>
   </entry>
 </feed>
