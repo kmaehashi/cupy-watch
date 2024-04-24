@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-04-18T07:29:00.636000+00:00</updated>
+  <updated>2024-04-24T09:20:07.839000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/249858/1</id>
-    <title>CUDA Multi GPU memory management [1]</title>
-    <updated>2023-04-13T21:42:03.442000+00:00</updated>
-    <content>Vitorjmendonca: Hello, I have got a server PC with three GPUs, RTX A6000. I’m using the three GPUs simultaneously with CuPy. The CUDA version I’ve is 12.1. I can use the three GPUs at the same time. The problem I’m having is that when I open nvidia-smi to check the GPU’s m...</content>
-    <link href="https://forums.developer.nvidia.com/t/249858/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/244647/9</id>
     <title>Nsys is not collecting kernel data [9]</title>
@@ -353,5 +346,12 @@
     <updated>2024-04-18T07:29:00.636000+00:00</updated>
     <content>Atsushi Sakurai: ...rol the movement of objects through the Python API, currently using Numpy for vector operations. I wanted to speed up the calculations by introducing CuPy, but I received an error message saying CuPy could not be found. Is it not possible to perform calculations on the GPU when controlling forces? I am...</content>
     <link href="https://forums.developer.nvidia.com/t/290076/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/290711/1</id>
+    <title>Executing CUDA Kernel in python [1]</title>
+    <updated>2024-04-24T09:20:07.839000+00:00</updated>
+    <content>dhksdnr2003: ...tilize CUDA to speed up simulation code in a Python environment. From my search, the ability to write CUDA code with a syntax similar to Python using CuPy and Numba's CUDA seems appealing, and I am currently proceeding with coding in this manner. However, I still have lingering questions that haven't be...</content>
+    <link href="https://forums.developer.nvidia.com/t/290711/1"/>
   </entry>
 </feed>
