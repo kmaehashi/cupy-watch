@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-04-24T09:20:07.839000+00:00</updated>
+  <updated>2024-04-24T14:23:49.511000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/244647/9</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/290076/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/290711/1</id>
-    <title>Executing CUDA Kernel in python [1]</title>
-    <updated>2024-04-24T09:20:07.839000+00:00</updated>
-    <content>dhksdnr2003: ...tilize CUDA to speed up simulation code in a Python environment. From my search, the ability to write CUDA code with a syntax similar to Python using CuPy and Numba's CUDA seems appealing, and I am currently proceeding with coding in this manner. However, I still have lingering questions that haven't be...</content>
-    <link href="https://forums.developer.nvidia.com/t/290711/1"/>
+    <id>https://forums.developer.nvidia.com/t/290711/2</id>
+    <title>Executing CUDA Kernel in python [2]</title>
+    <updated>2024-04-24T14:23:49.511000+00:00</updated>
+    <content>Robert_Crovella: ...ludes both ctypes approach and pycuda approach, as both will use kernels written in CUDA C++) which can't currently be done in numba CUDA jit method. cupy is a bit of a different animal. I wouldn't attempt to do performance comparisons between cupy and CUDA C++. The purpose of cupy is to provide a best...</content>
+    <link href="https://forums.developer.nvidia.com/t/290711/2"/>
   </entry>
 </feed>
