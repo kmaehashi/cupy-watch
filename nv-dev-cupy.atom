@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-05-04T09:53:47.977000+00:00</updated>
+  <updated>2024-05-13T11:18:31.949000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/251421/3</id>
-    <title>Kernel time discrepancy between nsys profile and cudaEventElapsedTime [3]</title>
-    <updated>2023-04-27T21:10:59.406000+00:00</updated>
-    <content>Nish511: Thanks. Would you mind providing a reference example API of using CUPI in cuda code?</content>
-    <link href="https://forums.developer.nvidia.com/t/251421/3"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/251625/1</id>
     <title>Deepstream6.2 python frame extraction for custom deeplearning model (TensorRT) [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-05-04T09:53:47.977000+00:00</updated>
     <content>K Glimps: ...ubly-periodic, not to mention spin top and other 3 and higher dimensionals applications like in solitons. Now, i am spending my spare time with Dask, cupy, numba, cuDF. Thank you for all your hardd work and keep going on. We always need to hear your point of view and your prespective for better future o...</content>
     <link href="https://forums.developer.nvidia.com/t/291803/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/292704/1</id>
+    <title>After ds6.2 -&amp;gt; 6.4 update, pyds import causes tensorrt to Abort (core dumped) [1]</title>
+    <updated>2024-05-13T11:18:31.949000+00:00</updated>
+    <content>: ...obviously is not a solution - our code which manages deepstream and dispatches GPU-resident buffers from deepstream into trt (and other places, incl. cupy ops) is a python app, so we need both of those bindings. Note - attached dockerfile builds pyds itself, but when using precompiled pyds (from https:/...</content>
+    <link href="https://forums.developer.nvidia.com/t/292704/1"/>
   </entry>
 </feed>
