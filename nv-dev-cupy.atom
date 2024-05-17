@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-05-13T11:18:31.949000+00:00</updated>
+  <updated>2024-05-17T12:31:30.958000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/251625/1</id>
-    <title>Deepstream6.2 python frame extraction for custom deeplearning model (TensorRT) [1]</title>
-    <updated>2023-04-28T02:10:13.830000+00:00</updated>
-    <content>Youngbo Song: Description Hello, i’m developing deeplearning rtsp python server, modifing deepstream_python_apps/ deepstream-imagedata-multistream-cupy. My scheme is to extract frames from pipeline through probe on deepstream-imagedata-multistream-cupy.py and apply my custom deeplearning module for c...</content>
-    <link href="https://forums.developer.nvidia.com/t/251625/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/252156/2</id>
     <title>What the difference using L2 by cudaMemcpy() and from kernel? [2]</title>
@@ -353,5 +346,12 @@
     <updated>2024-05-13T11:18:31.949000+00:00</updated>
     <content>: ...obviously is not a solution - our code which manages deepstream and dispatches GPU-resident buffers from deepstream into trt (and other places, incl. cupy ops) is a python app, so we need both of those bindings. Note - attached dockerfile builds pyds itself, but when using precompiled pyds (from https:/...</content>
     <link href="https://forums.developer.nvidia.com/t/292704/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/293271/1</id>
+    <title>How to perform eigenvalue decompositions for large matrices with Python [1]</title>
+    <updated>2024-05-17T12:31:30.958000+00:00</updated>
+    <content>S769 098211: I have dense, symmetric matrices of the size ~5e4x5e4 to 1e5x1e5 that I want to compute the eigenvalues of. I have looked at CuPy (cupy.linalg.eigvalsh), but I run out of memory on a single GPU when using this. I know cuSOLVER has a Multi-GPU extension; are there any Python libr...</content>
+    <link href="https://forums.developer.nvidia.com/t/293271/1"/>
   </entry>
 </feed>
