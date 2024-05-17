@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-05-17T12:31:30.958000+00:00</updated>
+  <updated>2024-05-17T21:29:27.745000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/252156/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/292704/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/293271/1</id>
-    <title>How to perform eigenvalue decompositions for large matrices with Python [1]</title>
-    <updated>2024-05-17T12:31:30.958000+00:00</updated>
-    <content>S769 098211: I have dense, symmetric matrices of the size ~5e4x5e4 to 1e5x1e5 that I want to compute the eigenvalues of. I have looked at CuPy (cupy.linalg.eigvalsh), but I run out of memory on a single GPU when using this. I know cuSOLVER has a Multi-GPU extension; are there any Python libr...</content>
-    <link href="https://forums.developer.nvidia.com/t/293271/1"/>
+    <id>https://forums.developer.nvidia.com/t/293271/5</id>
+    <title>How to perform eigenvalue decompositions for large matrices with Python [5]</title>
+    <updated>2024-05-17T21:29:27.745000+00:00</updated>
+    <content>Curefab: ...run one of the C++/Cuda symmetric matrix examples with some modifications for your Matrix size and batch size 1 to see, whether it is a cuSolver or a CuPy limitation: https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuSOLVER github.com https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuS...</content>
+    <link href="https://forums.developer.nvidia.com/t/293271/5"/>
   </entry>
 </feed>
