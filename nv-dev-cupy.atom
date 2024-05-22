@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-05-17T21:29:27.745000+00:00</updated>
+  <updated>2024-05-22T17:14:50.639000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/252156/2</id>
-    <title>What the difference using L2 by cudaMemcpy() and from kernel? [2]</title>
-    <updated>2023-05-04T10:51:44.833000+00:00</updated>
-    <content>Markus Holtmanns: Hi there @qlyu and welcome to the NVIDIA developer forums! The way cudaMemcpy() behaves in terms of cache usage might be proprietary to our driver and not something to disclose. But you might want to ask the same in the forum category where you found the original post, CUDA programming, there you...</content>
-    <link href="https://forums.developer.nvidia.com/t/252156/2"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/253270/2</id>
     <title>No libcudart.so.12 with cuda-toolkit [2]</title>
@@ -353,5 +346,12 @@
     <updated>2024-05-17T21:29:27.745000+00:00</updated>
     <content>Curefab: ...run one of the C++/Cuda symmetric matrix examples with some modifications for your Matrix size and batch size 1 to see, whether it is a cuSolver or a CuPy limitation: https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuSOLVER github.com https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuS...</content>
     <link href="https://forums.developer.nvidia.com/t/293271/5"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/292795/2</id>
+    <title>Inference on area of interest only [2]</title>
+    <updated>2024-05-22T17:14:50.639000+00:00</updated>
+    <content>Jin: Hi there, sorry for the late reply, at this moment, you could add your custom operator to do the cropping of the frame (simplest would be in Numpy, Cupy or other libraries), and pass the cropped frame downstream to the inference operator.</content>
+    <link href="https://forums.developer.nvidia.com/t/292795/2"/>
   </entry>
 </feed>
