@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2024-03-18T23:58:38.174000+00:00</updated>
+  <updated>2024-05-23T19:27:10.458000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -87,5 +87,12 @@
     <updated>2024-03-18T23:58:38.174000+00:00</updated>
     <content>Shervin Ataeian: ...r of my GPU inside a function script then? I would be grateful if someone could help me. import scipy.stats as stats from fitter import Fitter import cupy as cp import dask.dataframe as dd from dask import compute, delayed from dask.distributed import Client import multiprocessing client = Client() # Co...</content>
     <link href="https://discuss.python.org/t/48894/1"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/53824/44</id>
+    <title>PEP 778: Supporting Symlinks in Wheels [44]</title>
+    <updated>2024-05-23T19:27:10.458000+00:00</updated>
+    <content>Geoffrey Thomas: ...ree with that, in that while the packages are few and advanced, I think they will be widely installed by people. Examples given so far are CUDA, MKL, cupy, and arrow, which from at least my perspective (people doing scientific computing but not using Conda) are very common packages. Very few packagers w...</content>
+    <link href="https://discuss.python.org/t/53824/44"/>
   </entry>
 </feed>
