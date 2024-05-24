@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-05-22T17:14:50.639000+00:00</updated>
+  <updated>2024-05-24T16:54:38.829000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/253270/2</id>
-    <title>No libcudart.so.12 with cuda-toolkit [2]</title>
-    <updated>2023-05-15T07:29:08.762000+00:00</updated>
-    <content>rs277: pauljurczak: CuPy is looking for libcudart.so.12 , which is not present. How should I get it? You have Cuda 11.5 installed, which installs libcudart.so.11.5. You will...</content>
-    <link href="https://forums.developer.nvidia.com/t/253270/2"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/253389/6</id>
     <title>Problems with pycuda installing (tried everything) AGX Orin [6]</title>
@@ -353,5 +346,12 @@
     <updated>2024-05-22T17:14:50.639000+00:00</updated>
     <content>Jin: Hi there, sorry for the late reply, at this moment, you could add your custom operator to do the cropping of the frame (simplest would be in Numpy, Cupy or other libraries), and pass the cropped frame downstream to the inference operator.</content>
     <link href="https://forums.developer.nvidia.com/t/292795/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/292572/3</id>
+    <title>SRT H.264 video source [3]</title>
+    <updated>2024-05-24T16:54:38.829000+00:00</updated>
+    <content>: .... Do you know by any chance if it is possible to keep the decoded frames on the gpu using -hwaccel_output_format cuda and converting them directly to cupy array? Regarding your issue with the color space conversion, I never came across this problem.</content>
+    <link href="https://forums.developer.nvidia.com/t/292572/3"/>
   </entry>
 </feed>
