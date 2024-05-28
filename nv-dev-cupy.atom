@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-05-24T16:54:38.829000+00:00</updated>
+  <updated>2024-05-28T09:54:16.630000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/253389/6</id>
-    <title>Problems with pycuda installing (tried everything) AGX Orin [6]</title>
-    <updated>2023-05-16T11:26:43.168000+00:00</updated>
-    <content>Alain Paillou: .../locale.h /usr/include/xlocale.h pip install pycuda --user It was ok with my Jetson AGX Orin. Pycuda is sometime hard to install. Maybe you could try Cupy wich is at least as fast as Pycuda with numpy capabilities. Installing Cupy is not really complicated but it is better to try to find some informatio...</content>
-    <link href="https://forums.developer.nvidia.com/t/253389/6"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/253949/1</id>
     <title>MultiAIInferenceOP Error when multiple Outputs per Model (bindings[x] != nullptr ) [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-05-24T16:54:38.829000+00:00</updated>
     <content>: .... Do you know by any chance if it is possible to keep the decoded frames on the gpu using -hwaccel_output_format cuda and converting them directly to cupy array? Regarding your issue with the color space conversion, I never came across this problem.</content>
     <link href="https://forums.developer.nvidia.com/t/292572/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/294322/1</id>
+    <title>Tensorrt python api bug when used simultaneously with pyds and gst bindings [1]</title>
+    <updated>2024-05-28T09:54:16.630000+00:00</updated>
+    <content>: ...obviously is not a solution - our code which manages deepstream and dispatches GPU-resident buffers from deepstream into trt (and other places, incl. cupy ops) is a python app, so we need both of those bindings. This bug reminds of an another one I posted some time ago here: https://forums.developer.nvi...</content>
+    <link href="https://forums.developer.nvidia.com/t/294322/1"/>
   </entry>
 </feed>
