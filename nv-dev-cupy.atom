@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-06-03T07:21:36.421000+00:00</updated>
+  <updated>2024-06-03T08:43:40.042000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/253949/1</id>
-    <title>MultiAIInferenceOP Error when multiple Outputs per Model (bindings[x] != nullptr ) [1]</title>
-    <updated>2023-05-21T10:31:15.275000+00:00</updated>
-    <content>: ...: output0 type: float32[1,70,8400] name: output1 type: float32[1,32,160,160] It actually works fine when using my own inference operator written with cupy. So the onnx model and the converted trt model should be correct. When using the holoscan MultiAIInferenceOP however I get an error: YAML: inference:...</content>
-    <link href="https://forums.developer.nvidia.com/t/253949/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/254823/1</id>
     <title>Saving/performing SVD over multiple GPU nodes [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-06-03T07:21:36.421000+00:00</updated>
     <content>Haricibi83: Thank you, Can this be applied for livestream videos as well? Please suggest other libraries other than Cupy or Numpy</content>
     <link href="https://forums.developer.nvidia.com/t/292795/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/294406/9</id>
+    <title>Save Frame using GPU buffer data [9]</title>
+    <updated>2024-06-03T08:43:40.042000+00:00</updated>
+    <content>Yuweiw: It's already a GPU buffer in the demo https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/blob/master/apps/deepstream-imagedata-multistream-cupy/deepstream_imagedata-multistream_cupy.py#L115 deepstream_imagedata-multistream_cupy.py , you can use https://cupy.dev/ cupy to process the buffer as...</content>
+    <link href="https://forums.developer.nvidia.com/t/294406/9"/>
   </entry>
 </feed>
