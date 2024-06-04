@@ -351,7 +351,7 @@
     <id>https://forums.developer.nvidia.com/t/295072/1</id>
     <title>为什么我的 Jetson 图像处理性能不及 RTX 3060？ [1]</title>
     <updated>2024-06-04T04:14:17.953000+00:00</updated>
-    <content>1930920921: 您好，本人在 Jetson AGX Orin 32GB 和 RTX 3060 运行了相同的代码，内容如下： import cupy import cv2 import cupyx.scipy.ndimage as ndi import numpy as np import time img = cv2.imread(‘test.jpg’) img_gpu = np.asarray(img, np.float32) img_gp...</content>
+    <content>1930920921: 您好，本人在 Jetson AGX Orin 32GB 和 RTX 3060 运行了相同的代码，内容如下： import cupy import cv2 import cupyx.scipy.ndimage as ndi import numpy as np import time img = cv2.imread('test.jpg') img_gpu = np.asarray(img, np.float32) img_gp...</content>
     <link href="https://forums.developer.nvidia.com/t/295072/1"/>
   </entry>
 </feed>
