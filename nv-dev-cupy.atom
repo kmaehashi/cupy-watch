@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-06-03T08:43:40.042000+00:00</updated>
+  <updated>2024-06-04T04:14:17.953000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/254823/1</id>
-    <title>Saving/performing SVD over multiple GPU nodes [1]</title>
-    <updated>2023-05-29T18:42:34.414000+00:00</updated>
-    <content>Nheinsdorf: Hey, I want to use Python CUDA (e.g. CuPy) to perform linear algebra operations on large matrices for some physics simulations. The problem is that these matrices get very large, so I need to...</content>
-    <link href="https://forums.developer.nvidia.com/t/254823/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/243362/15</id>
     <title>&amp;ldquo;DLPack tensor is not contiguous. Only contiguous DLPack tensors that are stored in C-Order are supported&amp;rdquo; [15]</title>
@@ -353,5 +346,12 @@
     <updated>2024-06-03T08:43:40.042000+00:00</updated>
     <content>Yuweiw: It's already a GPU buffer in the demo https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/blob/master/apps/deepstream-imagedata-multistream-cupy/deepstream_imagedata-multistream_cupy.py#L115 deepstream_imagedata-multistream_cupy.py , you can use https://cupy.dev/ cupy to process the buffer as...</content>
     <link href="https://forums.developer.nvidia.com/t/294406/9"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/295072/1</id>
+    <title>为什么我的 Jetson 图像处理性能不及 RTX 3060？ [1]</title>
+    <updated>2024-06-04T04:14:17.953000+00:00</updated>
+    <content>1930920921: 您好，本人在 Jetson AGX Orin 32GB 和 RTX 3060 运行了相同的代码，内容如下： import cupy import cv2 import cupyx.scipy.ndimage as ndi import numpy as np import time img = cv2.imread('test.jpg') img_gpu = np.asarray(img, np.float32) img_gp...</content>
+    <link href="https://forums.developer.nvidia.com/t/295072/1"/>
   </entry>
 </feed>
