@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-06-06T19:00:20.184000+00:00</updated>
+  <updated>2024-06-06T20:29:04.896000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/243362/15</id>
-    <title>&amp;ldquo;DLPack tensor is not contiguous. Only contiguous DLPack tensors that are stored in C-Order are supported&amp;rdquo; [15]</title>
-    <updated>2023-06-02T08:43:11.965000+00:00</updated>
-    <content>Cmpark0126: Try to use cupy like below: # tensor is Torch.Tensor on cuda cupy.array(tensor.detach(), order="C").toDlpack() It works for me</content>
-    <link href="https://forums.developer.nvidia.com/t/243362/15"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/253164/5</id>
     <title>Rendering wrong color format when using CuPy User-defined kernel, jetson-utils, VPI, CuPy [5]</title>
@@ -353,5 +346,12 @@
     <updated>2024-06-06T19:00:20.184000+00:00</updated>
     <content>Jin: ...d for live stream frames too. You can choose any GPU accelerated libraries you are familiar with, in the C++ API or Python API, it doesn't need to be Cupy or Numpy. Please see https://docs.nvidia.com/holoscan/sdk-user-guide/holoscan_create_operator.html This holoscan::Tensor class is a wrapper around th...</content>
     <link href="https://forums.developer.nvidia.com/t/292795/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/295494/1</id>
+    <title>GH200 memory not clearing [1]</title>
+    <updated>2024-06-06T20:29:04.896000+00:00</updated>
+    <content>Ayushkoul00: I am trying to run some ML models on a GH200 GPU using CuPy, CuML and CuDF in Python. However, the memory in the GPU is almost filled. No processes are running as well. Since my program deals with a lot of mem...</content>
+    <link href="https://forums.developer.nvidia.com/t/295494/1"/>
   </entry>
 </feed>
