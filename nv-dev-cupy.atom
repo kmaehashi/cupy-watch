@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-06-07T15:00:47.161000+00:00</updated>
+  <updated>2024-06-07T15:59:39.120000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/256032/1</id>
-    <title>HELLO AI WORLD | Deploying Edge AI Web Apps on Jetson Orin Nano [1]</title>
-    <updated>2023-06-08T23:43:04.239000+00:00</updated>
-    <content>dusty_nv: ...e https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-image.md#image-capsules-in-python zero-copy interoperability with PyTorch, numba, CuPy, PyCUDA, VPI, and https://numba.readthedocs.io/en/stable/cuda/cuda_array_interface.html#interoperability other libraries https://github.com/dusty-nv/...</content>
-    <link href="https://forums.developer.nvidia.com/t/256032/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/256033/1</id>
     <title>HELLO AI WORLD | Deploying Edge AI Web Apps on Jetson Orin Nano [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-06-07T15:00:47.161000+00:00</updated>
     <content>vermillionblu: Thank you I was successfully able to cast it to torch tensor from cupy. Is it possible to do so without using pyds library bindings?</content>
     <link href="https://forums.developer.nvidia.com/t/295501/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/295606/1</id>
+    <title>Problem using jetson tx2 with jetpack 4.6.3 with ultralytics [1]</title>
+    <updated>2024-06-07T15:59:39.120000+00:00</updated>
+    <content>Vlad Purhin: ...l4t-ml:r32.7.1-py3 with the following packages installed in it: TensorFlow 1.15.5 PyTorch v1.10.0 torchvision v0.11.0 torchaudio v0.10.0 onnx 1.11.0 CuPy 9.2.0 numpy 1.19.5 numba 0.53.1 OpenCV 4.5.0 (with CUDA) pandas 1.1.5 scipy 1.5.4 scikit-learn 0.24.2 JupyterLab 2.2.9 And I add CUDA settings to it...</content>
+    <link href="https://forums.developer.nvidia.com/t/295606/1"/>
   </entry>
 </feed>
