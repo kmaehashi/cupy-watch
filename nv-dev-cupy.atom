@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-06-06T20:29:04.896000+00:00</updated>
+  <updated>2024-06-07T15:00:47.161000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/253164/5</id>
-    <title>Rendering wrong color format when using CuPy User-defined kernel, jetson-utils, VPI, CuPy [5]</title>
-    <updated>2023-06-07T02:24:13.383000+00:00</updated>
-    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
-    <link href="https://forums.developer.nvidia.com/t/253164/5"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/256032/1</id>
     <title>HELLO AI WORLD | Deploying Edge AI Web Apps on Jetson Orin Nano [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-06-06T20:29:04.896000+00:00</updated>
     <content>Ayushkoul00: I am trying to run some ML models on a GH200 GPU using CuPy, CuML and CuDF in Python. However, the memory in the GPU is almost filled. No processes are running as well. Since my program deals with a lot of mem...</content>
     <link href="https://forums.developer.nvidia.com/t/295494/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/295501/4</id>
+    <title>Gstreamer NVMM memory buffer to torch tensor with zero copy [4]</title>
+    <updated>2024-06-07T15:00:47.161000+00:00</updated>
+    <content>vermillionblu: Thank you I was successfully able to cast it to torch tensor from cupy. Is it possible to do so without using pyds library bindings?</content>
+    <link href="https://forums.developer.nvidia.com/t/295501/4"/>
   </entry>
 </feed>
