@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2024-04-01T18:13:31.613000+00:00</updated>
+  <updated>2024-06-11T20:10:36.227000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/10672/1</id>
-    <title>Run &amp;ldquo;pip install cupy==1.0.2 chainer==2.0.2 fuel==0.2.0 tqdm&amp;rdquo; display anaconda3/compiler_compat/ld: cannot find -lm [1]</title>
-    <updated>2017-12-02T00:44:42.894000+00:00</updated>
-    <content>Zhfwyy: root@zhfwyy:~# pip install cupy==1.0.2 chainer==2.0.2 fuel==0.2.0 tqdm Collecting cupy==1.0.2 Using cached cupy-1.0.2.tar.gz Complete output from command python http://setup.py setu...</content>
-    <link href="https://discuss.pytorch.org/t/10672/1"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/10863/2</id>
     <title>Fast serialization of Tensors? [2]</title>
@@ -353,5 +346,12 @@
     <updated>2024-04-01T18:13:31.613000+00:00</updated>
     <content>Ayush Aditya: ...nel) which will take an entire day and little more for just to find out sample entropy. So I thought if can use GPU it will be faster. I tried using "cupy" where I stored the data in GPU but failed to compute on it as I was utilizing a pre-existing module, specifically "nolds.samen". Can anyone help or...</content>
     <link href="https://discuss.pytorch.org/t/200002/1"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/143533/3</id>
+    <title>Morphological Distance Transform on Pytorch [3]</title>
+    <updated>2024-06-11T20:10:36.227000+00:00</updated>
+    <content>Gustavo Ulloa Poblete: Hello, I managed to use this function on GPU with the cupy library, it is very fast! https://docs.cupy.dev/en/v13.0.0rc1/reference/generated/cupyx.scipy.ndimage.distance_transform_edt.html#cupyx.scipy.ndimage...</content>
+    <link href="https://discuss.pytorch.org/t/143533/3"/>
   </entry>
 </feed>
