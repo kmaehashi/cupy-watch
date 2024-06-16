@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2024-06-11T20:10:36.227000+00:00</updated>
+  <updated>2024-06-16T13:54:29.522000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/10863/2</id>
-    <title>Fast serialization of Tensors? [2]</title>
-    <updated>2017-12-19T19:55:24.713000+00:00</updated>
-    <content>Scott: I should look more into CuPy and their serializers: https://chainer.readthedocs.io/en/v2-docs-cupy/reference/serializers.html</content>
-    <link href="https://discuss.pytorch.org/t/10863/2"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/13553/1</id>
     <title>Solving sparse linear systems on the GPU [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-06-11T20:10:36.227000+00:00</updated>
     <content>Gustavo Ulloa Poblete: Hello, I managed to use this function on GPU with the cupy library, it is very fast! https://docs.cupy.dev/en/v13.0.0rc1/reference/generated/cupyx.scipy.ndimage.distance_transform_edt.html#cupyx.scipy.ndimage...</content>
     <link href="https://discuss.pytorch.org/t/143533/3"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/204738/1</id>
+    <title>Undefined symbol: _ZNK&amp;hellip;. nameB5cxx11Ev [1]</title>
+    <updated>2024-06-16T13:54:29.522000+00:00</updated>
+    <content>Ivan He: ...d. This behaviour is the source of the following dependency conflicts. cudf 24.4.1 requires cubinlinker, which is not installed. cudf 24.4.1 requires cupy-cuda11x &amp;gt; =12.0.0, which is not installed. cudf 24.4.1 requires ptxcompiler, which is not installed. cuml 24.4.0 requires cupy-cuda11x &amp;gt; =12.0.0, whi...</content>
+    <link href="https://discuss.pytorch.org/t/204738/1"/>
   </entry>
 </feed>
