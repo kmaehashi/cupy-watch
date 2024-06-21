@@ -351,7 +351,7 @@
     <id>https://forums.developer.nvidia.com/t/297200/1</id>
     <title>Cudaq.sample(kernel,shots=1e7) Segmentation fault [1]</title>
     <updated>2024-06-21T01:23:22.015000+00:00</updated>
-    <content>janb: ...hots=1024*1024 it crashes got GPU, run 1048576 shots Segmentation fault This is the software stack I'm using # pip3 list|grep cuda cuda-quantum 0.7.1 cupy-cuda12x 13.2.0 CUDA-Q Version 0.7.1 (https://github.com/NVIDIA/cuda-quantum 1f8dd79d46cad9b9bd0eb220eb04408a2e6beda4) I run on GPU is A100 root@59f25...</content>
+    <content>janb: ...hots=1024*1024 it crashes got GPU, run 1048576 shots Segmentation fault This is the software stack I'm using # pip3 list|grep cuda cuda-quantum 0.7.1 cupy-cuda12x 13.2.0 CUDA-Q Version 0.7.1 (https://github.com/NVIDIA/cuda-quantum 1f8dd79d46cad9b9bd0eb220eb04408a2e6beda4) I run on GPU is A100 # nvidia-s...</content>
     <link href="https://forums.developer.nvidia.com/t/297200/1"/>
   </entry>
 </feed>
