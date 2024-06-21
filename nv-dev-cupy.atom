@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-06-21T01:23:22.015000+00:00</updated>
+  <updated>2024-06-21T22:28:08.847000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/240655/28</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/295606/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/296973/1</id>
-    <title>CUDARuntimeError: cudaErrorIllegalAddress: an illegal memory access was encountered [1]</title>
-    <updated>2024-06-19T14:54:54.933000+00:00</updated>
-    <content>Afonso Martingo C: ....cpp:84] Exception occurred for operator: 'ImageProcessing' - CUDARuntimeError: cudaErrorIllegalAddress: an illegal memory access was encountered At: cupy_backends/cuda/api/runtime.pyx(144): cupy_backends.cuda.api.runtime.check_status /usr/local/lib/python3.10/dist-packages/cupy/_creation/from_data.py(7...</content>
-    <link href="https://forums.developer.nvidia.com/t/296973/1"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/297200/1</id>
     <title>Cudaq.sample(kernel,shots=1e7) Segmentation fault [1]</title>
     <updated>2024-06-21T01:23:22.015000+00:00</updated>
     <content>janb: ...hots=1024*1024 it crashes got GPU, run 1048576 shots Segmentation fault This is the software stack I'm using # pip3 list|grep cuda cuda-quantum 0.7.1 cupy-cuda12x 13.2.0 CUDA-Q Version 0.7.1 (https://github.com/NVIDIA/cuda-quantum 1f8dd79d46cad9b9bd0eb220eb04408a2e6beda4) I run on GPU is A100 # nvidia-s...</content>
     <link href="https://forums.developer.nvidia.com/t/297200/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/296973/2</id>
+    <title>CUDARuntimeError: cudaErrorIllegalAddress: an illegal memory access was encountered [2]</title>
+    <updated>2024-06-21T22:28:08.847000+00:00</updated>
+    <content>Afonso Martingo C: ...this issue. I checked the new release notes and noticed that the update changed the way FormatConverterOp operates on host/device copies. I was using Cupy to acquire the frame that was sent through a Tensor Holoscan, I think the error I am facing is related to Cupy waiting for data on the GPU and after...</content>
+    <link href="https://forums.developer.nvidia.com/t/296973/2"/>
   </entry>
 </feed>
