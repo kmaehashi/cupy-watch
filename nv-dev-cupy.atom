@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-07-01T05:06:30.785000+00:00</updated>
+  <updated>2024-07-01T15:20:54.360000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/256495/5</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/296973/2"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/298222/1</id>
-    <title>CUDA indexing issues [1]</title>
-    <updated>2024-07-01T05:06:30.785000+00:00</updated>
-    <content>Rvalle1: ...n problematic for me. In my tests, all the intermediate results until the elementwise-matrix-multiplication were identical - I even switched to using cuPy to make sure that it wasn’t my mistake, but the cuPy implementation actually yields the same results and issues. Just pondering, I imagine that it ha...</content>
-    <link href="https://forums.developer.nvidia.com/t/298222/1"/>
+    <id>https://forums.developer.nvidia.com/t/298222/2</id>
+    <title>CUDA indexing issues [2]</title>
+    <updated>2024-07-01T15:20:54.360000+00:00</updated>
+    <content>Robert_Crovella: It's fairly common for the GPU to not generate bitwise identical calculation results compared to the CPU (or another platform). You can find numerous questions of this type, and there is not one single reason that describes them all. It's generally not based on "stress" or indexing errors . If yo...</content>
+    <link href="https://forums.developer.nvidia.com/t/298222/2"/>
   </entry>
 </feed>
