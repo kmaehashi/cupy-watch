@@ -351,7 +351,7 @@
     <id>https://forums.developer.nvidia.com/t/298222/1</id>
     <title>CUDA indexing issues [1]</title>
     <updated>2024-07-01T05:06:30.785000+00:00</updated>
-    <content>Rvalle1: ...n problematic for me. In my tests, all the intermediate results until the elementwise-matrix-multiplication were identical - I even switched to using cuPy to make sure that it wasn't my mistake, but the cuPy implementation actually yields the same results and issues. Just pondering, I imagine that it ha...</content>
+    <content>Rvalle1: ...n problematic for me. In my tests, all the intermediate results until the elementwise-matrix-multiplication were identical - I even switched to using cuPy to make sure that it wasn’t my mistake, but the cuPy implementation actually yields the same results and issues. Just pondering, I imagine that it ha...</content>
     <link href="https://forums.developer.nvidia.com/t/298222/1"/>
   </entry>
 </feed>
