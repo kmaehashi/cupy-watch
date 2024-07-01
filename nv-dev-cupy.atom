@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-06-21T22:28:08.847000+00:00</updated>
+  <updated>2024-07-01T05:06:30.785000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/240655/28</id>
-    <title>Cupy installation on Nvidia Drive AGX Xavier [28]</title>
-    <updated>2023-06-12T14:50:26.059000+00:00</updated>
-    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
-    <link href="https://forums.developer.nvidia.com/t/240655/28"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/256495/5</id>
     <title>Sdkmanager fails installing Drive SW 10.0(rev.2) with error in Drive Software platform [5]</title>
@@ -353,5 +346,12 @@
     <updated>2024-06-21T22:28:08.847000+00:00</updated>
     <content>Afonso Martingo C: ...this issue. I checked the new release notes and noticed that the update changed the way FormatConverterOp operates on host/device copies. I was using Cupy to acquire the frame that was sent through a Tensor Holoscan, I think the error I am facing is related to Cupy waiting for data on the GPU and after...</content>
     <link href="https://forums.developer.nvidia.com/t/296973/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/298222/1</id>
+    <title>CUDA indexing issues [1]</title>
+    <updated>2024-07-01T05:06:30.785000+00:00</updated>
+    <content>Rvalle1: ...n problematic for me. In my tests, all the intermediate results until the elementwise-matrix-multiplication were identical - I even switched to using cuPy to make sure that it wasn't my mistake, but the cuPy implementation actually yields the same results and issues. Just pondering, I imagine that it ha...</content>
+    <link href="https://forums.developer.nvidia.com/t/298222/1"/>
   </entry>
 </feed>
