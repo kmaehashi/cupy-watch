@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-07-01T17:23:13.196000+00:00</updated>
+  <updated>2024-07-01T18:14:42.756000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/256495/5</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/296973/2"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/298222/8</id>
-    <title>CUDA indexing issues [8]</title>
-    <updated>2024-07-01T17:23:13.196000+00:00</updated>
-    <content>Robert_Crovella: If you can provide a complete example using numba, that may help others to help you. Your example should be something others can run without adding anything or changing anything. Your example should make evident the numbers you are comparing to see the difference between CPU and GPU results. That...</content>
-    <link href="https://forums.developer.nvidia.com/t/298222/8"/>
+    <id>https://forums.developer.nvidia.com/t/298222/9</id>
+    <title>CUDA indexing issues [9]</title>
+    <updated>2024-07-01T18:14:42.756000+00:00</updated>
+    <content>njuffa: ...that works, gradually increase the size of the matrices until failures are observed. the fact that you are observing the same behavior with Numba and cuPy indicates that the problem is am issue in the code.</content>
+    <link href="https://forums.developer.nvidia.com/t/298222/9"/>
   </entry>
 </feed>
