@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-07-02T14:31:42.448000+00:00</updated>
+  <updated>2024-07-02T19:10:18.685000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/256495/5</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/296973/2"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/298222/12</id>
-    <title>CUDA indexing issues [12]</title>
-    <updated>2024-07-02T14:31:42.448000+00:00</updated>
-    <content>Robert_Crovella: previously you had said this: Raul_Valle: Specifically, elementwise-matrix-multiplication has been problematic for me. My suggestion would be to pare down your test case until it just does that. Just the calculation that you think is incorrect. And I would concur with njuffa: try demonstrating th...</content>
-    <link href="https://forums.developer.nvidia.com/t/298222/12"/>
+    <id>https://forums.developer.nvidia.com/t/298222/13</id>
+    <title>CUDA indexing issues [13]</title>
+    <updated>2024-07-02T19:10:18.685000+00:00</updated>
+    <content>Raul Valle: I edited my code above. In my new test I actually separated the tasks a bit: FWF_ACC_CPUONLY_DEBUG() is a function that generates all the intermediate outputs on the CPU sequentially. FWF_ACC_DEBUG() is a function that generates all the intermediate outputs on the GPU sequentially. In the second ...</content>
+    <link href="https://forums.developer.nvidia.com/t/298222/13"/>
   </entry>
 </feed>
