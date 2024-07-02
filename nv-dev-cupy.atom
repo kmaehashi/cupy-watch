@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-07-01T18:14:42.756000+00:00</updated>
+  <updated>2024-07-02T02:49:23.424000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/256495/5</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/296973/2"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/298222/9</id>
-    <title>CUDA indexing issues [9]</title>
-    <updated>2024-07-01T18:14:42.756000+00:00</updated>
-    <content>njuffa: ...that works, gradually increase the size of the matrices until failures are observed. the fact that you are observing the same behavior with Numba and cuPy indicates that the problem is am issue in the code.</content>
-    <link href="https://forums.developer.nvidia.com/t/298222/9"/>
+    <id>https://forums.developer.nvidia.com/t/298222/11</id>
+    <title>CUDA indexing issues [11]</title>
+    <updated>2024-07-02T02:49:23.424000+00:00</updated>
+    <content>Raul Valle: Bellow are the relevant data files to actually test. /uploads/short-url/lKMoLYMbzM89yO1FYAEtzK6zgaI.txt xtest.txt (59.5 KB) /uploads/short-url/xStgX3YpmudT4qAOzJhWrhiDWmd.txt d.txt (812 Bytes) /uploads/short-url/rrGUEpvZS3Un4weCgb7cpeKFDrg.txt x.txt (6.3 KB)</content>
+    <link href="https://forums.developer.nvidia.com/t/298222/11"/>
   </entry>
 </feed>
