@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-07-02T19:10:18.685000+00:00</updated>
+  <updated>2024-07-04T16:56:13.603000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/256495/5</id>
-    <title>Sdkmanager fails installing Drive SW 10.0(rev.2) with error in Drive Software platform [5]</title>
-    <updated>2023-06-14T08:55:53.890000+00:00</updated>
-    <content>Balakrishnan Ayyanar: First we moved to the version 5.2.6 to avoid this issue mentioned here https://forums.developer.nvidia.com/t/cupy-installation-on-nvidia-drive-agx-xavier/240655 Cupy installation on Nvidia Drive AGX Xavier /c/autonomous-vehicles/drive-agx/drive-agx-xavier-general...</content>
-    <link href="https://forums.developer.nvidia.com/t/256495/5"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/254110/13</id>
     <title>HDMI port on NVIDIA DRIVE AGX with 5.2.6 drive OS not working properly [13]</title>
@@ -353,5 +346,12 @@
     <updated>2024-07-02T19:10:18.685000+00:00</updated>
     <content>Raul Valle: I edited my code above. In my new test I actually separated the tasks a bit: FWF_ACC_CPUONLY_DEBUG() is a function that generates all the intermediate outputs on the CPU sequentially. FWF_ACC_DEBUG() is a function that generates all the intermediate outputs on the GPU sequentially. In the second ...</content>
     <link href="https://forums.developer.nvidia.com/t/298222/13"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/298497/10</id>
+    <title>Is the performance of cuda radix-sort related to data itself? [10]</title>
+    <updated>2024-07-04T16:56:13.603000+00:00</updated>
+    <content>Robert_Crovella: ...make this change, without hampering other work you are doing, then that may be another avenue to explore. Although maybe not convenient to use here, cupy sort probably knows how to do a sensible job of sorting columns of an array.</content>
+    <link href="https://forums.developer.nvidia.com/t/298497/10"/>
   </entry>
 </feed>
