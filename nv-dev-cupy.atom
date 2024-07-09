@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-07-04T16:56:13.603000+00:00</updated>
+  <updated>2024-07-09T05:51:22.595000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/254110/13</id>
-    <title>HDMI port on NVIDIA DRIVE AGX with 5.2.6 drive OS not working properly [13]</title>
-    <updated>2023-06-14T08:56:42.158000+00:00</updated>
-    <content>Balakrishnan Ayyanar: First we moved to the version 5.2.6 to avoid this issue mentioned here https://forums.developer.nvidia.com/t/cupy-installation-on-nvidia-drive-agx-xavier/240655 We developed the ROS driver for sensors again for 5.2.6( Since drive work SDK is different from 5.1.6)...</content>
-    <link href="https://forums.developer.nvidia.com/t/254110/13"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/256707/3</id>
     <title>Usage Limit on DLI Data Science course [3]</title>
@@ -353,5 +346,12 @@
     <updated>2024-07-04T16:56:13.603000+00:00</updated>
     <content>Robert_Crovella: ...make this change, without hampering other work you are doing, then that may be another avenue to explore. Although maybe not convenient to use here, cupy sort probably knows how to do a sensible job of sorting columns of an array.</content>
     <link href="https://forums.developer.nvidia.com/t/298497/10"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/299009/4</id>
+    <title>How I can parallel access the meta data for each stream? [4]</title>
+    <updated>2024-07-09T05:51:22.595000+00:00</updated>
+    <content>Debjit Adak: ...vds_buf_surface_gpu(hash(gst_buffer), frame_meta.batch_id) # dataptr is of type PyCapsule → Use ctypes to retrieve the pointer as an int to pass into cupy ctypes.pythonapi.PyCapsule_GetPointer.restype = ctypes.c_void_p ctypes.pythonapi.PyCapsule_GetPointer.argtypes = [ctypes.py_object, ctypes.c_char_p]...</content>
+    <link href="https://forums.developer.nvidia.com/t/299009/4"/>
   </entry>
 </feed>
