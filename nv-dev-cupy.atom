@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-07-11T03:50:40.848000+00:00</updated>
+  <updated>2024-07-11T19:16:13.129000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/256100/6</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/299421/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/299422/1</id>
-    <title>Add way to recover edited file - undo changes - I corrupted requirements.txt and the container build failed [1]</title>
-    <updated>2024-07-11T03:50:40.848000+00:00</updated>
-    <content>Joe: I added cupy to my requirements.txt while troubleshooting a Docker WSL issue. The container failed to build and now I had no GUI/Web access to the requirements.tx...</content>
-    <link href="https://forums.developer.nvidia.com/t/299422/1"/>
+    <id>https://forums.developer.nvidia.com/t/299422/5</id>
+    <title>Add way to recover edited file - undo changes - I corrupted requirements.txt and the container build failed [5]</title>
+    <updated>2024-07-11T19:16:13.129000+00:00</updated>
+    <content>Edward: Just to confirm, you can't remove the cupy package from Environment &amp;gt; Packages in the AI Workbench UI and rebuild the project?</content>
+    <link href="https://forums.developer.nvidia.com/t/299422/5"/>
   </entry>
 </feed>
