@@ -2,22 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-07-09T05:51:22.595000+00:00</updated>
+  <updated>2024-07-11T03:50:40.848000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/256707/3</id>
-    <title>Usage Limit on DLI Data Science course [3]</title>
-    <updated>2023-06-14T23:30:26.386000+00:00</updated>
-    <content>Adamparness726: ...p Imgur imgur.com RuntimeError Traceback (most recent call last) in /opt/conda/envs/rapids/lib/python3.7/site-packages/cuml/common/memory_utils.py in cupy_rmm_wrapper(*args, **kwargs) 54 def cupy_rmm_wrapper(*args, **kwargs): 55 with cupy_using_allocator(rmm.rmm_cupy_allocator): — &amp;gt; 56 return func(*args...</content>
-    <link href="https://forums.developer.nvidia.com/t/256707/3"/>
-  </entry>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/257480/2</id>
-    <title>Import Cupy throws AttributeError on &amp;lsquo;numpy&amp;rsquo; [2]</title>
-    <updated>2023-06-23T00:25:53.879000+00:00</updated>
-    <content>Robert_Crovella: min.huang1: module 'numpy' has no attribute 'typeDict' https://stackoverflow.com/questions/74852225/attributeerror-module-numpy-has-no-attribute-typedict stackoverflow.com https://stackoverflow.com/users/11861874/add Add https://stackoverflow.com/questions/74852225/attributeerror-module-numpy-has...</content>
-    <link href="https://forums.developer.nvidia.com/t/257480/2"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/256100/6</id>
     <title>Facing a issue working with numba and cupy [6]</title>
@@ -353,5 +339,19 @@
     <updated>2024-07-09T05:51:22.595000+00:00</updated>
     <content>Debjit Adak: ...vds_buf_surface_gpu(hash(gst_buffer), frame_meta.batch_id) # dataptr is of type PyCapsule → Use ctypes to retrieve the pointer as an int to pass into cupy ctypes.pythonapi.PyCapsule_GetPointer.restype = ctypes.c_void_p ctypes.pythonapi.PyCapsule_GetPointer.argtypes = [ctypes.py_object, ctypes.c_char_p]...</content>
     <link href="https://forums.developer.nvidia.com/t/299009/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/299421/1</id>
+    <title>Windows WSL / Docker Desktop users must update to Docker Desktop v4.31.1 [1]</title>
+    <updated>2024-07-11T03:36:14.397000+00:00</updated>
+    <content>Joe: ...und this after installing the latest NVIDIA workstation. It seems like some kind of driver issue outside Workbench The error message I saw when using cupy was "CUDARuntimeError: cudaErrorSymbolNotFound: named symbol not found" video driver 555.xx and later PS C:\Users\joe &amp;gt; nvidia-smi Wed Jul 10 23:26:2...</content>
+    <link href="https://forums.developer.nvidia.com/t/299421/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/299422/1</id>
+    <title>Add way to recover edited file - undo changes - I corrupted requirements.txt and the container build failed [1]</title>
+    <updated>2024-07-11T03:50:40.848000+00:00</updated>
+    <content>Joe: I added cupy to my requirements.txt while troubleshooting a Docker WSL issue. The container failed to build and now I had no GUI/Web access to the requirements.tx...</content>
+    <link href="https://forums.developer.nvidia.com/t/299422/1"/>
   </entry>
 </feed>
