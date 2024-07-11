@@ -344,7 +344,7 @@
     <id>https://forums.developer.nvidia.com/t/299421/1</id>
     <title>Windows WSL / Docker Desktop users must update to Docker Desktop v4.31.1 [1]</title>
     <updated>2024-07-11T03:36:14.397000+00:00</updated>
-    <content>Joe: ...und this after installing the latest NVIDIA workstation. It seems like some kind of driver issue outside Workbench The error message I saw when using cupy was "CUDARuntimeError: cudaErrorSymbolNotFound: named symbol not found" video driver 555.xx and later PS C:\Users\joe &amp;gt; nvidia-smi Wed Jul 10 23:26:2...</content>
+    <content>Joe: ...PUs from the containers if they are running Docker Desktop versions older than 4.31.1 . My project was running a PyTorch image because it already had cupy in it. I found this after installing the latest NVIDIA workstation but probably isn't directly related to that. This seems like some kind of driver i...</content>
     <link href="https://forums.developer.nvidia.com/t/299421/1"/>
   </entry>
   <entry>
