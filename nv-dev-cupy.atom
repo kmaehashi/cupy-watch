@@ -246,7 +246,7 @@
     <id>https://forums.developer.nvidia.com/t/293271/5</id>
     <title>How to perform eigenvalue decompositions for large matrices with Python [5]</title>
     <updated>2024-05-17T21:29:27.745000+00:00</updated>
-    <content>Curefab: ...run one of the C++/Cuda symmetric matrix examples with some modifications for your Matrix size and batch size 1 to see, whether it is a cuSolver or a CuPy limitation: https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuSOLVER github.com https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuS...</content>
+    <content>Sebastian Wittmeier (Curefab Technologies GmbH): ...run one of the C++/Cuda symmetric matrix examples with some modifications for your Matrix size and batch size 1 to see, whether it is a cuSolver or a CuPy limitation: https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuSOLVER github.com https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuS...</content>
     <link href="https://forums.developer.nvidia.com/t/293271/5"/>
   </entry>
   <entry>
