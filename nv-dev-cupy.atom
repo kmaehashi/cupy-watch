@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-07-29T08:33:03.049000+00:00</updated>
+  <updated>2024-07-30T09:15:31.928000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/253888/4</id>
-    <title>Profiling using Nsight compute CLI python script with Cupy [4]</title>
-    <updated>2023-07-13T21:03:26.103000+00:00</updated>
-    <content>Jmarusarz: ...plication is failing. to sanity check, can you share the output of running "python3.9 transformer.py" and then running "ncu --target-processes all -k cupy_sum -o cupy_sum_1 python3.9 transformer.py" immediately after?</content>
-    <link href="https://forums.developer.nvidia.com/t/253888/4"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/230153/5</id>
     <title>Nsight Systems causes CuPy to crash in Windows 10 if nvcc is invoked for kernel compilation [5]</title>
@@ -353,5 +346,12 @@
     <updated>2024-07-29T08:33:03.049000+00:00</updated>
     <content>Alstom259: ...and followed the installation guide on Windows CMD terminal: I created a conda environment: conda create -n pyoptix-windows python numpy conda-forge::cupy pillow pytest Activated it: conda activate pyoptix-windows Installed pynvrtc: pip install pynvrtc Set the PYOPTIX_CMAKE_ARGS environment variable: se...</content>
     <link href="https://forums.developer.nvidia.com/t/301509/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/301656/1</id>
+    <title>TensorRT 10.1: Different inference results of onnxruntime and tensorrt [1]</title>
+    <updated>2024-07-30T09:15:31.928000+00:00</updated>
+    <content>astan.w: ....22 CUDA Version: 12.2 Operating System + Version : Windows 10 22H2 19045.3448 Python Version: 3.10 onnxruntime version: 1.16.0 numpy version: 1.23.1 cupy version: 13.2.0 Relevant Files https://drive.google.com/file/d/1toMublS6TQgP3NZDWc8gnwJJ8qLMz9VY/view drive.google.com https://drive.google.com/file/...</content>
+    <link href="https://forums.developer.nvidia.com/t/301656/1"/>
   </entry>
 </feed>
