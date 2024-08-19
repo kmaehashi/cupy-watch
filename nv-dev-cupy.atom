@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-08-12T07:14:45.652000+00:00</updated>
+  <updated>2024-08-19T06:40:42.813000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/260917/1</id>
-    <title>Not able to set CPU clock frequency on Emulated Orin Nano [1]</title>
-    <updated>2023-07-25T08:06:45.075000+00:00</updated>
-    <content>Naitik Nakrani: We have emulated AGX Orin 32 GB module as Jetson Orin Nano 8 GB module, which has 6 cores and 2 power modes 15W and 7W. Right now we are working on 15W MaxN mode which has all the 6 cores on and the max clk frequency for the same is 1510 MHz, but by default clk freq (cpuinfo_cur_freq) of core num...</content>
-    <link href="https://forums.developer.nvidia.com/t/260917/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/262419/3</id>
     <title>Holoviz/OpenGL Interoperability [3]</title>
@@ -353,5 +346,12 @@
     <updated>2024-08-12T07:14:45.652000+00:00</updated>
     <content>AastaLLL: ...1-py3 for JetPack 5.1.1 contains: TensorFlow 2.11.0 PyTorch v2.0.0 torchvision v0.15.1 torchaudio v2.0.1 onnx 1.13.1 onnxruntime 1.16.0 optimum 1.8.8 CuPy 13.0.0 numpy 1.23.5 numba 0.56.4 PyCUDA 2022.2 OpenCV 4.5.0 (with CUDA) pandas 2.0.1 scipy 1.10.0 scikit-learn 1.2.2 diffusers 0.17.1 transformers 4....</content>
     <link href="https://forums.developer.nvidia.com/t/303075/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/295814/6</id>
+    <title>When upgrade from CUDA12.4 to 12.5 the compilation became broken [6]</title>
+    <updated>2024-08-19T06:40:42.813000+00:00</updated>
+    <content>Harald Siegmund: ...r this bug and that I agree to the [Code of Conduct](CODE_OF_CONDUCT.md) ### Type of Bug Compile-time Error ### Component Thrust ### Describe the bug CuPy cannot be built due to this compiler error, which does not exist at all. I think this might be due to a missing compiler guard that used to exist som...</content>
+    <link href="https://forums.developer.nvidia.com/t/295814/6"/>
   </entry>
 </feed>
