@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2024-05-23T19:27:10.458000+00:00</updated>
+  <updated>2024-09-09T19:57:50.134000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -94,5 +94,12 @@
     <updated>2024-05-23T19:27:10.458000+00:00</updated>
     <content>Geoffrey Thomas: ...ree with that, in that while the packages are few and advanced, I think they will be widely installed by people. Examples given so far are CUDA, MKL, cupy, and arrow, which from at least my perspective (people doing scientific computing but not using Conda) are very common packages. Very few packagers w...</content>
     <link href="https://discuss.python.org/t/53824/44"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/63191/24</id>
+    <title>PEP 755: Implicit namespace policy for PyPI [24]</title>
+    <updated>2024-09-09T19:57:50.134000+00:00</updated>
+    <content>James Webber: Brendan Barnwell: Would this PEP actually handle the situation described in that particular comment? If NVIDIA owned the cupy- prefix then it would prevent typo-squatting of those packages. But it wouldn't prevent typo-squatting on cuppy- or something. So yes and no: it prev...</content>
+    <link href="https://discuss.python.org/t/63191/24"/>
   </entry>
 </feed>
