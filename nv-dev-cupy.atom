@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-08-19T06:40:42.813000+00:00</updated>
+  <updated>2024-09-09T04:39:25.395000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/262419/3</id>
-    <title>Holoviz/OpenGL Interoperability [3]</title>
-    <updated>2023-08-10T05:17:24.860000+00:00</updated>
-    <content>: ...nit__(*args, **kwargs) def setup(self, spec: OperatorSpec): spec.input("render_buffer_input") def compute(self, op_input, op_output, context): import cupy as cp message_input = op_input.receive("render_buffer_input") #buffer_input = message_input.get("") #cp_array = cp.asarray(buffer_input) #print(cp_ar...</content>
-    <link href="https://forums.developer.nvidia.com/t/262419/3"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/264411/4</id>
     <title>Transfer tensor device without copying it in Jetson device [4]</title>
@@ -353,5 +346,12 @@
     <updated>2024-08-19T06:40:42.813000+00:00</updated>
     <content>Harald Siegmund: ...r this bug and that I agree to the [Code of Conduct](CODE_OF_CONDUCT.md) ### Type of Bug Compile-time Error ### Component Thrust ### Describe the bug CuPy cannot be built due to this compiler error, which does not exist at all. I think this might be due to a missing compiler guard that used to exist som...</content>
     <link href="https://forums.developer.nvidia.com/t/295814/6"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/306145/2</id>
+    <title>Is there an efficient way to implement a function similar to np.add.at() function in NumPy? [2]</title>
+    <updated>2024-09-09T04:39:25.395000+00:00</updated>
+    <content>njuffa: ...don't have first-hand experience in this direction, but is seems the first place where you would want to look for this functionality is in PyCUDA and CuPy. If you cannot find anything relevant there, maybe look at Thrust. yanghang162: due to the randomness of the indices, memory access efficiency is ver...</content>
+    <link href="https://forums.developer.nvidia.com/t/306145/2"/>
   </entry>
 </feed>
