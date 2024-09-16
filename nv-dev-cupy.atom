@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-09-09T04:39:25.395000+00:00</updated>
+  <updated>2024-09-16T17:09:48.247000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/264411/4</id>
@@ -171,13 +171,6 @@
     <updated>2024-04-09T06:03:03.259000+00:00</updated>
     <content>AastaLLL: Hi, Could you share more about how you modify the code to GPU implementation? Do you use CuPy or other GPU-based libraries? Thanks.</content>
     <link href="https://forums.developer.nvidia.com/t/288869/3"/>
-  </entry>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/830</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [830]</title>
-    <updated>2024-04-10T16:41:20.466000+00:00</updated>
-    <content>Alain Paillou: ...rbulence management with planetary &amp;amp; Moon video captures. I get significant improvements : Moon video capture enhancement - JetsonSky &amp;amp; NVidia GPU - (Cupy, CUDA) - Apollo 15 landing site https://www.youtube.com/watch Moon video capture enhancement - JetsonSky &amp;amp; NVidia GPU - (Cupy, CUDA) - Apollo 15 land...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/830"/>
   </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/290076/1</id>
@@ -353,5 +346,12 @@
     <updated>2024-09-09T04:39:25.395000+00:00</updated>
     <content>njuffa: ...don't have first-hand experience in this direction, but is seems the first place where you would want to look for this functionality is in PyCUDA and CuPy. If you cannot find anything relevant there, maybe look at Thrust. yanghang162: due to the randomness of the indices, memory access efficiency is ver...</content>
     <link href="https://forums.developer.nvidia.com/t/306145/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/858</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [858]</title>
+    <updated>2024-09-16T17:09:48.247000+00:00</updated>
+    <content>Alain Paillou: ...eleased on Github some small programs to allow you to test some of my basics functions i use in JetsonSky. The link : https://github.com/AlainPaillou/CUPY-image-videos-treatments-functions github.com https://github.com/AlainPaillou/CUPY-image-videos-treatments-functions GitHub - AlainPaillou/CUPY-image-...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/858"/>
   </entry>
 </feed>
