@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-09-16T17:09:48.247000+00:00</updated>
+  <updated>2024-09-22T15:52:19.600000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/264411/4</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/306145/2"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/858</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [858]</title>
-    <updated>2024-09-16T17:09:48.247000+00:00</updated>
-    <content>Alain Paillou: ...eleased on Github some small programs to allow you to test some of my basics functions i use in JetsonSky. The link : https://github.com/AlainPaillou/CUPY-image-videos-treatments-functions github.com https://github.com/AlainPaillou/CUPY-image-videos-treatments-functions GitHub - AlainPaillou/CUPY-image-...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/858"/>
+    <id>https://forums.developer.nvidia.com/t/76861/859</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [859]</title>
+    <updated>2024-09-22T15:52:19.600000+00:00</updated>
+    <content>Alain Paillou: ...ky can also manage background gradient in a video (or a photo. An example here : Deep sky video gradient removal - JetsonSky and NVidia GPU computing CUPY &amp;amp; CUAD https://www.youtube.com/watch Deep sky video gradient removal - JetsonSky and NVidia GPU computing CUPY &amp;amp; CUAD Alain</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/859"/>
   </entry>
 </feed>
