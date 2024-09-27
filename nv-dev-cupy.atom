@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-09-22T15:52:19.600000+00:00</updated>
+  <updated>2024-09-27T09:20:10.485000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/264411/4</id>
-    <title>Transfer tensor device without copying it in Jetson device [4]</title>
-    <updated>2023-08-30T08:23:17.494000+00:00</updated>
-    <content>Michele Tessari: Thank you for the response, Now I better understood the memory management in cuda. It seems CuPy https://docs.cupy.dev/en/stable/reference/generated/cupy.cuda.MemoryPool.html support the unified memory allocation and also the conversion to pytorc...</content>
-    <link href="https://forums.developer.nvidia.com/t/264411/4"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/263644/12</id>
     <title>Profilometry, performance, and number of threads on the Jetson [12]</title>
@@ -353,5 +346,12 @@
     <updated>2024-09-22T15:52:19.600000+00:00</updated>
     <content>Alain Paillou: ...ky can also manage background gradient in a video (or a photo. An example here : Deep sky video gradient removal - JetsonSky and NVidia GPU computing CUPY &amp;amp; CUAD https://www.youtube.com/watch Deep sky video gradient removal - JetsonSky and NVidia GPU computing CUPY &amp;amp; CUAD Alain</content>
     <link href="https://forums.developer.nvidia.com/t/76861/859"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/308077/1</id>
+    <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [1]</title>
+    <updated>2024-09-27T09:20:10.485000+00:00</updated>
+    <content>Ajithkumar Ak95: ...rsion (valid for GPU only) • Issue Type( questions) Hi @fanzh , all I am working on a project involving DeepStream's deepstream_imagedata-multistream_cupy application, which builds on top of the deepstream-imagedata-multistream sample. This application allows for GPU-based image buffer access using CuPy...</content>
+    <link href="https://forums.developer.nvidia.com/t/308077/1"/>
   </entry>
 </feed>
