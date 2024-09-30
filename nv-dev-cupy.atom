@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-09-29T09:21:19.507000+00:00</updated>
+  <updated>2024-09-30T04:19:41.998000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/263644/12</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/76861/859"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/308077/3</id>
-    <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [3]</title>
-    <updated>2024-09-29T09:21:19.507000+00:00</updated>
-    <content>Fechen: ajithkumar.ak95: Accessing image data from GPU in multistream pipelines using CuPy (or an alternative). Currently there is no such sample for Jetson. ajithkumar.ak95: Modifying the image buffers in-place with changes reflected downs...</content>
-    <link href="https://forums.developer.nvidia.com/t/308077/3"/>
+    <id>https://forums.developer.nvidia.com/t/308077/4</id>
+    <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [4]</title>
+    <updated>2024-09-30T04:19:41.998000+00:00</updated>
+    <content>Ajithkumar Ak95: I need to access cupy based buffer in GPU, so that I can run inferences asynchronous inference operations. I dont need triton inference server, since we are developing mor...</content>
+    <link href="https://forums.developer.nvidia.com/t/308077/4"/>
   </entry>
 </feed>
