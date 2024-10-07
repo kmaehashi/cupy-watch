@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-09-30T06:07:18.332000+00:00</updated>
+  <updated>2024-10-07T00:05:49.731000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/263644/12</id>
-    <title>Profilometry, performance, and number of threads on the Jetson [12]</title>
-    <updated>2023-09-05T12:26:46.243000+00:00</updated>
-    <content>Stefano Oliveira: I understand, @Robert_Crovella . Thank you for the help!</content>
-    <link href="https://forums.developer.nvidia.com/t/263644/12"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/266434/2</id>
     <title>The Origin of the m &amp;lt;= 32 and n &amp;lt;= 32 Limitations in gesvdjBatched? [2]</title>
@@ -353,5 +346,12 @@
     <updated>2024-09-30T06:07:18.332000+00:00</updated>
     <content>Ajithkumar Ak95: It wont work, we tried it for 3 years. We are doing not just inference using tf. we need frame in cupy.</content>
     <link href="https://forums.developer.nvidia.com/t/308077/14"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/308933/1</id>
+    <title>String similarity package in cudF for fuzzy merge [1]</title>
+    <updated>2024-10-07T00:05:49.731000+00:00</updated>
+    <content>Teslim Kuteyi: ...m = df1[key1].apply(lambda x: process.extract(x, s, scorer=fuzz.partial_ratio, limit=limit)) df1['matches'] = m I then tried this: import cudf import cupy as cp from cudf.utils.string_similarity import levenshtein_distance ( and also cudf.levenshtein_distance) def gpu_fuzzy_merge(df1, df2, key1, key2, t...</content>
+    <link href="https://forums.developer.nvidia.com/t/308933/1"/>
   </entry>
 </feed>
