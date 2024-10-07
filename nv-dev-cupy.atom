@@ -349,7 +349,7 @@
   </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/309039/1</id>
-    <title>Gpu mapped buffer from gstreamer [1]</title>
+    <title>Jetson/Python: Gpu mapped buffer from gstreamer [1]</title>
     <updated>2024-10-07T18:46:22.993000+00:00</updated>
     <content>Stein: ..., I have a couple of challenges: I want to keep the buffer in NV12 format, and I want to to map the frame to the GPU for further use with CUDA ( with cupy ). I've looked the at the bindings from https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/ deepstream_python_apps and see the following: https:...</content>
     <link href="https://forums.developer.nvidia.com/t/309039/1"/>
