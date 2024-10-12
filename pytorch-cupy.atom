@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2024-06-16T13:54:29.522000+00:00</updated>
+  <updated>2024-10-12T06:42:54.722000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/13553/1</id>
-    <title>Solving sparse linear systems on the GPU [1]</title>
-    <updated>2018-02-12T00:42:07.231000+00:00</updated>
-    <content>: ...near solve on the GPU by giving it a sparse matrix and a dense vector, what would be the best way to do it? Should I look into external packages like cupy? Does anybody have experience calling packages like suitesparse from python? I’d still prefer to have my tensors in pytorch since I’m using many pyto...</content>
-    <link href="https://discuss.pytorch.org/t/13553/1"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/16465/1</id>
     <title>Sparse × Sparse dot product [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-06-16T13:54:29.522000+00:00</updated>
     <content>Ivan He: ...d. This behaviour is the source of the following dependency conflicts. cudf 24.4.1 requires cubinlinker, which is not installed. cudf 24.4.1 requires cupy-cuda11x &amp;gt; =12.0.0, which is not installed. cudf 24.4.1 requires ptxcompiler, which is not installed. cuml 24.4.0 requires cupy-cuda11x &amp;gt; =12.0.0, whi...</content>
     <link href="https://discuss.pytorch.org/t/204738/1"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/211416/9</id>
+    <title>Discovering GPUs in multinode environment [9]</title>
+    <updated>2024-10-12T06:42:54.722000+00:00</updated>
+    <content>: https://mpi4py.readthedocs.io/en/stable/index.html MPI for Python + https://cupy.dev CuPy is a possible solution. Please see https://docs.cupy.dev/en/latest/user_guide/interoperability.html#mpi4py Example Code .</content>
+    <link href="https://discuss.pytorch.org/t/211416/9"/>
   </entry>
 </feed>
