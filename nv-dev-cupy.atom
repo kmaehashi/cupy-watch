@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-10-12T22:08:53.898000+00:00</updated>
+  <updated>2024-10-14T11:45:49.183000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/238537/9</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/309039/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/309603/3</id>
-    <title>Problems(and solutions) installing HPC 12.6 over Kali [3]</title>
-    <updated>2024-10-12T22:08:53.898000+00:00</updated>
-    <content>K Glimps: ...da/cudadrv/libs.py Now, after little reading, life is easy. All what is needed export CUDA_HOME=/opt/nvidia/hpc_sdk/Linux_x86_64/24.9/cuda now for 3) cupy just be sure to module load 24.9 before using cupy also you might add cuda to your path export PATH=/opt/nvidia/hpc_sdk/Linux_x86_64/24.9/compilers/b...</content>
-    <link href="https://forums.developer.nvidia.com/t/309603/3"/>
+    <id>https://forums.developer.nvidia.com/t/309603/6</id>
+    <title>Problems(and solutions) installing HPC 12.6 over Kali [6]</title>
+    <updated>2024-10-14T11:45:49.183000+00:00</updated>
+    <content>K Glimps: Now I can test JAX vs cupy so far jitted JAX is faster than cupy but i need to do more tests.</content>
+    <link href="https://forums.developer.nvidia.com/t/309603/6"/>
   </entry>
 </feed>
