@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-10-21T23:17:55.925000+00:00</updated>
+  <updated>2024-10-22T00:25:54.999000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/267671/5</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/309603/6"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/310677/1</id>
-    <title>Cupy support [1]</title>
-    <updated>2024-10-21T23:17:55.925000+00:00</updated>
-    <content>S Dempsey: Hey, I've playing with some code to speed up voxel generation, is cupy supported in extensions? I'm running win 10 btw thanks import cupy as cp from pxr import Gf def generate_voxel_grid(voxel_res, min_max, hoz_range, ve...</content>
-    <link href="https://forums.developer.nvidia.com/t/310677/1"/>
+    <id>https://forums.developer.nvidia.com/t/310677/2</id>
+    <title>Cupy support [2]</title>
+    <updated>2024-10-22T00:25:54.999000+00:00</updated>
+    <content>Richard: This is amazing. What a great code. I will pass it along to the devs. Thanks !!</content>
+    <link href="https://forums.developer.nvidia.com/t/310677/2"/>
   </entry>
 </feed>
