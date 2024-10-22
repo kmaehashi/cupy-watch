@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2024-10-07T20:02:58.479000+00:00</updated>
+  <updated>2024-10-22T22:57:39.086000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -108,5 +108,12 @@
     <updated>2024-10-07T20:02:58.479000+00:00</updated>
     <content>Andy Terrel: ...involved in data science, data processing, and scientific computing (Figure 1). The top three libraries used by these professionals are CUDA Python, CuPy, and Numba, reflecting the community's focus on performance and efficiency. Performance emerged as the highest-ranked criterion for most projects (sh...</content>
     <link href="https://discuss.python.org/t/60416/6"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/67597/14</id>
+    <title>Run python natively on gpu [14]</title>
+    <updated>2024-10-22T22:57:39.086000+00:00</updated>
+    <content>Andy Terrel: ...braries like PyTorch, Accelerated Pandas, NetworkX all have low code changes to run natively on the GPU. Get started there, then you can do more with cuPy as a numpy replacement, but as you find you need more general code, Numba-CUDA can help compiler user defined functions and types directly to the GPU...</content>
+    <link href="https://discuss.python.org/t/67597/14"/>
   </entry>
 </feed>
