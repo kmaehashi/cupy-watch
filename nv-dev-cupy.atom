@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-10-22T00:25:54.999000+00:00</updated>
+  <updated>2024-10-24T13:31:01.345000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/267671/5</id>
-    <title>Sparse matrix manipulation [5]</title>
-    <updated>2023-09-29T22:27:05.981000+00:00</updated>
-    <content>Robert_Crovella: That was the closest I could find for numba cuda. I ran a few small simple tests on that code, it seemed to work correctly. FWIW https://docs.cupy.dev/en/stable/reference/generated/cupy.cumsum.html cupy should be interoperable with numba cuda. The following code should remove the hazards I menti...</content>
-    <link href="https://forums.developer.nvidia.com/t/267671/5"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/268398/1</id>
     <title>Cant install G [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-10-22T00:25:54.999000+00:00</updated>
     <content>Richard: This is amazing. What a great code. I will pass it along to the devs. Thanks !!</content>
     <link href="https://forums.developer.nvidia.com/t/310677/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/311015/1</id>
+    <title>DS-7 In ARM , The saved images are all black [1]</title>
+    <updated>2024-10-24T13:31:01.345000+00:00</updated>
+    <content>745206234: ...ownedMemory(c_data_ptr, size, owner) # Create MemoryPointer object from unownedmem, at index 0 memptr = cp.cuda.MemoryPointer(unownedmem, 0) # Create cupy array to access the image data. This array is in GPU buffer n_frame_gpu = cp.ndarray(shape=shape, dtype=data_type, memptr=memptr, strides=strides, or...</content>
+    <link href="https://forums.developer.nvidia.com/t/311015/1"/>
   </entry>
 </feed>
