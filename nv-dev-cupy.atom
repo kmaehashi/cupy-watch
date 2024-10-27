@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-10-24T13:31:01.345000+00:00</updated>
+  <updated>2024-10-27T12:35:26.045000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/268398/1</id>
@@ -306,13 +306,6 @@
     <link href="https://forums.developer.nvidia.com/t/306145/2"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/859</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [859]</title>
-    <updated>2024-09-22T15:52:19.600000+00:00</updated>
-    <content>Alain Paillou: ...ky can also manage background gradient in a video (or a photo. An example here : Deep sky video gradient removal - JetsonSky and NVidia GPU computing CUPY &amp;amp; CUAD https://www.youtube.com/watch Deep sky video gradient removal - JetsonSky and NVidia GPU computing CUPY &amp;amp; CUAD Alain</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/859"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/308077/14</id>
     <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [14]</title>
     <updated>2024-09-30T06:07:18.332000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2024-10-24T13:31:01.345000+00:00</updated>
     <content>745206234: ...ownedMemory(c_data_ptr, size, owner) # Create MemoryPointer object from unownedmem, at index 0 memptr = cp.cuda.MemoryPointer(unownedmem, 0) # Create cupy array to access the image data. This array is in GPU buffer n_frame_gpu = cp.ndarray(shape=shape, dtype=data_type, memptr=memptr, strides=strides, or...</content>
     <link href="https://forums.developer.nvidia.com/t/311015/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/869</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [869]</title>
+    <updated>2024-10-27T12:35:26.045000+00:00</updated>
+    <content>Alain Paillou: ...Jetsonky installation on AGX Orin is on its way. I have successfully compiled OpenCV 4.10. with CUDA and GStreamer. I had to install CUDA SDK before. CUPY 13.3.0 is also installed but with some difficulties : I had to upgrade scipy : pip install -U scipy But in this case, i get problems with Numpy 2.0 a...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/869"/>
   </entry>
 </feed>
