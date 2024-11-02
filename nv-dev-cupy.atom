@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-10-27T12:35:26.045000+00:00</updated>
+  <updated>2024-11-02T10:31:31.908000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/268398/1</id>
-    <title>Cant install G [1]</title>
-    <updated>2023-10-04T08:33:22.511000+00:00</updated>
-    <content>Thanosrom95: Hi guys , so im trying to install vision_to_mavros lib in order to connect it with intel D455 Depth Camera . (Im using jetson Orin NX ). The problem is that again i cant find some packages , it cant locate them. One of them is this sudo apt -y install python3-gst-1.0 gir1.2-gst-rtsp-server-1.0 gs...</content>
-    <link href="https://forums.developer.nvidia.com/t/268398/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/268953/1</id>
     <title>Encode Video Stream get black frames or small size h265 frames When using VideoProcessingFramework [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-10-27T12:35:26.045000+00:00</updated>
     <content>Alain Paillou: ...Jetsonky installation on AGX Orin is on its way. I have successfully compiled OpenCV 4.10. with CUDA and GStreamer. I had to install CUDA SDK before. CUPY 13.3.0 is also installed but with some difficulties : I had to upgrade scipy : pip install -U scipy But in this case, i get problems with Numpy 2.0 a...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/869"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/309286/2</id>
+    <title>Multiprocessing support in Isaac Sim [2]</title>
+    <updated>2024-11-02T10:31:31.908000+00:00</updated>
+    <content>S Dempsey: Did you pip install multiprocessing? Tbh I'm not familiar with it I just used dask and it worked. Not sure of your application I tried cupy but didn't get very far. Not sure if your aware but you need to install modules in the Isaac folder if you check the docs. Hope this helps it's not m...</content>
+    <link href="https://forums.developer.nvidia.com/t/309286/2"/>
   </entry>
 </feed>
