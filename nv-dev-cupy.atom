@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-11-02T10:31:31.908000+00:00</updated>
+  <updated>2024-11-03T15:08:21.319000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/268953/1</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/311015/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/869</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [869]</title>
-    <updated>2024-10-27T12:35:26.045000+00:00</updated>
-    <content>Alain Paillou: ...Jetsonky installation on AGX Orin is on its way. I have successfully compiled OpenCV 4.10. with CUDA and GStreamer. I had to install CUDA SDK before. CUPY 13.3.0 is also installed but with some difficulties : I had to upgrade scipy : pip install -U scipy But in this case, i get problems with Numpy 2.0 a...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/869"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/309286/2</id>
     <title>Multiprocessing support in Isaac Sim [2]</title>
     <updated>2024-11-02T10:31:31.908000+00:00</updated>
     <content>S Dempsey: Did you pip install multiprocessing? Tbh I'm not familiar with it I just used dask and it worked. Not sure of your application I tried cupy but didn't get very far. Not sure if your aware but you need to install modules in the Isaac folder if you check the docs. Hope this helps it's not m...</content>
     <link href="https://forums.developer.nvidia.com/t/309286/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/875</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [875]</title>
+    <updated>2024-11-03T15:08:21.319000+00:00</updated>
+    <content>Alain Paillou: ...ibute to AlainPaillou/JETSONSKY development by creating an account on GitHub. With this version and the next to come, you will have to use new zwoasy_cupy library. The old zwoasi library is now obsolete (i use cupy instead of numpy to get the image buffer). I posted my very first tests with 16bits captu...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/875"/>
   </entry>
 </feed>
