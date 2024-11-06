@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-11-03T15:08:21.319000+00:00</updated>
+  <updated>2024-11-06T19:48:27.401000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/268953/1</id>
-    <title>Encode Video Stream get black frames or small size h265 frames When using VideoProcessingFramework [1]</title>
-    <updated>2023-10-10T06:35:41.276000+00:00</updated>
-    <content>Zxl6646761: ...kering, which does not Not the result I want. I followed the sample code https://github.com/NVIDIA/VideoProcessingFramework/blob/master/samples/SampleCupy.py , and modified it like this # # Copyright 2023 @royinx # # Licensed under the Apache License, Version 2.0 (the "License"); # you may not use this...</content>
-    <link href="https://forums.developer.nvidia.com/t/268953/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/271978/1</id>
     <title>ICYMI: Leveraging the Power of GPUs with CuPy in Python [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-11-03T15:08:21.319000+00:00</updated>
     <content>Alain Paillou: ...ibute to AlainPaillou/JETSONSKY development by creating an account on GitHub. With this version and the next to come, you will have to use new zwoasy_cupy library. The old zwoasi library is now obsolete (i use cupy instead of numpy to get the image buffer). I posted my very first tests with 16bits captu...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/875"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/312462/1</id>
+    <title>Looking for a cuda distributed array library for c++ [1]</title>
+    <updated>2024-11-06T19:48:27.401000+00:00</updated>
+    <content>Nelsonihc: Greetings! I found an implementation in CuPy that fits my needs, but I haven't been able to find a similar library for C++. Does anyone know of a C++ library with comparable functionality? The d...</content>
+    <link href="https://forums.developer.nvidia.com/t/312462/1"/>
   </entry>
 </feed>
