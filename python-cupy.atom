@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2024-10-22T22:57:39.086000+00:00</updated>
+  <updated>2024-11-07T19:19:14.755000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -115,5 +115,12 @@
     <updated>2024-10-22T22:57:39.086000+00:00</updated>
     <content>Andy Terrel: ...braries like PyTorch, Accelerated Pandas, NetworkX all have low code changes to run natively on the GPU. Get started there, then you can do more with cuPy as a numpy replacement, but as you find you need more general code, Numba-CUDA can help compile user defined functions and types directly to the GPU.</content>
     <link href="https://discuss.python.org/t/67597/14"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/70427/12</id>
+    <title>Why does my mini program work but my main program does not? [12]</title>
+    <updated>2024-11-07T19:19:14.755000+00:00</updated>
+    <content>Chuck R.: Yes I do add a path to sys.path(). Here's my full code that has the trouble. The filename is sysinfo2.py. NOTE: Pycharm is not used for this. I simply run the code in cmd.exe with python sysinfo2.py -summary . For debugging I use python -m pdb sysinfo2.py -summary I pass in the variable options a...</content>
+    <link href="https://discuss.python.org/t/70427/12"/>
   </entry>
 </feed>
