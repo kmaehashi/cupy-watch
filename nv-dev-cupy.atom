@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-11-06T19:48:27.401000+00:00</updated>
+  <updated>2024-11-16T09:44:21.909000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/271978/1</id>
@@ -66,13 +66,6 @@
     <updated>2024-01-30T14:15:03.053000+00:00</updated>
     <content>mrakgr: This is a CuPy error. See: https://github.com/cupy/cupy/issues/8146 Error when including mma.h : instance of overloaded function "__half::__half" matches the specif...</content>
     <link href="https://forums.developer.nvidia.com/t/280025/3"/>
-  </entry>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/281670/1</id>
-    <title>Problem with running the program from cupy [1]</title>
-    <updated>2024-02-02T18:12:29.599000+00:00</updated>
-    <content>Michalmaleczek: I installed cupy and cuda toolkit, I also created a simple program using cupy, unfortunately after running I get the following error: Traceback (most recent call last...</content>
-    <link href="https://forums.developer.nvidia.com/t/281670/1"/>
   </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/283619/1</id>
@@ -353,5 +346,12 @@
     <updated>2024-11-06T19:48:27.401000+00:00</updated>
     <content>Nelsonihc: Greetings! I found an implementation in CuPy that fits my needs, but I haven't been able to find a similar library for C++. Does anyone know of a C++ library with comparable functionality? The d...</content>
     <link href="https://forums.developer.nvidia.com/t/312462/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/281670/2</id>
+    <title>Problem with running the program from cupy [2]</title>
+    <updated>2024-11-16T09:44:21.909000+00:00</updated>
+    <content>Svkmongolec: if you find out why you got that error, please let me know becuase I have the same one</content>
+    <link href="https://forums.developer.nvidia.com/t/281670/2"/>
   </entry>
 </feed>
