@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-11-16T09:56:20.109000+00:00</updated>
+  <updated>2024-11-18T18:30:27.632000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/271979/1</id>
-    <title>ICYMI: Leveraging the Power of GPUs with CuPy in Python [1]</title>
-    <updated>2023-11-06T19:17:10.802000+00:00</updated>
-    <content>Jen Witsoe: Originally published at: https://developer.nvidia.com/blog/icymi-leveraging-the-power-of-gpus-with-cupy-in-python/ See how KDNuggets achieved 500x speedup using CuPy and NVIDIA CUDA on 3D arrays.</content>
-    <link href="https://forums.developer.nvidia.com/t/271979/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/272658/3</id>
     <title>[deepstream-python] how to blur object using nvbufsurface [3]</title>
@@ -353,5 +346,12 @@
     <updated>2024-11-16T09:56:20.109000+00:00</updated>
     <content>Svkmongolec: Upon installing cuda and cupy + running a basic python script import cupy as cp x = cp.array([1, 2, 3]) print(x**2) I get the following error : $ python CUDA_RESET.py Traceback (m...</content>
     <link href="https://forums.developer.nvidia.com/t/313531/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/313757/1</id>
+    <title>Fusing Epilog Operations with Matrix Multiplication Using nvmath-python [1]</title>
+    <updated>2024-11-18T18:30:27.632000+00:00</updated>
+    <content>Jen Witsoe: ...l bindings to the underlying libraries and higher-level Pythonic abstractions. It is interoperable with existing Python packages, such as PyTorch and CuPy. In this post, I show how to use epilogs…</content>
+    <link href="https://forums.developer.nvidia.com/t/313757/1"/>
   </entry>
 </feed>
