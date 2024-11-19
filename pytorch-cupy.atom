@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2024-11-15T06:07:42.006000+00:00</updated>
+  <updated>2024-10-12T06:42:54.722000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
+  <entry>
+    <id>https://discuss.pytorch.org/t/16465/1</id>
+    <title>Sparse × Sparse dot product [1]</title>
+    <updated>2018-04-16T08:45:52.634000+00:00</updated>
+    <content>Space Invader: Hello! Is there a function for a dot product of two sparse matrices? If there is no, is it possible to implement it using CuPy?</content>
+    <link href="https://discuss.pytorch.org/t/16465/1"/>
+  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/16479/1</id>
     <title>CUPY to use with PyTorch (import and use the whole CUDA library) [1]</title>
@@ -346,12 +353,5 @@
     <updated>2024-10-12T06:42:54.722000+00:00</updated>
     <content>: https://mpi4py.readthedocs.io/en/stable/index.html MPI for Python + https://cupy.dev CuPy is a possible solution. Please see https://docs.cupy.dev/en/latest/user_guide/interoperability.html#mpi4py Example Code .</content>
     <link href="https://discuss.pytorch.org/t/211416/9"/>
-  </entry>
-  <entry>
-    <id>https://discuss.pytorch.org/t/212997/1</id>
-    <title>PPO sample code gives NotImplementedError for TanhNormal [1]</title>
-    <updated>2024-11-15T06:07:42.006000+00:00</updated>
-    <content>nmsanm: ...=12.2.1 cudf-cu12 @ https://pypi.nvidia.com/cudf-cu12/cudf_cu12-24.10.1-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl cufflinks==0.17.3 cupy-cuda12x==12.2.0 cvxopt==1.3.2 cvxpy==1.5.3 cycler==0.12.1 cymem==2.0.8 Cython==3.0.11 dask==2024.10.0 datascience==0.17.6 db-dtypes==1.3.0 dbus-pytho...</content>
-    <link href="https://discuss.pytorch.org/t/212997/1"/>
   </entry>
 </feed>
