@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-11-21T08:36:05.694000+00:00</updated>
+  <updated>2024-11-21T09:12:15.483000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/272658/3</id>
-    <title>[deepstream-python] how to blur object using nvbufsurface [3]</title>
-    <updated>2023-11-14T03:43:42.288000+00:00</updated>
-    <content>Junshengy: ....Refer the following python apps.They are to process nvbufsurface with opencv/cuda. deepstream-imagedata-multistream deepstream-imagedata-multistream-cupy 3.In addition, I have written a sample according to your idea.This approach should have the worst performance /uploads/short-url/wd8a23KrVF8welWDVrOL...</content>
-    <link href="https://forums.developer.nvidia.com/t/272658/3"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/274084/3</id>
     <title>Custom convolution applied to 2D array in Cupy/ parallelize double for loop [3]</title>
@@ -353,5 +346,12 @@
     <updated>2024-11-21T08:36:05.694000+00:00</updated>
     <content>Ajithkumar Ak95: I am working for a client who sells video analytics solutions, and we are trying to do improvement in surveillance performance. We have sophisticated state of the art anomaly detection custom application. We are trying to scale up the system using nvidia's capabilities.</content>
     <link href="https://forums.developer.nvidia.com/t/308077/17"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/314200/1</id>
+    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [1]</title>
+    <updated>2024-11-21T09:12:15.483000+00:00</updated>
+    <content>Ajithkumar Ak95: ...Driver Version (valid for GPU only) • Issue Type( questions) Hi all I am working on a project involving DeepStream's deepstream_imagedata-multistream_cupy application, which builds on top of the deepstream-imagedata-multistream sample. This application allows for GPU-based image buffer access using CuPy...</content>
+    <link href="https://forums.developer.nvidia.com/t/314200/1"/>
   </entry>
 </feed>
