@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-11-18T18:30:27.632000+00:00</updated>
+  <updated>2024-11-21T08:36:05.694000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/272658/3</id>
@@ -271,13 +271,6 @@
     <link href="https://forums.developer.nvidia.com/t/306145/2"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/308077/14</id>
-    <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [14]</title>
-    <updated>2024-09-30T06:07:18.332000+00:00</updated>
-    <content>Ajithkumar Ak95: It wont work, we tried it for 3 years. We are doing not just inference using tf. we need frame in cupy.</content>
-    <link href="https://forums.developer.nvidia.com/t/308077/14"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/308933/1</id>
     <title>String similarity package in cudF for fuzzy merge [1]</title>
     <updated>2024-10-07T00:05:49.731000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2024-11-18T18:30:27.632000+00:00</updated>
     <content>Jen Witsoe: ...l bindings to the underlying libraries and higher-level Pythonic abstractions. It is interoperable with existing Python packages, such as PyTorch and CuPy. In this post, I show how to use epilogs…</content>
     <link href="https://forums.developer.nvidia.com/t/313757/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/308077/17</id>
+    <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [17]</title>
+    <updated>2024-11-21T08:36:05.694000+00:00</updated>
+    <content>Ajithkumar Ak95: I am working for a client who sells video analytics solutions, and we are trying to do improvement in surveillance performance. We have sophisticated state of the art anomaly detection custom application. We are trying to scale up the system using nvidia's capabilities.</content>
+    <link href="https://forums.developer.nvidia.com/t/308077/17"/>
   </entry>
 </feed>
