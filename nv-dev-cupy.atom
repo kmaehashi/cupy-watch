@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-11-22T08:41:10.943000+00:00</updated>
+  <updated>2024-11-22T15:04:18.290000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/274084/3</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/308077/17"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/314200/5</id>
-    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [5]</title>
-    <updated>2024-11-22T08:41:10.943000+00:00</updated>
-    <content>Fechen: ajithkumar.ak95: Inside a probe function : Causes the same issue. The pad probe function is a blocking callback function which will block the pipeline until the function finishes. ajithkumar.ak95: In a separate thread : Also causes degradation, similar to running it in the main pipeline. How did ...</content>
-    <link href="https://forums.developer.nvidia.com/t/314200/5"/>
+    <id>https://forums.developer.nvidia.com/t/314200/6</id>
+    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [6]</title>
+    <updated>2024-11-22T15:04:18.290000+00:00</updated>
+    <content>Ajithkumar Ak95: threading.Thread(target=self.Method,args=(),daemon=True).start() where Method is for 10000 times: A = cp.zeros((1000, 1000)) A + A</content>
+    <link href="https://forums.developer.nvidia.com/t/314200/6"/>
   </entry>
 </feed>
