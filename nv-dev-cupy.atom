@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-11-21T09:12:15.483000+00:00</updated>
+  <updated>2024-11-22T08:41:10.943000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/274084/3</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/308077/17"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/314200/1</id>
-    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [1]</title>
-    <updated>2024-11-21T09:12:15.483000+00:00</updated>
-    <content>Ajithkumar Ak95: ...Driver Version (valid for GPU only) • Issue Type( questions) Hi all I am working on a project involving DeepStream's deepstream_imagedata-multistream_cupy application, which builds on top of the deepstream-imagedata-multistream sample. This application allows for GPU-based image buffer access using CuPy...</content>
-    <link href="https://forums.developer.nvidia.com/t/314200/1"/>
+    <id>https://forums.developer.nvidia.com/t/314200/5</id>
+    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [5]</title>
+    <updated>2024-11-22T08:41:10.943000+00:00</updated>
+    <content>Fechen: ajithkumar.ak95: Inside a probe function : Causes the same issue. The pad probe function is a blocking callback function which will block the pipeline until the function finishes. ajithkumar.ak95: In a separate thread : Also causes degradation, similar to running it in the main pipeline. How did ...</content>
+    <link href="https://forums.developer.nvidia.com/t/314200/5"/>
   </entry>
 </feed>
