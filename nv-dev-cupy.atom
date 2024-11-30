@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-11-26T07:01:32.357000+00:00</updated>
+  <updated>2024-11-30T05:41:13.503000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/274084/3</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/313757/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/314200/7</id>
-    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [7]</title>
-    <updated>2024-11-25T03:19:03.165000+00:00</updated>
-    <content>Fechen: ...e sure the calculation thread using separated CUDA stream context. /uploads/short-url/im1l71n1HptMBuWTc2sKjOifejI.py deepstream_imagedata-multistream_cupy.py (15.1 KB)</content>
-    <link href="https://forums.developer.nvidia.com/t/314200/7"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/308077/18</id>
     <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [18]</title>
     <updated>2024-11-26T07:01:32.357000+00:00</updated>
     <content>Fechen: A suggestion is to use the latest Service Maker python APIs which is released with DeepStream 7.1 GA.</content>
     <link href="https://forums.developer.nvidia.com/t/308077/18"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/314200/8</id>
+    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [8]</title>
+    <updated>2024-11-30T05:41:13.503000+00:00</updated>
+    <content>Ajithkumar Ak95: ...e improved performance #=================================end============================================ stream.synchronize() commented or not!! WITH CUPY OPERATION WITH CUPY OPERATION Is there a way to seperate the cuda context so that streaming and expensive cupy operation doesnt interfer with each ot...</content>
+    <link href="https://forums.developer.nvidia.com/t/314200/8"/>
   </entry>
 </feed>
