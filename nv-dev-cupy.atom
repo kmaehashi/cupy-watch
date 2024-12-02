@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-12-02T01:55:07.484000+00:00</updated>
+  <updated>2024-12-02T09:58:55.106000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/274084/3</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/308077/18"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/314200/9</id>
-    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [9]</title>
-    <updated>2024-12-02T01:55:07.484000+00:00</updated>
-    <content>Fechen: ...thread. The pipeline performance will not been impacted. ajithkumar.ak95: Is there a way to seperate the cuda context so that streaming and expensive cupy operation doesnt interfer with each other? My sample code is using different CUDA stream context in the separated thread for calculating your "A+A" ....</content>
-    <link href="https://forums.developer.nvidia.com/t/314200/9"/>
+    <id>https://forums.developer.nvidia.com/t/314200/10</id>
+    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [10]</title>
+    <updated>2024-12-02T09:58:55.106000+00:00</updated>
+    <content>Ajithkumar Ak95: ...ee my machine configuration!! image Please advice on what to do? I was hopping to get something like pycuda driver context or multiprocessing with in cupy</content>
+    <link href="https://forums.developer.nvidia.com/t/314200/10"/>
   </entry>
 </feed>
