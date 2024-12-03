@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-12-02T10:38:28.806000+00:00</updated>
+  <updated>2024-12-03T07:41:53.868000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/274084/3</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/308077/18"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/314200/13</id>
-    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [13]</title>
-    <updated>2024-12-02T10:38:28.806000+00:00</updated>
-    <content>Ajithkumar Ak95: 362 and 363 lines commented off vs on!!</content>
-    <link href="https://forums.developer.nvidia.com/t/314200/13"/>
+    <id>https://forums.developer.nvidia.com/t/314200/14</id>
+    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [14]</title>
+    <updated>2024-12-03T07:41:53.868000+00:00</updated>
+    <content>Fechen: ...n check the FPS statistics in the log. I compared the 3 cases in a Geforce RTX 3060 Ti machine. Case 1: The original deepstream_imagedata-multistream_cupy sample FPS is around 59.9 Case 2: deepstream_imagedata-multistream_cupy with "A+A" calculation in another thread which I have provided the code to yo...</content>
+    <link href="https://forums.developer.nvidia.com/t/314200/14"/>
   </entry>
 </feed>
