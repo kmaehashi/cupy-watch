@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-12-05T05:45:30.597000+00:00</updated>
+  <updated>2024-12-05T09:05:45.329000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/274084/3</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/308077/18"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/314200/17</id>
-    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [17]</title>
-    <updated>2024-12-05T05:45:30.597000+00:00</updated>
-    <content>Fechen: Fiona.Chen: I compared the 3 cases in a Geforce RTX 3060 Ti machine. Case 1: The original deepstream_imagedata-multistream_cupy sample FPS is around 59.9 Case 2: deepstream_imagedata-multistream_cupy with "A+A" calculation in another thread which I have provided the code to yo...</content>
-    <link href="https://forums.developer.nvidia.com/t/314200/17"/>
+    <id>https://forums.developer.nvidia.com/t/314200/23</id>
+    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [23]</title>
+    <updated>2024-12-05T09:05:45.329000+00:00</updated>
+    <content>Fechen: https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#interprocess-communication CUDA C++ Programming Guide</content>
+    <link href="https://forums.developer.nvidia.com/t/314200/23"/>
   </entry>
 </feed>
