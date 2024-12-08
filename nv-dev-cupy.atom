@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-12-08T15:18:11.756000+00:00</updated>
+  <updated>2024-12-08T17:39:12.882000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/274084/3</id>
-    <title>Custom convolution applied to 2D array in Cupy/ parallelize double for loop [3]</title>
-    <updated>2023-11-28T06:59:14.172000+00:00</updated>
-    <content>Arash: Thanks for your response and for pointing out the stream. But regarding CuPy's https://docs.cupy.dev/en/stable/reference/generated/cupy.ElementwiseKernel.html#cupy.ElementwiseKernel Elementwise , the input to compute function...</content>
-    <link href="https://forums.developer.nvidia.com/t/274084/3"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/271743/5</id>
     <title>How to install cupy on Jetson Nano [5]</title>
@@ -353,5 +346,12 @@
     <updated>2024-12-08T15:18:11.756000+00:00</updated>
     <content>Alain Paillou: ...some serious issue with CUDA SDK V12.5 and above. I had to get back to V12.1 to solve those issues (problem with nvcc compiler; impossible to compile CUPY kernels with V12.5 or above). Alain</content>
     <link href="https://forums.developer.nvidia.com/t/76861/893"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/316095/1</id>
+    <title>Why is the amount of thread blocks per cluster and the dynamic shared memory that I can allocate much lower than expected? [1]</title>
+    <updated>2024-12-08T17:39:12.882000+00:00</updated>
+    <content>mrakgr: Link: https://github.com/cupy/cupy/issues/8778 The __cluster_dims__ annotation doesn't work as expected with CuPy. · Issue #8778 · cupy/cupy I originally thought this issue was re...</content>
+    <link href="https://forums.developer.nvidia.com/t/316095/1"/>
   </entry>
 </feed>
