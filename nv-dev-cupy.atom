@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-12-05T09:05:45.329000+00:00</updated>
+  <updated>2024-12-08T15:18:11.756000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/274084/3</id>
@@ -306,13 +306,6 @@
     <link href="https://forums.developer.nvidia.com/t/309286/2"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/875</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [875]</title>
-    <updated>2024-11-03T15:08:21.319000+00:00</updated>
-    <content>Alain Paillou: ...ibute to AlainPaillou/JETSONSKY development by creating an account on GitHub. With this version and the next to come, you will have to use new zwoasy_cupy library. The old zwoasi library is now obsolete (i use cupy instead of numpy to get the image buffer). I posted my very first tests with 16bits captu...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/875"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/312462/1</id>
     <title>Looking for a cuda distributed array library for c++ [1]</title>
     <updated>2024-11-06T19:48:27.401000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2024-12-05T09:05:45.329000+00:00</updated>
     <content>Fechen: https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#interprocess-communication CUDA C++ Programming Guide</content>
     <link href="https://forums.developer.nvidia.com/t/314200/23"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/893</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [893]</title>
+    <updated>2024-12-08T15:18:11.756000+00:00</updated>
+    <content>Alain Paillou: ...some serious issue with CUDA SDK V12.5 and above. I had to get back to V12.1 to solve those issues (problem with nvcc compiler; impossible to compile CUPY kernels with V12.5 or above). Alain</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/893"/>
   </entry>
 </feed>
