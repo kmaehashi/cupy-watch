@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-12-08T17:39:12.882000+00:00</updated>
+  <updated>2024-12-11T14:11:53.715000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/271743/5</id>
-    <title>How to install cupy on Jetson Nano [5]</title>
-    <updated>2023-12-05T08:01:14.494000+00:00</updated>
-    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
-    <link href="https://forums.developer.nvidia.com/t/271743/5"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/219486/8</id>
     <title>VPI questions [8]</title>
@@ -353,5 +346,12 @@
     <updated>2024-12-08T17:39:12.882000+00:00</updated>
     <content>mrakgr: Link: https://github.com/cupy/cupy/issues/8778 The __cluster_dims__ annotation doesn't work as expected with CuPy. · Issue #8778 · cupy/cupy I originally thought this issue was re...</content>
     <link href="https://forums.developer.nvidia.com/t/316095/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/219702/24</id>
+    <title>Belive or Not: SuperCuda is 10^6(+) faster than Mathematica [24]</title>
+    <updated>2024-12-11T14:11:53.715000+00:00</updated>
+    <content>K Glimps: ...values (100 000,100 000) Here the GPU code (the CPU is just Client) ############################################ ```python import numpy as np import cupy as cp import dask.array as da import dask from dask_cuda import LocalCUDACluster from dask.distributed import Client cluster = LocalCUDACluster() cli...</content>
+    <link href="https://forums.developer.nvidia.com/t/219702/24"/>
   </entry>
 </feed>
