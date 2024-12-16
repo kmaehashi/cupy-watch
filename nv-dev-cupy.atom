@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-12-11T14:11:53.715000+00:00</updated>
+  <updated>2024-12-16T17:03:04.271000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/219486/8</id>
-    <title>VPI questions [8]</title>
-    <updated>2023-12-07T10:53:59.002000+00:00</updated>
-    <content>Alain Paillou: Hello, i am coming back concerning VPI and Windows. I hope things are goring the good way. It would be also interesting if VPI could easily CUPY arrays instead of PIL arrays. PIL is not really fast and CUPY could be a better choice. Alain</content>
-    <link href="https://forums.developer.nvidia.com/t/219486/8"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/279834/1</id>
     <title>Facing error while importing RAPIDS library in H100 GPU environment [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-12-11T14:11:53.715000+00:00</updated>
     <content>K Glimps: ...values (100 000,100 000) Here the GPU code (the CPU is just Client) ############################################ ```python import numpy as np import cupy as cp import dask.array as da import dask from dask_cuda import LocalCUDACluster from dask.distributed import Client cluster = LocalCUDACluster() cli...</content>
     <link href="https://forums.developer.nvidia.com/t/219702/24"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/316679/7</id>
+    <title>Missing Gstreamer Properties for NvUriSrcBin [7]</title>
+    <updated>2024-12-16T17:03:04.271000+00:00</updated>
+    <content>Dsonmez: ...ything necessary to run this demo on the Jetson side as well, I don't think there are any critical restrictions. I already have handled "DeepStream - CuPy memory pointer limitation" which could affect the Jetson integration. yuweiw: The nvurisrcbin does not include either of these 2 properties. Could yo...</content>
+    <link href="https://forums.developer.nvidia.com/t/316679/7"/>
   </entry>
 </feed>
