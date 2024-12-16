@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2024-11-07T19:19:14.755000+00:00</updated>
+  <updated>2024-12-16T17:25:43.755000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -122,5 +122,12 @@
     <updated>2024-11-07T19:19:14.755000+00:00</updated>
     <content>Chuck R.: Yes I do add a path to sys.path(). Here's my full code that has the trouble. The filename is sysinfo2.py. NOTE: Pycharm is not used for this. I simply run the code in cmd.exe with python sysinfo2.py -summary . For debugging I use python -m pdb sysinfo2.py -summary I pass in the variable options a...</content>
     <link href="https://discuss.python.org/t/70427/12"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/73495/32</id>
+    <title>`math.exp` and `math.log` delegate to `__exp__` and `__log__` methods? [32]</title>
+    <updated>2024-12-16T17:25:43.755000+00:00</updated>
+    <content>Neil Girdhar: ...ensorflow.org/ TensorFlow https://pytorch.org/ PyTorch https://numpy.mxnet.io/ MXNet https://github.com/google/jax JAX https://dask.org/ Dask https://cupy.chainer.org/ CuPy</content>
+    <link href="https://discuss.python.org/t/73495/32"/>
   </entry>
 </feed>
