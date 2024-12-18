@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-12-16T17:03:04.271000+00:00</updated>
+  <updated>2024-12-18T05:17:25.444000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/279834/1</id>
-    <title>Facing error while importing RAPIDS library in H100 GPU environment [1]</title>
-    <updated>2024-01-23T11:11:43.343000+00:00</updated>
-    <content>Anubhav6864: ...&amp;gt; ---- &amp;gt; 1 import cudf ~/.local/lib/python3.10/site-packages/cudf/__init__.py in &amp;lt; module &amp;gt; 8 9 _setup_numba() --- &amp;gt; 10 validate_setup() 11 12 import cupy ~/.local/lib/python3.10/site-packages/cudf/utils/gpu_utils.py in validate_setup() 53 except CUDARuntimeError as e: 54 if e.status in notify_caller_er...</content>
-    <link href="https://forums.developer.nvidia.com/t/279834/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/280353/1</id>
     <title>CuTensorNet Converter i.e. CircuitToEinsum is Not working for the Github Example [1]</title>
@@ -353,5 +346,12 @@
     <updated>2024-12-16T17:03:04.271000+00:00</updated>
     <content>Dsonmez: ...ything necessary to run this demo on the Jetson side as well, I don't think there are any critical restrictions. I already have handled "DeepStream - CuPy memory pointer limitation" which could affect the Jetson integration. yuweiw: The nvurisrcbin does not include either of these 2 properties. Could yo...</content>
     <link href="https://forums.developer.nvidia.com/t/316679/7"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/315455/6</id>
+    <title>&amp;ldquo;How to connect/Combine Two Jetson AGX Orin Devices to Share GPU Workload?&amp;rdquo; [6]</title>
+    <updated>2024-12-18T05:17:25.444000+00:00</updated>
+    <content>Whitesscott: ...Jetson AGX Orin 192.168.1.11 slots=1 # IP of Jetson Orin Nano on both Orins install: sudo apt-get install -y libopenmpi-dev openmpi-bin pip3 install cupy-cuda12x mpi4py Set up passwordless SSH between the devices. Try the test to have mpirun can run using both gpus. mpirun -np 2 -hostfile hosts python3...</content>
+    <link href="https://forums.developer.nvidia.com/t/315455/6"/>
   </entry>
 </feed>
