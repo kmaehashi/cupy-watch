@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-12-18T05:17:25.444000+00:00</updated>
+  <updated>2024-12-18T09:37:04.296000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/280353/1</id>
-    <title>CuTensorNet Converter i.e. CircuitToEinsum is Not working for the Github Example [1]</title>
-    <updated>2024-01-27T14:45:22.911000+00:00</updated>
-    <content>Dhamotharan S: ...when executing the code. I've included the code snippet below, along with the error message that occurs during the execution: import itertools import cupy as cp import numpy as np import qiskit from qiskit.circuit.random import random_circuit from cuquantum import contract from cuquantum import CircuitT...</content>
-    <link href="https://forums.developer.nvidia.com/t/280353/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/280025/3</id>
     <title>[cuBLASDx] no instance of overloaded function &amp;ldquo;__half::__half&amp;rdquo; matches the specified type [3]</title>
@@ -353,5 +346,12 @@
     <updated>2024-12-18T05:17:25.444000+00:00</updated>
     <content>Whitesscott: ...Jetson AGX Orin 192.168.1.11 slots=1 # IP of Jetson Orin Nano on both Orins install: sudo apt-get install -y libopenmpi-dev openmpi-bin pip3 install cupy-cuda12x mpi4py Set up passwordless SSH between the devices. Try the test to have mpirun can run using both gpus. mpirun -np 2 -hostfile hosts python3...</content>
     <link href="https://forums.developer.nvidia.com/t/315455/6"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/317294/1</id>
+    <title>Rapidsai JupyterLab cupy CUDARuntimeError: cudaErrorNoDevice: no CUDA-capable device is detected [1]</title>
+    <updated>2024-12-18T09:37:04.296000+00:00</updated>
+    <content>Elena Hamidy: ...on GPU (see nvidi-smi output below), however per nvtop I rarely hit the mark of 50%. Then I try to execute this code from cudf demo notebooks: import cupy as cp import pandas as pd import cudf import dask_cudf cp.random.seed(12) After this, I get this error from cupy: File /opt/conda/lib/python3.10/site...</content>
+    <link href="https://forums.developer.nvidia.com/t/317294/1"/>
   </entry>
 </feed>
