@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-12-24T14:11:56.065000+00:00</updated>
+  <updated>2024-12-30T10:01:10.515000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/283619/1</id>
@@ -292,13 +292,6 @@
     <link href="https://forums.developer.nvidia.com/t/313757/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/308077/18</id>
-    <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [18]</title>
-    <updated>2024-11-26T07:01:32.357000+00:00</updated>
-    <content>Fechen: A suggestion is to use the latest Service Maker python APIs which is released with DeepStream 7.1 GA.</content>
-    <link href="https://forums.developer.nvidia.com/t/308077/18"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/314200/23</id>
     <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [23]</title>
     <updated>2024-12-05T09:05:45.329000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2024-12-24T14:11:56.065000+00:00</updated>
     <content>Alain Paillou: Maybe you could try CUPY instead of PYCUDA. https://cupy.dev/ CuPy https://cupy.dev/ CuPy NumPy &amp;amp; SciPy for GPU I used Pycuda some time ago but installation was always compli...</content>
     <link href="https://forums.developer.nvidia.com/t/238230/7"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/308077/19</id>
+    <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [19]</title>
+    <updated>2024-12-30T10:01:10.515000+00:00</updated>
+    <content>Yingliu: There is no update from you for a period, assuming this is not an issue anymore. Hence we are closing this topic. If need further support, please open a new one. Thanks</content>
+    <link href="https://forums.developer.nvidia.com/t/308077/19"/>
   </entry>
 </feed>
