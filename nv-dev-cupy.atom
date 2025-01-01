@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2024-12-30T10:01:10.515000+00:00</updated>
+  <updated>2025-01-01T13:23:59.810000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/283619/1</id>
@@ -299,13 +299,6 @@
     <link href="https://forums.developer.nvidia.com/t/314200/23"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/893</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [893]</title>
-    <updated>2024-12-08T15:18:11.756000+00:00</updated>
-    <content>Alain Paillou: ...some serious issue with CUDA SDK V12.5 and above. I had to get back to V12.1 to solve those issues (problem with nvcc compiler; impossible to compile CUPY kernels with V12.5 or above). Alain</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/893"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/316095/1</id>
     <title>Why is the amount of thread blocks per cluster and the dynamic shared memory that I can allocate much lower than expected? [1]</title>
     <updated>2024-12-08T17:39:12.882000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2024-12-30T10:01:10.515000+00:00</updated>
     <content>Yingliu: There is no update from you for a period, assuming this is not an issue anymore. Hence we are closing this topic. If need further support, please open a new one. Thanks</content>
     <link href="https://forums.developer.nvidia.com/t/308077/19"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/904</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [904]</title>
+    <updated>2025-01-01T13:23:59.810000+00:00</updated>
+    <content>Alain Paillou: ...hannel) : # HDR Test program # Alain PAILLOU - 2025 # Create HDR image from single frame generating 4 frames from this single frame import cv2 import cupy as cp def HDR_compute(image_16b,method,threshold_16b,type_bayer) : if (16 - threshold_16b) &amp;lt; = 5 : delta_th = (16 - threshold_16b) / 3.0 else : delta...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/904"/>
   </entry>
 </feed>
