@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-01-01T13:23:59.810000+00:00</updated>
+  <updated>2025-01-03T09:00:23.747000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/283619/1</id>
-    <title>Unable to determine the device handle for GPU0000:C1:00.0: Unknown Error [1]</title>
-    <updated>2024-02-21T23:39:10.067000+00:00</updated>
-    <content>Ikhwanperwira: .../A N/A 1514 G /usr/lib/xorg/Xorg 4MiB | +---------------------------------------------------------------------------------------+ After I run: import cupy as cp x_gpu = cp.array([1,2,3]) print(x_gpu) It returned expected output: array([1,2,3]) But after that moment, It returned cuda runtime error: Now I...</content>
-    <link href="https://forums.developer.nvidia.com/t/283619/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/280858/8</id>
     <title>VPI __cuda_array_interface__ Interoperability [8]</title>
@@ -353,5 +346,12 @@
     <updated>2025-01-01T13:23:59.810000+00:00</updated>
     <content>Alain Paillou: ...hannel) : # HDR Test program # Alain PAILLOU - 2025 # Create HDR image from single frame generating 4 frames from this single frame import cv2 import cupy as cp def HDR_compute(image_16b,method,threshold_16b,type_bayer) : if (16 - threshold_16b) &amp;lt; = 5 : delta_th = (16 - threshold_16b) / 3.0 else : delta...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/904"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/318671/1</id>
+    <title>Multithreading with rapids [1]</title>
+    <updated>2025-01-03T09:00:23.747000+00:00</updated>
+    <content>Mohith Pokala: ...hread. I also tried multiprocessing. Sadly, that didn't help . I am attaching the code for reference. Any help will be appreciated import cudf import cupy as cp from concurrent.futures import ThreadPoolExecutor import torch def parallel_gpu_operations(N): """ Args: N: Number of rows """ total_gpus = tor...</content>
+    <link href="https://forums.developer.nvidia.com/t/318671/1"/>
   </entry>
 </feed>
