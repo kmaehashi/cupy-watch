@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-01-03T09:00:23.747000+00:00</updated>
+  <updated>2025-01-13T10:02:04.484000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/280858/8</id>
@@ -334,13 +334,6 @@
     <link href="https://forums.developer.nvidia.com/t/238230/7"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/308077/19</id>
-    <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [19]</title>
-    <updated>2024-12-30T10:01:10.515000+00:00</updated>
-    <content>Yingliu: There is no update from you for a period, assuming this is not an issue anymore. Hence we are closing this topic. If need further support, please open a new one. Thanks</content>
-    <link href="https://forums.developer.nvidia.com/t/308077/19"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/76861/904</id>
     <title>Electronically Assisted Astronomy with a Jetson Nano [904]</title>
     <updated>2025-01-01T13:23:59.810000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2025-01-03T09:00:23.747000+00:00</updated>
     <content>Mohith Pokala: ...hread. I also tried multiprocessing. Sadly, that didn't help . I am attaching the code for reference. Any help will be appreciated import cudf import cupy as cp from concurrent.futures import ThreadPoolExecutor import torch def parallel_gpu_operations(N): """ Args: N: Number of rows """ total_gpus = tor...</content>
     <link href="https://forums.developer.nvidia.com/t/318671/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/308077/20</id>
+    <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [20]</title>
+    <updated>2025-01-13T10:02:04.484000+00:00</updated>
+    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/308077/20"/>
   </entry>
 </feed>
