@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-01-13T10:02:04.484000+00:00</updated>
+  <updated>2025-01-20T12:56:26.081000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/280858/8</id>
-    <title>VPI __cuda_array_interface__ Interoperability [8]</title>
-    <updated>2024-02-27T06:25:54.540000+00:00</updated>
-    <content>AastaLLL: There is no update from you for a period, assuming this is not an issue any more. Hence we are closing this topic. If need further support, please open a new one. Thanks Hi, Thanks for the update. Would you mind sharing the change you made with us? So we can check with our internal team to see if...</content>
-    <link href="https://forums.developer.nvidia.com/t/280858/8"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/286063/5</id>
     <title>CPU utilization using deepstream on Jetson AGX [5]</title>
@@ -353,5 +346,12 @@
     <updated>2025-01-13T10:02:04.484000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/308077/20"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/320624/12</id>
+    <title>Jetson-containers keep exiting with error code but not sure what it means [12]</title>
+    <updated>2025-01-20T12:56:26.081000+00:00</updated>
+    <content>Kellempxt: ..."couldn't find package: cuda") -- Package ctranslate2:4.2.0-builder has missing dependencies, disabling... ("couldn't find package: cuda") -- Package cupy has missing dependencies, disabling... ("couldn't find package: cuda") -- Package pycuda has missing dependencies, disabling... ("couldn't find packa...</content>
+    <link href="https://forums.developer.nvidia.com/t/320624/12"/>
   </entry>
 </feed>
