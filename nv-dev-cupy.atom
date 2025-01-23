@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-01-20T12:56:26.081000+00:00</updated>
+  <updated>2025-01-23T17:05:06.785000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/286063/5</id>
-    <title>CPU utilization using deepstream on Jetson AGX [5]</title>
-    <updated>2024-03-18T10:27:37.639000+00:00</updated>
-    <content>Yuweiw: You may refer to our demo to use cupy https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/blob/master/apps/deepstream-imagedata-multistream-cupy/deepstream_imagedata-multistream_cupy....</content>
-    <link href="https://forums.developer.nvidia.com/t/286063/5"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/286806/1</id>
     <title>Illegal memory access when adding parameters in PyOptiX [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-01-20T12:56:26.081000+00:00</updated>
     <content>Kellempxt: ..."couldn't find package: cuda") -- Package ctranslate2:4.2.0-builder has missing dependencies, disabling... ("couldn't find package: cuda") -- Package cupy has missing dependencies, disabling... ("couldn't find package: cuda") -- Package pycuda has missing dependencies, disabling... ("couldn't find packa...</content>
     <link href="https://forums.developer.nvidia.com/t/320624/12"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/321328/1</id>
+    <title>[NVCOMP] Strange Bug/Behavior in NVCOMP Python API [1]</title>
+    <updated>2025-01-23T17:05:06.785000+00:00</updated>
+    <content>JL: ...incorrect for this use case. The issue arises directly from the nvcomp.Array , and it disrupts subsequent operations. Code: import numpy as np import cupy as cp from nvidia import nvcomp print("nvcomp version:", nvcomp.__version__) print("nvcomp cuda version:", nvcomp.__cuda_version__) ascending = np.ar...</content>
+    <link href="https://forums.developer.nvidia.com/t/321328/1"/>
   </entry>
 </feed>
