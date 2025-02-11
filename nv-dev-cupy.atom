@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-02-10T10:44:21.461000+00:00</updated>
+  <updated>2025-02-11T07:30:40.850000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/287272/1</id>
-    <title>Order within triton inference server python backend [1]</title>
-    <updated>2024-03-25T12:34:43.996000+00:00</updated>
-    <content>Ajithkumar Ak95: ...ERWISE) ARISING IN ANY WAY OUT OF THE USE # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. import numpy as np import cv2 import cupy as cp import time # triton_python_backend_utils is available in every Triton Python model. You # need to use this module to create inference requests...</content>
-    <link href="https://forums.developer.nvidia.com/t/287272/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/288869/3</id>
     <title>Need Assistance in Optimizing CUDA Execution for Siamrpn tracker code [3]</title>
@@ -353,5 +346,12 @@
     <updated>2025-02-10T10:44:21.461000+00:00</updated>
     <content>Kellempxt: ...k/apps/jetson-containers/packages/ml/onnxruntime/Dockerfile --build-arg BASE_IMAGE=kairin/jetson-containers:tensorrt-10.7-opencv-4.11-comfyui-r36.4.3-cupy --build-arg ONNXRUNTIME_VERSION="1.21.0" --build-arg ONNXRUNTIME_BRANCH="v1.21.0" --build-arg ONNXRUNTIME_FLAGS="--allow_running_as_root" /home/kkk/a...</content>
     <link href="https://forums.developer.nvidia.com/t/323014/12"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/322555/5</id>
+    <title>Adding appsink to python deepstream application causes existing pipeline to stop working [5]</title>
+    <updated>2025-02-11T07:30:40.850000+00:00</updated>
+    <content>Junshengy: ...ltiarch import numpy as np import sys import gi gi.require_version("Gst", "1.0") from gi.repository import Gst, GLib import pyds import ctypes import cupy as cp import imageio frame_num = 0 def on_new_sample(sink, user_data): sample = sink.emit("pull-sample") global frame_num frame_num += 1 if sample: g...</content>
+    <link href="https://forums.developer.nvidia.com/t/322555/5"/>
   </entry>
 </feed>
