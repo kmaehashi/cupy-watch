@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-02-11T07:30:40.850000+00:00</updated>
+  <updated>2025-02-13T09:26:30.855000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/288869/3</id>
-    <title>Need Assistance in Optimizing CUDA Execution for Siamrpn tracker code [3]</title>
-    <updated>2024-04-09T06:03:03.259000+00:00</updated>
-    <content>AastaLLL: Hi, Could you share more about how you modify the code to GPU implementation? Do you use CuPy or other GPU-based libraries? Thanks.</content>
-    <link href="https://forums.developer.nvidia.com/t/288869/3"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/290076/1</id>
     <title>Is CuPy Available? [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-02-11T07:30:40.850000+00:00</updated>
     <content>Junshengy: ...ltiarch import numpy as np import sys import gi gi.require_version("Gst", "1.0") from gi.repository import Gst, GLib import pyds import ctypes import cupy as cp import imageio frame_num = 0 def on_new_sample(sink, user_data): sample = sink.emit("pull-sample") global frame_num frame_num += 1 if sample: g...</content>
     <link href="https://forums.developer.nvidia.com/t/322555/5"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/323625/1</id>
+    <title>DeepStream Parallel Pipeline and Frame Synchronization [1]</title>
+    <updated>2025-02-13T09:26:30.855000+00:00</updated>
+    <content>: ...optimized way to achieve this without using probe functions with NumPy/OpenCV? Keep in mind that I'm running this on a Jetson device, so I can't use CuPy to access the buffer, as support is only available for x86 architecture. Issue with pipeline branch synchronization What is the correct way to synchr...</content>
+    <link href="https://forums.developer.nvidia.com/t/323625/1"/>
   </entry>
 </feed>
