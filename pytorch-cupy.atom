@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2025-01-08T14:38:53.740000+00:00</updated>
+  <updated>2025-02-19T11:25:41.034000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/16479/1</id>
-    <title>CUPY to use with PyTorch (import and use the whole CUDA library) [1]</title>
-    <updated>2018-04-16T11:18:36.925000+00:00</updated>
-    <content>Space Invader: Hello! I’m not a CUDA and PyTorch expert, that’s why my question may sound silly. I know how to use CuPy with PyTorch too write my own kernels as python strings and call them using PyTorch. But I don’t know how to work with the whole CUDA library, e.g. h...</content>
-    <link href="https://discuss.pytorch.org/t/16479/1"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/17214/3</id>
     <title>How to make symeig use GPU only given CUDA Tensor? [3]</title>
@@ -353,5 +346,12 @@
     <updated>2025-01-08T14:38:53.740000+00:00</updated>
     <content>forestbat: ...k: 8.1.7 - click-plugins: 1.1.1 - cligj: 0.7.2 - cloudpickle: 3.0.0 - codetiming: 1.4.0 - colorama: 0.4.6 - contourpy: 1.2.1 - cryptography: 43.0.0 - cupy: 13.3.0 - cycler: 0.12.1 - cytoolz: 0.12.3 - dask: 2024.8.1 - dask-expr: 1.1.11 - dataretrieval: 1.0.10 - deepspeed: 0.16.1 - defusedxml: 0.7.1 - dgl...</content>
     <link href="https://discuss.pytorch.org/t/214577/3"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/216884/1</id>
+    <title>DtoH transfer of a partial tensor or untyped_storage to tensor without memory allocation [1]</title>
+    <updated>2025-02-19T11:25:41.034000+00:00</updated>
+    <content>: Hi there! I would like to convert a cupy function to torch: the purpose is to allocate pinned memory once, fill it with data (random size lower than allocated) and transfer it to the GPU. i...</content>
+    <link href="https://discuss.pytorch.org/t/216884/1"/>
   </entry>
 </feed>
