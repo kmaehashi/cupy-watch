@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2024-12-16T17:25:43.755000+00:00</updated>
+  <updated>2025-02-20T22:55:41.742000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -129,5 +129,12 @@
     <updated>2024-12-16T17:25:43.755000+00:00</updated>
     <content>Neil Girdhar: ...ensorflow.org/ TensorFlow https://pytorch.org/ PyTorch https://numpy.mxnet.io/ MXNet https://github.com/google/jax JAX https://dask.org/ Dask https://cupy.chainer.org/ CuPy</content>
     <link href="https://discuss.python.org/t/73495/32"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/76308/55</id>
+    <title>PEP 770: Improving measurability of Python packages with Software Bill-of-Materials [55]</title>
+    <updated>2025-02-20T22:55:41.742000+00:00</updated>
+    <content>Ralf Gommers: ...ibopenblas and compiler runtime libraries like libgfortran / libquadmath will be vendored in. Packages like NumPy, PyTorch, Matplotlib, scikit-learn, CuPy and others of that size are all in the same boat (even smaller ones perhaps, since the vendoring of utilities like six and versioneer is quite common...</content>
+    <link href="https://discuss.python.org/t/76308/55"/>
   </entry>
 </feed>
