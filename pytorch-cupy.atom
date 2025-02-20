@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2025-02-19T11:25:41.034000+00:00</updated>
+  <updated>2025-02-20T15:33:50.235000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/17214/3</id>
-    <title>How to make symeig use GPU only given CUDA Tensor? [3]</title>
-    <updated>2018-04-30T21:31:09.170000+00:00</updated>
-    <content>Yubei Chen: ...adients. But another issue is the communication. Every time I need to do a svd or symeig, I have to copy the matrix from GPU to CPU and convert it to Cupy array and send to GPU back. Then after the actual operation, I copy it back to CPU and convert it to pytorch tensor and send back to GPU again. Using...</content>
-    <link href="https://discuss.pytorch.org/t/17214/3"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/19514/1</id>
     <title>Sparse tensor support for slice, reduce sum and element wise comparison? [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-02-19T11:25:41.034000+00:00</updated>
     <content>: Hi there! I would like to convert a cupy function to torch: the purpose is to allocate pinned memory once, fill it with data (random size lower than allocated) and transfer it to the GPU. i...</content>
     <link href="https://discuss.pytorch.org/t/216884/1"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/216955/1</id>
+    <title>Title: Converting External CUDA Streams to torch.cuda.Stream() [1]</title>
+    <updated>2025-02-20T15:33:50.235000+00:00</updated>
+    <content>HyperHyper: Hello. I have a question regarding PyTorch Stream. If I create a CuPy stream, is it possible to convert it to a torch.cuda.Stream() ? I'm also interested in whether the same can be done for an RMM stream that I created....</content>
+    <link href="https://discuss.pytorch.org/t/216955/1"/>
   </entry>
 </feed>
