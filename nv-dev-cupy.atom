@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-02-18T07:35:44.698000+00:00</updated>
+  <updated>2025-02-24T07:54:59.035000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/290711/2</id>
@@ -243,13 +243,6 @@
     <link href="https://forums.developer.nvidia.com/t/313757/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/314200/23</id>
-    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [23]</title>
-    <updated>2024-12-05T09:05:45.329000+00:00</updated>
-    <content>Fechen: https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#interprocess-communication CUDA C++ Programming Guide</content>
-    <link href="https://forums.developer.nvidia.com/t/314200/23"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/316095/1</id>
     <title>Why is the amount of thread blocks per cluster and the dynamic shared memory that I can allocate much lower than expected? [1]</title>
     <updated>2024-12-08T17:39:12.882000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2025-02-18T07:35:44.698000+00:00</updated>
     <content>AastaLLL: Hi, Do you need a Python sample? GPU implementataion for FFT We have a cuFFT library and you can find some examples below: https://github.com/NVIDIA/cuda-samples/blob/master/Samples/4_CUDA_Libraries/simpleCUFFT https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuFFT Steams With multiple st...</content>
     <link href="https://forums.developer.nvidia.com/t/324071/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/314200/24</id>
+    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [24]</title>
+    <updated>2025-02-24T07:54:59.035000+00:00</updated>
+    <content>Fechen: There is no update from you for a period, assuming this is not an issue anymore. Hence we are closing this topic. If need further support, please open a new one. Thanks</content>
+    <link href="https://forums.developer.nvidia.com/t/314200/24"/>
   </entry>
 </feed>
