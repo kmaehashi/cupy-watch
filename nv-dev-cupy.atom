@@ -337,7 +337,7 @@
     <id>https://forums.developer.nvidia.com/t/323625/1</id>
     <title>DeepStream Parallel Pipeline and Frame Synchronization [1]</title>
     <updated>2025-02-13T09:26:30.855000+00:00</updated>
-    <content>: ...optimized way to achieve this without using probe functions with NumPy/OpenCV? Keep in mind that I’m running this on a Jetson device, so I can’t use CuPy to access the buffer, as support is only available for x86 architecture. Issue with pipeline branch synchronization What is the correct way to synchr...</content>
+    <content>: ...optimized way to achieve this without using probe functions with NumPy/OpenCV? Keep in mind that I'm running this on a Jetson device, so I can't use CuPy to access the buffer, as support is only available for x86 architecture. Issue with pipeline branch synchronization What is the correct way to synchr...</content>
     <link href="https://forums.developer.nvidia.com/t/323625/1"/>
   </entry>
   <entry>
