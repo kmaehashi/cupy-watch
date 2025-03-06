@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-02-25T10:29:26.184000+00:00</updated>
+  <updated>2025-03-06T22:20:36.570000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/291803/1</id>
-    <title>Dask is another big winner for WSL [1]</title>
-    <updated>2024-05-04T09:53:47.977000+00:00</updated>
-    <content>K Glimps: ...ubly-periodic, not to mention spin top and other 3 and higher dimensionals applications like in solitons. Now, i am spending my spare time with Dask, cupy, numba, cuDF. Thank you for all your hardd work and keep going on. We always need to hear your point of view and your prespective for better future o...</content>
-    <link href="https://forums.developer.nvidia.com/t/291803/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/292704/1</id>
     <title>After ds6.2 -&amp;gt; 6.4 update, pyds import causes tensorrt to Abort (core dumped) [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-02-25T10:29:26.184000+00:00</updated>
     <content>Parveau M: ...izer 3.4.1 ci-info 0.3.0 click 8.1. 8 cloudpathlib 0.20.0 cmake 3.31.4 comm 0.2.2 confection 0.1.5 configobj 5.0.9 configparser 7.1.0 contourpy 1.3.1 cupy-cuda12x 12.3.0 cut-cross-entropy 25.1.1 cycler 0.12.1 cymem 2.0.11 datasets 3.3.2 debugpy 1.8.12 decorator 5.2.0 defusedxml 0.7.1 dill 0.3.8 distro 1...</content>
     <link href="https://forums.developer.nvidia.com/t/325030/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/325896/9</id>
+    <title>How to get tensorrt installed when building with buildx and bake [9]</title>
+    <updated>2025-03-06T22:20:36.570000+00:00</updated>
+    <content>Kellempxt: ...s ago 7.38GB kairin/jetson-containers-001 dustynv-torch2trt-r36.4.0-cu128-24.04 cfa1687e062b 31 hours ago 11.1GB kairin/jetson-containers-001 dustynv-cupy-r36.4.0-cu128-24.04 6aadca8f93de 32 hours ago 5.53GB kairin/jetson-containers-001 dustynv-pycuda-r36.4.0-cu128-24.04 93016b8e53e7 32 hours ago 5.41GB...</content>
+    <link href="https://forums.developer.nvidia.com/t/325896/9"/>
   </entry>
 </feed>
