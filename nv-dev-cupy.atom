@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-03-10T07:55:21.690000+00:00</updated>
+  <updated>2025-03-12T03:02:44.123000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/292704/1</id>
@@ -327,13 +327,6 @@
     <link href="https://forums.developer.nvidia.com/t/323625/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/324071/3</id>
-    <title>Jetson AGX Xavier Shared Memory GPU Signal Processing [3]</title>
-    <updated>2025-02-18T07:35:44.698000+00:00</updated>
-    <content>AastaLLL: Hi, Do you need a Python sample? GPU implementataion for FFT We have a cuFFT library and you can find some examples below: https://github.com/NVIDIA/cuda-samples/blob/master/Samples/4_CUDA_Libraries/simpleCUFFT https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuFFT Steams With multiple st...</content>
-    <link href="https://forums.developer.nvidia.com/t/324071/3"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/325030/1</id>
     <title>Unsloth SFTTrainer failed due to triton assertion error on AGX Orin when batch size &amp;gt; 1 [1]</title>
     <updated>2025-02-25T10:29:26.184000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2025-03-10T07:55:21.690000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/314200/25"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/324071/5</id>
+    <title>Jetson AGX Xavier Shared Memory GPU Signal Processing [5]</title>
+    <updated>2025-03-12T03:02:44.123000+00:00</updated>
+    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/324071/5"/>
   </entry>
 </feed>
