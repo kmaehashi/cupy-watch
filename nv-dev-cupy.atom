@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-03-12T03:02:44.123000+00:00</updated>
+  <updated>2025-03-13T12:20:08.880000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/292704/1</id>
@@ -271,13 +271,6 @@
     <link href="https://forums.developer.nvidia.com/t/238230/7"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/904</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [904]</title>
-    <updated>2025-01-01T13:23:59.810000+00:00</updated>
-    <content>Alain Paillou: ...hannel) : # HDR Test program # Alain PAILLOU - 2025 # Create HDR image from single frame generating 4 frames from this single frame import cv2 import cupy as cp def HDR_compute(image_16b,method,threshold_16b,type_bayer) : if (16 - threshold_16b) &amp;lt; = 5 : delta_th = (16 - threshold_16b) / 3.0 else : delta...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/904"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/318671/1</id>
     <title>Multithreading with rapids [1]</title>
     <updated>2025-01-03T09:00:23.747000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2025-03-12T03:02:44.123000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/324071/5"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/950</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [950]</title>
+    <updated>2025-03-13T12:20:08.880000+00:00</updated>
+    <content>Alain Paillou: ...eems i have founded why Jetson gets problem with latest V53_03RC version of JetsonSky. My capture threads (get the image from the camera) was getting CUPY arrays. As it is a thread, it seems i had conflict with other GPU operations. Now, with Linux platform, my threads gets a NUMPY array to avoid confli...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/950"/>
   </entry>
 </feed>
