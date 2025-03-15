@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-03-13T12:20:08.880000+00:00</updated>
+  <updated>2025-03-15T13:09:55.814000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/292704/1</id>
-    <title>After ds6.2 -&amp;gt; 6.4 update, pyds import causes tensorrt to Abort (core dumped) [1]</title>
-    <updated>2024-05-13T11:18:31.949000+00:00</updated>
-    <content>: ...obviously is not a solution - our code which manages deepstream and dispatches GPU-resident buffers from deepstream into trt (and other places, incl. cupy ops) is a python app, so we need both of those bindings. Note - attached dockerfile builds pyds itself, but when using precompiled pyds (from https:/...</content>
-    <link href="https://forums.developer.nvidia.com/t/292704/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/293271/5</id>
     <title>How to perform eigenvalue decompositions for large matrices with Python [5]</title>
@@ -353,5 +346,12 @@
     <updated>2025-03-13T12:20:08.880000+00:00</updated>
     <content>Alain Paillou: ...eems i have founded why Jetson gets problem with latest V53_03RC version of JetsonSky. My capture threads (get the image from the camera) was getting CUPY arrays. As it is a thread, it seems i had conflict with other GPU operations. Now, with Linux platform, my threads gets a NUMPY array to avoid confli...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/950"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/326736/6</id>
+    <title>How to add cv2 based image processing probe in the deepstream pipeline [6]</title>
+    <updated>2025-03-15T13:09:55.814000+00:00</updated>
+    <content>Fanzh: please refer to python sample https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/master/apps/deepstream-imagedata-multistream-cupy deepstream-imagedata-multistream-cupy , As the https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/master/apps/deepstream-imagedata-multistr...</content>
+    <link href="https://forums.developer.nvidia.com/t/326736/6"/>
   </entry>
 </feed>
