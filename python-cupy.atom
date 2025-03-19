@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2025-02-20T22:55:41.742000+00:00</updated>
+  <updated>2025-03-19T09:35:18.311000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -136,5 +136,12 @@
     <updated>2025-02-20T22:55:41.742000+00:00</updated>
     <content>Ralf Gommers: ...ibopenblas and compiler runtime libraries like libgfortran / libquadmath will be vendored in. Packages like NumPy, PyTorch, Matplotlib, scikit-learn, CuPy and others of that size are all in the same boat (even smaller ones perhaps, since the vendoring of utilities like six and versioneer is quite common...</content>
     <link href="https://discuss.python.org/t/76308/55"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/84319/100</id>
+    <title>PEP 779: Criteria for supported status for free-threaded Python [100]</title>
+    <updated>2025-03-19T09:35:18.311000+00:00</updated>
+    <content>H. Vetinari: ...p 360 packages by download volume #fn1 [1] . There's too many fundamentally important packages not on that list even off the top of my head (pytorch, cupy, spacy, geopandas, etc. etc.), but concrete examples obviously skew towards specific fields pretty quickly. quite heavily skewed towards workflows th...</content>
+    <link href="https://discuss.python.org/t/84319/100"/>
   </entry>
 </feed>
