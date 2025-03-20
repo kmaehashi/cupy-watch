@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-03-15T13:09:55.814000+00:00</updated>
+  <updated>2025-03-20T09:13:10.628000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/293271/5</id>
-    <title>How to perform eigenvalue decompositions for large matrices with Python [5]</title>
-    <updated>2024-05-17T21:29:27.745000+00:00</updated>
-    <content>Sebastian Wittmeier (Curefab Technologies GmbH): ...run one of the C++/Cuda symmetric matrix examples with some modifications for your Matrix size and batch size 1 to see, whether it is a cuSolver or a CuPy limitation: https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuSOLVER github.com https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuS...</content>
-    <link href="https://forums.developer.nvidia.com/t/293271/5"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/292572/3</id>
     <title>SRT H.264 video source [3]</title>
@@ -353,5 +346,12 @@
     <updated>2025-03-15T13:09:55.814000+00:00</updated>
     <content>Fanzh: please refer to python sample https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/master/apps/deepstream-imagedata-multistream-cupy deepstream-imagedata-multistream-cupy , As the https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/master/apps/deepstream-imagedata-multistr...</content>
     <link href="https://forums.developer.nvidia.com/t/326736/6"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/327207/6</id>
+    <title>Nsight in holohub not working [6]</title>
+    <updated>2025-03-20T09:13:10.628000+00:00</updated>
+    <content>Valentin Massebeuf: ...--device=/dev/nvhost-ctxsw-gpu --device=/dev/nvhost-nvsched-gpu --device=/dev/nvhost-sched-gpu --device=/dev/nvidia0 --device=/dev/nvidia-modeset -e CUPY_CACHE_DIR=/workspace/holohub/.cupy/kernel_cache)... Launch (display_server_opt: -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY)... Launch (local_sdk_opt...</content>
+    <link href="https://forums.developer.nvidia.com/t/327207/6"/>
   </entry>
 </feed>
