@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-03-20T09:13:10.628000+00:00</updated>
+  <updated>2025-03-21T05:11:00.390000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/292572/3</id>
-    <title>SRT H.264 video source [3]</title>
-    <updated>2024-05-24T16:54:38.829000+00:00</updated>
-    <content>: .... Do you know by any chance if it is possible to keep the decoded frames on the gpu using -hwaccel_output_format cuda and converting them directly to cupy array? Regarding your issue with the color space conversion, I never came across this problem.</content>
-    <link href="https://forums.developer.nvidia.com/t/292572/3"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/294322/1</id>
     <title>Tensorrt python api bug when used simultaneously with pyds and gst bindings [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-03-20T09:13:10.628000+00:00</updated>
     <content>Valentin Massebeuf: ...--device=/dev/nvhost-ctxsw-gpu --device=/dev/nvhost-nvsched-gpu --device=/dev/nvhost-sched-gpu --device=/dev/nvidia0 --device=/dev/nvidia-modeset -e CUPY_CACHE_DIR=/workspace/holohub/.cupy/kernel_cache)... Launch (display_server_opt: -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY)... Launch (local_sdk_opt...</content>
     <link href="https://forums.developer.nvidia.com/t/327207/6"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/327850/1</id>
+    <title>Intermittent Artifacts in DeepStream RTSP Output with Dynamic Multi-Stream Video Analytics with triton inference server with python backend [1]</title>
+    <updated>2025-03-21T05:11:00.390000+00:00</updated>
+    <content>Ajithkumar Ak95: ...nages streams using the new nvstreammux plugin and incorporates a Python-based AI processing pipeline using nvinferserver. This AI pipeline leverages CuPy and TensorFlow for high-resolution object detection. The final processed video streams are encoded and transmitted via mediamtx as RTSP outputs. Howe...</content>
+    <link href="https://forums.developer.nvidia.com/t/327850/1"/>
   </entry>
 </feed>
