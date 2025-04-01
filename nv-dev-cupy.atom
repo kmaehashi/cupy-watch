@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-04-01T02:58:30.345000+00:00</updated>
+  <updated>2025-04-01T04:47:01.245000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/295501/4</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/328806/2"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/328863/1</id>
-    <title>Illegal Memory Access Error when using VPI with DeepStream in Python [1]</title>
-    <updated>2025-04-01T02:58:30.345000+00:00</updated>
-    <content>Ethanlee: ...vice Paul Bridger's post to work with the NvBufSurface C struct in Python. The overall process I implemented was: GStreamer buffer → CUDA EGL frame → CuPy array → VPI Image. While I was able to obtain the VPI Image, I encountered an issue where calling cudart.cudaGraphicsUnregisterResource(graphics_reso...</content>
-    <link href="https://forums.developer.nvidia.com/t/328863/1"/>
+    <id>https://forums.developer.nvidia.com/t/328863/4</id>
+    <title>Illegal Memory Access Error when using VPI with DeepStream in Python [4]</title>
+    <updated>2025-04-01T04:47:01.245000+00:00</updated>
+    <content>Ethanlee: Thank you @AastaLLL Yes, my goal is to convert a GStreamer buffer to a VPI Image. I am trying to wrap the CuPy array into a VPI Image because I could only find examples that convert a GStreamer buffer to a CuPy array without memory copying. Are there any other...</content>
+    <link href="https://forums.developer.nvidia.com/t/328863/4"/>
   </entry>
 </feed>
