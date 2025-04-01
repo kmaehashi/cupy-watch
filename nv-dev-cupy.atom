@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-03-31T23:33:55.317000+00:00</updated>
+  <updated>2025-04-01T02:58:30.345000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/295494/1</id>
-    <title>GH200 memory not clearing [1]</title>
-    <updated>2024-06-06T20:29:04.896000+00:00</updated>
-    <content>Ayushkoul00: I am trying to run some ML models on a GH200 GPU using CuPy, CuML and CuDF in Python. However, the memory in the GPU is almost filled. No processes are running as well. Since my program deals with a lot of mem...</content>
-    <link href="https://forums.developer.nvidia.com/t/295494/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/295501/4</id>
     <title>Gstreamer NVMM memory buffer to torch tensor with zero copy [4]</title>
@@ -353,5 +346,12 @@
     <updated>2025-03-31T23:33:55.317000+00:00</updated>
     <content>Robert_Crovella: ...need, since it has basically a 1:1 correspondence with CUDA C++ that you have written, and you haven't expressed a toolchain preference (e.g. numba, cupy, etc.) Sorry I don't have a code example for you. The following may be of interest: https://nvidia.github.io/cuda-python/cuda-bindings/latest/module/...</content>
     <link href="https://forums.developer.nvidia.com/t/328806/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/328863/1</id>
+    <title>Illegal Memory Access Error when using VPI with DeepStream in Python [1]</title>
+    <updated>2025-04-01T02:58:30.345000+00:00</updated>
+    <content>Ethanlee: ...vice Paul Bridger's post to work with the NvBufSurface C struct in Python. The overall process I implemented was: GStreamer buffer → CUDA EGL frame → CuPy array → VPI Image. While I was able to obtain the VPI Image, I encountered an issue where calling cudart.cudaGraphicsUnregisterResource(graphics_reso...</content>
+    <link href="https://forums.developer.nvidia.com/t/328863/1"/>
   </entry>
 </feed>
