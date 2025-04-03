@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-04-01T04:47:01.245000+00:00</updated>
+  <updated>2025-04-03T09:34:21.699000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/295501/4</id>
-    <title>Gstreamer NVMM memory buffer to torch tensor with zero copy [4]</title>
-    <updated>2024-06-07T15:00:47.161000+00:00</updated>
-    <content>vermillionblu: Thank you I was successfully able to cast it to torch tensor from cupy. Is it possible to do so without using pyds library bindings?</content>
-    <link href="https://forums.developer.nvidia.com/t/295501/4"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/295606/1</id>
     <title>Problem using jetson tx2 with jetpack 4.6.3 with ultralytics [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-04-01T04:47:01.245000+00:00</updated>
     <content>Ethanlee: Thank you @AastaLLL Yes, my goal is to convert a GStreamer buffer to a VPI Image. I am trying to wrap the CuPy array into a VPI Image because I could only find examples that convert a GStreamer buffer to a CuPy array without memory copying. Are there any other...</content>
     <link href="https://forums.developer.nvidia.com/t/328863/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/329192/1</id>
+    <title>Order of frames within batches changing in triton inference server python backend with deepstream pipeline [1]</title>
+    <updated>2025-04-03T09:34:21.699000+00:00</updated>
+    <content>Ajithkumar Ak95: ...nages streams using the new nvstreammux plugin and incorporates a Python-based AI processing pipeline using nvinferserver. This AI pipeline leverages CuPy and TensorFlow for high-resolution object detection. The final processed video streams are encoded and transmitted via mediamtx as RTSP outputs. The...</content>
+    <link href="https://forums.developer.nvidia.com/t/329192/1"/>
   </entry>
 </feed>
