@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-04-03T09:34:21.699000+00:00</updated>
+  <updated>2025-04-07T10:01:25.092000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/295606/1</id>
@@ -306,13 +306,6 @@
     <link href="https://forums.developer.nvidia.com/t/327207/6"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/327850/1</id>
-    <title>Intermittent Artifacts in DeepStream RTSP Output with Dynamic Multi-Stream Video Analytics with triton inference server with python backend [1]</title>
-    <updated>2025-03-21T05:11:00.390000+00:00</updated>
-    <content>Ajithkumar Ak95: ...nages streams using the new nvstreammux plugin and incorporates a Python-based AI processing pipeline using nvinferserver. This AI pipeline leverages CuPy and TensorFlow for high-resolution object detection. The final processed video streams are encoded and transmitted via mediamtx as RTSP outputs. Howe...</content>
-    <link href="https://forums.developer.nvidia.com/t/327850/1"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/328110/1</id>
     <title>Mixing PyNitros and ComposableNode in a same pipeline problem [1]</title>
     <updated>2025-03-24T15:23:24.637000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2025-04-03T09:34:21.699000+00:00</updated>
     <content>Ajithkumar Ak95: ...nages streams using the new nvstreammux plugin and incorporates a Python-based AI processing pipeline using nvinferserver. This AI pipeline leverages CuPy and TensorFlow for high-resolution object detection. The final processed video streams are encoded and transmitted via mediamtx as RTSP outputs. The...</content>
     <link href="https://forums.developer.nvidia.com/t/329192/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/327850/42</id>
+    <title>Intermittent Artifacts in DeepStream RTSP Output with Dynamic Multi-Stream Video Analytics with triton inference server with python backend [42]</title>
+    <updated>2025-04-07T10:01:25.092000+00:00</updated>
+    <content>Ajithkumar Ak95: ...p import triton_python_backend_utils as pb_utils import socket from queue import Queue import pickle import threading import time import queue import cupy as cp import gi gi.require_version('Gst', '1.0') from gi.repository import Gst, GObject import traceback import config from utilities import load_dic...</content>
+    <link href="https://forums.developer.nvidia.com/t/327850/42"/>
   </entry>
 </feed>
