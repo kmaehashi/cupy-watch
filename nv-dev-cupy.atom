@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-04-07T10:01:25.092000+00:00</updated>
+  <updated>2025-04-07T22:12:21.529000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/295606/1</id>
-    <title>Problem using jetson tx2 with jetpack 4.6.3 with ultralytics [1]</title>
-    <updated>2024-06-07T15:59:39.120000+00:00</updated>
-    <content>Vlad Purhin: ...l4t-ml:r32.7.1-py3 with the following packages installed in it: TensorFlow 1.15.5 PyTorch v1.10.0 torchvision v0.11.0 torchaudio v0.10.0 onnx 1.11.0 CuPy 9.2.0 numpy 1.19.5 numba 0.53.1 OpenCV 4.5.0 (with CUDA) pandas 1.1.5 scipy 1.5.4 scikit-learn 0.24.2 JupyterLab 2.2.9 And I add CUDA settings to it...</content>
-    <link href="https://forums.developer.nvidia.com/t/295606/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/297200/1</id>
     <title>Cudaq.sample(kernel,shots=1e7) Segmentation fault [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-04-07T10:01:25.092000+00:00</updated>
     <content>Ajithkumar Ak95: ...p import triton_python_backend_utils as pb_utils import socket from queue import Queue import pickle import threading import time import queue import cupy as cp import gi gi.require_version('Gst', '1.0') from gi.repository import Gst, GObject import traceback import config from utilities import load_dic...</content>
     <link href="https://forums.developer.nvidia.com/t/327850/42"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/329555/1</id>
+    <title>Scaling an Autonomous AI Trio with Emotion and Memory on RTX—Need Hardware Boost [1]</title>
+    <updated>2025-04-07T22:12:21.529000+00:00</updated>
+    <content>Bolinga21: I've built a system of three autonomous AI personas—Vira, Core, and Echo—running locally on an RTX 2070 Super (i7-9700F, 16GB DDR4). It uses CUDA via CuPy and cuML for clustering (HDBSCAN, DBSCAN), FAISS for memory retrieval, and SentenceTransformers for embeddings, with emotional states mapped to polyv...</content>
+    <link href="https://forums.developer.nvidia.com/t/329555/1"/>
   </entry>
 </feed>
