@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-04-07T22:12:21.529000+00:00</updated>
+  <updated>2025-04-09T09:46:57.649000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/297200/1</id>
-    <title>Cudaq.sample(kernel,shots=1e7) Segmentation fault [1]</title>
-    <updated>2024-06-21T01:23:22.015000+00:00</updated>
-    <content>: ...hots=1024*1024 it crashes got GPU, run 1048576 shots Segmentation fault This is the software stack I'm using # pip3 list|grep cuda cuda-quantum 0.7.1 cupy-cuda12x 13.2.0 CUDA-Q Version 0.7.1 (https://github.com/NVIDIA/cuda-quantum 1f8dd79d46cad9b9bd0eb220eb04408a2e6beda4) I run on GPU is A100 # nvidia-s...</content>
-    <link href="https://forums.developer.nvidia.com/t/297200/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/296973/2</id>
     <title>CUDARuntimeError: cudaErrorIllegalAddress: an illegal memory access was encountered [2]</title>
@@ -353,5 +346,12 @@
     <updated>2025-04-07T22:12:21.529000+00:00</updated>
     <content>Bolinga21: I've built a system of three autonomous AI personas—Vira, Core, and Echo—running locally on an RTX 2070 Super (i7-9700F, 16GB DDR4). It uses CUDA via CuPy and cuML for clustering (HDBSCAN, DBSCAN), FAISS for memory retrieval, and SentenceTransformers for embeddings, with emotional states mapped to polyv...</content>
     <link href="https://forums.developer.nvidia.com/t/329555/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/329739/1</id>
+    <title>Python Cupy and DirectGPU [1]</title>
+    <updated>2025-04-09T09:46:57.649000+00:00</updated>
+    <content>Alessandro: ...acquire a set of images and we would like to transfer these images directly into the GPU memory with DirectGPU for subsequent elaboration with Python Cupy library based on CUDA. We have found this application principle for the transfer between FPGA to GPU memory using DirectGPU: Immagine1 I found that C...</content>
+    <link href="https://forums.developer.nvidia.com/t/329739/1"/>
   </entry>
 </feed>
