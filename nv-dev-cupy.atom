@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-04-09T09:46:57.649000+00:00</updated>
+  <updated>2025-04-09T15:16:51.165000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/296973/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/329555/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/329739/1</id>
-    <title>Python Cupy and DirectGPU [1]</title>
-    <updated>2025-04-09T09:46:57.649000+00:00</updated>
-    <content>Alessandro: ...acquire a set of images and we would like to transfer these images directly into the GPU memory with DirectGPU for subsequent elaboration with Python Cupy library based on CUDA. We have found this application principle for the transfer between FPGA to GPU memory using DirectGPU: Immagine1 I found that C...</content>
-    <link href="https://forums.developer.nvidia.com/t/329739/1"/>
+    <id>https://forums.developer.nvidia.com/t/329739/2</id>
+    <title>Python Cupy and DirectGPU [2]</title>
+    <updated>2025-04-09T15:16:51.165000+00:00</updated>
+    <content>njuffa: Have you read NVIDIA's documentation? https://docs.nvidia.com/cuda/gpudirect-rdma/ docs.nvidia.com https://docs.nvidia.com/cuda/gpudirect-rdma/ 1. Overview — GPUDirect RDMA 12.8 documentation The API reference guide for enabling GPUDirect RDMA connections to NVIDIA GPUs.</content>
+    <link href="https://forums.developer.nvidia.com/t/329739/2"/>
   </entry>
 </feed>
