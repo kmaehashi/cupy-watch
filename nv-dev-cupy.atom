@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-04-09T15:16:51.165000+00:00</updated>
+  <updated>2025-04-10T07:14:47.188000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/296973/2</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/329555/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/329739/2</id>
-    <title>Python Cupy and DirectGPU [2]</title>
-    <updated>2025-04-09T15:16:51.165000+00:00</updated>
-    <content>njuffa: Have you read NVIDIA's documentation? https://docs.nvidia.com/cuda/gpudirect-rdma/ docs.nvidia.com https://docs.nvidia.com/cuda/gpudirect-rdma/ 1. Overview — GPUDirect RDMA 12.8 documentation The API reference guide for enabling GPUDirect RDMA connections to NVIDIA GPUs.</content>
-    <link href="https://forums.developer.nvidia.com/t/329739/2"/>
+    <id>https://forums.developer.nvidia.com/t/329739/3</id>
+    <title>Python Cupy and DirectGPU [3]</title>
+    <updated>2025-04-10T07:14:47.188000+00:00</updated>
+    <content>Alessandro: ...rSetAttribute and the nvidia_p2p_get_pages function to get the physical address where to write the data and then I can pass the cudaMalloc pointer to Cupy. However, as far as I know, the pages returned by p2p_get_pages are not contiguous. Is it is possible to allocate contiguous pages? Also, I don't und...</content>
+    <link href="https://forums.developer.nvidia.com/t/329739/3"/>
   </entry>
 </feed>
