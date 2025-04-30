@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-04-10T07:14:47.188000+00:00</updated>
+  <updated>2025-04-30T11:56:19.364000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/296973/2</id>
-    <title>CUDARuntimeError: cudaErrorIllegalAddress: an illegal memory access was encountered [2]</title>
-    <updated>2024-06-21T22:28:08.847000+00:00</updated>
-    <content>Afonso Martingo C: ...this issue. I checked the new release notes and noticed that the update changed the way FormatConverterOp operates on host/device copies. I was using Cupy to acquire the frame that was sent through a Tensor Holoscan, I think the error I am facing is related to Cupy waiting for data on the GPU and after...</content>
-    <link href="https://forums.developer.nvidia.com/t/296973/2"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/298222/13</id>
     <title>CUDA indexing issues [13]</title>
@@ -353,5 +346,12 @@
     <updated>2025-04-10T07:14:47.188000+00:00</updated>
     <content>Alessandro: ...rSetAttribute and the nvidia_p2p_get_pages function to get the physical address where to write the data and then I can pass the cudaMalloc pointer to Cupy. However, as far as I know, the pages returned by p2p_get_pages are not contiguous. Is it is possible to allocate contiguous pages? Also, I don't und...</content>
     <link href="https://forums.developer.nvidia.com/t/329739/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/331898/1</id>
+    <title>Deepstream Support For Ubuntu 24.04 with bindings for Python 3.12 [1]</title>
+    <updated>2025-04-30T11:56:19.364000+00:00</updated>
+    <content>Jspereira: Hi everyone, I'm working on a project that requires decoding multiple RTSP streams using the GPU and obtaining CuPy arrays from batches of those frames. My goal is to efficiently process these frames and use them as input to my existing inference pipeline. Initiall...</content>
+    <link href="https://forums.developer.nvidia.com/t/331898/1"/>
   </entry>
 </feed>
