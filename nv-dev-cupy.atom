@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-04-30T11:56:19.364000+00:00</updated>
+  <updated>2025-05-01T05:47:17.625000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/298222/13</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/329739/3"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/331898/1</id>
-    <title>Deepstream Support For Ubuntu 24.04 with bindings for Python 3.12 [1]</title>
-    <updated>2025-04-30T11:56:19.364000+00:00</updated>
-    <content>Jspereira: Hi everyone, I'm working on a project that requires decoding multiple RTSP streams using the GPU and obtaining CuPy arrays from batches of those frames. My goal is to efficiently process these frames and use them as input to my existing inference pipeline. Initiall...</content>
-    <link href="https://forums.developer.nvidia.com/t/331898/1"/>
+    <id>https://forums.developer.nvidia.com/t/331898/2</id>
+    <title>Deepstream Support For Ubuntu 24.04 with bindings for Python 3.12 [2]</title>
+    <updated>2025-05-01T05:47:17.625000+00:00</updated>
+    <content>Junshengy: ...m not looking to fully adopt DeepStream for my entire pipeline - I'm only interested in decoding multiple RTSP streams in parallel and retrieving the CuPy arrays. Is there another NVIDIA tool or library I may have overlooked that can achieve this? Each stream builds the following pipeline rtspsrc (nvuri...</content>
+    <link href="https://forums.developer.nvidia.com/t/331898/2"/>
   </entry>
 </feed>
