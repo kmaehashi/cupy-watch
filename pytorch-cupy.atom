@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2025-02-20T15:33:50.235000+00:00</updated>
+  <updated>2025-05-03T09:31:16.979000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/19514/1</id>
-    <title>Sparse tensor support for slice, reduce sum and element wise comparison? [1]</title>
-    <updated>2018-06-11T12:23:59.280000+00:00</updated>
-    <content>Le Niu: ...jobs. Here I have a small project which present a sparseTensor wrapper for slice and reduce sum based on pytorch dense tensor, sparse tensor and some cupy kernels(only for inference, since no graph registration is handled) https://github.com/overshiki/sparseTensorUtils GitHub https://github.com/overshik...</content>
-    <link href="https://discuss.pytorch.org/t/19514/1"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/31224/1</id>
     <title>Huge CPU RAM consumed when creating tensor inside GPU [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-02-20T15:33:50.235000+00:00</updated>
     <content>HyperHyper: Hello. I have a question regarding PyTorch Stream. If I create a CuPy stream, is it possible to convert it to a torch.cuda.Stream() ? I'm also interested in whether the same can be done for an RMM stream that I created....</content>
     <link href="https://discuss.pytorch.org/t/216955/1"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/219712/1</id>
+    <title>Universal CUDA Tools: GPU-Safe Execution Made Simple for PyTorch [1]</title>
+    <updated>2025-05-03T09:31:16.979000+00:00</updated>
+    <content>Tunahan Yardımcı: ...ent, and auto tensorization for all code within the block. Utilities tensorize_for_universal(obj, device) move_to_torch(device, obj) patch_numpy_with_cupy() Example from cuda_tools import cuda @cuda(device="cuda", auto_tensorize=True, to_list=True) def add(a, b): return a + b print(add([1, 2], [3, 4]))...</content>
+    <link href="https://discuss.pytorch.org/t/219712/1"/>
   </entry>
 </feed>
