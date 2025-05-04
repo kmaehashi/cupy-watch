@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-05-01T05:47:17.625000+00:00</updated>
+  <updated>2025-05-04T21:35:46.533000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/298222/13</id>
-    <title>CUDA indexing issues [13]</title>
-    <updated>2024-07-02T19:10:18.685000+00:00</updated>
-    <content>Raul Valle: I edited my code above. In my new test I actually separated the tasks a bit: FWF_ACC_CPUONLY_DEBUG() is a function that generates all the intermediate outputs on the CPU sequentially. FWF_ACC_DEBUG() is a function that generates all the intermediate outputs on the GPU sequentially. In the second ...</content>
-    <link href="https://forums.developer.nvidia.com/t/298222/13"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/298497/10</id>
     <title>Is the performance of cuda radix-sort related to data itself? [10]</title>
@@ -353,5 +346,12 @@
     <updated>2025-05-01T05:47:17.625000+00:00</updated>
     <content>Junshengy: ...m not looking to fully adopt DeepStream for my entire pipeline - I'm only interested in decoding multiple RTSP streams in parallel and retrieving the CuPy arrays. Is there another NVIDIA tool or library I may have overlooked that can achieve this? Each stream builds the following pipeline rtspsrc (nvuri...</content>
     <link href="https://forums.developer.nvidia.com/t/331898/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/332213/1</id>
+    <title>Nsight Systems 2025.3.1 Hangs at 99% on Windows When Using Python or directly with CUDA [1]</title>
+    <updated>2025-05-04T21:35:46.533000+00:00</updated>
+    <content>: ...3H2, Build 26100 GPU: RTX 3090 CUDA Version: 12.8.93 Python Version: 3.12 (venv) Profiler Target: Python script launching CUDA kernel via PyTorch and CuPy, also a compiled exe version of that kernel Storage Target: Samsung 970 PRO NVMe used as system cache/temp drive Issue: Profiling stalls consistently...</content>
+    <link href="https://forums.developer.nvidia.com/t/332213/1"/>
   </entry>
 </feed>
