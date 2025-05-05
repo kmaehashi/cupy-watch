@@ -337,7 +337,7 @@
     <id>https://forums.developer.nvidia.com/t/332213/1</id>
     <title>Nsight Systems 2025.3.1 Hangs at 99% on Windows When Using Python or directly with CUDA [1]</title>
     <updated>2025-05-04T21:35:46.533000+00:00</updated>
-    <content>: ...3H2, Build 26100 GPU: RTX 3090 CUDA Version: 12.8.93 Python Version: 3.12 (venv) Profiler Target: Python script launching CUDA kernel via PyTorch and CuPy, also a compiled exe version of that kernel Storage Target: Samsung 970 PRO NVMe used as system cache/temp drive Issue: Profiling stalls consistently...</content>
+    <content>Daniel: ...3H2, Build 26100 GPU: RTX 3090 CUDA Version: 12.8.93 Python Version: 3.12 (venv) Profiler Target: Python script launching CUDA kernel via PyTorch and CuPy, also a compiled exe version of that kernel Storage Target: Samsung 970 PRO NVMe used as system cache/temp drive Issue: Profiling stalls consistently...</content>
     <link href="https://forums.developer.nvidia.com/t/332213/1"/>
   </entry>
   <entry>
