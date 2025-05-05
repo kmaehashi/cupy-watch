@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-05-04T21:35:46.533000+00:00</updated>
+  <updated>2025-05-05T08:39:14.159000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/298497/10</id>
-    <title>Is the performance of cuda radix-sort related to data itself? [10]</title>
-    <updated>2024-07-04T16:56:13.603000+00:00</updated>
-    <content>Robert_Crovella: ...make this change, without hampering other work you are doing, then that may be another avenue to explore. Although maybe not convenient to use here, cupy sort probably knows how to do a sensible job of sorting columns of an array.</content>
-    <link href="https://forums.developer.nvidia.com/t/298497/10"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/299009/4</id>
     <title>How I can parallel access the meta data for each stream? [4]</title>
@@ -353,5 +346,12 @@
     <updated>2025-05-04T21:35:46.533000+00:00</updated>
     <content>: ...3H2, Build 26100 GPU: RTX 3090 CUDA Version: 12.8.93 Python Version: 3.12 (venv) Profiler Target: Python script launching CUDA kernel via PyTorch and CuPy, also a compiled exe version of that kernel Storage Target: Samsung 970 PRO NVMe used as system cache/temp drive Issue: Profiling stalls consistently...</content>
     <link href="https://forums.developer.nvidia.com/t/332213/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/332246/1</id>
+    <title>Fatal Python error: Bus error [1]</title>
+    <updated>2025-05-05T08:39:14.159000+00:00</updated>
+    <content>Rishika Rao: ..., pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.json, pandas._libs.parsers, pandas._libs.testing, _testcapi, cupy_backends.cuda._softlink, cupy_backends.cuda.api._runtime_enum, cupy_backends.cuda.api.runtime, cupy._u til, cupy.cuda.device, fastrlock.rlock, cupy.c...</content>
+    <link href="https://forums.developer.nvidia.com/t/332246/1"/>
   </entry>
 </feed>
