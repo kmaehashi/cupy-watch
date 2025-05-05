@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-05-05T08:39:14.159000+00:00</updated>
+  <updated>2025-05-05T20:16:48.296000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/299009/4</id>
-    <title>How I can parallel access the meta data for each stream? [4]</title>
-    <updated>2024-07-09T05:51:22.595000+00:00</updated>
-    <content>Debjit Adak: ...vds_buf_surface_gpu(hash(gst_buffer), frame_meta.batch_id) # dataptr is of type PyCapsule → Use ctypes to retrieve the pointer as an int to pass into cupy ctypes.pythonapi.PyCapsule_GetPointer.restype = ctypes.c_void_p ctypes.pythonapi.PyCapsule_GetPointer.argtypes = [ctypes.py_object, ctypes.c_char_p]...</content>
-    <link href="https://forums.developer.nvidia.com/t/299009/4"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/299421/1</id>
     <title>Windows WSL / Docker Desktop users must update to Docker Desktop v4.31.1 [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-05-05T08:39:14.159000+00:00</updated>
     <content>Rishika Rao: ..., pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.json, pandas._libs.parsers, pandas._libs.testing, _testcapi, cupy_backends.cuda._softlink, cupy_backends.cuda.api._runtime_enum, cupy_backends.cuda.api.runtime, cupy._u til, cupy.cuda.device, fastrlock.rlock, cupy.c...</content>
     <link href="https://forums.developer.nvidia.com/t/332246/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/332135/6</id>
+    <title>Dynamics simulation on multiple GPUs [6]</title>
+    <updated>2025-05-05T20:16:48.296000+00:00</updated>
+    <content>Chx33: ...he construction state inside the for loop. import numpy as np from cudaq.operator import * from cudaq import RungeKuttaIntegrator import cudaq import cupy as cp import matplotlib.pyplot as plt omega_a=1.0 Natoms=12 # Set the target to our dynamics simulator cudaq.set_target("dynamics") init=np.zeros(np....</content>
+    <link href="https://forums.developer.nvidia.com/t/332135/6"/>
   </entry>
 </feed>
