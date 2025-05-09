@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-05-05T20:16:48.296000+00:00</updated>
+  <updated>2025-05-09T17:01:16.578000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/299421/1</id>
-    <title>Windows WSL / Docker Desktop users must update to Docker Desktop v4.31.1 [1]</title>
-    <updated>2024-07-11T03:36:14.397000+00:00</updated>
-    <content>Joe: ...PUs from the containers if they are running Docker Desktop versions older than 4.31.1 . My project was running a PyTorch image because it already had cupy in it. I found this after installing the latest NVIDIA workstation but probably isn't directly related to that. This seems like some kind of driver i...</content>
-    <link href="https://forums.developer.nvidia.com/t/299421/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/299422/6</id>
     <title>[Resolved] Add way to recover edited file - undo changes - I corrupted requirements.txt and the container build failed [6]</title>
@@ -353,5 +346,12 @@
     <updated>2025-05-05T20:16:48.296000+00:00</updated>
     <content>Chx33: ...he construction state inside the for loop. import numpy as np from cudaq.operator import * from cudaq import RungeKuttaIntegrator import cudaq import cupy as cp import matplotlib.pyplot as plt omega_a=1.0 Natoms=12 # Set the target to our dynamics simulator cudaq.set_target("dynamics") init=np.zeros(np....</content>
     <link href="https://forums.developer.nvidia.com/t/332135/6"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/332763/1</id>
+    <title>Please support user-provided output buffers in Python API [1]</title>
+    <updated>2025-05-09T17:01:16.578000+00:00</updated>
+    <content>Gregory Kimball: ...Copyright (c) 2023, NVIDIA CORPORATION. All rights reserved. # See file LICENSE for terms. from typing import Any, Mapping, Optional, Sequence import cupy as cp import cupy.typing from numcodecs.compat import ensure_contiguous_ndarray_like from kvikio._lib.libnvcomp_ll import SUPPORTED_ALGORITHMS from k...</content>
+    <link href="https://forums.developer.nvidia.com/t/332763/1"/>
   </entry>
 </feed>
