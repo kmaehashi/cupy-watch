@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-06-03T08:43:35.064000+00:00</updated>
+  <updated>2025-06-03T11:13:31.369000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/301509/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/332763/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/335071/3</id>
-    <title>Zero copy conversion between cupy and numpy array [3]</title>
-    <updated>2025-06-03T08:43:35.064000+00:00</updated>
-    <content>AastaLLL: Hi, Please check the below examples to see if anything meets your requirements first: https://github.com/dusty-nv/jetson-utils/tree/master/python/examples github.com https://github.com/dusty-nv/jetson-utils/tree/master/python/examples jetson-utils/python/examples at master · dusty-nv/jetson-utils...</content>
-    <link href="https://forums.developer.nvidia.com/t/335071/3"/>
+    <id>https://forums.developer.nvidia.com/t/335071/4</id>
+    <title>Zero copy conversion between cupy and numpy array [4]</title>
+    <updated>2025-06-03T11:13:31.369000+00:00</updated>
+    <content>Yu Zhang: the examples are out dated and can not be executed.</content>
+    <link href="https://forums.developer.nvidia.com/t/335071/4"/>
   </entry>
 </feed>
