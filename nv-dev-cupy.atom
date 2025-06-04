@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-06-04T08:56:33.283000+00:00</updated>
+  <updated>2025-06-04T09:19:06.605000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/301509/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/332763/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/335071/5</id>
-    <title>Zero copy conversion between cupy and numpy array [5]</title>
-    <updated>2025-06-04T08:56:33.283000+00:00</updated>
-    <content>AastaLLL: Hi, Do you meet errors when using it? If so, could you share the error log? Thanks.</content>
-    <link href="https://forums.developer.nvidia.com/t/335071/5"/>
+    <id>https://forums.developer.nvidia.com/t/335071/6</id>
+    <title>Zero copy conversion between cupy and numpy array [6]</title>
+    <updated>2025-06-04T09:19:06.605000+00:00</updated>
+    <content>Yu Zhang: I have issues on running this https://github.com/dusty-nv/jetson-utils/blob/master/python/examples/cuda-array-interface.py example , it reports TypeError: cudaAllocMapped() got an unexpected keyword argument 'width' , I change the args to cuda_img = cudaAllocMapped(shape=(args.height, args.width,...</content>
+    <link href="https://forums.developer.nvidia.com/t/335071/6"/>
   </entry>
 </feed>
