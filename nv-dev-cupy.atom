@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-06-04T09:19:06.605000+00:00</updated>
+  <updated>2025-06-07T02:58:18.209000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/301509/1</id>
@@ -171,13 +171,6 @@
     <updated>2025-01-20T12:56:26.081000+00:00</updated>
     <content>Kellempxt: ..."couldn't find package: cuda") -- Package ctranslate2:4.2.0-builder has missing dependencies, disabling... ("couldn't find package: cuda") -- Package cupy has missing dependencies, disabling... ("couldn't find package: cuda") -- Package pycuda has missing dependencies, disabling... ("couldn't find packa...</content>
     <link href="https://forums.developer.nvidia.com/t/320624/12"/>
-  </entry>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/321328/1</id>
-    <title>[NVCOMP] Strange Bug/Behavior in NVCOMP Python API [1]</title>
-    <updated>2025-01-23T17:05:06.785000+00:00</updated>
-    <content>JL: ...incorrect for this use case. The issue arises directly from the nvcomp.Array , and it disrupts subsequent operations. Code: import numpy as np import cupy as cp from nvidia import nvcomp print("nvcomp version:", nvcomp.__version__) print("nvcomp cuda version:", nvcomp.__cuda_version__) ascending = np.ar...</content>
-    <link href="https://forums.developer.nvidia.com/t/321328/1"/>
   </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/323014/12</id>
@@ -353,5 +346,12 @@
     <updated>2025-06-04T09:19:06.605000+00:00</updated>
     <content>Yu Zhang: I have issues on running this https://github.com/dusty-nv/jetson-utils/blob/master/python/examples/cuda-array-interface.py example , it reports TypeError: cudaAllocMapped() got an unexpected keyword argument 'width' , I change the args to cuda_img = cudaAllocMapped(shape=(args.height, args.width,...</content>
     <link href="https://forums.developer.nvidia.com/t/335071/6"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/321328/4</id>
+    <title>[NVCOMP] Strange Bug/Behavior in NVCOMP Python API [4]</title>
+    <updated>2025-06-07T02:58:18.209000+00:00</updated>
+    <content>Ted Li: ...his thread where nvcomp.as_array() mangles the contents of a NumPy int32 array. Workaround Instead of passing a NumPy array directly, convert it to a CuPy array first and export it via DLPack, then after passing the exported DLPack tensor to the nvcomp.as_array() function, call .cpu() on the return valu...</content>
+    <link href="https://forums.developer.nvidia.com/t/321328/4"/>
   </entry>
 </feed>
