@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-06-07T02:58:18.209000+00:00</updated>
+  <updated>2025-06-09T08:12:43.958000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/301509/1</id>
-    <title>ImportError DLL while running PyOptiX hello.py example on Windows [1]</title>
-    <updated>2024-07-29T08:33:03.049000+00:00</updated>
-    <content>Alstom259: ...and followed the installation guide on Windows CMD terminal: I created a conda environment: conda create -n pyoptix-windows python numpy conda-forge::cupy pillow pytest Activated it: conda activate pyoptix-windows Installed pynvrtc: pip install pynvrtc Set the PYOPTIX_CMAKE_ARGS environment variable: se...</content>
-    <link href="https://forums.developer.nvidia.com/t/301509/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/301656/1</id>
     <title>TensorRT 10.1: Different inference results of onnxruntime and tensorrt [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-06-07T02:58:18.209000+00:00</updated>
     <content>Ted Li: ...his thread where nvcomp.as_array() mangles the contents of a NumPy int32 array. Workaround Instead of passing a NumPy array directly, convert it to a CuPy array first and export it via DLPack, then after passing the exported DLPack tensor to the nvcomp.as_array() function, call .cpu() on the return valu...</content>
     <link href="https://forums.developer.nvidia.com/t/321328/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/335341/10</id>
+    <title>Share cuda memory with gstreamer [10]</title>
+    <updated>2025-06-09T08:12:43.958000+00:00</updated>
+    <content>510864714: ...how many memory copies are involved in this process? As far as I understand, there will be one GPU-to-GPU copy — specifically: PyTorch CUDA tensor → CuPy (to access the pointer) → DeepStream NvBufSurface . Is that correct? Thanks again for your continued patience and guidance!</content>
+    <link href="https://forums.developer.nvidia.com/t/335341/10"/>
   </entry>
 </feed>
