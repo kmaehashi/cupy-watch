@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-06-09T08:12:43.958000+00:00</updated>
+  <updated>2025-06-10T08:12:06.812000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/301656/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/321328/4"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/335341/10</id>
-    <title>Share cuda memory with gstreamer [10]</title>
-    <updated>2025-06-09T08:12:43.958000+00:00</updated>
-    <content>510864714: ...how many memory copies are involved in this process? As far as I understand, there will be one GPU-to-GPU copy — specifically: PyTorch CUDA tensor → CuPy (to access the pointer) → DeepStream NvBufSurface . Is that correct? Thanks again for your continued patience and guidance!</content>
-    <link href="https://forums.developer.nvidia.com/t/335341/10"/>
+    <id>https://forums.developer.nvidia.com/t/335341/14</id>
+    <title>Share cuda memory with gstreamer [14]</title>
+    <updated>2025-06-10T08:12:06.812000+00:00</updated>
+    <content>510864714: Thank you very much for your helpful suggestion! In my current project, I would like to first try converting the PyTorch tensor to a CuPy array , and then use the relevant functions from pyds to create an NvBufSurface , performing only a single GPU-to-GPU memory copy in the process. Thi...</content>
+    <link href="https://forums.developer.nvidia.com/t/335341/14"/>
   </entry>
 </feed>
