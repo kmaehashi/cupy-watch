@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-06-10T08:12:06.812000+00:00</updated>
+  <updated>2025-06-11T01:50:57.467000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/301656/1</id>
-    <title>TensorRT 10.1: Different inference results of onnxruntime and tensorrt [1]</title>
-    <updated>2024-07-30T09:15:31.928000+00:00</updated>
-    <content>astan.w: ....22 CUDA Version: 12.2 Operating System + Version : Windows 10 22H2 19045.3448 Python Version: 3.10 onnxruntime version: 1.16.0 numpy version: 1.23.1 cupy version: 13.2.0 Relevant Files https://drive.google.com/file/d/1toMublS6TQgP3NZDWc8gnwJJ8qLMz9VY/view drive.google.com https://drive.google.com/file/...</content>
-    <link href="https://forums.developer.nvidia.com/t/301656/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/303075/3</id>
     <title>Jetson with Docker [3]</title>
@@ -353,5 +346,12 @@
     <updated>2025-06-10T08:12:06.812000+00:00</updated>
     <content>510864714: Thank you very much for your helpful suggestion! In my current project, I would like to first try converting the PyTorch tensor to a CuPy array , and then use the relevant functions from pyds to create an NvBufSurface , performing only a single GPU-to-GPU memory copy in the process. Thi...</content>
     <link href="https://forums.developer.nvidia.com/t/335341/14"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/335258/4</id>
+    <title>Deepstream images quality [4]</title>
+    <updated>2025-06-11T01:50:57.467000+00:00</updated>
+    <content>648811273: live stream 1080p 25fps format：h264, h265 Save each frame of the image using the probe function by cupy new question：Choosing frame skipping for detection may result in missed targets，but if detected at full frame rate, this situation will not occur</content>
+    <link href="https://forums.developer.nvidia.com/t/335258/4"/>
   </entry>
 </feed>
