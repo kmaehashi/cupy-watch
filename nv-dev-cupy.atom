@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-06-11T01:50:57.467000+00:00</updated>
+  <updated>2025-06-13T01:43:09.558000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/303075/3</id>
-    <title>Jetson with Docker [3]</title>
-    <updated>2024-08-12T07:14:45.652000+00:00</updated>
-    <content>AastaLLL: ...1-py3 for JetPack 5.1.1 contains: TensorFlow 2.11.0 PyTorch v2.0.0 torchvision v0.15.1 torchaudio v2.0.1 onnx 1.13.1 onnxruntime 1.16.0 optimum 1.8.8 CuPy 13.0.0 numpy 1.23.5 numba 0.56.4 PyCUDA 2022.2 OpenCV 4.5.0 (with CUDA) pandas 2.0.1 scipy 1.10.0 scikit-learn 1.2.2 diffusers 0.17.1 transformers 4....</content>
-    <link href="https://forums.developer.nvidia.com/t/303075/3"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/295814/6</id>
     <title>When upgrade from CUDA12.4 to 12.5 the compilation became broken [6]</title>
@@ -353,5 +346,12 @@
     <updated>2025-06-11T01:50:57.467000+00:00</updated>
     <content>648811273: live stream 1080p 25fps format：h264, h265 Save each frame of the image using the probe function by cupy new question：Choosing frame skipping for detection may result in missed targets，but if detected at full frame rate, this situation will not occur</content>
     <link href="https://forums.developer.nvidia.com/t/335258/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/335932/9</id>
+    <title>About how to control thread in cuSPARSE [9]</title>
+    <updated>2025-06-13T01:43:09.558000+00:00</updated>
+    <content>Leehyejin0239: Thanks for your useful comment. i should try to implement cuBLAS!! Compring with CUPY, it looks like CUDA control memory more efficiently.,! ( IDK specifically how to control ) Anyway, i aprreciate your quick comment.</content>
+    <link href="https://forums.developer.nvidia.com/t/335932/9"/>
   </entry>
 </feed>
