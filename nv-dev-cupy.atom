@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-06-13T01:43:09.558000+00:00</updated>
+  <updated>2025-06-19T06:07:17.561000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/295814/6</id>
@@ -320,13 +320,6 @@
     <link href="https://forums.developer.nvidia.com/t/332763/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/335071/6</id>
-    <title>Zero copy conversion between cupy and numpy array [6]</title>
-    <updated>2025-06-04T09:19:06.605000+00:00</updated>
-    <content>Yu Zhang: I have issues on running this https://github.com/dusty-nv/jetson-utils/blob/master/python/examples/cuda-array-interface.py example , it reports TypeError: cudaAllocMapped() got an unexpected keyword argument 'width' , I change the args to cuda_img = cudaAllocMapped(shape=(args.height, args.width,...</content>
-    <link href="https://forums.developer.nvidia.com/t/335071/6"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/321328/4</id>
     <title>[NVCOMP] Strange Bug/Behavior in NVCOMP Python API [4]</title>
     <updated>2025-06-07T02:58:18.209000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2025-06-13T01:43:09.558000+00:00</updated>
     <content>Leehyejin0239: Thanks for your useful comment. i should try to implement cuBLAS!! Compring with CUPY, it looks like CUDA control memory more efficiently.,! ( IDK specifically how to control ) Anyway, i aprreciate your quick comment.</content>
     <link href="https://forums.developer.nvidia.com/t/335932/9"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/335071/7</id>
+    <title>Zero copy conversion between cupy and numpy array [7]</title>
+    <updated>2025-06-19T06:07:17.561000+00:00</updated>
+    <content>AastaLLL: Hi, Sorry for the late. Please check out the 1.0 branch and see if the sample can work as expected. Thanks.</content>
+    <link href="https://forums.developer.nvidia.com/t/335071/7"/>
   </entry>
 </feed>
