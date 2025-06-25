@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-06-19T06:27:20.003000+00:00</updated>
+  <updated>2025-06-25T06:57:38.167000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/295814/6</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/335932/9"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/335071/8</id>
-    <title>Zero copy conversion between cupy and numpy array [8]</title>
-    <updated>2025-06-19T06:27:20.003000+00:00</updated>
-    <content>Yu Zhang: You mean v1 branch right?</content>
-    <link href="https://forums.developer.nvidia.com/t/335071/8"/>
+    <id>https://forums.developer.nvidia.com/t/335071/9</id>
+    <title>Zero copy conversion between cupy and numpy array [9]</title>
+    <updated>2025-06-25T06:57:38.167000+00:00</updated>
+    <content>AastaLLL: Hi, Yes, the v1 branch. The example is not updated for the recent changes. So please try it with the previous branch to see if it can work. Thansk.</content>
+    <link href="https://forums.developer.nvidia.com/t/335071/9"/>
   </entry>
 </feed>
