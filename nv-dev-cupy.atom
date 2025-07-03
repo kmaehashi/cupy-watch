@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-06-25T06:57:38.167000+00:00</updated>
+  <updated>2025-07-03T15:06:38.831000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/295814/6</id>
-    <title>When upgrade from CUDA12.4 to 12.5 the compilation became broken [6]</title>
-    <updated>2024-08-19T06:40:42.813000+00:00</updated>
-    <content>Harald Siegmund: ...r this bug and that I agree to the [Code of Conduct](CODE_OF_CONDUCT.md) ### Type of Bug Compile-time Error ### Component Thrust ### Describe the bug CuPy cannot be built due to this compiler error, which does not exist at all. I think this might be due to a missing compiler guard that used to exist som...</content>
-    <link href="https://forums.developer.nvidia.com/t/295814/6"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/306145/2</id>
     <title>Is there an efficient way to implement a function similar to np.add.at() function in NumPy? [2]</title>
@@ -353,5 +346,12 @@
     <updated>2025-06-25T06:57:38.167000+00:00</updated>
     <content>AastaLLL: Hi, Yes, the v1 branch. The example is not updated for the recent changes. So please try it with the previous branch to see if it can work. Thansk.</content>
     <link href="https://forums.developer.nvidia.com/t/335071/9"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/337929/2</id>
+    <title>Nvshmem4py nvshmem.core.tensor does not support dtype torch.uint64, which is wired [2]</title>
+    <updated>2025-07-03T15:06:38.831000+00:00</updated>
+    <content>Benjaming: ...lease. nvshmem.core.put_signal() takes an object of type cuda.core.Buffer allocatable with nvshmem.core.buffer() and of size 8 bytes. We also support CuPy arrays of type uint64 if that suits your needs. We can investigate torch uint64 for the next release.</content>
+    <link href="https://forums.developer.nvidia.com/t/337929/2"/>
   </entry>
 </feed>
