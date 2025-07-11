@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-07-11T13:03:26.181000+00:00</updated>
+  <updated>2025-07-11T15:35:53.854000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/309039/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/338313/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/338529/4</id>
-    <title>Delivering the Missing Building Blocks for NVIDIA CUDA Kernel Fusion in Python [4]</title>
-    <updated>2025-07-11T13:03:26.181000+00:00</updated>
-    <content>Ashwint: Thanks! It looks like you might be running into https://github.com/cupy/cupy/issues/9128 . What version of CuPy do you have installed? pip list | grep cupy</content>
-    <link href="https://forums.developer.nvidia.com/t/338529/4"/>
+    <id>https://forums.developer.nvidia.com/t/338529/5</id>
+    <title>Delivering the Missing Building Blocks for NVIDIA CUDA Kernel Fusion in Python [5]</title>
+    <updated>2025-07-11T15:35:53.854000+00:00</updated>
+    <content>LaszloHars: cupy 13.4.1, installed automatically Windows-11</content>
+    <link href="https://forums.developer.nvidia.com/t/338529/5"/>
   </entry>
 </feed>
