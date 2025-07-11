@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-07-11T15:35:53.854000+00:00</updated>
+  <updated>2025-07-11T16:11:51.714000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/309039/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/338313/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/338529/5</id>
-    <title>Delivering the Missing Building Blocks for NVIDIA CUDA Kernel Fusion in Python [5]</title>
-    <updated>2025-07-11T15:35:53.854000+00:00</updated>
-    <content>LaszloHars: cupy 13.4.1, installed automatically Windows-11</content>
-    <link href="https://forums.developer.nvidia.com/t/338529/5"/>
+    <id>https://forums.developer.nvidia.com/t/338529/7</id>
+    <title>Delivering the Missing Building Blocks for NVIDIA CUDA Kernel Fusion in Python [7]</title>
+    <updated>2025-07-11T16:11:51.714000+00:00</updated>
+    <content>LaszloHars: After upgrading cupy to 13.5.1, I got another error: Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32 C:\Users\...\Documen...</content>
+    <link href="https://forums.developer.nvidia.com/t/338529/7"/>
   </entry>
 </feed>
