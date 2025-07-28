@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-07-28T10:38:49.862000+00:00</updated>
+  <updated>2025-07-28T13:22:58.733000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/311015/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/339524/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/339014/18</id>
-    <title>Performance Issues with DeepStream Pipeline: AI Frame Rate Decreases with Encoding and Overlays [18]</title>
-    <updated>2025-07-28T10:38:49.862000+00:00</updated>
-    <content>Ajithkumar Ak95: ...ending which will cause the buffer will not be consumed in time. I know it, We are not doing AI on probe, we use probe to copy content into a gloabal cupy batch variable. We made it sure that it wont block video smoothness. We use a seperate thread to run the AI with above cupy Batch. with shape of 10*1...</content>
-    <link href="https://forums.developer.nvidia.com/t/339014/18"/>
+    <id>https://forums.developer.nvidia.com/t/339014/22</id>
+    <title>Performance Issues with DeepStream Pipeline: AI Frame Rate Decreases with Encoding and Overlays [22]</title>
+    <updated>2025-07-28T13:22:58.733000+00:00</updated>
+    <content>Ajithkumar Ak95: ...the entire code, The base code is based on https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/master/apps/deepstream-imagedata-multistream-cupy github.com https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/master/apps/deepstream-imagedata-multistream-cupy deepstream_python_apps/apps...</content>
+    <link href="https://forums.developer.nvidia.com/t/339014/22"/>
   </entry>
 </feed>
