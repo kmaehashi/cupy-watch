@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-08-01T03:24:32.360000+00:00</updated>
+  <updated>2025-08-01T05:33:46.690000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/311015/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/335071/11"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/339014/32</id>
-    <title>Performance Issues with DeepStream Pipeline: AI Frame Rate Decreases with Encoding and Overlays [32]</title>
-    <updated>2025-08-01T03:24:32.360000+00:00</updated>
+    <id>https://forums.developer.nvidia.com/t/339014/44</id>
+    <title>Performance Issues with DeepStream Pipeline: AI Frame Rate Decreases with Encoding and Overlays [44]</title>
+    <updated>2025-08-01T05:33:46.690000+00:00</updated>
     <content>Fechen: ...-mode=0 ! nvvideoconvert ! nvh264enc ! rtspclientsink like this we use 10FHD Videos. Also parallelly we run an expensive GPU based AI as well. import cupy as cp import time # CUDA kernel that hogs GPU kernel_code = r''' extern "C" __global__ void high_load_kernel(float* out, int iterations) { int idx =...</content>
-    <link href="https://forums.developer.nvidia.com/t/339014/32"/>
+    <link href="https://forums.developer.nvidia.com/t/339014/44"/>
   </entry>
 </feed>
