@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-08-01T05:33:46.690000+00:00</updated>
+  <updated>2025-08-04T07:32:41.019000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/311015/1</id>
-    <title>DS-7 In ARM , The saved images are all black [1]</title>
-    <updated>2024-10-24T13:31:01.345000+00:00</updated>
-    <content>745206234: ...ownedMemory(c_data_ptr, size, owner) # Create MemoryPointer object from unownedmem, at index 0 memptr = cp.cuda.MemoryPointer(unownedmem, 0) # Create cupy array to access the image data. This array is in GPU buffer n_frame_gpu = cp.ndarray(shape=shape, dtype=data_type, memptr=memptr, strides=strides, or...</content>
-    <link href="https://forums.developer.nvidia.com/t/311015/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/309286/2</id>
     <title>Multiprocessing support in Isaac Sim [2]</title>
@@ -353,5 +346,12 @@
     <updated>2025-08-01T05:33:46.690000+00:00</updated>
     <content>Fechen: ...-mode=0 ! nvvideoconvert ! nvh264enc ! rtspclientsink like this we use 10FHD Videos. Also parallelly we run an expensive GPU based AI as well. import cupy as cp import time # CUDA kernel that hogs GPU kernel_code = r''' extern "C" __global__ void high_load_kernel(float* out, int iterations) { int idx =...</content>
     <link href="https://forums.developer.nvidia.com/t/339014/44"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/341142/3</id>
+    <title>Isaacsim-app-template PhysxForcefields extension version incompatibility issue [3]</title>
+    <updated>2025-08-04T07:32:41.019000+00:00</updated>
+    <content>Hcwong Henry: ...../_build/target-deps/python" packages = [ "torch==2.2.1", "torchvision==0.17.1", "torchaudio==2.2.1", "scikit-learn==1.5.2", "streamtracer==2.3.0", "cupy-cuda12x==13.3.0", "kaolin==0.17.0", "cython==0.29.20", "scipy &amp;gt; =1.2.0", "Pillow &amp;gt; =8.0.0", "warp-lang==1.5.1", "usd-core==23.2", "matplotlib==3.10.0...</content>
+    <link href="https://forums.developer.nvidia.com/t/341142/3"/>
   </entry>
 </feed>
