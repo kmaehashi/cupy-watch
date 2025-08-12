@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-08-11T23:12:14.328000+00:00</updated>
+  <updated>2025-08-12T17:10:02.661000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/281670/2</id>
-    <title>Problem with running the program from cupy [2]</title>
-    <updated>2024-11-16T09:44:21.909000+00:00</updated>
-    <content>Svkmongolec: if you find out why you got that error, please let me know becuase I have the same one</content>
-    <link href="https://forums.developer.nvidia.com/t/281670/2"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/313531/1</id>
     <title>Catastrophic error: cannot open source file &amp;ldquo;cupy/complex.cuh&amp;rdquo; [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-08-11T23:12:14.328000+00:00</updated>
     <content>Sascha Hornauer: ...orch 2.7.0 with cuda 12.9 would use a library that sounds like from cuda 11 so I searched for other cuda-related packages in my environment and found cupy-cuda11x. I removed it to see which package depends on it and go from there and the problem went away. To my surprise it actually did not get properly...</content>
     <link href="https://forums.developer.nvidia.com/t/340183/9"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/341947/7</id>
+    <title>Invalid simulator requested: dynamics [7]</title>
+    <updated>2025-08-12T17:10:02.661000+00:00</updated>
+    <content>Spisal: ...steps? Successfully installed astpretty-3.0.0 certifi-2025.8.3 charset_normalizer-3.4.3 cuda-quantum-cu12-0.12.0 cudaq-0.12.0 cudensitymat-cu12-0.2.0 cupy-cuda12x-13.4.1 cuquantum-cu12-25.6.0 custatevec-cu12-1.9.0 cutensor-cu12-2.2.0 cutensornet-cu12-2.8.0 fastrlock-0.8.3 idna-3.10 numpy-2.2.6 nvidia-cu...</content>
+    <link href="https://forums.developer.nvidia.com/t/341947/7"/>
   </entry>
 </feed>
