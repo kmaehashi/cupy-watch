@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-08-12T17:10:02.661000+00:00</updated>
+  <updated>2025-08-16T17:52:24.076000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/313531/1</id>
-    <title>Catastrophic error: cannot open source file &amp;ldquo;cupy/complex.cuh&amp;rdquo; [1]</title>
-    <updated>2024-11-16T09:56:20.109000+00:00</updated>
-    <content>Svkmongolec: Upon installing cuda and cupy + running a basic python script import cupy as cp x = cp.array([1, 2, 3]) print(x**2) I get the following error : $ python CUDA_RESET.py Traceback (m...</content>
-    <link href="https://forums.developer.nvidia.com/t/313531/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/313757/1</id>
     <title>Fusing Epilog Operations with Matrix Multiplication Using nvmath-python [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-08-12T17:10:02.661000+00:00</updated>
     <content>Spisal: ...steps? Successfully installed astpretty-3.0.0 certifi-2025.8.3 charset_normalizer-3.4.3 cuda-quantum-cu12-0.12.0 cudaq-0.12.0 cudensitymat-cu12-0.2.0 cupy-cuda12x-13.4.1 cuquantum-cu12-25.6.0 custatevec-cu12-1.9.0 cutensor-cu12-2.2.0 cutensornet-cu12-2.8.0 fastrlock-0.8.3 idna-3.10 numpy-2.2.6 nvidia-cu...</content>
     <link href="https://forums.developer.nvidia.com/t/341947/7"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/342264/1</id>
+    <title>Performance difference in large two-tensor contraction between cuQuantum and CuPy [1]</title>
+    <updated>2025-08-16T17:52:24.076000+00:00</updated>
+    <content>Subini0213: Hello, I am testing the performance of cuquantum.tensornet.contract against cupy.einsum for a simple two-tensor contraction. I noticed that cuquantum.tensornet.contract is much slower in this case. Here is the minimal code I used:...</content>
+    <link href="https://forums.developer.nvidia.com/t/342264/1"/>
   </entry>
 </feed>
