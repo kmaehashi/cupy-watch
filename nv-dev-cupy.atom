@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-08-16T17:52:24.076000+00:00</updated>
+  <updated>2025-08-18T18:47:44.133000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/313757/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/341947/7"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/342264/1</id>
-    <title>Performance difference in large two-tensor contraction between cuQuantum and CuPy [1]</title>
-    <updated>2025-08-16T17:52:24.076000+00:00</updated>
-    <content>Subini0213: Hello, I am testing the performance of cuquantum.tensornet.contract against cupy.einsum for a simple two-tensor contraction. I noticed that cuquantum.tensornet.contract is much slower in this case. Here is the minimal code I used:...</content>
-    <link href="https://forums.developer.nvidia.com/t/342264/1"/>
+    <id>https://forums.developer.nvidia.com/t/342264/2</id>
+    <title>Performance difference in large two-tensor contraction between cuQuantum and CuPy [2]</title>
+    <updated>2025-08-18T18:47:44.133000+00:00</updated>
+    <content>: ...applications which are often asynchronous, CPU timer does not provide accurate timing. The recommendation is to switch to event based timers or just cupyx.profiler.benchmark https://docs.cupy.dev/en/stable/reference/generated/cupyx.profiler.benchmark.html#cupyx.profiler.benchmark cupyx.profiler.benchma...</content>
+    <link href="https://forums.developer.nvidia.com/t/342264/2"/>
   </entry>
 </feed>
