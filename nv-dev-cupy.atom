@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-08-18T18:47:44.133000+00:00</updated>
+  <updated>2025-08-23T04:29:39.747000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/313757/1</id>
-    <title>Fusing Epilog Operations with Matrix Multiplication Using nvmath-python [1]</title>
-    <updated>2024-11-18T18:30:27.632000+00:00</updated>
-    <content>Jen Witsoe: ...l bindings to the underlying libraries and higher-level Pythonic abstractions. It is interoperable with existing Python packages, such as PyTorch and CuPy. In this post, I show how to use epilogs…</content>
-    <link href="https://forums.developer.nvidia.com/t/313757/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/316095/1</id>
     <title>Why is the amount of thread blocks per cluster and the dynamic shared memory that I can allocate much lower than expected? [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-08-18T18:47:44.133000+00:00</updated>
     <content>: ...applications which are often asynchronous, CPU timer does not provide accurate timing. The recommendation is to switch to event based timers or just cupyx.profiler.benchmark https://docs.cupy.dev/en/stable/reference/generated/cupyx.profiler.benchmark.html#cupyx.profiler.benchmark cupyx.profiler.benchma...</content>
     <link href="https://forums.developer.nvidia.com/t/342264/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/342923/1</id>
+    <title>Problem with products of boson.number operator in latest CUDA-Q [1]</title>
+    <updated>2025-08-23T04:29:39.747000+00:00</updated>
+    <content>Chx33: ...pt to reproduce the error: import numpy as np import cudaq from cudaq import boson, Schedule, ScipyZvodeIntegrator, spin, RungeKuttaIntegrator import cupy as cp import matplotlib.pyplot as plt L=5 Nmax=1 cudaq.set_target("dynamics") init=np.zeros(np.power(Nmax+1,L)) init[0]=1 index=3 hamiltonian = boson...</content>
+    <link href="https://forums.developer.nvidia.com/t/342923/1"/>
   </entry>
 </feed>
