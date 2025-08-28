@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-08-23T04:29:39.747000+00:00</updated>
+  <updated>2025-08-28T08:04:59.362000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/316095/1</id>
-    <title>Why is the amount of thread blocks per cluster and the dynamic shared memory that I can allocate much lower than expected? [1]</title>
-    <updated>2024-12-08T17:39:12.882000+00:00</updated>
-    <content>mrakgr: Link: https://github.com/cupy/cupy/issues/8778 The __cluster_dims__ annotation doesn't work as expected with CuPy. · Issue #8778 · cupy/cupy I originally thought this issue was re...</content>
-    <link href="https://forums.developer.nvidia.com/t/316095/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/219702/24</id>
     <title>Belive or Not: SuperCuda is 10^6(+) faster than Mathematica [24]</title>
@@ -353,5 +346,12 @@
     <updated>2025-08-23T04:29:39.747000+00:00</updated>
     <content>Chx33: ...pt to reproduce the error: import numpy as np import cudaq from cudaq import boson, Schedule, ScipyZvodeIntegrator, spin, RungeKuttaIntegrator import cupy as cp import matplotlib.pyplot as plt L=5 Nmax=1 cudaq.set_target("dynamics") init=np.zeros(np.power(Nmax+1,L)) init[0]=1 index=3 hamiltonian = boson...</content>
     <link href="https://forums.developer.nvidia.com/t/342923/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/280858/11</id>
+    <title>VPI __cuda_array_interface__ Interoperability [11]</title>
+    <updated>2025-08-28T08:04:59.362000+00:00</updated>
+    <content>AastaLLL: ...in, Aug 14 2025, 17:47:21) [GCC 13.3.0] on linux Type "help", "copyright", "credits" or "license" for more information. &amp;gt; &amp;gt; &amp;gt; import vpi &amp;gt; &amp;gt; &amp;gt; import cupy &amp;gt; &amp;gt; &amp;gt; vpi.__version__ '4.0.0' &amp;gt; &amp;gt; &amp;gt; cupy.__version__ '13.6.0' &amp;gt; &amp;gt; &amp;gt; vpi_image = vpi.Image((320,256), format=vpi.Format.RGB8) &amp;gt; &amp;gt; &amp;gt; cuImg = cupy.asarr...</content>
+    <link href="https://forums.developer.nvidia.com/t/280858/11"/>
   </entry>
 </feed>
