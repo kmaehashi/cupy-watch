@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-08-28T08:04:59.362000+00:00</updated>
+  <updated>2025-09-17T16:19:04.400000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/219702/24</id>
-    <title>Belive or Not: SuperCuda is 10^6(+) faster than Mathematica [24]</title>
-    <updated>2024-12-11T14:11:53.715000+00:00</updated>
-    <content>K Glimps: ...values (100 000,100 000) Here the GPU code (the CPU is just Client) ############################################ ```python import numpy as np import cupy as cp import dask.array as da import dask from dask_cuda import LocalCUDACluster from dask.distributed import Client cluster = LocalCUDACluster() cli...</content>
-    <link href="https://forums.developer.nvidia.com/t/219702/24"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/316679/7</id>
     <title>Missing Gstreamer Properties for NvUriSrcBin [7]</title>
@@ -353,5 +346,12 @@
     <updated>2025-08-28T08:04:59.362000+00:00</updated>
     <content>AastaLLL: ...in, Aug 14 2025, 17:47:21) [GCC 13.3.0] on linux Type "help", "copyright", "credits" or "license" for more information. &amp;gt; &amp;gt; &amp;gt; import vpi &amp;gt; &amp;gt; &amp;gt; import cupy &amp;gt; &amp;gt; &amp;gt; vpi.__version__ '4.0.0' &amp;gt; &amp;gt; &amp;gt; cupy.__version__ '13.6.0' &amp;gt; &amp;gt; &amp;gt; vpi_image = vpi.Image((320,256), format=vpi.Format.RGB8) &amp;gt; &amp;gt; &amp;gt; cuImg = cupy.asarr...</content>
     <link href="https://forums.developer.nvidia.com/t/280858/11"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/345125/2</id>
+    <title>Convert Input Tensor to InferenceOP in Holoscan [2]</title>
+    <updated>2025-09-17T16:19:04.400000+00:00</updated>
+    <content>aharouni: ...verterOp is not able to do this at this time and it does a copy. May be you can try this code below that would to the conversion for you. It does use cupy to run on the gpu but I am not sure if all operations avoids copying. Hope that helps class My_TransposeOp(Operator): #Custom Holoscan operator to tr...</content>
+    <link href="https://forums.developer.nvidia.com/t/345125/2"/>
   </entry>
 </feed>
