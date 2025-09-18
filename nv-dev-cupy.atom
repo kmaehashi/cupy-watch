@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-09-17T16:19:04.400000+00:00</updated>
+  <updated>2025-09-18T20:11:52.535000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/316679/7</id>
-    <title>Missing Gstreamer Properties for NvUriSrcBin [7]</title>
-    <updated>2024-12-16T17:03:04.271000+00:00</updated>
-    <content>Dsonmez: ...ything necessary to run this demo on the Jetson side as well, I don't think there are any critical restrictions. I already have handled "DeepStream - CuPy memory pointer limitation" which could affect the Jetson integration. yuweiw: The nvurisrcbin does not include either of these 2 properties. Could yo...</content>
-    <link href="https://forums.developer.nvidia.com/t/316679/7"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/315455/6</id>
     <title>&amp;ldquo;How to connect/Combine Two Jetson AGX Orin Devices to Share GPU Workload?&amp;rdquo; [6]</title>
@@ -353,5 +346,12 @@
     <updated>2025-09-17T16:19:04.400000+00:00</updated>
     <content>aharouni: ...verterOp is not able to do this at this time and it does a copy. May be you can try this code below that would to the conversion for you. It does use cupy to run on the gpu but I am not sure if all operations avoids copying. Hope that helps class My_TransposeOp(Operator): #Custom Holoscan operator to tr...</content>
     <link href="https://forums.developer.nvidia.com/t/345125/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/345408/1</id>
+    <title>Kernel error on boot, gpu info does not look complete [1]</title>
+    <updated>2025-09-18T20:11:52.535000+00:00</updated>
+    <content>John Miller: ...=========================================================== FAILED tests/test_holoscan.py:: test_holoscan[720-1280-bayer_format0-pixel_format0-0.1] - cupy.cuda.compiler.CompileException: nvrtc: error: invalid value for --gpu-architecture (-arch) FAILED tests/test_holoscan.py:: test_holoscan[720-1280-bay...</content>
+    <link href="https://forums.developer.nvidia.com/t/345408/1"/>
   </entry>
 </feed>
