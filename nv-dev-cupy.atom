@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-09-22T14:01:09.898000+00:00</updated>
+  <updated>2025-09-22T14:17:52.431000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/315455/6</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/345125/2"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/345408/4</id>
-    <title>Kernel error on boot, gpu info does not look complete [4]</title>
-    <updated>2025-09-22T14:01:09.898000+00:00</updated>
-    <content>shepard.siegel: ...=========================================================== FAILED tests/test_holoscan.py:: test_holoscan[720-1280-bayer_format0-pixel_format0-0.1] - cupy.cuda.compiler.CompileException: nvrtc: error: invalid value for --gpu-architecture (-arch) FAILED tests/test_holoscan.py:: test_holoscan[720-1280-bay...</content>
-    <link href="https://forums.developer.nvidia.com/t/345408/4"/>
+    <id>https://forums.developer.nvidia.com/t/345408/9</id>
+    <title>Kernel error on boot, gpu info does not look complete [9]</title>
+    <updated>2025-09-22T14:17:52.431000+00:00</updated>
+    <content>shepard.siegel: ...============================================================ FAILED tests/test_holoscan.py::test_holoscan[720-1280-bayer_format0-pixel_format0-0.1] - cupy.cuda.compiler.CompileException: nvrtc: error: invalid value for --gpu-architecture (-arch) FAILED tests/test_holoscan.py::test_holoscan[720-1280-baye...</content>
+    <link href="https://forums.developer.nvidia.com/t/345408/9"/>
   </entry>
 </feed>
