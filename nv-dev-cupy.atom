@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-09-23T02:36:57.547000+00:00</updated>
+  <updated>2025-09-23T07:07:06.810000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/315455/6</id>
-    <title>&amp;ldquo;How to connect/Combine Two Jetson AGX Orin Devices to Share GPU Workload?&amp;rdquo; [6]</title>
-    <updated>2024-12-18T05:17:25.444000+00:00</updated>
-    <content>Whitesscott: ...Jetson AGX Orin 192.168.1.11 slots=1 # IP of Jetson Orin Nano on both Orins install: sudo apt-get install -y libopenmpi-dev openmpi-bin pip3 install cupy-cuda12x mpi4py Set up passwordless SSH between the devices. Try the test to have mpirun can run using both gpus. mpirun -np 2 -hostfile hosts python3...</content>
-    <link href="https://forums.developer.nvidia.com/t/315455/6"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/317294/1</id>
     <title>Rapidsai JupyterLab cupy CUDARuntimeError: cudaErrorNoDevice: no CUDA-capable device is detected [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-09-23T02:36:57.547000+00:00</updated>
     <content>JerryChang: hello shepard.siegel, shepard.siegel: cupy.cuda.compiler.CompileException: nvrtc: error: invalid value for --gpu-architecture (-arch) BTW, I doubt it's due to Jetson Thor supports the OpenRM d...</content>
     <link href="https://forums.developer.nvidia.com/t/345408/16"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/345720/5</id>
+    <title>Jetson AGX Thor with Holoscan Sensor Bridge (HSB), Demo Container Failure [5]</title>
+    <updated>2025-09-23T07:07:06.810000+00:00</updated>
+    <content>JerryChang: ...a.com/t/345408/15 Topic 345408 , let me re-cap the failure.. FAILED tests/test_holoscan.py::test_holoscan[720-1280-bayer_format0-pixel_format0-0.1] - cupy.cuda.compiler.CompileException: nvrtc: error: invalid value for --gpu-architecture (-arch) it may due to Jetson Thor supports the OpenRM driver archi...</content>
+    <link href="https://forums.developer.nvidia.com/t/345720/5"/>
   </entry>
 </feed>
