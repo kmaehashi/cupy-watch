@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-09-23T07:07:06.810000+00:00</updated>
+  <updated>2025-09-25T17:01:47.799000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/317294/1</id>
-    <title>Rapidsai JupyterLab cupy CUDARuntimeError: cudaErrorNoDevice: no CUDA-capable device is detected [1]</title>
-    <updated>2024-12-18T09:37:04.296000+00:00</updated>
-    <content>Elena Hamidy: ...on GPU (see nvidi-smi output below), however per nvtop I rarely hit the mark of 50%. Then I try to execute this code from cudf demo notebooks: import cupy as cp import pandas as pd import cudf import dask_cudf cp.random.seed(12) After this, I get this error from cupy: File /opt/conda/lib/python3.10/site...</content>
-    <link href="https://forums.developer.nvidia.com/t/317294/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/238230/7</id>
     <title>Can&amp;rsquo;t install pycuda [7]</title>
@@ -353,5 +346,12 @@
     <updated>2025-09-23T07:07:06.810000+00:00</updated>
     <content>JerryChang: ...a.com/t/345408/15 Topic 345408 , let me re-cap the failure.. FAILED tests/test_holoscan.py::test_holoscan[720-1280-bayer_format0-pixel_format0-0.1] - cupy.cuda.compiler.CompileException: nvrtc: error: invalid value for --gpu-architecture (-arch) it may due to Jetson Thor supports the OpenRM driver archi...</content>
     <link href="https://forums.developer.nvidia.com/t/345720/5"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/346039/2</id>
+    <title>How to debug cuda in python(use cupy to call kernels, not lib file) [2]</title>
+    <updated>2025-09-25T17:01:47.799000+00:00</updated>
+    <content>Mmason: Thank you for posting this question. To clarify: are you trying to debug the (host) Python code using VSCode's debugpy launch type, and the CUDA C/C++ code at the same time? If so, that's not supported today. You need to pick between the standalone Python debugger for the host Python code, or the...</content>
+    <link href="https://forums.developer.nvidia.com/t/346039/2"/>
   </entry>
 </feed>
