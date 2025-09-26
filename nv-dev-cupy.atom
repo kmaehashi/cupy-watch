@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-09-25T17:01:47.799000+00:00</updated>
+  <updated>2025-09-26T01:19:31.612000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/238230/7</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/345720/5"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/346039/2</id>
-    <title>How to debug cuda in python(use cupy to call kernels, not lib file) [2]</title>
-    <updated>2025-09-25T17:01:47.799000+00:00</updated>
-    <content>Mmason: Thank you for posting this question. To clarify: are you trying to debug the (host) Python code using VSCode's debugpy launch type, and the CUDA C/C++ code at the same time? If so, that's not supported today. You need to pick between the standalone Python debugger for the host Python code, or the...</content>
-    <link href="https://forums.developer.nvidia.com/t/346039/2"/>
+    <id>https://forums.developer.nvidia.com/t/346039/3</id>
+    <title>How to debug cuda in python(use cupy to call kernels, not lib file) [3]</title>
+    <updated>2025-09-26T01:19:31.612000+00:00</updated>
+    <content>: Thanks for your reply! Here's the lcx_projector_kernels.cu, it seems simple: extern "C" __device__ unsigned char ray_cube_intersection_cuda(float orig0, float orig1, float orig2, float bounds0_min, float bounds1_min, float bounds2_min, float bounds0_max, float bounds1_max, float bounds2_max, floa...</content>
+    <link href="https://forums.developer.nvidia.com/t/346039/3"/>
   </entry>
 </feed>
