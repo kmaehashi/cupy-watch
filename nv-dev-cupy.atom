@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-09-26T01:19:31.612000+00:00</updated>
+  <updated>2025-09-29T20:31:53.552000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/238230/7</id>
-    <title>Can&amp;rsquo;t install pycuda [7]</title>
-    <updated>2024-12-24T14:11:56.065000+00:00</updated>
-    <content>Alain Paillou: Maybe you could try CUPY instead of PYCUDA. https://cupy.dev/ CuPy https://cupy.dev/ CuPy NumPy &amp;amp; SciPy for GPU I used Pycuda some time ago but installation was always compli...</content>
-    <link href="https://forums.developer.nvidia.com/t/238230/7"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/318671/1</id>
     <title>Multithreading with rapids [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-09-26T01:19:31.612000+00:00</updated>
     <content>: Thanks for your reply! Here's the lcx_projector_kernels.cu, it seems simple: extern "C" __device__ unsigned char ray_cube_intersection_cuda(float orig0, float orig1, float orig2, float bounds0_min, float bounds1_min, float bounds2_min, float bounds0_max, float bounds1_max, float bounds2_max, floa...</content>
     <link href="https://forums.developer.nvidia.com/t/346039/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/346366/6</id>
+    <title>How to install torchaudio base on the image:nvcr.io/nvidia/pytorch:25.08-py3 [6]</title>
+    <updated>2025-09-29T20:31:53.552000+00:00</updated>
+    <content>Whitesscott: ...es.txt and apply it "pip install -r cuda13.0_packages.txt" # this may be overboard for a container but it's my requirements.txt for file for my Thor. cupy-cuda13x holds cub which is required. --extra-index-url https://pypi.nvidia.com cuda-bindings cuda-core cuda-pathfinder cuda-python cupy-cuda13x nvidi...</content>
+    <link href="https://forums.developer.nvidia.com/t/346366/6"/>
   </entry>
 </feed>
