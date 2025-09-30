@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-09-30T12:04:45.182000+00:00</updated>
+  <updated>2025-09-30T12:21:29.719000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/308077/20</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/346366/10"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/346500/1</id>
-    <title>Help with otk-pyoptix [1]</title>
-    <updated>2025-09-30T12:04:45.182000+00:00</updated>
-    <content>Flying Chaplin: ...module &amp;gt; import optix ImportError: DLL load failed while importing optix: The specified module could not be found. I installed the 12* version of the cupy and cuda-python and cuda-bindings python packages, latest ones are 13*. I am assuming they are in sync with the CUDA releases. Also the README sugges...</content>
-    <link href="https://forums.developer.nvidia.com/t/346500/1"/>
+    <id>https://forums.developer.nvidia.com/t/346500/2</id>
+    <title>Help with otk-pyoptix [2]</title>
+    <updated>2025-09-30T12:21:29.719000+00:00</updated>
+    <content>Flying Chaplin: Update. I shifted the import optix line below the import cupy as cp # CUDA bindings import numpy as np # Packing of structures in C-compatible format import optix and it is working as expected. showing the green...</content>
+    <link href="https://forums.developer.nvidia.com/t/346500/2"/>
   </entry>
 </feed>
