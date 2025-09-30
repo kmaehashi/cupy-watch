@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-09-30T05:04:00.360000+00:00</updated>
+  <updated>2025-09-30T12:04:45.182000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/318671/1</id>
-    <title>Multithreading with rapids [1]</title>
-    <updated>2025-01-03T09:00:23.747000+00:00</updated>
-    <content>Mohith Pokala: ...hread. I also tried multiprocessing. Sadly, that didn't help . I am attaching the code for reference. Any help will be appreciated import cudf import cupy as cp from concurrent.futures import ThreadPoolExecutor import torch def parallel_gpu_operations(N): """ Args: N: Number of rows """ total_gpus = tor...</content>
-    <link href="https://forums.developer.nvidia.com/t/318671/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/308077/20</id>
     <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [20]</title>
@@ -353,5 +346,12 @@
     <updated>2025-09-30T05:04:00.360000+00:00</updated>
     <content>Whitesscott: ...vcodec-dev libavutil-dev libavdevice-dev \ ffmpeg libavfilter-dev libswresample-dev libswscale-dev pip install -U sentencepiece soundfile cmake ninja cupy-cuda13x \ cuda-python nvidia-ml-py pybind11 torchcodec pip uninstall pynvml #if you don't you will get an error with every import torch and import to...</content>
     <link href="https://forums.developer.nvidia.com/t/346366/10"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/346500/1</id>
+    <title>Help with otk-pyoptix [1]</title>
+    <updated>2025-09-30T12:04:45.182000+00:00</updated>
+    <content>Flying Chaplin: ...module &amp;gt; import optix ImportError: DLL load failed while importing optix: The specified module could not be found. I installed the 12* version of the cupy and cuda-python and cuda-bindings python packages, latest ones are 13*. I am assuming they are in sync with the CUDA releases. Also the README sugges...</content>
+    <link href="https://forums.developer.nvidia.com/t/346500/1"/>
   </entry>
 </feed>
