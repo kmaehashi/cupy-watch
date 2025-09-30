@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-09-29T20:31:53.552000+00:00</updated>
+  <updated>2025-09-30T05:04:00.360000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/318671/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/346039/3"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/346366/6</id>
-    <title>How to install torchaudio base on the image:nvcr.io/nvidia/pytorch:25.08-py3 [6]</title>
-    <updated>2025-09-29T20:31:53.552000+00:00</updated>
-    <content>Whitesscott: ...es.txt and apply it "pip install -r cuda13.0_packages.txt" # this may be overboard for a container but it's my requirements.txt for file for my Thor. cupy-cuda13x holds cub which is required. --extra-index-url https://pypi.nvidia.com cuda-bindings cuda-core cuda-pathfinder cuda-python cupy-cuda13x nvidi...</content>
-    <link href="https://forums.developer.nvidia.com/t/346366/6"/>
+    <id>https://forums.developer.nvidia.com/t/346366/10</id>
+    <title>How to install torchaudio base on the image:nvcr.io/nvidia/pytorch:25.08-py3 [10]</title>
+    <updated>2025-09-30T05:04:00.360000+00:00</updated>
+    <content>Whitesscott: ...pt install libsox-dev libavformat-dev libavcodec-dev libavutil-dev libavdevice-dev libavfilter-dev pip install -U sentencepiece soundfile cmake ninja cupy-cuda13x cuda-python nvidia-ml-py pip uninstall pynvml #if you don't you will get an warning with import torch, import torchaudio git clone https://gi...</content>
+    <link href="https://forums.developer.nvidia.com/t/346366/10"/>
   </entry>
 </feed>
