@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-09-30T12:21:29.719000+00:00</updated>
+  <updated>2025-09-30T15:05:27.188000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/308077/20</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/346366/10"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/346500/2</id>
-    <title>Help with otk-pyoptix [2]</title>
-    <updated>2025-09-30T12:21:29.719000+00:00</updated>
-    <content>Flying Chaplin: Update. I shifted the import optix line below the import cupy as cp # CUDA bindings import numpy as np # Packing of structures in C-compatible format import optix and it is working as expected. showing the green...</content>
-    <link href="https://forums.developer.nvidia.com/t/346500/2"/>
+    <id>https://forums.developer.nvidia.com/t/346500/4</id>
+    <title>Help with otk-pyoptix [4]</title>
+    <updated>2025-09-30T15:05:27.188000+00:00</updated>
+    <content>Keith_Morley: Thanks for bringing this to our attention. I am not sure why CUPY or NUMPY import prior to optix import would be necessary as optix should not rely on them. And the failure to import platform is strange as well as t...</content>
+    <link href="https://forums.developer.nvidia.com/t/346500/4"/>
   </entry>
 </feed>
