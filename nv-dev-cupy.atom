@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-09-30T15:05:27.188000+00:00</updated>
+  <updated>2025-10-03T19:38:12.075000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/308077/20</id>
-    <title>Running deepstream_imagedata-multistream_cupy on Jetson Orin – Alternatives to x86 Code [20]</title>
-    <updated>2025-01-13T10:02:04.484000+00:00</updated>
-    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
-    <link href="https://forums.developer.nvidia.com/t/308077/20"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/320624/12</id>
     <title>Jetson-containers keep exiting with error code but not sure what it means [12]</title>
@@ -353,5 +346,12 @@
     <updated>2025-09-30T15:05:27.188000+00:00</updated>
     <content>Keith_Morley: Thanks for bringing this to our attention. I am not sure why CUPY or NUMPY import prior to optix import would be necessary as optix should not rely on them. And the failure to import platform is strange as well as t...</content>
     <link href="https://forums.developer.nvidia.com/t/346500/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/346705/5</id>
+    <title>Holoscan tensor naming [5]</title>
+    <updated>2025-10-03T19:38:12.075000+00:00</updated>
+    <content>Alsulli: ...figured out my problem and thought I would update you and everyone else who might run into this issue. The solution was simple. I was returning a raw cupy.Tensor from my CUDA kernel, but this is not correct. Instead, one needs to return a dict that in my case was {'out': out_tensor}. To be more specific...</content>
+    <link href="https://forums.developer.nvidia.com/t/346705/5"/>
   </entry>
 </feed>
