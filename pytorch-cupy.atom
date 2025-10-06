@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2025-09-25T15:03:30.413000+00:00</updated>
+  <updated>2025-10-06T08:21:34.239000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/31927/3</id>
-    <title>How can I implement a Convolution Layer on 1-bit weight? [3]</title>
-    <updated>2018-12-13T06:25:42.322000+00:00</updated>
-    <content>: ...2, will the performance drops a lot? If I’m going to implement it, according to Bitwise-operations-on-cuda . Two ways are listed by cuda extension or cupy.</content>
-    <link href="https://discuss.pytorch.org/t/31927/3"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/21394/6</id>
     <title>How can I get access to the raw GPU data of a tensor for pyCUDA? And how do I convert back? [6]</title>
@@ -353,5 +346,12 @@
     <updated>2025-09-25T15:03:30.413000+00:00</updated>
     <content>S200331082: yeah I think maybe it's runtime generating kernel, cause I did not build .cu file to .so file. In addition, I still wonder know how to debug in vscode under this situation, better with gui, not in command line. if must in command line, could you give an example? thx a lot.</content>
     <link href="https://discuss.pytorch.org/t/223318/3"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/223386/11</id>
+    <title>Torch.linalg.eig parallelisation [11]</title>
+    <updated>2025-10-06T08:21:34.239000+00:00</updated>
+    <content>Johannes: ...limitations at some point and no one noticed cuSolver implemented a geev algorithm. I hope this is the case and there are some clues pointing to it: CuPy does not implement a geev algorithm. Also ChatGPT is reluctant to admit that eigenvalue problems can be solved (at least in large part) on CUDA devic...</content>
+    <link href="https://discuss.pytorch.org/t/223386/11"/>
   </entry>
 </feed>
