@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-10-06T13:13:14.709000+00:00</updated>
+  <updated>2025-10-07T20:53:19.150000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/320624/12</id>
-    <title>Jetson-containers keep exiting with error code but not sure what it means [12]</title>
-    <updated>2025-01-20T12:56:26.081000+00:00</updated>
-    <content>Kellempxt: ..."couldn't find package: cuda") -- Package ctranslate2:4.2.0-builder has missing dependencies, disabling... ("couldn't find package: cuda") -- Package cupy has missing dependencies, disabling... ("couldn't find package: cuda") -- Package pycuda has missing dependencies, disabling... ("couldn't find packa...</content>
-    <link href="https://forums.developer.nvidia.com/t/320624/12"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/323014/12</id>
     <title>I think i misunderstood what &amp;ldquo;jetson-containers run/build&amp;rdquo; can achieve vs what i expected [12]</title>
@@ -353,5 +346,12 @@
     <updated>2025-10-06T13:13:14.709000+00:00</updated>
     <content>Flying Chaplin: Hello again. VSCode is not able to autocomplete the module contents, while it is able to autocomplete cupy. I think this is because there is no init .py` in the module. It is a bit annoying to go back and forth to look at the function names or struct names...</content>
     <link href="https://forums.developer.nvidia.com/t/346500/6"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/347062/1</id>
+    <title>Dashboard not working with cux (RAPIDS 25.08) [1]</title>
+    <updated>2025-10-07T20:53:19.150000+00:00</updated>
+    <content>jdh4: ...8.00 cuda12_py312_250806_6cea3743 rapidsai cugraph 25.08.00 cuda12_py312_250806_e0f09e50 rapidsai cuml 25.08.00 cuda12_py312_250806_b081fcd0 rapidsai cupy 13.6.0 py312h0317cef_2 conda-forge cupy-core 13.6.0 py312h16a6543_2 conda-forge custreamz 25.08.00 cuda12_py312_250806_6cea3743 rapidsai cuvs 25.08.0...</content>
+    <link href="https://forums.developer.nvidia.com/t/347062/1"/>
   </entry>
 </feed>
