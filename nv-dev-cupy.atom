@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-10-07T20:53:19.150000+00:00</updated>
+  <updated>2025-10-08T03:49:32.146000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/323014/12</id>
-    <title>I think i misunderstood what &amp;ldquo;jetson-containers run/build&amp;rdquo; can achieve vs what i expected [12]</title>
-    <updated>2025-02-10T10:44:21.461000+00:00</updated>
-    <content>Kellempxt: ...k/apps/jetson-containers/packages/ml/onnxruntime/Dockerfile --build-arg BASE_IMAGE=kairin/jetson-containers:tensorrt-10.7-opencv-4.11-comfyui-r36.4.3-cupy --build-arg ONNXRUNTIME_VERSION="1.21.0" --build-arg ONNXRUNTIME_BRANCH="v1.21.0" --build-arg ONNXRUNTIME_FLAGS="--allow_running_as_root" /home/kkk/a...</content>
-    <link href="https://forums.developer.nvidia.com/t/323014/12"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/322555/5</id>
     <title>Adding appsink to python deepstream application causes existing pipeline to stop working [5]</title>
@@ -353,5 +346,12 @@
     <updated>2025-10-07T20:53:19.150000+00:00</updated>
     <content>jdh4: ...8.00 cuda12_py312_250806_6cea3743 rapidsai cugraph 25.08.00 cuda12_py312_250806_e0f09e50 rapidsai cuml 25.08.00 cuda12_py312_250806_b081fcd0 rapidsai cupy 13.6.0 py312h0317cef_2 conda-forge cupy-core 13.6.0 py312h16a6543_2 conda-forge custreamz 25.08.00 cuda12_py312_250806_6cea3743 rapidsai cuvs 25.08.0...</content>
     <link href="https://forums.developer.nvidia.com/t/347062/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/347090/1</id>
+    <title>Slight difference between original image from OpenCV (HTTP) and DeepStream gRPC [1]</title>
+    <updated>2025-10-08T03:49:32.146000+00:00</updated>
+    <content>Longromsay: ...import os import numpy as np import tensorrt as trt import triton_python_backend_utils as pb_utils import torch import torchvision.ops as ops import cupy as cp from torchvision.ops import roi_align import cv2 # &amp;lt; -- Thêm để lưu ảnh TRT_LOGGER = trt.Logger(trt.Logger.WARNING) class TritonPythonModel: de...</content>
+    <link href="https://forums.developer.nvidia.com/t/347090/1"/>
   </entry>
 </feed>
