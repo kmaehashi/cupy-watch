@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-10-13T16:08:24.784000+00:00</updated>
+  <updated>2025-10-16T22:16:48.722000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/322555/5</id>
-    <title>Adding appsink to python deepstream application causes existing pipeline to stop working [5]</title>
-    <updated>2025-02-11T07:30:40.850000+00:00</updated>
-    <content>Junshengy: ...ltiarch import numpy as np import sys import gi gi.require_version("Gst", "1.0") from gi.repository import Gst, GLib import pyds import ctypes import cupy as cp import imageio frame_num = 0 def on_new_sample(sink, user_data): sample = sink.emit("pull-sample") global frame_num frame_num += 1 if sample: g...</content>
-    <link href="https://forums.developer.nvidia.com/t/322555/5"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/323625/1</id>
     <title>DeepStream Parallel Pipeline and Frame Synchronization [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-10-13T16:08:24.784000+00:00</updated>
     <content>Alain Paillou: ...8-50mm F1.0 lens and an IMX485MC sensor. Well, optical quality is very bad but the zoom effect is interesting. I used my JetsonSky software (Python, Cupy, Cuda, NVidia GPU computing) for capture and live treatment (the RAW video without GPU treatment would have been too bad). 4 FPS capture was possible...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/988"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/347954/2</id>
+    <title>Where do I get a refund :-) [2]</title>
+    <updated>2025-10-16T22:16:48.722000+00:00</updated>
+    <content>carolyuu: ...egarding the Python libraries, you're correct that not all of them are CUDA-enabled. However, NVIDIA provides a range of libraries and tools, such as cuPy, Numba, and TensorFlow, that are optimized for CUDA and can be used with the Jetson Orin Nano. It's possible that the specific libraries you're looki...</content>
+    <link href="https://forums.developer.nvidia.com/t/347954/2"/>
   </entry>
 </feed>
