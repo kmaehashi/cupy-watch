@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-10-16T22:16:48.722000+00:00</updated>
+  <updated>2025-10-21T00:04:51.538000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/323625/1</id>
-    <title>DeepStream Parallel Pipeline and Frame Synchronization [1]</title>
-    <updated>2025-02-13T09:26:30.855000+00:00</updated>
-    <content>: ...optimized way to achieve this without using probe functions with NumPy/OpenCV? Keep in mind that I'm running this on a Jetson device, so I can't use CuPy to access the buffer, as support is only available for x86 architecture. Issue with pipeline branch synchronization What is the correct way to synchr...</content>
-    <link href="https://forums.developer.nvidia.com/t/323625/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/325030/1</id>
     <title>Unsloth SFTTrainer failed due to triton assertion error on AGX Orin when batch size &amp;gt; 1 [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-10-16T22:16:48.722000+00:00</updated>
     <content>carolyuu: ...egarding the Python libraries, you're correct that not all of them are CUDA-enabled. However, NVIDIA provides a range of libraries and tools, such as cuPy, Numba, and TensorFlow, that are optimized for CUDA and can be used with the Jetson Orin Nano. It's possible that the specific libraries you're looki...</content>
     <link href="https://forums.developer.nvidia.com/t/347954/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/348447/1</id>
+    <title>Cutensor 2.3.1 estimateWorkspaceSize unexpected result [1]</title>
+    <updated>2025-10-21T00:04:51.538000+00:00</updated>
+    <content>Henry Wang1: ...id not get a correct workspace size estimation from estimateWorkspaceSize function call. In one of my pip environment I have cutensor-cu12==2.3.1 and cupy-cuda12x==13.6.0. We have tried on both one A100 and one 5080 card, both reproducing the same problem. We are not sure if we used the cutensor functio...</content>
+    <link href="https://forums.developer.nvidia.com/t/348447/1"/>
   </entry>
 </feed>
