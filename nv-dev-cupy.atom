@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-10-27T06:07:52.246000+00:00</updated>
+  <updated>2025-10-30T16:40:11.558000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/325896/9</id>
-    <title>How to get tensorrt installed when building with buildx and bake [9]</title>
-    <updated>2025-03-06T22:20:36.570000+00:00</updated>
-    <content>Kellempxt: ...s ago 7.38GB kairin/jetson-containers-001 dustynv-torch2trt-r36.4.0-cu128-24.04 cfa1687e062b 31 hours ago 11.1GB kairin/jetson-containers-001 dustynv-cupy-r36.4.0-cu128-24.04 6aadca8f93de 32 hours ago 5.53GB kairin/jetson-containers-001 dustynv-pycuda-r36.4.0-cu128-24.04 93016b8e53e7 32 hours ago 5.41GB...</content>
-    <link href="https://forums.developer.nvidia.com/t/325896/9"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/314200/25</id>
     <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [25]</title>
@@ -353,5 +346,12 @@
     <updated>2025-10-27T06:07:52.246000+00:00</updated>
     <content>Calvinchang33: ...So it could be some strange user error on my end. Was hoping to see if anyone else has had any issues or if this is a known issue. I was going to try cupy next, but as a last resort I will try a more traditional method and write a CUDA/C++ kernel and pybind11.</content>
     <link href="https://forums.developer.nvidia.com/t/349110/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/46184/13</id>
+    <title>GPU is slower than CPU [13]</title>
+    <updated>2025-10-30T16:40:11.558000+00:00</updated>
+    <content>Robert_Crovella: ...y implementation of a cross-correlation. Nowadays, with the beauty of AI-driven search, you can get a pretty good start with a google search e.g. on "cupy cross correlation" Cupy is a GPU-accelerated library that provides a variety of signal-processing functionality (in cupy.signal), and the google sear...</content>
+    <link href="https://forums.developer.nvidia.com/t/46184/13"/>
   </entry>
 </feed>
