@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-10-30T16:40:11.558000+00:00</updated>
+  <updated>2025-10-30T17:27:19.347000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/314200/25</id>
-    <title>GPU Context Switching Issue in DeepStream with CuPy Post-Processing [25]</title>
-    <updated>2025-03-10T07:55:21.690000+00:00</updated>
-    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
-    <link href="https://forums.developer.nvidia.com/t/314200/25"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/324071/5</id>
     <title>Jetson AGX Xavier Shared Memory GPU Signal Processing [5]</title>
@@ -353,5 +346,12 @@
     <updated>2025-10-30T16:40:11.558000+00:00</updated>
     <content>Robert_Crovella: ...y implementation of a cross-correlation. Nowadays, with the beauty of AI-driven search, you can get a pretty good start with a google search e.g. on "cupy cross correlation" Cupy is a GPU-accelerated library that provides a variety of signal-processing functionality (in cupy.signal), and the google sear...</content>
     <link href="https://forums.developer.nvidia.com/t/46184/13"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/349613/1</id>
+    <title>Interdependent streams accelerate All Reduce [1]</title>
+    <updated>2025-10-30T17:27:19.347000+00:00</updated>
+    <content>Fast Rich: ...s LlamaModel(nn.Module): # ... def forward( self, # ... ) - &amp;gt; Union[torch.Tensor, IntermediateTensors]: # ... # &amp;lt; &amp;lt; &amp;lt; Modification Begin &amp;gt; &amp;gt; &amp;gt; import cupy dummy_event = cupy.cuda.Event() dummy_non_default_stream = cupy.cuda.Stream(non_blocking=True) # &amp;lt; &amp;lt; &amp;lt; End &amp;gt; &amp;gt; &amp;gt; for i in range(self.start_layer, sel...</content>
+    <link href="https://forums.developer.nvidia.com/t/349613/1"/>
   </entry>
 </feed>
