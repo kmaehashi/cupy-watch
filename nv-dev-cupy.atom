@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-11-03T15:33:29.971000+00:00</updated>
+  <updated>2025-11-04T18:06:00.182000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/326736/6</id>
@@ -334,13 +334,6 @@
     <link href="https://forums.developer.nvidia.com/t/349110/1"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/46184/13</id>
-    <title>GPU is slower than CPU [13]</title>
-    <updated>2025-10-30T16:40:11.558000+00:00</updated>
-    <content>Robert_Crovella: ...y implementation of a cross-correlation. Nowadays, with the beauty of AI-driven search, you can get a pretty good start with a google search e.g. on "cupy cross correlation" Cupy is a GPU-accelerated library that provides a variety of signal-processing functionality (in cupy.signal), and the google sear...</content>
-    <link href="https://forums.developer.nvidia.com/t/46184/13"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/349613/1</id>
     <title>Interdependent streams accelerate All Reduce [1]</title>
     <updated>2025-10-30T17:27:19.347000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2025-11-03T15:33:29.971000+00:00</updated>
     <content>Abhishek Mishra: Hi, I have a holoscan application written in python which uses CuPy or Numpy(depending on user choice) running on my notebook. When using CuPy, both nvTop and Nsight show GPU activity which is as expected, however, wh...</content>
     <link href="https://forums.developer.nvidia.com/t/350059/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/46184/15</id>
+    <title>GPU is slower than CPU [15]</title>
+    <updated>2025-11-04T18:06:00.182000+00:00</updated>
+    <content>Robert_Crovella: Here is an example of what I had in mind. It took me less than 1 hour to create in colab, using AI provided snippets like I suggested earlier: import cupy as cp import numpy as np import scipy.signal as sp arr_size1 = 100000 arr_size2 = 200 # Create two 1D CuPy arrays a = cp.ones(arr_size1,np.float32) v...</content>
+    <link href="https://forums.developer.nvidia.com/t/46184/15"/>
   </entry>
 </feed>
