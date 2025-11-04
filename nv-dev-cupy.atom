@@ -351,7 +351,7 @@
     <id>https://forums.developer.nvidia.com/t/46184/15</id>
     <title>GPU is slower than CPU [15]</title>
     <updated>2025-11-04T18:06:00.182000+00:00</updated>
-    <content>Robert_Crovella: Here is an example of what I had in mind. It took me less than 1 hour to create in colab, using AI provided snippets like I suggested earlier: import cupy as cp import numpy as np import scipy.signal as sp arr_size1 = 100000 arr_size2 = 200 # Create two 1D CuPy arrays a = cp.ones(arr_size1,np.float32) v...</content>
+    <content>Robert_Crovella: ...what I had in mind (suggestion 2 above). It took me less than 1 hour to create in colab, using AI provided snippets like I suggested earlier: import cupy as cp import numpy as np import scipy.signal as sp arr_size1 = 100000 arr_size2 = 200 # Create two 1D CuPy arrays a = cp.ones(arr_size1,np.float32) v...</content>
     <link href="https://forums.developer.nvidia.com/t/46184/15"/>
   </entry>
 </feed>
