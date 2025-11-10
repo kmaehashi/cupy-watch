@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-11-04T18:06:00.182000+00:00</updated>
+  <updated>2025-11-10T04:53:34.009000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/326736/6</id>
-    <title>How to add cv2 based image processing probe in the deepstream pipeline [6]</title>
-    <updated>2025-03-15T13:09:55.814000+00:00</updated>
-    <content>Fanzh: please refer to python sample https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/master/apps/deepstream-imagedata-multistream-cupy deepstream-imagedata-multistream-cupy , As the https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/master/apps/deepstream-imagedata-multistr...</content>
-    <link href="https://forums.developer.nvidia.com/t/326736/6"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/327207/6</id>
     <title>Nsight in holohub not working [6]</title>
@@ -353,5 +346,12 @@
     <updated>2025-11-04T18:06:00.182000+00:00</updated>
     <content>Robert_Crovella: ...what I had in mind (suggestion 2 above). It took me less than 1 hour to create in colab, using AI provided snippets like I suggested earlier: import cupy as cp import numpy as np import scipy.signal as sp arr_size1 = 100000 arr_size2 = 200 # Create two 1D CuPy arrays a = cp.ones(arr_size1,np.float32) v...</content>
     <link href="https://forums.developer.nvidia.com/t/46184/15"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/350755/1</id>
+    <title>AI and CUDA Compatibility [1]</title>
+    <updated>2025-11-10T04:53:34.009000+00:00</updated>
+    <content>Ishannathan100: Description CuPy is not compatible with Nvidia CUDA 13x. Can I fix it? Apart from that, would you happen to know of any free services that can host a backend server t...</content>
+    <link href="https://forums.developer.nvidia.com/t/350755/1"/>
   </entry>
 </feed>
