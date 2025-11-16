@@ -162,7 +162,7 @@
     <id>https://discuss.python.org/t/104760/33</id>
     <title>Optional imports for optional dependencies [33]</title>
     <updated>2025-11-16T17:23:05.557000+00:00</updated>
-    <content>Tobias Hölzer: ...extra: pip install \"mylib[coverage]\"") from coverage Similar as above to derive from the ImportError . Eager import with runtime checks try: import cupy as cp except: cp = None def foo(): if cp is not None: ... else: ... could be replaced by optional import cupy as cp def foo(): if cp: ... else: ... L...</content>
+    <content>Tobias Hölzer: ...st' extra: pip install \"mylib[test]\"") from coverage Similar as above to derive from the ImportError . Eager import with runtime checks try: import cupy as cp except: cp = None def foo(): if cp is not None: ... else: ... could be replaced by optional import cupy as cp def foo(): if cp: ... else: ... L...</content>
     <link href="https://discuss.python.org/t/104760/33"/>
   </entry>
 </feed>
