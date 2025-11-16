@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2025-08-14T22:02:26.130000+00:00</updated>
+  <updated>2025-11-16T17:23:05.557000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -157,5 +157,12 @@
     <updated>2025-08-14T22:02:26.130000+00:00</updated>
     <content>Steve Dower: ...lly choose which variant it should depend on, then it needs its own variant selector (but this seems like the least common case, whereas depending on cupy and letting the selector logic sort it out seems most common). I believe this is exactly the same as the variant proposal given here, apart from not...</content>
     <link href="https://discuss.python.org/t/102383/52"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/104760/33</id>
+    <title>Optional imports for optional dependencies [33]</title>
+    <updated>2025-11-16T17:23:05.557000+00:00</updated>
+    <content>Tobias Hölzer: ...extra: pip install \"mylib[coverage]\"") from coverage Similar as above to derive from the ImportError . Eager import with runtime checks try: import cupy as cp except: cp = None def foo(): if cp is not None: ... else: ... could be replaced by optional import cupy as cp def foo(): if cp: ... else: ... L...</content>
+    <link href="https://discuss.python.org/t/104760/33"/>
   </entry>
 </feed>
