@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-11-10T04:53:34.009000+00:00</updated>
+  <updated>2025-11-27T16:23:35.602000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/327207/6</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/46184/15"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/350755/1</id>
-    <title>AI and CUDA Compatibility [1]</title>
-    <updated>2025-11-10T04:53:34.009000+00:00</updated>
-    <content>Ishannathan100: Description CuPy is not compatible with Nvidia CUDA 13x. Can I fix it? Apart from that, would you happen to know of any free services that can host a backend server t...</content>
-    <link href="https://forums.developer.nvidia.com/t/350755/1"/>
+    <id>https://forums.developer.nvidia.com/t/350755/4</id>
+    <title>AI and CUDA Compatibility [4]</title>
+    <updated>2025-11-27T16:23:35.602000+00:00</updated>
+    <content>Athkumar: Hi @ishannathan100 , For CUDA 13.x systems, CuPy now offers a dedicated cupy-cuda13x wheel package. Since this issue seems to concern CuPy compatibility and cloud infrastructure (rather than TensorR...</content>
+    <link href="https://forums.developer.nvidia.com/t/350755/4"/>
   </entry>
 </feed>
