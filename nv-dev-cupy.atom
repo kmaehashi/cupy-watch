@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-11-27T16:23:35.602000+00:00</updated>
+  <updated>2025-12-09T14:19:17.756000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/327207/6</id>
-    <title>Nsight in holohub not working [6]</title>
-    <updated>2025-03-20T09:13:10.628000+00:00</updated>
-    <content>Valentin Massebeuf: ...--device=/dev/nvhost-ctxsw-gpu --device=/dev/nvhost-nvsched-gpu --device=/dev/nvhost-sched-gpu --device=/dev/nvidia0 --device=/dev/nvidia-modeset -e CUPY_CACHE_DIR=/workspace/holohub/.cupy/kernel_cache)... Launch (display_server_opt: -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY)... Launch (local_sdk_opt...</content>
-    <link href="https://forums.developer.nvidia.com/t/327207/6"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/328110/1</id>
     <title>Mixing PyNitros and ComposableNode in a same pipeline problem [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-11-27T16:23:35.602000+00:00</updated>
     <content>Athkumar: Hi @ishannathan100 , For CUDA 13.x systems, CuPy now offers a dedicated cupy-cuda13x wheel package. Since this issue seems to concern CuPy compatibility and cloud infrastructure (rather than TensorR...</content>
     <link href="https://forums.developer.nvidia.com/t/350755/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/353747/4</id>
+    <title>How to run cuTile on DGX Spark [4]</title>
+    <updated>2025-12-09T14:19:17.756000+00:00</updated>
+    <content>Angel: Hi, I get this error: Traceback (most recent call last): File "/home/agenticpartner/Downloads/cutilesample/cutile.py", line 10, in import cupy as cp ModuleNotFoundError: No module named 'cupy' When executing: python cutile.py</content>
+    <link href="https://forums.developer.nvidia.com/t/353747/4"/>
   </entry>
 </feed>
