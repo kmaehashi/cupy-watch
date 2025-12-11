@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-12-09T14:19:17.756000+00:00</updated>
+  <updated>2025-12-11T08:02:32.418000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/328110/1</id>
-    <title>Mixing PyNitros and ComposableNode in a same pipeline problem [1]</title>
-    <updated>2025-03-24T15:23:24.637000+00:00</updated>
-    <content>Atanasko Mitrev: ...eImage from isaac_ros_nitros_bridge_interfaces.msg import NitrosBridgeImage, NitrosBridgeTensorList from std_msgs.msg import Header import cv2 import cupy as cp class LocalCameraPublisherNode(Node): def __init__(self): super().__init__('local_camera_publisher_node') # Initialize OpenCV VideoCapture for...</content>
-    <link href="https://forums.developer.nvidia.com/t/328110/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/328123/1</id>
     <title>Nsight Systems missing CUDA HW trace in Python multiprocessing subprocesses when using mp.Pool with context manager [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-12-09T14:19:17.756000+00:00</updated>
     <content>Angel: Hi, I get this error: Traceback (most recent call last): File "/home/agenticpartner/Downloads/cutilesample/cutile.py", line 10, in import cupy as cp ModuleNotFoundError: No module named 'cupy' When executing: python cutile.py</content>
     <link href="https://forums.developer.nvidia.com/t/353747/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/354282/1</id>
+    <title>Running depth_anything_v2 from holohub on DGX Spark [1]</title>
+    <updated>2025-12-11T08:02:32.418000+00:00</updated>
+    <content>Ralph Harti: ...le "c 81:* rmw" --device-cgroup-rule "c 189:* rmw" -e NVIDIA_DRIVER_CAPABILITIES=graphics,video,compute,utility,display -e HOME=/workspace/holohub -e CUPY_CACHE_DIR=/workspace/holohub/.cupy/kernel_cache -e HOLOHUB_BUILD_LOCAL=1 --rm --ipc=host --cap-add=CAP_SYS_PTRACE --ulimit=memlock=-1 --ulimit=stack=...</content>
+    <link href="https://forums.developer.nvidia.com/t/354282/1"/>
   </entry>
 </feed>
