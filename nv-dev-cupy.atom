@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-12-11T08:02:32.418000+00:00</updated>
+  <updated>2025-12-15T13:02:39.471000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/328123/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/353747/4"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/354282/1</id>
-    <title>Running depth_anything_v2 from holohub on DGX Spark [1]</title>
-    <updated>2025-12-11T08:02:32.418000+00:00</updated>
+    <id>https://forums.developer.nvidia.com/t/354282/7</id>
+    <title>Running depth_anything_v2 from holohub on DGX Spark [7]</title>
+    <updated>2025-12-15T13:02:39.471000+00:00</updated>
     <content>Ralph Harti: ...le "c 81:* rmw" --device-cgroup-rule "c 189:* rmw" -e NVIDIA_DRIVER_CAPABILITIES=graphics,video,compute,utility,display -e HOME=/workspace/holohub -e CUPY_CACHE_DIR=/workspace/holohub/.cupy/kernel_cache -e HOLOHUB_BUILD_LOCAL=1 --rm --ipc=host --cap-add=CAP_SYS_PTRACE --ulimit=memlock=-1 --ulimit=stack=...</content>
-    <link href="https://forums.developer.nvidia.com/t/354282/1"/>
+    <link href="https://forums.developer.nvidia.com/t/354282/7"/>
   </entry>
 </feed>
