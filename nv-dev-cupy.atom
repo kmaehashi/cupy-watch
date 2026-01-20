@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2025-12-15T13:02:39.471000+00:00</updated>
+  <updated>2026-01-20T09:53:38.647000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/328123/1</id>
-    <title>Nsight Systems missing CUDA HW trace in Python multiprocessing subprocesses when using mp.Pool with context manager [1]</title>
-    <updated>2025-03-24T16:52:58.763000+00:00</updated>
-    <content>John Yk Zhou: ...isplayed. 【Environment】 Nsight Systems: 2023.2.3.1004-33186433v0 OS: Ubuntu 20.04 GPU: A100 80GB PCIe Driver: 535.183.01 CUDA: 12.2 Python: 3.10.16 + CuPy 13.3.0 Launch command: nsys profile -o trace_output python3 myscript.py import cupy as cp import numpy as np import multiprocessing as mp import os i...</content>
-    <link href="https://forums.developer.nvidia.com/t/328123/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/328796/1</id>
     <title>DeepStream and VPI with Python on Jetson [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-12-15T13:02:39.471000+00:00</updated>
     <content>Ralph Harti: ...le "c 81:* rmw" --device-cgroup-rule "c 189:* rmw" -e NVIDIA_DRIVER_CAPABILITIES=graphics,video,compute,utility,display -e HOME=/workspace/holohub -e CUPY_CACHE_DIR=/workspace/holohub/.cupy/kernel_cache -e HOLOHUB_BUILD_LOCAL=1 --rm --ipc=host --cap-add=CAP_SYS_PTRACE --ulimit=memlock=-1 --ulimit=stack=...</content>
     <link href="https://forums.developer.nvidia.com/t/354282/7"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/358091/1</id>
+    <title>Numba cannot see Blackwell GPU and index out of range [1]</title>
+    <updated>2026-01-20T09:53:38.647000+00:00</updated>
+    <content>Albert: ...range. Here is the Numba test result after isolation: CUDA_VISIBLE_DEVICES: Not set Numba sees devices: &amp;lt; Managed Device 0 &amp;gt; Numba device count: None CuPy device count: 1 Further output: ---------------------------------------------------------------------------IndexError Traceback (most recent call las...</content>
+    <link href="https://forums.developer.nvidia.com/t/358091/1"/>
   </entry>
 </feed>
