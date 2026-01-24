@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.python.org</id>
   <title>Python Community Forums (cupy)</title>
-  <updated>2025-11-16T17:23:05.557000+00:00</updated>
+  <updated>2026-01-24T03:49:23.373000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://discuss.python.org/t/687/16</id>
@@ -164,5 +164,12 @@
     <updated>2025-11-16T17:23:05.557000+00:00</updated>
     <content>Tobias Hölzer: ...st' extra: pip install \"mylib[test]\"") from coverage Similar as above to derive from the ImportError . Eager import with runtime checks try: import cupy as cp except: cp = None def foo(): if cp is not None: ... else: ... could be replaced by optional import cupy as cp def foo(): if cp: ... else: ... L...</content>
     <link href="https://discuss.python.org/t/104760/33"/>
+  </entry>
+  <entry>
+    <id>https://discuss.python.org/t/105860/1</id>
+    <title>PEP 817 - Wheel Variants: Beyond Platform Tags [1]</title>
+    <updated>2026-01-24T03:49:23.373000+00:00</updated>
+    <content>Jonathan Dekhtiar: ...(CPU-only, multiple CUDA versions, ROCm, XPU) but users must manually select: pip install torch --index-url="https://download.pytorch.org/whl/cu129" CuPy publishes 55 different packages ( cupy-cuda100 , cupy-cuda101 , …, cupy-rocm-6-3 ) because there's no standard way to express variants JAX requires u...</content>
+    <link href="https://discuss.python.org/t/105860/1"/>
   </entry>
 </feed>
