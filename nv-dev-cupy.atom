@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-02-17T20:36:31.493000+00:00</updated>
+  <updated>2026-02-23T23:27:38.136000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/328863/4</id>
-    <title>Illegal Memory Access Error when using VPI with DeepStream in Python [4]</title>
-    <updated>2025-04-01T04:47:01.245000+00:00</updated>
-    <content>Ethanlee: Thank you @AastaLLL Yes, my goal is to convert a GStreamer buffer to a VPI Image. I am trying to wrap the CuPy array into a VPI Image because I could only find examples that convert a GStreamer buffer to a CuPy array without memory copying. Are there any other...</content>
-    <link href="https://forums.developer.nvidia.com/t/328863/4"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/329192/1</id>
     <title>Order of frames within batches changing in triton inference server python backend with deepstream pipeline [1]</title>
@@ -353,5 +346,12 @@
     <updated>2026-02-17T20:36:31.493000+00:00</updated>
     <content>Keith_Morley: One way to handle this would be via the CuPy API. It allows for easy Python host-side generation of device arrays of arbitrary type. It also has a wrapper around the CUDA runtime API which you c...</content>
     <link href="https://forums.developer.nvidia.com/t/360888/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/361555/1</id>
+    <title>CUDA, CuPy &amp;amp; OpenCV from Source with Numpy 2.2.6 on JetPack 6.1 [1]</title>
+    <updated>2026-02-23T23:27:38.136000+00:00</updated>
+    <content>Tyler: ...that importing cv2 in Python3 fails because OpenCV is built against the Numpy 1.x.x ABI, but I need to have Numpy 2.x.x installed. Situation details: CuPy installed using python3 -m pip install cupy-cuda12x , which installs NumPy 2.2.6 as a dependency. OpenCV built using https://github.com/AastaNV/JEP/b...</content>
+    <link href="https://forums.developer.nvidia.com/t/361555/1"/>
   </entry>
 </feed>
