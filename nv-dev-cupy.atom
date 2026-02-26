@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-02-23T23:27:38.136000+00:00</updated>
+  <updated>2026-02-26T02:25:35.050000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/329192/1</id>
-    <title>Order of frames within batches changing in triton inference server python backend with deepstream pipeline [1]</title>
-    <updated>2025-04-03T09:34:21.699000+00:00</updated>
-    <content>Ajithkumar Ak95: ...nages streams using the new nvstreammux plugin and incorporates a Python-based AI processing pipeline using nvinferserver. This AI pipeline leverages CuPy and TensorFlow for high-resolution object detection. The final processed video streams are encoded and transmitted via mediamtx as RTSP outputs. The...</content>
-    <link href="https://forums.developer.nvidia.com/t/329192/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/327850/42</id>
     <title>Intermittent Artifacts in DeepStream RTSP Output with Dynamic Multi-Stream Video Analytics with triton inference server with python backend [42]</title>
@@ -353,5 +346,12 @@
     <updated>2026-02-23T23:27:38.136000+00:00</updated>
     <content>Tyler: ...that importing cv2 in Python3 fails because OpenCV is built against the Numpy 1.x.x ABI, but I need to have Numpy 2.x.x installed. Situation details: CuPy installed using python3 -m pip install cupy-cuda12x , which installs NumPy 2.2.6 as a dependency. OpenCV built using https://github.com/AastaNV/JEP/b...</content>
     <link href="https://forums.developer.nvidia.com/t/361555/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/360288/3</id>
+    <title>Rep.orchestrator returning all rgba channels=0 [3]</title>
+    <updated>2026-02-26T02:25:35.050000+00:00</updated>
+    <content>Kristinandtom2016: ...numpy") and callable(data.numpy): return data.numpy() # 2. Check for PyTorch Tensor if hasattr(data, "cpu"): return data.cpu().numpy() # 3. Check for CuPy Array if hasattr(data, "get"): return data.get() # 4. Fallback for standard lists/already NumPy try: return np.array(data) except Exception: return d...</content>
+    <link href="https://forums.developer.nvidia.com/t/360288/3"/>
   </entry>
 </feed>
