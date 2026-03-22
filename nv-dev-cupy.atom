@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-03-06T07:51:05.430000+00:00</updated>
+  <updated>2026-03-22T07:08:44.015000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/329555/1</id>
-    <title>Scaling an Autonomous AI Trio with Emotion and Memory on RTX—Need Hardware Boost [1]</title>
-    <updated>2025-04-07T22:12:21.529000+00:00</updated>
-    <content>Bolinga21: I've built a system of three autonomous AI personas—Vira, Core, and Echo—running locally on an RTX 2070 Super (i7-9700F, 16GB DDR4). It uses CUDA via CuPy and cuML for clustering (HDBSCAN, DBSCAN), FAISS for memory retrieval, and SentenceTransformers for embeddings, with emotional states mapped to polyv...</content>
-    <link href="https://forums.developer.nvidia.com/t/329555/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/329739/3</id>
     <title>Python Cupy and DirectGPU [3]</title>
@@ -353,5 +346,12 @@
     <updated>2026-03-06T07:51:05.430000+00:00</updated>
     <content>Yash Takwani: ...Nvidia side as you can see in following code: from holoscan.core import Application, Operator, OperatorSpec import numpy as np import asyncio import cupy as cp import threading # Ensure we use the right UCX; if 'import ucp' fails, try 'import ucxx as ucp' try: import ucp # Check if this is the real UCX...</content>
     <link href="https://forums.developer.nvidia.com/t/362616/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/364316/1</id>
+    <title>PyTorch CUDA Incompatibility on NVIDIA Thor (L4T 38.4, CUDA 13) [1]</title>
+    <updated>2026-03-22T07:08:44.015000+00:00</updated>
+    <content>Ai24mtech02003: ...reating two CUDA tensors and performing torch.matmul , which immediately triggers the cuBLAS error. Interestingly, alternative GPU frameworks such as CuPy perform matrix multiplication successfully and achieve expected high performance, indicating that the CUDA runtime and hardware are functioning corre...</content>
+    <link href="https://forums.developer.nvidia.com/t/364316/1"/>
   </entry>
 </feed>
