@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-03-22T07:08:44.015000+00:00</updated>
+  <updated>2026-03-23T07:32:45.187000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/329739/3</id>
@@ -334,13 +334,6 @@
     <link href="https://forums.developer.nvidia.com/t/360288/3"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/361555/5</id>
-    <title>CUDA, CuPy &amp;amp; OpenCV from Source with Numpy 2.2.6 on JetPack 6.1 [5]</title>
-    <updated>2026-02-28T07:35:25.704000+00:00</updated>
-    <content>AastaLLL: Hi, You can modify our building environment below for your requirement: https://github.com/dusty-nv/jetson-containers/tree/master/packages/cv/opencv github.com https://github.com/dusty-nv/jetson-containers/tree/master/packages/cv/opencv jetson-containers/packages/cv/opencv at master · dusty-nv/je...</content>
-    <link href="https://forums.developer.nvidia.com/t/361555/5"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/362616/1</id>
     <title>UCX ERROR failed to unpack address, invalid bandwidth 0.00 [1]</title>
     <updated>2026-03-06T07:51:05.430000+00:00</updated>
@@ -353,5 +346,12 @@
     <updated>2026-03-22T07:08:44.015000+00:00</updated>
     <content>Ai24mtech02003: ...reating two CUDA tensors and performing torch.matmul , which immediately triggers the cuBLAS error. Interestingly, alternative GPU frameworks such as CuPy perform matrix multiplication successfully and achieve expected high performance, indicating that the CUDA runtime and hardware are functioning corre...</content>
     <link href="https://forums.developer.nvidia.com/t/364316/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/361555/7</id>
+    <title>CUDA, CuPy &amp;amp; OpenCV from Source with Numpy 2.2.6 on JetPack 6.1 [7]</title>
+    <updated>2026-03-23T07:32:45.187000+00:00</updated>
+    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/361555/7"/>
   </entry>
 </feed>
