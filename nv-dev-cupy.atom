@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-03-23T07:32:45.187000+00:00</updated>
+  <updated>2026-04-23T14:44:01.440000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/329739/3</id>
-    <title>Python Cupy and DirectGPU [3]</title>
-    <updated>2025-04-10T07:14:47.188000+00:00</updated>
-    <content>Alessandro: ...rSetAttribute and the nvidia_p2p_get_pages function to get the physical address where to write the data and then I can pass the cudaMalloc pointer to Cupy. However, as far as I know, the pages returned by p2p_get_pages are not contiguous. Is it is possible to allocate contiguous pages? Also, I don't und...</content>
-    <link href="https://forums.developer.nvidia.com/t/329739/3"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/331898/2</id>
     <title>Deepstream Support For Ubuntu 24.04 with bindings for Python 3.12 [2]</title>
@@ -353,5 +346,12 @@
     <updated>2026-03-23T07:32:45.187000+00:00</updated>
     <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
     <link href="https://forums.developer.nvidia.com/t/361555/7"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/367552/3</id>
+    <title>Simplify Sparse Deep Learning with Universal Sparse Tensor in nvmath-python [3]</title>
+    <updated>2026-04-23T14:44:01.440000+00:00</updated>
+    <content>Aart J.C. Bik: ...Vladimír Macko and https://arxiv.org/search/cs Vladimír Boža for their implementation). By the way, note that you will observe all improvements over CuPy and PyTorch that are shown in Figure 4 "out of the box", but the improvements in Figure 5 require incorporating the MACKO back-end with the UST delta...</content>
+    <link href="https://forums.developer.nvidia.com/t/367552/3"/>
   </entry>
 </feed>
