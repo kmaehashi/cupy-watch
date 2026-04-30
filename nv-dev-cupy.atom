@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://forums.developer.nvidia.com</id>
+  <title>NVIDIA Developer Forums (cupy)</title>
+  <updated>2026-04-23T14:44:01.440000+00:00</updated>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/331898/2</id>
+    <title>Deepstream Support For Ubuntu 24.04 with bindings for Python 3.12 [2]</title>
+    <updated>2025-05-01T05:47:17.625000+00:00</updated>
+    <content>Junshengy: ...m not looking to fully adopt DeepStream for my entire pipeline - I'm only interested in decoding multiple RTSP streams in parallel and retrieving the CuPy arrays. Is there another NVIDIA tool or library I may have overlooked that can achieve this? Each stream builds the following pipeline rtspsrc (nvuri...</content>
+    <link href="https://forums.developer.nvidia.com/t/331898/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/332213/1</id>
+    <title>Nsight Systems 2025.3.1 Hangs at 99% on Windows When Using Python or directly with CUDA [1]</title>
+    <updated>2025-05-04T21:35:46.533000+00:00</updated>
+    <content>Daniel: ...3H2, Build 26100 GPU: RTX 3090 CUDA Version: 12.8.93 Python Version: 3.12 (venv) Profiler Target: Python script launching CUDA kernel via PyTorch and CuPy, also a compiled exe version of that kernel Storage Target: Samsung 970 PRO NVMe used as system cache/temp drive Issue: Profiling stalls consistently...</content>
+    <link href="https://forums.developer.nvidia.com/t/332213/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/332246/1</id>
+    <title>Fatal Python error: Bus error [1]</title>
+    <updated>2025-05-05T08:39:14.159000+00:00</updated>
+    <content>Rishika Rao: ..., pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.json, pandas._libs.parsers, pandas._libs.testing, _testcapi, cupy_backends.cuda._softlink, cupy_backends.cuda.api._runtime_enum, cupy_backends.cuda.api.runtime, cupy._u til, cupy.cuda.device, fastrlock.rlock, cupy.c...</content>
+    <link href="https://forums.developer.nvidia.com/t/332246/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/332135/6</id>
+    <title>Dynamics simulation on multiple GPUs [6]</title>
+    <updated>2025-05-05T20:16:48.296000+00:00</updated>
+    <content>Chx33: ...he construction state inside the for loop. import numpy as np from cudaq.operator import * from cudaq import RungeKuttaIntegrator import cudaq import cupy as cp import matplotlib.pyplot as plt omega_a=1.0 Natoms=12 # Set the target to our dynamics simulator cudaq.set_target("dynamics") init=np.zeros(np....</content>
+    <link href="https://forums.developer.nvidia.com/t/332135/6"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/332763/1</id>
+    <title>Please support user-provided output buffers in Python API [1]</title>
+    <updated>2025-05-09T17:01:16.578000+00:00</updated>
+    <content>Gregory Kimball: ...Copyright (c) 2023, NVIDIA CORPORATION. All rights reserved. # See file LICENSE for terms. from typing import Any, Mapping, Optional, Sequence import cupy as cp import cupy.typing from numcodecs.compat import ensure_contiguous_ndarray_like from kvikio._lib.libnvcomp_ll import SUPPORTED_ALGORITHMS from k...</content>
+    <link href="https://forums.developer.nvidia.com/t/332763/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/321328/4</id>
+    <title>[NVCOMP] Strange Bug/Behavior in NVCOMP Python API [4]</title>
+    <updated>2025-06-07T02:58:18.209000+00:00</updated>
+    <content>Ted Li: ...his thread where nvcomp.as_array() mangles the contents of a NumPy int32 array. Workaround Instead of passing a NumPy array directly, convert it to a CuPy array first and export it via DLPack, then after passing the exported DLPack tensor to the nvcomp.as_array() function, call .cpu() on the return valu...</content>
+    <link href="https://forums.developer.nvidia.com/t/321328/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/335341/14</id>
+    <title>Share cuda memory with gstreamer [14]</title>
+    <updated>2025-06-10T08:12:06.812000+00:00</updated>
+    <content>510864714: Thank you very much for your helpful suggestion! In my current project, I would like to first try converting the PyTorch tensor to a CuPy array , and then use the relevant functions from pyds to create an NvBufSurface , performing only a single GPU-to-GPU memory copy in the process. Thi...</content>
+    <link href="https://forums.developer.nvidia.com/t/335341/14"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/335258/4</id>
+    <title>Deepstream images quality [4]</title>
+    <updated>2025-06-11T01:50:57.467000+00:00</updated>
+    <content>648811273: live stream 1080p 25fps format：h264, h265 Save each frame of the image using the probe function by cupy new question：Choosing frame skipping for detection may result in missed targets，but if detected at full frame rate, this situation will not occur</content>
+    <link href="https://forums.developer.nvidia.com/t/335258/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/335932/9</id>
+    <title>About how to control thread in cuSPARSE [9]</title>
+    <updated>2025-06-13T01:43:09.558000+00:00</updated>
+    <content>Leehyejin0239: Thanks for your useful comment. i should try to implement cuBLAS!! Compring with CUPY, it looks like CUDA control memory more efficiently.,! ( IDK specifically how to control ) Anyway, i aprreciate your quick comment.</content>
+    <link href="https://forums.developer.nvidia.com/t/335932/9"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/337929/2</id>
+    <title>Nvshmem4py nvshmem.core.tensor does not support dtype torch.uint64, which is wired [2]</title>
+    <updated>2025-07-03T15:06:38.831000+00:00</updated>
+    <content>Benjaming: ...lease. nvshmem.core.put_signal() takes an object of type cuda.core.Buffer allocatable with nvshmem.core.buffer() and of size 8 bytes. We also support CuPy arrays of type uint64 if that suits your needs. We can investigate torch uint64 for the next release.</content>
+    <link href="https://forums.developer.nvidia.com/t/337929/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/338313/1</id>
+    <title>Calling multiple VC video streams causes the system to crash [1]</title>
+    <updated>2025-07-08T01:47:01.599000+00:00</updated>
+    <content>Zjqxxh: ...through mipi interface causes orin nx system to crash and restart. The calling method is as follows import os import fcntl import numpy as np import cupy as cp import cv2 import time from collections import deque from tool import * from copy import deepcopy devices = ['/dev/video3', '/dev/video1', '/de...</content>
+    <link href="https://forums.developer.nvidia.com/t/338313/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/338529/7</id>
+    <title>Delivering the Missing Building Blocks for NVIDIA CUDA Kernel Fusion in Python [7]</title>
+    <updated>2025-07-11T16:11:51.714000+00:00</updated>
+    <content>LaszloHars: After upgrading cupy to 13.5.1, I got another error: Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32 C:\Users\...\Documen...</content>
+    <link href="https://forums.developer.nvidia.com/t/338529/7"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/338498/2</id>
+    <title>How to clone a holoscan.core.tensor? [2]</title>
+    <updated>2025-07-14T16:08:02.827000+00:00</updated>
+    <content>aharouni: Hi Cho.peter Thanks for your interest in Holoscan SDK and reaching out. To you question you could do something as import cupy as cp # within operator's __init__ or start() method self.cached_frames = [] # from within compute (assuming a holoscan.core.Tensor or other tensor-l...</content>
+    <link href="https://forums.developer.nvidia.com/t/338498/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/339524/1</id>
+    <title>Conda list | grep -E &amp;ldquo;cudatoolkit|cuda-toolkit&amp;rdquo;, nvcc &amp;ndash;version, and nvidia-smi all give me different versions [1]</title>
+    <updated>2025-07-19T07:17:17.601000+00:00</updated>
+    <content>Sofiastoica001: ...a-sanitizer-api 12.9.79 1 nvidia cuda-toolkit 12.4.1 0 nvidia cuda-tools 12.4.1 0 nvidia cuda-version 12.9 3 nvidia cuda-visual-tools 12.6.2 0 nvidia cupy-cuda12x 13.5.1 pypi_0 pypi nvidia-cuda-cupti-cu12 12.4.127 pypi_0 pypi nvidia-cuda-nvrtc-cu12 12.4.127 pypi_0 pypi nvidia-cuda-runtime-cu12 12.4.127...</content>
+    <link href="https://forums.developer.nvidia.com/t/339524/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/335071/11</id>
+    <title>Zero copy conversion between cupy and numpy array [11]</title>
+    <updated>2025-07-30T02:26:11.310000+00:00</updated>
+    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/335071/11"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/339014/44</id>
+    <title>Performance Issues with DeepStream Pipeline: AI Frame Rate Decreases with Encoding and Overlays [44]</title>
+    <updated>2025-08-01T05:33:46.690000+00:00</updated>
+    <content>Fechen: ...-mode=0 ! nvvideoconvert ! nvh264enc ! rtspclientsink like this we use 10FHD Videos. Also parallelly we run an expensive GPU based AI as well. import cupy as cp import time # CUDA kernel that hogs GPU kernel_code = r''' extern "C" __global__ void high_load_kernel(float* out, int iterations) { int idx =...</content>
+    <link href="https://forums.developer.nvidia.com/t/339014/44"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/341142/3</id>
+    <title>Isaacsim-app-template PhysxForcefields extension version incompatibility issue [3]</title>
+    <updated>2025-08-04T07:32:41.019000+00:00</updated>
+    <content>Hcwong Henry: ...../_build/target-deps/python" packages = [ "torch==2.2.1", "torchvision==0.17.1", "torchaudio==2.2.1", "scikit-learn==1.5.2", "streamtracer==2.3.0", "cupy-cuda12x==13.3.0", "kaolin==0.17.0", "cython==0.29.20", "scipy &amp;gt; =1.2.0", "Pillow &amp;gt; =8.0.0", "warp-lang==1.5.1", "usd-core==23.2", "matplotlib==3.10.0...</content>
+    <link href="https://forums.developer.nvidia.com/t/341142/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/336482/21</id>
+    <title>Jetson-utils Python cudaToNumpy error [21]</title>
+    <updated>2025-08-07T17:11:45.215000+00:00</updated>
+    <content>Kepatel: ...eam pipeline you're running (all elements + caps). What you're doing with the frames in Python after decode/convert—e.g., copying to NumPy, running a CuPy/Torch kernel, etc. A quick baseline performance number: run the same MJPEG stream through gst-launch-1.0 (or similar) with no appsink and note the ob...</content>
+    <link href="https://forums.developer.nvidia.com/t/336482/21"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/340183/9</id>
+    <title>An error on orin nano about cuda and pytorch: undefined symbol: cusolverDnXsyevBatched_bufferSize, version libcusolver.so.11 [9]</title>
+    <updated>2025-08-11T23:12:14.328000+00:00</updated>
+    <content>Sascha Hornauer: ...orch 2.7.0 with cuda 12.9 would use a library that sounds like from cuda 11 so I searched for other cuda-related packages in my environment and found cupy-cuda11x. I removed it to see which package depends on it and go from there and the problem went away. To my surprise it actually did not get properly...</content>
+    <link href="https://forums.developer.nvidia.com/t/340183/9"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/341947/7</id>
+    <title>Invalid simulator requested: dynamics [7]</title>
+    <updated>2025-08-12T17:10:02.661000+00:00</updated>
+    <content>Spisal: ...steps? Successfully installed astpretty-3.0.0 certifi-2025.8.3 charset_normalizer-3.4.3 cuda-quantum-cu12-0.12.0 cudaq-0.12.0 cudensitymat-cu12-0.2.0 cupy-cuda12x-13.4.1 cuquantum-cu12-25.6.0 custatevec-cu12-1.9.0 cutensor-cu12-2.2.0 cutensornet-cu12-2.8.0 fastrlock-0.8.3 idna-3.10 numpy-2.2.6 nvidia-cu...</content>
+    <link href="https://forums.developer.nvidia.com/t/341947/7"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/342264/2</id>
+    <title>Performance difference in large two-tensor contraction between cuQuantum and CuPy [2]</title>
+    <updated>2025-08-18T18:47:44.133000+00:00</updated>
+    <content>: ...applications which are often asynchronous, CPU timer does not provide accurate timing. The recommendation is to switch to event based timers or just cupyx.profiler.benchmark https://docs.cupy.dev/en/stable/reference/generated/cupyx.profiler.benchmark.html#cupyx.profiler.benchmark cupyx.profiler.benchma...</content>
+    <link href="https://forums.developer.nvidia.com/t/342264/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/342923/1</id>
+    <title>Problem with products of boson.number operator in latest CUDA-Q [1]</title>
+    <updated>2025-08-23T04:29:39.747000+00:00</updated>
+    <content>Chx33: ...pt to reproduce the error: import numpy as np import cudaq from cudaq import boson, Schedule, ScipyZvodeIntegrator, spin, RungeKuttaIntegrator import cupy as cp import matplotlib.pyplot as plt L=5 Nmax=1 cudaq.set_target("dynamics") init=np.zeros(np.power(Nmax+1,L)) init[0]=1 index=3 hamiltonian = boson...</content>
+    <link href="https://forums.developer.nvidia.com/t/342923/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/280858/11</id>
+    <title>VPI __cuda_array_interface__ Interoperability [11]</title>
+    <updated>2025-08-28T08:04:59.362000+00:00</updated>
+    <content>AastaLLL: ...in, Aug 14 2025, 17:47:21) [GCC 13.3.0] on linux Type "help", "copyright", "credits" or "license" for more information. &amp;gt; &amp;gt; &amp;gt; import vpi &amp;gt; &amp;gt; &amp;gt; import cupy &amp;gt; &amp;gt; &amp;gt; vpi.__version__ '4.0.0' &amp;gt; &amp;gt; &amp;gt; cupy.__version__ '13.6.0' &amp;gt; &amp;gt; &amp;gt; vpi_image = vpi.Image((320,256), format=vpi.Format.RGB8) &amp;gt; &amp;gt; &amp;gt; cuImg = cupy.asarr...</content>
+    <link href="https://forums.developer.nvidia.com/t/280858/11"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/345125/2</id>
+    <title>Convert Input Tensor to InferenceOP in Holoscan [2]</title>
+    <updated>2025-09-17T16:19:04.400000+00:00</updated>
+    <content>aharouni: ...verterOp is not able to do this at this time and it does a copy. May be you can try this code below that would to the conversion for you. It does use cupy to run on the gpu but I am not sure if all operations avoids copying. Hope that helps class My_TransposeOp(Operator): #Custom Holoscan operator to tr...</content>
+    <link href="https://forums.developer.nvidia.com/t/345125/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/345408/16</id>
+    <title>Kernel error on boot, gpu info does not look complete [16]</title>
+    <updated>2025-09-23T02:36:57.547000+00:00</updated>
+    <content>JerryChang: hello shepard.siegel, shepard.siegel: cupy.cuda.compiler.CompileException: nvrtc: error: invalid value for --gpu-architecture (-arch) BTW, I doubt it's due to Jetson Thor supports the OpenRM d...</content>
+    <link href="https://forums.developer.nvidia.com/t/345408/16"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/345720/5</id>
+    <title>Jetson AGX Thor with Holoscan Sensor Bridge (HSB), Demo Container Failure [5]</title>
+    <updated>2025-09-23T07:07:06.810000+00:00</updated>
+    <content>JerryChang: ...a.com/t/345408/15 Topic 345408 , let me re-cap the failure.. FAILED tests/test_holoscan.py::test_holoscan[720-1280-bayer_format0-pixel_format0-0.1] - cupy.cuda.compiler.CompileException: nvrtc: error: invalid value for --gpu-architecture (-arch) it may due to Jetson Thor supports the OpenRM driver archi...</content>
+    <link href="https://forums.developer.nvidia.com/t/345720/5"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/346039/3</id>
+    <title>How to debug cuda in python(use cupy to call kernels, not lib file) [3]</title>
+    <updated>2025-09-26T01:19:31.612000+00:00</updated>
+    <content>: Thanks for your reply! Here's the lcx_projector_kernels.cu, it seems simple: extern "C" __device__ unsigned char ray_cube_intersection_cuda(float orig0, float orig1, float orig2, float bounds0_min, float bounds1_min, float bounds2_min, float bounds0_max, float bounds1_max, float bounds2_max, floa...</content>
+    <link href="https://forums.developer.nvidia.com/t/346039/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/346366/10</id>
+    <title>How to install torchaudio base on the image:nvcr.io/nvidia/pytorch:25.08-py3 [10]</title>
+    <updated>2025-09-30T05:04:00.360000+00:00</updated>
+    <content>Whitesscott: ...vcodec-dev libavutil-dev libavdevice-dev \ ffmpeg libavfilter-dev libswresample-dev libswscale-dev pip install -U sentencepiece soundfile cmake ninja cupy-cuda13x \ cuda-python nvidia-ml-py pybind11 torchcodec pip uninstall pynvml #if you don't you will get an error with every import torch and import to...</content>
+    <link href="https://forums.developer.nvidia.com/t/346366/10"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/346705/5</id>
+    <title>Holoscan tensor naming [5]</title>
+    <updated>2025-10-03T19:38:12.075000+00:00</updated>
+    <content>Alsulli: ...figured out my problem and thought I would update you and everyone else who might run into this issue. The solution was simple. I was returning a raw cupy.Tensor from my CUDA kernel, but this is not correct. Instead, one needs to return a dict that in my case was {'out': out_tensor}. To be more specific...</content>
+    <link href="https://forums.developer.nvidia.com/t/346705/5"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/346500/6</id>
+    <title>Help with otk-pyoptix [6]</title>
+    <updated>2025-10-06T13:13:14.709000+00:00</updated>
+    <content>Flying Chaplin: Hello again. VSCode is not able to autocomplete the module contents, while it is able to autocomplete cupy. I think this is because there is no init .py` in the module. It is a bit annoying to go back and forth to look at the function names or struct names...</content>
+    <link href="https://forums.developer.nvidia.com/t/346500/6"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/347062/1</id>
+    <title>Dashboard not working with cux (RAPIDS 25.08) [1]</title>
+    <updated>2025-10-07T20:53:19.150000+00:00</updated>
+    <content>jdh4: ...8.00 cuda12_py312_250806_6cea3743 rapidsai cugraph 25.08.00 cuda12_py312_250806_e0f09e50 rapidsai cuml 25.08.00 cuda12_py312_250806_b081fcd0 rapidsai cupy 13.6.0 py312h0317cef_2 conda-forge cupy-core 13.6.0 py312h16a6543_2 conda-forge custreamz 25.08.00 cuda12_py312_250806_6cea3743 rapidsai cuvs 25.08.0...</content>
+    <link href="https://forums.developer.nvidia.com/t/347062/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/347090/1</id>
+    <title>Slight difference between original image from OpenCV (HTTP) and DeepStream gRPC [1]</title>
+    <updated>2025-10-08T03:49:32.146000+00:00</updated>
+    <content>Longromsay: ...import os import numpy as np import tensorrt as trt import triton_python_backend_utils as pb_utils import torch import torchvision.ops as ops import cupy as cp from torchvision.ops import roi_align import cv2 # &amp;lt; -- Thêm để lưu ảnh TRT_LOGGER = trt.Logger(trt.Logger.WARNING) class TritonPythonModel: de...</content>
+    <link href="https://forums.developer.nvidia.com/t/347090/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/76861/988</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [988]</title>
+    <updated>2025-10-13T16:08:24.784000+00:00</updated>
+    <content>Alain Paillou: ...8-50mm F1.0 lens and an IMX485MC sensor. Well, optical quality is very bad but the zoom effect is interesting. I used my JetsonSky software (Python, Cupy, Cuda, NVidia GPU computing) for capture and live treatment (the RAW video without GPU treatment would have been too bad). 4 FPS capture was possible...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/988"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/347954/2</id>
+    <title>Where do I get a refund :-) [2]</title>
+    <updated>2025-10-16T22:16:48.722000+00:00</updated>
+    <content>carolyuu: ...egarding the Python libraries, you're correct that not all of them are CUDA-enabled. However, NVIDIA provides a range of libraries and tools, such as cuPy, Numba, and TensorFlow, that are optimized for CUDA and can be used with the Jetson Orin Nano. It's possible that the specific libraries you're looki...</content>
+    <link href="https://forums.developer.nvidia.com/t/347954/2"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/348447/1</id>
+    <title>Cutensor 2.3.1 estimateWorkspaceSize unexpected result [1]</title>
+    <updated>2025-10-21T00:04:51.538000+00:00</updated>
+    <content>Henry Wang1: ...id not get a correct workspace size estimation from estimateWorkspaceSize function call. In one of my pip environment I have cutensor-cu12==2.3.1 and cupy-cuda12x==13.6.0. We have tried on both one A100 and one 5080 card, both reproducing the same problem. We are not sure if we used the cutensor functio...</content>
+    <link href="https://forums.developer.nvidia.com/t/348447/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/349110/1</id>
+    <title>Numba segmentation faults on DGX Spark, but not on my 3070 [1]</title>
+    <updated>2025-10-27T06:07:52.246000+00:00</updated>
+    <content>Calvinchang33: ...So it could be some strange user error on my end. Was hoping to see if anyone else has had any issues or if this is a known issue. I was going to try cupy next, but as a last resort I will try a more traditional method and write a CUDA/C++ kernel and pybind11.</content>
+    <link href="https://forums.developer.nvidia.com/t/349110/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/349613/1</id>
+    <title>Interdependent streams accelerate All Reduce [1]</title>
+    <updated>2025-10-30T17:27:19.347000+00:00</updated>
+    <content>Fast Rich: ...s LlamaModel(nn.Module): # ... def forward( self, # ... ) - &amp;gt; Union[torch.Tensor, IntermediateTensors]: # ... # &amp;lt; &amp;lt; &amp;lt; Modification Begin &amp;gt; &amp;gt; &amp;gt; import cupy dummy_event = cupy.cuda.Event() dummy_non_default_stream = cupy.cuda.Stream(non_blocking=True) # &amp;lt; &amp;lt; &amp;lt; End &amp;gt; &amp;gt; &amp;gt; for i in range(self.start_layer, sel...</content>
+    <link href="https://forums.developer.nvidia.com/t/349613/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/350059/1</id>
+    <title>Difference in Nsight systems and nvTop output [1]</title>
+    <updated>2025-11-03T15:33:29.971000+00:00</updated>
+    <content>Abhishek Mishra: Hi, I have a holoscan application written in python which uses CuPy or Numpy(depending on user choice) running on my notebook. When using CuPy, both nvTop and Nsight show GPU activity which is as expected, however, wh...</content>
+    <link href="https://forums.developer.nvidia.com/t/350059/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/46184/15</id>
+    <title>GPU is slower than CPU [15]</title>
+    <updated>2025-11-04T18:06:00.182000+00:00</updated>
+    <content>Robert_Crovella: ...what I had in mind (suggestion 2 above). It took me less than 1 hour to create in colab, using AI provided snippets like I suggested earlier: import cupy as cp import numpy as np import scipy.signal as sp arr_size1 = 100000 arr_size2 = 200 # Create two 1D CuPy arrays a = cp.ones(arr_size1,np.float32) v...</content>
+    <link href="https://forums.developer.nvidia.com/t/46184/15"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/350755/4</id>
+    <title>AI and CUDA Compatibility [4]</title>
+    <updated>2025-11-27T16:23:35.602000+00:00</updated>
+    <content>Athkumar: Hi @ishannathan100 , For CUDA 13.x systems, CuPy now offers a dedicated cupy-cuda13x wheel package. Since this issue seems to concern CuPy compatibility and cloud infrastructure (rather than TensorR...</content>
+    <link href="https://forums.developer.nvidia.com/t/350755/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/353747/4</id>
+    <title>How to run cuTile on DGX Spark [4]</title>
+    <updated>2025-12-09T14:19:17.756000+00:00</updated>
+    <content>Angel: Hi, I get this error: Traceback (most recent call last): File "/home/agenticpartner/Downloads/cutilesample/cutile.py", line 10, in import cupy as cp ModuleNotFoundError: No module named 'cupy' When executing: python cutile.py</content>
+    <link href="https://forums.developer.nvidia.com/t/353747/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/354282/7</id>
+    <title>Running depth_anything_v2 from holohub on DGX Spark [7]</title>
+    <updated>2025-12-15T13:02:39.471000+00:00</updated>
+    <content>Ralph Harti: ...le "c 81:* rmw" --device-cgroup-rule "c 189:* rmw" -e NVIDIA_DRIVER_CAPABILITIES=graphics,video,compute,utility,display -e HOME=/workspace/holohub -e CUPY_CACHE_DIR=/workspace/holohub/.cupy/kernel_cache -e HOLOHUB_BUILD_LOCAL=1 --rm --ipc=host --cap-add=CAP_SYS_PTRACE --ulimit=memlock=-1 --ulimit=stack=...</content>
+    <link href="https://forums.developer.nvidia.com/t/354282/7"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/358091/1</id>
+    <title>Numba cannot see Blackwell GPU and index out of range [1]</title>
+    <updated>2026-01-20T09:53:38.647000+00:00</updated>
+    <content>Albert: ...range. Here is the Numba test result after isolation: CUDA_VISIBLE_DEVICES: Not set Numba sees devices: &amp;lt; Managed Device 0 &amp;gt; Numba device count: None CuPy device count: 1 Further output: ---------------------------------------------------------------------------IndexError Traceback (most recent call las...</content>
+    <link href="https://forums.developer.nvidia.com/t/358091/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/360292/1</id>
+    <title>Error: Cuda failure in createTexture when using get_nvds_buf_surface on DGX SPARK with DeepStream 8.0 [1]</title>
+    <updated>2026-02-11T07:38:58.922000+00:00</updated>
+    <content>Mertaydogan06: ...for get_nvds_buf_surface on DGX SPARK with DeepStream 8.0 to avoid these CUDA errors? Alternatively, how can I adapt my buffer extraction code to use CuPy for direct GPU buffer access (without CPU copies)? Something like pulling the frame into a CuPy array from the GPU buffer. Any insights or patches wo...</content>
+    <link href="https://forums.developer.nvidia.com/t/360292/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/360888/4</id>
+    <title>Optix Neural Primitives Rendering with Cooperative Vectors and SER [4]</title>
+    <updated>2026-02-17T20:36:31.493000+00:00</updated>
+    <content>Keith_Morley: One way to handle this would be via the CuPy API. It allows for easy Python host-side generation of device arrays of arbitrary type. It also has a wrapper around the CUDA runtime API which you c...</content>
+    <link href="https://forums.developer.nvidia.com/t/360888/4"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/360288/3</id>
+    <title>Rep.orchestrator returning all rgba channels=0 [3]</title>
+    <updated>2026-02-26T02:25:35.050000+00:00</updated>
+    <content>Kristinandtom2016: ...numpy") and callable(data.numpy): return data.numpy() # 2. Check for PyTorch Tensor if hasattr(data, "cpu"): return data.cpu().numpy() # 3. Check for CuPy Array if hasattr(data, "get"): return data.get() # 4. Fallback for standard lists/already NumPy try: return np.array(data) except Exception: return d...</content>
+    <link href="https://forums.developer.nvidia.com/t/360288/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/362616/1</id>
+    <title>UCX ERROR failed to unpack address, invalid bandwidth 0.00 [1]</title>
+    <updated>2026-03-06T07:51:05.430000+00:00</updated>
+    <content>Yash Takwani: ...Nvidia side as you can see in following code: from holoscan.core import Application, Operator, OperatorSpec import numpy as np import asyncio import cupy as cp import threading # Ensure we use the right UCX; if 'import ucp' fails, try 'import ucxx as ucp' try: import ucp # Check if this is the real UCX...</content>
+    <link href="https://forums.developer.nvidia.com/t/362616/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/364316/1</id>
+    <title>PyTorch CUDA Incompatibility on NVIDIA Thor (L4T 38.4, CUDA 13) [1]</title>
+    <updated>2026-03-22T07:08:44.015000+00:00</updated>
+    <content>Ai24mtech02003: ...reating two CUDA tensors and performing torch.matmul , which immediately triggers the cuBLAS error. Interestingly, alternative GPU frameworks such as CuPy perform matrix multiplication successfully and achieve expected high performance, indicating that the CUDA runtime and hardware are functioning corre...</content>
+    <link href="https://forums.developer.nvidia.com/t/364316/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/361555/7</id>
+    <title>CUDA, CuPy &amp;amp; OpenCV from Source with Numpy 2.2.6 on JetPack 6.1 [7]</title>
+    <updated>2026-03-23T07:32:45.187000+00:00</updated>
+    <content>system: This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</content>
+    <link href="https://forums.developer.nvidia.com/t/361555/7"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/367552/3</id>
+    <title>Simplify Sparse Deep Learning with Universal Sparse Tensor in nvmath-python [3]</title>
+    <updated>2026-04-23T14:44:01.440000+00:00</updated>
+    <content>Aart J.C. Bik: ...Vladimír Macko and https://arxiv.org/search/cs Vladimír Boža for their implementation). By the way, note that you will observe all improvements over CuPy and PyTorch that are shown in Figure 4 "out of the box", but the improvements in Figure 5 require incorporating the MACKO back-end with the UST delta...</content>
+    <link href="https://forums.developer.nvidia.com/t/367552/3"/>
+  </entry>
+</feed>
