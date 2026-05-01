@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-04-23T14:44:01.440000+00:00</updated>
+  <updated>2026-05-01T06:45:16.858000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/331898/2</id>
-    <title>Deepstream Support For Ubuntu 24.04 with bindings for Python 3.12 [2]</title>
-    <updated>2025-05-01T05:47:17.625000+00:00</updated>
-    <content>Junshengy: ...m not looking to fully adopt DeepStream for my entire pipeline - I'm only interested in decoding multiple RTSP streams in parallel and retrieving the CuPy arrays. Is there another NVIDIA tool or library I may have overlooked that can achieve this? Each stream builds the following pipeline rtspsrc (nvuri...</content>
-    <link href="https://forums.developer.nvidia.com/t/331898/2"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/332213/1</id>
     <title>Nsight Systems 2025.3.1 Hangs at 99% on Windows When Using Python or directly with CUDA [1]</title>
@@ -353,5 +346,12 @@
     <updated>2026-04-23T14:44:01.440000+00:00</updated>
     <content>Aart J.C. Bik: ...Vladimír Macko and https://arxiv.org/search/cs Vladimír Boža for their implementation). By the way, note that you will observe all improvements over CuPy and PyTorch that are shown in Figure 4 "out of the box", but the improvements in Figure 5 require incorporating the MACKO back-end with the UST delta...</content>
     <link href="https://forums.developer.nvidia.com/t/367552/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/368092/6</id>
+    <title>Is it possible to loop Linux Receiver and UDP Transmitter holoscan operators? [6]</title>
+    <updated>2026-05-01T06:45:16.858000+00:00</updated>
+    <content>Whitesscott: # need these pip install cupy-cuda13x pip install -U cuda-python # This now, finally, works. Completes at "RawUdpSourceOp emitted packet #1000000, size=1024". python hsb_tx_diag.p...</content>
+    <link href="https://forums.developer.nvidia.com/t/368092/6"/>
   </entry>
 </feed>
