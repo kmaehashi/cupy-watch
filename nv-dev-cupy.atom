@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-05-01T06:45:16.858000+00:00</updated>
+  <updated>2026-05-24T17:13:41.054000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/332213/1</id>
-    <title>Nsight Systems 2025.3.1 Hangs at 99% on Windows When Using Python or directly with CUDA [1]</title>
-    <updated>2025-05-04T21:35:46.533000+00:00</updated>
-    <content>Daniel: ...3H2, Build 26100 GPU: RTX 3090 CUDA Version: 12.8.93 Python Version: 3.12 (venv) Profiler Target: Python script launching CUDA kernel via PyTorch and CuPy, also a compiled exe version of that kernel Storage Target: Samsung 970 PRO NVMe used as system cache/temp drive Issue: Profiling stalls consistently...</content>
-    <link href="https://forums.developer.nvidia.com/t/332213/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/332246/1</id>
     <title>Fatal Python error: Bus error [1]</title>
@@ -353,5 +346,12 @@
     <updated>2026-05-01T06:45:16.858000+00:00</updated>
     <content>Whitesscott: # need these pip install cupy-cuda13x pip install -U cuda-python # This now, finally, works. Completes at "RawUdpSourceOp emitted packet #1000000, size=1024". python hsb_tx_diag.p...</content>
     <link href="https://forums.developer.nvidia.com/t/368092/6"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/371190/1</id>
+    <title>Nsys CUDA Trace Empty in AI Workbench Container on DGX Spark GB10 [1]</title>
+    <updated>2026-05-24T17:13:41.054000+00:00</updated>
+    <content>Nvidia: ...nly CCCL C++ library ranges from the CUDA driver itself. Python-side NVTX annotations do not appear, regardless of whether the Python nvtx package or cupy.cuda.nvtx.RangePush/RangePop is used. Diagnostic Output nsys status --environment inside the Workbench container: CPU Profiling Environment Check Roo...</content>
+    <link href="https://forums.developer.nvidia.com/t/371190/1"/>
   </entry>
 </feed>
