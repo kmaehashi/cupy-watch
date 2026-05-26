@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-05-24T17:13:41.054000+00:00</updated>
+  <updated>2026-05-26T14:26:58.324000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/332246/1</id>
-    <title>Fatal Python error: Bus error [1]</title>
-    <updated>2025-05-05T08:39:14.159000+00:00</updated>
-    <content>Rishika Rao: ..., pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.json, pandas._libs.parsers, pandas._libs.testing, _testcapi, cupy_backends.cuda._softlink, cupy_backends.cuda.api._runtime_enum, cupy_backends.cuda.api.runtime, cupy._u til, cupy.cuda.device, fastrlock.rlock, cupy.c...</content>
-    <link href="https://forums.developer.nvidia.com/t/332246/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/332135/6</id>
     <title>Dynamics simulation on multiple GPUs [6]</title>
@@ -353,5 +346,12 @@
     <updated>2026-05-24T17:13:41.054000+00:00</updated>
     <content>Nvidia: ...nly CCCL C++ library ranges from the CUDA driver itself. Python-side NVTX annotations do not appear, regardless of whether the Python nvtx package or cupy.cuda.nvtx.RangePush/RangePop is used. Diagnostic Output nsys status --environment inside the Workbench container: CPU Profiling Environment Check Roo...</content>
     <link href="https://forums.developer.nvidia.com/t/371190/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/371309/3</id>
+    <title>Failing to send numpy array over fragment boundary [3]</title>
+    <updated>2026-05-26T14:26:58.324000+00:00</updated>
+    <content>Greg Lee: ...ra serialization step) when sending between fragments . By Tensor this is not restricted to only holoscan.Tensor but can be a third party object like cupy.ndarray that implements the __ cuda_array_interface_ _ or DLPack protocol. Within-fragment you can efficiently pass arbitrary Python objects without...</content>
+    <link href="https://forums.developer.nvidia.com/t/371309/3"/>
   </entry>
 </feed>
