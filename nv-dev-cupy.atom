@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-05-26T14:26:58.324000+00:00</updated>
+  <updated>2026-06-04T11:45:48.262000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/332135/6</id>
@@ -341,17 +341,17 @@
     <link href="https://forums.developer.nvidia.com/t/368092/6"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/371190/1</id>
-    <title>Nsys CUDA Trace Empty in AI Workbench Container on DGX Spark GB10 [1]</title>
-    <updated>2026-05-24T17:13:41.054000+00:00</updated>
-    <content>Nvidia: ...nly CCCL C++ library ranges from the CUDA driver itself. Python-side NVTX annotations do not appear, regardless of whether the Python nvtx package or cupy.cuda.nvtx.RangePush/RangePop is used. Diagnostic Output nsys status --environment inside the Workbench container: CPU Profiling Environment Check Roo...</content>
-    <link href="https://forums.developer.nvidia.com/t/371190/1"/>
-  </entry>
-  <entry>
     <id>https://forums.developer.nvidia.com/t/371309/3</id>
     <title>Failing to send numpy array over fragment boundary [3]</title>
     <updated>2026-05-26T14:26:58.324000+00:00</updated>
     <content>Greg Lee: ...ra serialization step) when sending between fragments . By Tensor this is not restricted to only holoscan.Tensor but can be a third party object like cupy.ndarray that implements the __ cuda_array_interface_ _ or DLPack protocol. Within-fragment you can efficiently pass arbitrary Python objects without...</content>
     <link href="https://forums.developer.nvidia.com/t/371309/3"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/371190/8</id>
+    <title>Nsys CUDA Trace Empty in AI Workbench Container on DGX Spark GB10 [8]</title>
+    <updated>2026-06-04T11:45:48.262000+00:00</updated>
+    <content>Nvidia: ...y SSH to the DGX Spark and exec into the running container: docker exec -it &amp;lt; project &amp;gt; -profiler-1 bash nsys profile --trace=cuda python3 -c "import cupy as cp; x = cp.zeros((3,3)); print(x)" Open the generated .nsys-rep file in the Nsight Systems GUI. You should see the CUDA HW lane with kernel activi...</content>
+    <link href="https://forums.developer.nvidia.com/t/371190/8"/>
   </entry>
 </feed>
