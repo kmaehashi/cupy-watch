@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-06-11T15:32:48.753000+00:00</updated>
+  <updated>2026-06-13T14:56:24.720000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/332763/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/371190/8"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/371382/7</id>
-    <title>UCX for GPU tensors chosing TCP over CUDA for transporting GPU tensors [7]</title>
-    <updated>2026-06-11T15:32:48.753000+00:00</updated>
-    <content>Utkarsh02t: ...l reproducible example: from holoscan.core import Application, Fragment, Operator, OperatorSpec from holoscan.conditions import CountCondition import cupy as cp class TensorGenOp(Operator): def __init__(self, fragment, *args, **kwargs): super().__init__(fragment, *args, **kwargs) def setup(self, spec: O...</content>
-    <link href="https://forums.developer.nvidia.com/t/371382/7"/>
+    <id>https://forums.developer.nvidia.com/t/371382/8</id>
+    <title>UCX for GPU tensors chosing TCP over CUDA for transporting GPU tensors [8]</title>
+    <updated>2026-06-13T14:56:24.720000+00:00</updated>
+    <content>Utkarsh02t: ...with dict[str, Tensor] from holoscan.core import Application, Fragment, Operator, OperatorSpec from holoscan.conditions import CountCondition import cupy as cp class TensorGenOp(Operator): def __init__(self, fragment, *args, **kwargs): super().__init__(fragment, *args, **kwargs) def setup(self, spec: O...</content>
+    <link href="https://forums.developer.nvidia.com/t/371382/8"/>
   </entry>
 </feed>
