@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-06-27T16:20:26.352000+00:00</updated>
+  <updated>2026-07-17T11:34:46.146000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://forums.developer.nvidia.com/t/332763/1</id>
@@ -348,10 +348,10 @@
     <link href="https://forums.developer.nvidia.com/t/371382/8"/>
   </entry>
   <entry>
-    <id>https://forums.developer.nvidia.com/t/76861/1021</id>
-    <title>Electronically Assisted Astronomy with a Jetson Nano [1021]</title>
-    <updated>2026-06-27T16:20:26.352000+00:00</updated>
-    <content>Alain Paillou: ...s capture and various HDR methods https://www.youtube.com/watch JetsonSky 16 bits capture and various HDR methods As always, i used CUDA raw kernels (CUPY) to get fast treatments with GPU). I am very pleased with the treatment time (high FPS) and the Percentile &amp;amp; Inverse Percentile methods (inverse perc...</content>
-    <link href="https://forums.developer.nvidia.com/t/76861/1021"/>
+    <id>https://forums.developer.nvidia.com/t/76861/1027</id>
+    <title>Electronically Assisted Astronomy with a Jetson Nano [1027]</title>
+    <updated>2026-07-17T11:34:46.146000+00:00</updated>
+    <content>Alain Paillou: ...3.14 now (instead of 3.11 version). Everything seems ok. CUDA SDK 13.3 Numpy 2 OpenCV 5 (without Cuda which is a bit old in OpenCV and a bit useless) CUPY 14.1 Pytorch 12.3 (not really useful with JetsonSky. Only for YOLO to detect satellites and craters) No install problem (quite easy, no surprise). Je...</content>
+    <link href="https://forums.developer.nvidia.com/t/76861/1027"/>
   </entry>
 </feed>
