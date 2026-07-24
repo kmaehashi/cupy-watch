@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-07-17T11:34:46.146000+00:00</updated>
+  <updated>2026-07-23T20:40:20.531000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/332763/1</id>
-    <title>Please support user-provided output buffers in Python API [1]</title>
-    <updated>2025-05-09T17:01:16.578000+00:00</updated>
-    <content>Gregory Kimball: ...Copyright (c) 2023, NVIDIA CORPORATION. All rights reserved. # See file LICENSE for terms. from typing import Any, Mapping, Optional, Sequence import cupy as cp import cupy.typing from numcodecs.compat import ensure_contiguous_ndarray_like from kvikio._lib.libnvcomp_ll import SUPPORTED_ALGORITHMS from k...</content>
-    <link href="https://forums.developer.nvidia.com/t/332763/1"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/321328/4</id>
     <title>[NVCOMP] Strange Bug/Behavior in NVCOMP Python API [4]</title>
@@ -353,5 +346,12 @@
     <updated>2026-07-17T11:34:46.146000+00:00</updated>
     <content>Alain Paillou: ...3.14 now (instead of 3.11 version). Everything seems ok. CUDA SDK 13.3 Numpy 2 OpenCV 5 (without Cuda which is a bit old in OpenCV and a bit useless) CUPY 14.1 Pytorch 12.3 (not really useful with JetsonSky. Only for YOLO to detect satellites and craters) No install problem (quite easy, no surprise). Je...</content>
     <link href="https://forums.developer.nvidia.com/t/76861/1027"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/377892/1</id>
+    <title>Nvmath-python 1.0 is officially here [1]</title>
+    <updated>2026-07-23T20:40:20.531000+00:00</updated>
+    <content>TomNVIDIA: ...s with high-performance, scalable, GPU-accelerated math (cuBLAS, cuFFT, solvers) and device APIs that complement standard array libraries like NumPy, cuPy. Get started with one simple command: Bash pip install nvmath-python[cu12] Install now: https://docs.nvidia.com/cuda/nvmath-python/latest/installatio...</content>
+    <link href="https://forums.developer.nvidia.com/t/377892/1"/>
   </entry>
 </feed>
