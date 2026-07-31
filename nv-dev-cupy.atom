@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-07-23T20:40:20.531000+00:00</updated>
+  <updated>2026-07-31T17:33:45.243000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/321328/4</id>
-    <title>[NVCOMP] Strange Bug/Behavior in NVCOMP Python API [4]</title>
-    <updated>2025-06-07T02:58:18.209000+00:00</updated>
-    <content>Ted Li: ...his thread where nvcomp.as_array() mangles the contents of a NumPy int32 array. Workaround Instead of passing a NumPy array directly, convert it to a CuPy array first and export it via DLPack, then after passing the exported DLPack tensor to the nvcomp.as_array() function, call .cpu() on the return valu...</content>
-    <link href="https://forums.developer.nvidia.com/t/321328/4"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/335341/14</id>
     <title>Share cuda memory with gstreamer [14]</title>
@@ -353,5 +346,12 @@
     <updated>2026-07-23T20:40:20.531000+00:00</updated>
     <content>TomNVIDIA: ...s with high-performance, scalable, GPU-accelerated math (cuBLAS, cuFFT, solvers) and device APIs that complement standard array libraries like NumPy, cuPy. Get started with one simple command: Bash pip install nvmath-python[cu12] Install now: https://docs.nvidia.com/cuda/nvmath-python/latest/installatio...</content>
     <link href="https://forums.developer.nvidia.com/t/377892/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/378830/1</id>
+    <title>NVIDIA nvmath-python v1.0 is now GA [1]</title>
+    <updated>2026-07-31T17:33:45.243000+00:00</updated>
+    <content>TomNVIDIA: Get the raw performance of CUDA-X math libraries (cuFFT, cuBLAS, cuSPARSE) directly inside your NumPy, CuPy, and PyTorch-based code. :small_blue_diamond: Scale CPU :arrow_right: Single-GPU :arrow_right: Multi-node :small_blue_diamond: Stateful APIs for reus...</content>
+    <link href="https://forums.developer.nvidia.com/t/378830/1"/>
   </entry>
 </feed>
