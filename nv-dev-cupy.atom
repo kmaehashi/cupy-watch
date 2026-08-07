@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-07-31T17:33:45.243000+00:00</updated>
+  <updated>2026-08-06T23:07:15.233000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/335341/14</id>
-    <title>Share cuda memory with gstreamer [14]</title>
-    <updated>2025-06-10T08:12:06.812000+00:00</updated>
-    <content>510864714: Thank you very much for your helpful suggestion! In my current project, I would like to first try converting the PyTorch tensor to a CuPy array , and then use the relevant functions from pyds to create an NvBufSurface , performing only a single GPU-to-GPU memory copy in the process. Thi...</content>
-    <link href="https://forums.developer.nvidia.com/t/335341/14"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/335258/4</id>
     <title>Deepstream images quality [4]</title>
@@ -353,5 +346,12 @@
     <updated>2026-07-31T17:33:45.243000+00:00</updated>
     <content>TomNVIDIA: Get the raw performance of CUDA-X math libraries (cuFFT, cuBLAS, cuSPARSE) directly inside your NumPy, CuPy, and PyTorch-based code. :small_blue_diamond: Scale CPU :arrow_right: Single-GPU :arrow_right: Multi-node :small_blue_diamond: Stateful APIs for reus...</content>
     <link href="https://forums.developer.nvidia.com/t/378830/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/379399/1</id>
+    <title>Feature request: expose NV_ENC_INITIALIZE_PARAMS::splitEncodeMode in PyNvVideoCodec [1]</title>
+    <updated>2026-08-06T23:07:15.233000+00:00</updated>
+    <content>Makskorch969: ...benchmark The test uses only: SimpleDecoder native NV12 device output - &amp;gt; CreateEncoder HEVC NVENC - &amp;gt; encoded packets discarded There is no PyTorch, CuPy, SBS conversion, muxing, audio, or output-file I/O. Each configuration was run twice. Configuration Total FPS Encode/frame Encode-call FPS Official N...</content>
+    <link href="https://forums.developer.nvidia.com/t/379399/1"/>
   </entry>
 </feed>
