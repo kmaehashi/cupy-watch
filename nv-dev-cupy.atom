@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-08-06T23:07:15.233000+00:00</updated>
+  <updated>2026-08-09T07:39:24.043000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/335258/4</id>
-    <title>Deepstream images quality [4]</title>
-    <updated>2025-06-11T01:50:57.467000+00:00</updated>
-    <content>648811273: live stream 1080p 25fps format：h264, h265 Save each frame of the image using the probe function by cupy new question：Choosing frame skipping for detection may result in missed targets，but if detected at full frame rate, this situation will not occur</content>
-    <link href="https://forums.developer.nvidia.com/t/335258/4"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/335932/9</id>
     <title>About how to control thread in cuSPARSE [9]</title>
@@ -353,5 +346,12 @@
     <updated>2026-08-06T23:07:15.233000+00:00</updated>
     <content>Makskorch969: ...benchmark The test uses only: SimpleDecoder native NV12 device output - &amp;gt; CreateEncoder HEVC NVENC - &amp;gt; encoded packets discarded There is no PyTorch, CuPy, SBS conversion, muxing, audio, or output-file I/O. Each configuration was run twice. Configuration Total FPS Encode/frame Encode-call FPS Official N...</content>
     <link href="https://forums.developer.nvidia.com/t/379399/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/379624/1</id>
+    <title>A failed attempt: Integrating LMCache 0.5.3 MP mode with aidendle94&amp;rsquo;s DS4F fork (IPC deadlock) [1]</title>
+    <updated>2026-08-09T07:39:24.043000+00:00</updated>
+    <content>mxjohnwong: ...ache server gotchas (if you hit them): container needs --gpus all (Device UUID match for register_kv_caches), --ipc host --shm-size 16g (L1 SHM), and cupy installed (ModuleNotFoundError otherwise). The actual blocker : with the correct config, the LMCache server successfully registers the KV cache (170...</content>
+    <link href="https://forums.developer.nvidia.com/t/379624/1"/>
   </entry>
 </feed>
