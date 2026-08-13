@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-08-09T07:39:24.043000+00:00</updated>
+  <updated>2026-08-12T21:03:36.112000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/335932/9</id>
-    <title>About how to control thread in cuSPARSE [9]</title>
-    <updated>2025-06-13T01:43:09.558000+00:00</updated>
-    <content>Leehyejin0239: Thanks for your useful comment. i should try to implement cuBLAS!! Compring with CUPY, it looks like CUDA control memory more efficiently.,! ( IDK specifically how to control ) Anyway, i aprreciate your quick comment.</content>
-    <link href="https://forums.developer.nvidia.com/t/335932/9"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/337929/2</id>
     <title>Nvshmem4py nvshmem.core.tensor does not support dtype torch.uint64, which is wired [2]</title>
@@ -353,5 +346,12 @@
     <updated>2026-08-09T07:39:24.043000+00:00</updated>
     <content>mxjohnwong: ...ache server gotchas (if you hit them): container needs --gpus all (Device UUID match for register_kv_caches), --ipc host --shm-size 16g (L1 SHM), and cupy installed (ModuleNotFoundError otherwise). The actual blocker : with the correct config, the LMCache server successfully registers the KV cache (170...</content>
     <link href="https://forums.developer.nvidia.com/t/379624/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/379752/5</id>
+    <title>Jetpack 7.2. Jetson Orin Nano Super (8gb) Pytorch for Compute Capability 8.7 [5]</title>
+    <updated>2026-08-12T21:03:36.112000+00:00</updated>
+    <content>Ivan Zzz: ...4 on that link ? I have Jetson Orin Nano board. Will it fit? And also which Numpy and Gstreamer versions work together? OpenCV 4.8.0 ↔ NumPy 1.26.4 ↔ CuPy 13.x ↔ TensorRT 10.16 ↔ PyTorch 2.5/2.6 ? OpenCV 4.8.0 ↔ NumPy ??? ↔ CuPy 13.x ↔ TensorRT 10.16 ↔ PyTorch ???</content>
+    <link href="https://forums.developer.nvidia.com/t/379752/5"/>
   </entry>
 </feed>
