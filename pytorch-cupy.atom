@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://discuss.pytorch.org</id>
   <title>PyTorch Forums (cupy)</title>
-  <updated>2025-10-06T08:21:34.239000+00:00</updated>
+  <updated>2026-08-14T05:29:46.455000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://discuss.pytorch.org/t/21394/6</id>
-    <title>How can I get access to the raw GPU data of a tensor for pyCUDA? And how do I convert back? [6]</title>
-    <updated>2019-03-13T10:17:41.006000+00:00</updated>
-    <content>: I briefly experimented with something like this. I can’t really remember what the limitations were here, since I switched to cupy later. I seem to remember that accessing the converted GPUArray or the Tensor was not problematic, but arithemtic on it failed at runtime. import pyc...</content>
-    <link href="https://discuss.pytorch.org/t/21394/6"/>
-  </entry>
   <entry>
     <id>https://discuss.pytorch.org/t/42111/1</id>
     <title>Create/edit PyTorch tensor using OpenGL? [1]</title>
@@ -353,5 +346,12 @@
     <updated>2025-10-06T08:21:34.239000+00:00</updated>
     <content>Johannes: ...limitations at some point and no one noticed cuSolver implemented a geev algorithm. I hope this is the case and there are some clues pointing to it: CuPy does not implement a geev algorithm. Also ChatGPT is reluctant to admit that eigenvalue problems can be solved (at least in large part) on CUDA devic...</content>
     <link href="https://discuss.pytorch.org/t/223386/11"/>
+  </entry>
+  <entry>
+    <id>https://discuss.pytorch.org/t/225284/1</id>
+    <title>Built a 380M param LLM from scratch (no PyTorch/TF/JAX) and found a nasty residual connection bug via a custom debugger (that works across all major ml frameworks) [1]</title>
+    <updated>2026-08-14T05:29:46.455000+00:00</updated>
+    <content>Yash Patel: Since December, I've been building a 380M parameter LLM entirely from scratch, using only NumPy and CuPy (no PyTorch, TensorFlow, or JAX). What started as an exercise to deeply understand transformers by implementing "Attention Is All You Need" grew into...</content>
+    <link href="https://discuss.pytorch.org/t/225284/1"/>
   </entry>
 </feed>
