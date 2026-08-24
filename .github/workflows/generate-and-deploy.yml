@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@main
+        uses: actions/checkout@v7
         with:
           persist-credentials: false
 
       - name: Setup Python
-        uses: actions/setup-python@main
+        uses: actions/setup-python@v7
         with:
           python-version: '3.10'
 
@@ -29,7 +29,7 @@ jobs:
           ./.github/workflows/generate.sh
 
       - name: Deploy 🚀
-        uses: peaceiris/actions-gh-pages@main
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
