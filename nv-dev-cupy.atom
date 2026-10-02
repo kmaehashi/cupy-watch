@@ -2,15 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://forums.developer.nvidia.com</id>
   <title>NVIDIA Developer Forums (cupy)</title>
-  <updated>2026-08-29T02:31:23.177000+00:00</updated>
+  <updated>2026-10-02T15:28:04.012000+00:00</updated>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://forums.developer.nvidia.com/t/338529/7</id>
-    <title>Delivering the Missing Building Blocks for NVIDIA CUDA Kernel Fusion in Python [7]</title>
-    <updated>2025-07-11T16:11:51.714000+00:00</updated>
-    <content>LaszloHars: After upgrading cupy to 13.5.1, I got another error: Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32 C:\Users\...\Documen...</content>
-    <link href="https://forums.developer.nvidia.com/t/338529/7"/>
-  </entry>
   <entry>
     <id>https://forums.developer.nvidia.com/t/338498/2</id>
     <title>How to clone a holoscan.core.tensor? [2]</title>
@@ -353,5 +346,12 @@
     <updated>2026-08-29T02:31:23.177000+00:00</updated>
     <content>Rocklaw34: ...r\ComfyUI_windows_portable\ComfyUI` No system-wide CUDA Toolkit was needed for the reproductions. Runtime libraries came from package-managed PyTorch/CuPy wheels and NVIDIA Python runtime packages. ## Software stacks tested ### Failing CUDA 13 stacks 1. PyTorch stack: PyTorch `2.13.0+cu130` CUDA runtime...</content>
     <link href="https://forums.developer.nvidia.com/t/381759/1"/>
+  </entry>
+  <entry>
+    <id>https://forums.developer.nvidia.com/t/384903/1</id>
+    <title>cuDSS 0.8.0 uniform batch (UBATCH_SIZE &amp;gt; ~160): NaN solutions depending on the content of unrelated device memory [1]</title>
+    <updated>2026-10-02T15:28:04.012000+00:00</updated>
+    <content>Ralf Cortesdn: ...me back as NaN, and whether they do depends on the content of device memory that was never given to cuDSS. Minimal reproduction (attached, ~80 lines, CuPy + SciPy + nvmath.bindings.cudss): a batch of identical, well-conditioned tridiagonal systems (n = 100, diagonal 5, off-diagonals 1), CSR, general, fu...</content>
+    <link href="https://forums.developer.nvidia.com/t/384903/1"/>
   </entry>
 </feed>
